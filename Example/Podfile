@@ -1,0 +1,11 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '14.0'
+
+target 'Example' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Example
+  pod 'IdVerification365id', '0.2.14', :source => "https://gitlab.365id.com/365id/glootie/business/ios/specs.git"
+
+end
