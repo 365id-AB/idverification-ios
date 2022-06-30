@@ -11,10 +11,14 @@ Pod::Spec.new do |s|
                    All rights reserved by 365id AB.
                   LICENSE
                 }
-    s.author             = { "$(git config user.name)" => "$(git config user.email)" }
-    s.source       = { :http => 'https://github.com/365id-AB/idverification-ios.git/sdk/1.0.0/IdVerification365id.zip' }
+    s.author             = { "Name" => "support@365id.com" }
+    s.source       = { :git => 'https://github.com/365id-AB/idverification-ios.git' }
+
+    s.ios.vendored_frameworks = 'IdVerification365id.zip'
+
     s.platform = :ios
     s.swift_version = "5.5.2"
     s.ios.deployment_target  = '14.0'
 end
+
 
