@@ -40,24 +40,24 @@ struct ExampleApp: App {
             let status = result.status
 
             switch status {
-                StatusType.OK: 
+                case .OK:
                     // This is returned when a transaction completes successfully 
                     // Note: This does not mean the user identity or supplied document is verified, 
                     // only that the transaction process itself did not end prematurely.
                     // The assessment shows a summary 
-                    let assessment = it.assessment
+                    let assessment = result.assessment
                     print("Successful result")
 
-                StatusType.Dismissed:
+                case .Dismissed:
                     // This is returned if the user dismisses the SDK view prematurely.
                     print("User dismissed SDK")
 
-                StatusType.ClientException:
+                case .ClientException:
                     // This is returned if the SDK encountered an internal error. Report such 
                     // issues to 365id as bugs!
                     print("Client has thrown an exception")
 
-                StatusType.ServerException:
+                case .ServerException:
                     // This is returned if there was an issue talking to 365id Cloud services. 
                     // Could be a connectivity issue.
                     print("Server has thrown an exception")
