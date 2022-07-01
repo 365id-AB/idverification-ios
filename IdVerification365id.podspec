@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
                    All rights reserved by 365id AB.
                   LICENSE
                 }
-    s.author             = { "Name" => "support@365id.com" }
+    s.author             = { "365id" => "support@365id.com" }
     s.source       = { :git => 'https://github.com/365id-AB/idverification-ios.git' }
 
     s.ios.vendored_frameworks = 'IdVerification365id.framework'
