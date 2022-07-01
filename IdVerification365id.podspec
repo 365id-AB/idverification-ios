@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = "IdVerification365id"
-    s.version      = "0.0.1"
+    s.version      = "0.0.2"
     s.summary      = "A Framework that enables the integration of id verification from 365id AB."
     s.description  = <<-DESC
     This framework enables an integrator to easily make use of the id verification offered by 365id, Please contact us for any questions.
