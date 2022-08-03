@@ -58,7 +58,7 @@ The 365id Id Verification SDK is distributed as an XCFramework, therefore **you 
 2. Add the following to your Pod file (inside the target section):
 
     ```ruby
-      pod 'IdVerification365id', '0.2.14'
+      pod 'IdVerification365id', '0.2.15'
     ```
 
 3. Run `pod install`.
