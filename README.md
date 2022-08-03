@@ -177,8 +177,12 @@ DispatchQueue.main.async {
 
 ### Launch the SDK
 
-Start the SDK in the app by making a call to `startSDK()` and supplying `deviceInfo` which is a string to string dictionary. The following three entries are required to exist in the dictionary in order to start the SDK
+Start the SDK in the app by making a call to `startSDK()` and supplying `deviceInfo` which is a string to string dictionary and a callback function.
+
+Upon a successful start of the SDK, switch to the SDK View.
+
 ```swift
+// The following three entries are required to exist in the dictionary in order to start the SDK
 @State var deviceInfo = [
    // The entry is required but the value is optional. Can be set to empty string.
    "LocationName": "<the location name>",
@@ -188,9 +192,12 @@ Start the SDK in the app by making a call to `startSDK()` and supplying `deviceI
    "Token": "<token>"
 ]
 
-startSDK(deviceInfo: self.deviceInfo) { result in
+if startSDK(deviceInfo: self.deviceInfo, callback: {
    // Callback
-}            
+}) {
+   // Call the SDK main view
+   SdkMainView()
+}         
 ```
 Once the SDK has been started, all you have to do is switch to the SDK view `SdkMainView()`, see example in [ContentView](./Example/Example/ContentView.swift).
 
