@@ -58,10 +58,25 @@ The 365id Id Verification SDK is distributed as an XCFramework, therefore **you 
 2. Add the following to your Pod file (inside the target section):
 
     ```ruby
-      pod 'IdVerification365id', '0.2.15'
+      pod 'iProov'
+      pod 'IdVerification365id', '0.2.17'
     ```
 
-3. Run `pod install`.
+3. Add the following to the bottom of your Podfile:
+
+	```ruby
+	post_install do |installer|
+	  installer.pods_project.targets.each do |target|
+	    if ['iProov', 'Socket.IO-Client-Swift', 'Starscream'].include? target.name
+	      target.build_configurations.each do |config|
+	          config.build_settings['BUILD_LIBRARY_FOR_DISTRIBUTION'] = 'YES'
+	      end
+	    end
+	  end
+	end
+	```
+
+4. Run `pod install`.
 
 <br/>
 
@@ -199,7 +214,7 @@ if startSDK(deviceInfo: self.deviceInfo, callback: {
    SdkMainView()
 }         
 ```
-Once the SDK has been started, all you have to do is switch to the SDK view `SdkMainView()`, see example in [ContentView](./Example/Example/ContentView.swift).
+Once the SDK has been started, all you have to do is switch to the SDK view `SdkMainView()`, see example in [ExampleApp](./Example/Example/ExampleApp.swift) and [ContentView](./Example/Example/ContentView.swift).
 
 <br/>
 

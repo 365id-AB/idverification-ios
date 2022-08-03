@@ -32,12 +32,12 @@ struct ExampleApp: App {
         }
 
         // Start the SDK
-        startSDK(deviceInfo: self.deviceInfo) { result in
+        if startSDK(deviceInfo: self.deviceInfo, callBack: { result in
             /**
             * Callback
             */
-            let transactionId = result.transactionId
-            let status = result.status
+            let transactionId = result.TransactionId
+            let status = result.Status
 
             switch status {
                 case .OK:
@@ -45,7 +45,7 @@ struct ExampleApp: App {
                     // Note: This does not mean the user identity or supplied document is verified, 
                     // only that the transaction process itself did not end prematurely.
                     // The assessment shows a summary 
-                    let assessment = result.assessment
+                    let assessment = result.Assessment
                     print("Successful result")
 
                 case .Dismissed:
@@ -80,10 +80,10 @@ struct ExampleApp: App {
             DispatchQueue.main.async {
                 presentationMode.wrappedValue.dismiss()
             }
+        }) {
+            // Enables the SDK view in example app
+            self.isShowingSdkView = true
         }
-
-        // Enables the SDK view in example app
-        self.isShowingSdkView = true
     }
 
     var body: some Scene {
