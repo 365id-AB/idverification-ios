@@ -5,6 +5,7 @@ option java_package = "com.id365.idverification.contracts.grpc.Authentication";
 
 package _365id.Glootie.Contracts.gRPC.Authentication;
 
+
 // This contains the Authentication service definition.
 
 // The Authentication service definition.

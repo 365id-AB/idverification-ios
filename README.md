@@ -1,57 +1,126 @@
 ![365id: To verify ID document](images/banner.png)
 
-# 365id Id Verification iOS SDK v0.2.13
-
-## Table of contents
- - [Introduction](#introduction)
- - [Requirements](#requirements)
- - [Registration](#registration)
- - [Installation](#installation)
- - [Get started](#get-started)
- - [Sample project](#sample-project)
- - [Production](#production)
- - [Help & support](#help--support)
-
-
-<br/>
-<br/>
-<br/>
-
-## Introduction
+# 365id Id Verification iOS SDK
 
 The 365id Id Verification SDK enables you to integrate 365id services into your iOS app. We also support [Android](https://github.com/365id-AB/idverification-android).  
 
-The SDK supports identifying and validating ID documents such as passports, ID cards and drivers' licenses, as well as reading the text on the document and automatically mapping these to relevant fields when used in conjunction with [365id Integration Service](https://365id.com/integrations/?lang=en).
+The SDK supports identifying and validating ID documents such as passports, ID cards and drivers' licenses, as well as reading the text on the document and automatically mapping these to relevant fields when used in conjunction with the [365id Integration Service](https://365id.com/integrations/?lang=en).
 
 <br/>
 <br/>
 <br/>
 
 
-## Requirements
-- Xcode 13.3 and above
-- iOS version 14.0 and above
-- The framework has been written in Swift 5.0
-
-<br/>
-<br/>
-<br/>
 
 ## Registration
 If you are already a customer of 365id then you can request a license key by contacting 365id's support at [support@365id.com](mailto:support@365id.com).
 
 Otherwise you can contact us at [info@365id.com](mailto:info@365id.com) for further information.
 
-When you receive your license key you will also receive a location id to pass to the SDK.
+When you receive your `license key` you will also receive a `location id` to pass to the SDK.
 
 <br/>
 <br/>
 <br/>
 
-## Installation
+
+## Application SDK integration flow
+
+This is a basic representation of the flow in an App, integrating the  365id Id Verification SDK together with a Customer backend. Boxes with a dashed outline are configurable steps in the process.
+
+```mermaid
+flowchart LR
+
+   subgraph APP1[APP]
+      
+      user[The user interaction comes<br> to a point where<br> identification is needed]
+      id_begin[The identification flow<br>begins in the App]
+      token[A refreshed token<br> is requested from the<br> customer backend]
+
+      user --> id_begin
+      id_begin --> token
+      
+   end
+
+   subgraph CUSTOMER_BACKEND1[CUSTOMER BACKEND]
+   
+      request[The customer backend gets<br> a request for a refreshed token]
+      backend_365[The customer backend retrieves a<br> refreshed token from the 365id backend]
+      response[The refreshed token is<br> delivered back to the App]
+
+      request --> backend_365
+      backend_365 --> response
+      
+   end
+
+   subgraph APP2[APP]
+
+      valid[The app receives the<br> refreshed token]
+      startSDK[The app now starts the<br> SDK with the token]
+      
+      valid --> startSDK
+      
+   end
+
+   subgraph SDK
+
+      front[The user is asked to take<br>a picture of the document]
+      back[The user is asked to take<br>a picture of the backside<br>of the document]
+      nfc[The user is asked to place<br>the phone on the document<br>for NFC check]
+      liveness[The user is asked to perform<br> a liveness check]
+      result[A result and a transaction id is<br> returned to the App via<br> a callback]
+
+      front --> back
+      back --> nfc
+      nfc --> liveness
+      liveness --> result
+      style nfc stroke-dasharray: 8 8
+      style liveness stroke-dasharray: 8 8
+   end
+
+   subgraph APP3[APP]
+
+      callback[The app handles the callback<br> and gets the simple result<br> and the transaction id]
+      contact[The app sends the transaction id<br> to the customer backend]
+
+      callback --> contact
+      
+   end
+
+   subgraph CUSTOMER_BACKEND2[CUSTOMER BACKEND]
+      transaction_id[The customer backend gets the<br> transaction id]
+      backend[The customer backend talks<br> to the 365id service and gets all<br> details extracted during the<br> id verification process]
+      outcome[The customer backend takes<br> a decision based on the outcome<br> of the verification process]
+
+      transaction_id --> backend
+      backend --> outcome
+   end
+
+   APP1 --> CUSTOMER_BACKEND1
+   CUSTOMER_BACKEND1 --> APP2
+   APP2 --> SDK
+   SDK --> APP3
+   APP3 --> CUSTOMER_BACKEND2
+```
+
+<br/>
+<br/>
+<br/>
+
+## Requirements
+- Xcode 14.0+
+- iOS version 14.0 and above
+- The framework has been written in Swift 5.3
+
+<br/>
+<br/>
+<br/>
+
+## Project setup
+
 ### Cocoapods
 
-The 365id Id Verification SDK is distributed as an XCFramework, therefore **you are required to use Cocoapods 1.9.0 or newer**.
+The 365id Id Verification SDK is distributed as a Cocoapod, therefore **you are required to use Cocoapods 1.9.0 or newer** This could change depending on demand for other packaging systems.
 
 1. If you are not yet using Cocoapods in your project, first run `sudo gem install cocoapods` followed by `pod init`. (For further information on installing Cocoapods, [click here](https://guides.cocoapods.org/using/getting-started.html#installation).)
 
@@ -59,7 +128,8 @@ The 365id Id Verification SDK is distributed as an XCFramework, therefore **you 
 
     ```ruby
       pod 'iProov'
-      pod 'IdVerification365id', '0.2.17'
+      pod 'gRPC-Swift'
+      pod 'IdVerification365id'
     ```
 
 3. Add the following to the bottom of your Podfile:
@@ -79,59 +149,86 @@ The 365id Id Verification SDK is distributed as an XCFramework, therefore **you 
 4. Run `pod install`.
 
 <br/>
-
-### Dependencies - Swift Package Manager
-
-> **:exclamation: NOTICE:** 365id Id Verification SDK is dependent on [gRPC-Swift and SwiftProtobuf](https://github.com/grpc/grpc-swift.git). This dependency should be included via Swift Package Manager.
-
+<br/>
 <br/>
 
-### Add an `NSCameraUsageDescription`
+### Add the NFC capability
 
-Add an `NSCameraUsageDescription` entry to your app's Info.plist, with the reason why your app requires camera access (e.g. “Allow access to camera to scan ID document.”)
+The 365id Id Verification SDK uses NFC reading technology to verify the contents of chips present in id documents. In order for this to work, this needs to be added to the integrating application as a capability.
+
+This is how that is done in Xcode 13.4:
+
+1. Set your provisioning profile to support Near Field Communication Tag Reading. You do this on the Apple developer webpage. 
+
+2. Open your project target, on Signing & Capabilities tab, add the Capability of Near Field Communication Tag Reading (By pressing the + button).  
+
+![Set the app capabilities](images/capabilities.png)
+
+3. Remove the NDEF entitlement.
+> **:exclamation: NOTICE:** if the NDEF entitlement is not removed there can be issues when releasing to the AppStore. 
+
+![Remove the NDF entitlement](images/remove-ndef.png)
 
 <br/>
+<br/>
+<br/>  
 
-### Add an `NFCReaderUsageDescription`
+### Add the target properties
 
-1. Set your provisioning profile to support for Near Field Communication Tag Reading.  
-   Open your project target, on Signing & Capabilities tab, add the Capability of Near Field Communication Tag Reading (By pressing the + button).
-2. Add an `NFCReaderUsageDescription` entry to your app's Info.plist, with the reason why your app requires NFC access (e.g. “Allow access to NFC to read the e-passports.”)
-3. Add NFC tag type descriptions to your Info.plist
-   Example:   ISO7816 application identifiers for NFC Tag Reader Session (A0000002471001 and A0000002472001) 
-     ```xml
+Add a `NSCameraUsageDescription` entry to your app's Info.plist, with the reason why your app requires camera access (e.g. “Allow access to camera to scan ID document.”)  
+
+Add a `NFCReaderUsageDescription` entry to your app's Info.plist, with the reason why your app requires NFC access (e.g. “Allow access to NFC to read the e-passports.”)
+
+Add a `NFC tag type description` to your Info.plist
+
+Example:   ISO7816 application identifiers for NFC Tag Reader Session (A0000002471001 and A0000002472001) 
+```xml
    <key>com.apple.developer.nfc.readersession.iso7816.select-identifiers</key>
    <array>
       <string>A0000002471001</string>
       <string>A0000002472001</string>
    </array>
-   ```
+```
 
+![Set the app properties](images/target-properties.png)
 
 <br/>
 <br/>
 <br/>
 
+### Sample Application
+
+Please note that there is a [Sample Application](/SampleApp/) written in Swift using SwiftUI that demonstrates how the SDK can be used, available in this repository.
+
+<br/>
+<br/>
+<br/>
 
 ## Get started
-In order to use the 365id Id Verification SDK it is necessary to follow these steps
+
+In order to use the 365id Id Verification SDK it is necessary to follow the steps below.
 
 ### Retrieve a token
 
-Before being able to use the 365id Id Verification SDK, you will need a JWT token. The way of doing that is to make gRPC call using the [Authentication.proto](./Example/Example/Grpc/Protos/Authentication.proto) file to the url `https://frontend-device-ag.int.365id.com:5001`.  
+Before being able to use the 365id Id Verification SDK, you will need a token. The way of getting that is to make a gRPC call using the [Authentication.proto](./SampleApp/SampleApp/BackendCommunication/Protos/Authentication.proto) file to the url `https://frontend-device-ag.int.365id.com:5001`. 
 
-1. `AuthenticateRequest` - Requests a JWT token based on a provided license key, Language Code and a Vendor Id.
+1. `AuthenticateRequest` - Requests a token based on a provided license key, Language Code and a Vendor Id.
 2. `RefreshTokenRequest` - Requests a refreshed token using the refresh token.
 
-The JWT token is valid for 3 minutes, after that you will have to refresh the token using the provided refresh token. In the [ExampleApp.swift](./Example/Example/ExampleApp.swift) file you can find how the example app retrieves its token using the license key.
+The token is valid for 3 minutes, after that you will have to refresh the token using the provided refresh token. In the [SampleApp](./SampleApp/SampleApp/BackendCommunication/DeviceInformation.swift) file you can find how the sample app retrieves its token using the license key.
 
-> **⚠️ SECURITY NOTICE:**  In a production app, it is recommended that you obtain the JWT token using a server-to-server call. The example app retrieves it directly for the sake of simplicity.
+> **⚠️ SECURITY NOTICE:**  In a production app, it is recommended that you obtain the token using a server-to-server call. The example app retrieves it directly for the sake of simplicity.
 
 <br/>
 
-### Callback
+### Call the SDK
 
-Register a callback function. The callback function receives a `TransactionResult` object containing the transaction id and status.  
+When you in your app have the token, you are ready to call the `startSDK()` function, supplying the token as part of the device information required as a parameter. Besides the `device information` you also need to provide a callback function.
+
+### The Callback
+
+An example callback solution can be seen in the Sample App.  
+The callback function takes a `TransactionResult` object as its only parameter. The `TransactionResult`contains the transaction id and status of the id verification transaction.  
 
 A callback example taken from the example project for swift
 ```swift
@@ -148,7 +245,7 @@ switch status {
       // only that the transaction process itself did not end prematurely.
       // The assessment shows a summary 
       let assessment = result.assessment
-      print("Successful result")
+      print("Verification process completed successfully with status: \(assessment)")
 
    case .Dismissed:
       // This is returned if the user dismisses the SDK view prematurely.
@@ -190,38 +287,41 @@ DispatchQueue.main.async {
 
 <br/>
 
-### Launch the SDK
+### Launch the SDK View
 
-Start the SDK in the app by making a call to `startSDK()` and supplying `deviceInfo` which is a string to string dictionary and a callback function.
-
-Upon a successful start of the SDK, switch to the SDK View.
+After starting the SDK by making a call to `startSDK()` and supplying `deviceInfo` which is a string to string dictionary and the callback function. You should switch to the `sdkMainVIew()`.
 
 ```swift
 // The following three entries are required to exist in the dictionary in order to start the SDK
-@State var deviceInfo = [
+var deviceInfo = [
    // The entry is required but the value is optional. Can be set to empty string.
    "LocationName": "<the location name>",
    // Required. Id is received from 365id along with license key
    "LocationId": "<the location id>",
-   // Required. Is received by authenticating with the license key
+   // Required. Is received by authenticating with the license key or the refresh token call.
    "Token": "<token>"
 ]
 
-if startSDK(deviceInfo: self.deviceInfo, callback: {
-   // Callback
+if startSDK(deviceInfo: self.deviceInfo, callback: { result in
+   // Handle the result from the transaction
+   stopSDK() // The stop function must be called, otherwise resources are not released.
+   // The callback is a good place to trigger a dismissal of the SdkMainView() as this is not done by the SDK itself.
 }) {
    // Call the SDK main view
    SdkMainView()
 }         
 ```
-Once the SDK has been started, all you have to do is switch to the SDK view `SdkMainView()`, see example in [ExampleApp](./Example/Example/ExampleApp.swift) and [ContentView](./Example/Example/ContentView.swift).
+An example of how the `SdkMainView()` can be used can be seen in the [SampleApp](/SampleApp/SampleApp/ContentView.swift).
 
 <br/>
 
 ### Validation of result
-To validate the result you will have to use an existing or a new integration to 365id Services. The data returned back contains all the extracted fields along with the captured images and the assessment of the document.
 
-Documentation for that integration is not covered here and is only delivered on request, so please contact 365id Support at [support@365id.com](mailto:support@365id.com) for your copy.
+To validate the result you will have to use an existing or a new integration with 365id Services. The data returned back contains all the extracted fields along with the captured images and the assessment of the document. The 
+captured data is handled in accordance with GDPR and our official [privacy policy](https://365id.com/privacy-policy/).
+The data retention time is configurable in our [Customer Portal](https://365id.com/integrations/), though only within the limits of the GDPR.
+
+Documentation for that integration is not covered in this README, it is only delivered on request, so please contact 365id Support at [support@365id.com](mailto:support@365id.com) for your copy.
 
 > **:exclamation: NOTICE:** The example project does not show how to validate the result from the SDK.
 
@@ -229,23 +329,24 @@ Documentation for that integration is not covered here and is only delivered on 
 <br/>
 <br/>
 
-## Sample project
+## Run the SampleApp project
 
-1. Ensure that you have [Cocoapods installed](https://guides.cocoapods.org/using/getting-started.html#installation) and then run `pod install` from the Example directory to install the required dependencies.
+1. Ensure that you have [Cocoapods installed](https://guides.cocoapods.org/using/getting-started.html#installation) and then run `pod install` from the SampleApp directory to install the required dependencies.
 
-2. Rename `Credentials.example.swift` to `Credentials.swift` and update it with your licenseKey, Location name and Location Id. You can obtain these credentials from the [support@365id.com](mailto:support@365id.com).
+1. Open `SampleApp.xcworkspace`.
 
-3. Open `Example.xcworkspace`.
+1. Add your `License key` to [Credentials.swift](/SampleApp/SampleApp/BackendCommunication/Credentials.swift), also add your `Location name` and `Location Id` to [DeviceInformation.swift](/SampleApp/SampleApp/BackendCommunication/DeviceInformation.swift).  
+You can obtain these credentials from the [support@365id.com](mailto:support@365id.com). 
 
-4. You can now build and run the project. Please note that you can run the 365id SDK on a real device; it will not work in the simulator.
+4. You should now be able to build and run the project. Please note that you need to run the 365id SDK on a physical device; it will not work in the simulator.
 
-> **⚠️ SECURITY NOTICE:**  The example app uses the license key to directly fetch tokens from the 365id Backend. This is inherently insecure. We strongly recommend for a production environment to perform this step with a server-to-server call.
+> **⚠️ SECURITY NOTICE:**  The Sample App uses the license key to directly fetch tokens from the 365id Backend. This is inherently insecure. `This is only done in the purpose of demonstration.` We strongly recommend for a production environment to perform this step with a server-to-server call.
 
 <br/>
 <br/>
 <br/>
 
-## Production
+## Production implementation
 
 To implement the SDK inside your app, we recommend an implementation that follows this diagram:
 
@@ -256,26 +357,47 @@ sequenceDiagram
     participant SDK
     participant 365id Backend
     App->>Customer Backend: Request Token
-    Customer Backend->>365id Backend: Request Token using license
-    365id Backend->>Customer Backend: App Token
+    activate Customer Backend
+    Customer Backend->>365id Backend: Request Token using license key
+    activate 365id Backend
+    365id Backend->>Customer Backend: App Token + Refresh Token
+    deactivate 365id Backend
+    
     Customer Backend->>App: App Token
+    deactivate Customer Backend
     App->>SDK: App Token + Location Data
+    activate SDK
     loop Process Transaction
         365id Backend->>SDK: Provide instructions for user
         SDK->>365id Backend: Perform requested steps
     end
     SDK->>App: Transaction Id and status (Ok or Unsuccessful)
+    deactivate SDK
     App->>Customer Backend: Transaction Id
+    activate Customer Backend
     Customer Backend->>365id Backend: Request: Transaction details using Transaction Id
+    activate 365id Backend
     365id Backend->>Customer Backend: Response: Transaction details
+    deactivate 365id Backend
     Customer Backend->>App: Decide if user should be considered verified
+    deactivate Customer Backend
+    Note over Customer Backend, App: The Token needs to be refreshed for each transaction
+    App->>Customer Backend: Request Token
+    activate Customer Backend
+    Customer Backend->>365id Backend: Refresh Token
+    activate 365id Backend
+    365id Backend->>Customer Backend: New App Token + New Refresh Token
+    deactivate 365id Backend
+    Customer Backend->>App: New App Token
+    deactivate Customer Backend
+    Note over App, SDK: Now the transaction is performed as usual (see above)
 ```
 
 In writing, this can be described as such:
 
 - App requests a token. This can be handled either by the app directly, or as recommended by the diagram, through your backend services. Requesting the first token requires a license key. Our recommendation is to store this in your backend, and use it when requesting an app token for the first time. Subsequent tokens for a specific device can be requested using the existing token and a refresh token.
-- App uses the received token to start the SDK, beginning a transaction. The SDK will take over the app until all requested steps have been completed, after which it'll return a summary of the transaction result, alongside a transaction ID.
-- The transaction ID is used to poll 365id services about the details of the transaction. Recommendation here is that your backend receives this ID from the App, then makes a decision based on the result received from the 365id Backend API.
+- App uses the received token to start the SDK, beginning a transaction. The SDK will take over the app until all requested steps have been completed, after which it will return a summary of the transaction result, alongside a transaction ID.
+- The transaction ID is used to poll 365id services about the details of the transaction. The recommendation here is that your backend receives this ID from the App, then makes a decision based on the result received from the 365id Backend API.
 
 <br/>
 <br/>
