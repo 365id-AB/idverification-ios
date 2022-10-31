@@ -23,6 +23,40 @@ When you receive your `license key` you will also receive a `location id` to pas
 <br/>
 <br/>
 
+## System integration flow
+
+This is a overview representation how the relationships between the Customer backend, Customer App, SDK and 365id Verification Services looks.
+
+```mermaid
+
+flowchart
+
+   subgraph HOSTAPP[Host Application]
+      SDK(SDK)
+   end   
+
+   365IDCES(365id<br> Id Verification Service)
+   
+   CUSTEND[Customer Backend]
+   
+
+
+   HOSTAPP --1. Request Token--> CUSTEND
+   CUSTEND --2. Token Response--> HOSTAPP
+
+   SDK --3. Id Verification Process--> 365IDCES
+
+   365IDCES --4. Transaction Id--> SDK
+   CUSTEND --4. Transaction Id--> 365IDCES
+   HOSTAPP --4. Transaction Id----> CUSTEND
+
+   365IDCES --5. Transaction Result----> CUSTEND
+   CUSTEND --6. Final Decision--> HOSTAPP
+```
+
+<br/>
+<br/>
+<br/>
 
 ## Application SDK integration flow
 
