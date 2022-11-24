@@ -13,11 +13,9 @@ The SDK supports identifying and validating ID documents such as passports, ID c
 
 
 ## Registration
-If you are already a customer of 365id then you can request a license key by contacting 365id's support at [support@365id.com](mailto:support@365id.com).
+If you are already a customer of 365id then you can request sdk credentials by contacting 365id's support at [support@365id.com](mailto:support@365id.com).
 
 Otherwise you can contact us at [info@365id.com](mailto:info@365id.com) for further information.
-
-When you receive your `license key` you will also receive a `location id` to pass to the SDK.
 
 <br/>
 <br/>
@@ -41,8 +39,8 @@ flowchart
    
 
 
-   HOSTAPP --1. Request Token--> CUSTEND
-   CUSTEND --2. Token Response--> HOSTAPP
+   HOSTAPP --1. Request Access Token--> CUSTEND
+   CUSTEND --2. Access Token Response--> HOSTAPP
 
    SDK --3. Id Verification Process--> 365IDCES
 
@@ -69,7 +67,7 @@ flowchart LR
       
       user[The user interaction comes<br> to a point where<br> identification is needed]
       id_begin[The identification flow<br>begins in the App]
-      token[A refreshed token<br> is requested from the<br> customer backend]
+      token[An access token<br> is requested from the<br> customer backend]
 
       user --> id_begin
       id_begin --> token
@@ -78,9 +76,9 @@ flowchart LR
 
    subgraph CUSTOMER_BACKEND1[CUSTOMER BACKEND]
    
-      request[The customer backend gets<br> a request for a refreshed token]
-      backend_365[The customer backend retrieves a<br> refreshed token from the 365id backend]
-      response[The refreshed token is<br> delivered back to the App]
+      request[The customer backend makes<br> a request for an access token]
+      backend_365[The customer backend retrieves<br> an access token from the<br> 365id backend]
+      response[The access token is<br> delivered back to the App]
 
       request --> backend_365
       backend_365 --> response
@@ -89,8 +87,8 @@ flowchart LR
 
    subgraph APP2[APP]
 
-      valid[The app receives the<br> refreshed token]
-      startSDK[The app now starts the<br> SDK with the token]
+      valid[The app receives the<br> access token]
+      startSDK[The app now starts the<br> SDK with the access token]
       
       valid --> startSDK
       
@@ -243,21 +241,110 @@ Please note that there is a [Sample Application](/SampleApp/) written in Swift u
 In order to use the 365id Id Verification SDK it is necessary to follow the steps below.
 
 ### Retrieve a token
+Before being able to use the 365id Id Verification SDK, you will need an access token and to get that you will need to make a Rest API call with your client id and secret. If you don't have the credentials, please contact us at [info@365id.com](mailto:info@365id.com). Once you have received the credentials you will be able to request an access token. If the access token has expired you don't have to request a new one, all you have to do is refresh it using the refresh_token endpoint.
 
-Before being able to use the 365id Id Verification SDK, you will need a token. The way of getting that is to make a gRPC call using the [Authentication.proto](./SampleApp/SampleApp/BackendCommunication/Protos/Authentication.proto) file to the url `https://frontend-device-ag.int.365id.com:5001`. 
 
-1. `AuthenticateRequest` - Requests a token based on a provided license key, Language Code and a Vendor Id.
-2. `RefreshTokenRequest` - Requests a refreshed token using the refresh token.
+**Url**: https://eu.customer.365id.com
 
-The token is valid for 3 minutes, after that you will have to refresh the token using the provided refresh token. In the [SampleApp](./SampleApp/SampleApp/BackendCommunication/DeviceInformation.swift) file you can find how the sample app retrieves its token using the license key.
+---
+#### **/api/v1/access_token**  
+*Used for retrieving a new access token using the client id and secret, also known as customer external id and license key*  
 
-> **⚠️ SECURITY NOTICE:**  In a production app, it is recommended that you obtain the token using a server-to-server call. The example app retrieves it directly for the sake of simplicity.
+POST  
+Request  
 
+*Body - application/json*
+```json
+{
+  "client_id": "string",
+  "client_secret": "string"
+}
+```  
+Response
+| Code | Description |
+| ---- | ----------- |
+| 200 | Success |  
+  
+*Body - application/json*
+```json
+{
+  "access_token": "string",
+  "token_type": "string",
+  "expires_in": 0,
+  "refresh_token": "string",
+  "scope": "string"
+}
+```
+| Code | Description |
+| ---- | ----------- |
+| 400 | Bad Request |  
+  
+*Body - application/json*
+```json
+{
+  "error": "string",
+  "error_description": "string"
+}
+```
+----  
+
+#### **/api/v1/refresh_token**  
+*Used for refreshing an already retrieved access token. The access token can be or almost be expired when making this call*
+
+POST  
+Request  
+
+*Header*
+| Key | Value |
+| ----| ----- |
+| Authorization | Bearer \<access_token\> |  
+  
+*Body - application/json*
+```json
+{
+  "refresh_token": "string"
+}
+```
+  
+Response  
+| Code | Description |
+| ---- | ----------- |
+| 200 | Success |  
+  
+*Body - application/json*
+```json
+{
+  "access_token": "string",
+  "token_type": "string",
+  "expires_in": 0,
+  "refresh_token": "string",
+  "scope": "string"
+}
+```
+
+| Code | Description |
+| ---- | ----------- |
+| 400 | Bad Request |  
+  
+*Body - application/json*
+```json
+{
+  "error": "string",
+  "error_description": "string"
+}
+```
+---  
+
+The access token is valid for a certain amount of time, after that you will have to refresh the access token using the provided refresh token
+
+> **⚠️ SECURITY NOTICE:**  In a production app, it is recommended that you obtain the JWT token using a server-to-server call. The example app retrieves it directly for the sake of simplicity.  
+
+<br/>
 <br/>
 
 ### Call the SDK
 
-When you in your app have the token, you are ready to call the `startSDK()` function, supplying the token as part of the device information required as a parameter. Besides the `device information` you also need to provide a callback function.
+When you in your app have the access token, you are ready to call the `startSDK()` function, supplying the access token as part of the device information required as a parameter. Besides the `device information` you also need to provide a callback function.
 
 ### The Callback
 
@@ -369,12 +456,12 @@ Documentation for that integration is not covered in this README, it is only del
 
 1. Open `SampleApp.xcworkspace`.
 
-1. Add your `License key` to [Credentials.swift](/SampleApp/SampleApp/BackendCommunication/Credentials.swift), also add your `Location name` and `Location Id` to [DeviceInformation.swift](/SampleApp/SampleApp/BackendCommunication/DeviceInformation.swift).  
+1. Add your `client_id` and `client_secret` to [Credentials.swift](/SampleApp/SampleApp/BackendCommunication/Credentials.swift), also add your `Location name` and `Location Id` to [DeviceInformation.swift](/SampleApp/SampleApp/BackendCommunication/DeviceInformation.swift).  
 You can obtain these credentials from the [support@365id.com](mailto:support@365id.com). 
 
 4. You should now be able to build and run the project. Please note that you need to run the 365id SDK on a physical device; it will not work in the simulator.
 
-> **⚠️ SECURITY NOTICE:**  The Sample App uses the license key to directly fetch tokens from the 365id Backend. This is inherently insecure. `This is only done in the purpose of demonstration.` We strongly recommend for a production environment to perform this step with a server-to-server call.
+> **⚠️ SECURITY NOTICE:**  The Sample App uses the sdk credentials to directly fetch the access token from the 365id Backend. This is inherently insecure. `This is only done in the purpose of demonstration.` We strongly recommend for a production environment to perform this step with a server-to-server call.
 
 <br/>
 <br/>
@@ -390,16 +477,16 @@ sequenceDiagram
     participant App
     participant SDK
     participant 365id Backend
-    App->>Customer Backend: Request Token
+    App->>Customer Backend: Request Access Token
     activate Customer Backend
-    Customer Backend->>365id Backend: Request Token using license key
+    Customer Backend->>365id Backend: Request Token using client id and secret
     activate 365id Backend
-    365id Backend->>Customer Backend: App Token + Refresh Token
+    365id Backend->>Customer Backend: Access Token + Refresh Token
     deactivate 365id Backend
     
-    Customer Backend->>App: App Token
+    Customer Backend->>App: Access Token
     deactivate Customer Backend
-    App->>SDK: App Token + Location Data
+    App->>SDK: Access Token + Location Data
     activate SDK
     loop Process Transaction
         365id Backend->>SDK: Provide instructions for user
@@ -420,18 +507,19 @@ sequenceDiagram
     activate Customer Backend
     Customer Backend->>365id Backend: Refresh Token
     activate 365id Backend
-    365id Backend->>Customer Backend: New App Token + New Refresh Token
+    365id Backend->>Customer Backend: New Access Token + New Refresh Token
     deactivate 365id Backend
-    Customer Backend->>App: New App Token
+    Customer Backend->>App: New Access Token
     deactivate Customer Backend
     Note over App, SDK: Now the transaction is performed as usual (see above)
 ```
 
 In writing, this can be described as such:
 
-- App requests a token. This can be handled either by the app directly, or as recommended by the diagram, through your backend services. Requesting the first token requires a license key. Our recommendation is to store this in your backend, and use it when requesting an app token for the first time. Subsequent tokens for a specific device can be requested using the existing token and a refresh token.
-- App uses the received token to start the SDK, beginning a transaction. The SDK will take over the app until all requested steps have been completed, after which it will return a summary of the transaction result, alongside a transaction ID.
+- App requests an access token. This can be handled either by the app directly, or as recommended by the diagram, through your backend services. Requesting the first access token requires a client id and client secret, also known as customer external id and license key. Our recommendation is to store this in your backend, and use it when requesting an access token for the first time. Subsequent access tokens for a specific device can be requested using the existing access token and a refresh token.
+- App uses the received access token to start the SDK, beginning a transaction. The SDK will take over the app until all requested steps have been completed, after which it will return a summary of the transaction result, alongside a transaction ID.
 - The transaction ID is used to poll 365id services about the details of the transaction. The recommendation here is that your backend receives this ID from the App, then makes a decision based on the result received from the 365id Backend API.
+
 
 <br/>
 <br/>
