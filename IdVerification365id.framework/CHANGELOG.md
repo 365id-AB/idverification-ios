@@ -4,7 +4,212 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
-## [1.1.5] - 2022-08-03
+## [1.3.3] - 2022-11-25
+
+### Fixed
+
+Only shows iproov statustext when finished. Added new default loading animation and iproov animation. 
+
+## [1.3.2] - 2022-11-24
+
+### Fixed
+
+Fixed the scan button which is hidden on iPads.
+
+## [1.3.1] - 2022-11-24
+
+### Fixed
+
+Fixated the versions of the internal swift package dependencies
+
+## [1.3.0] - 2022-11-23
+
+### Added
+
+Added compatibility with Objective-C
+
+## [1.2.26] - 2022-11-22
+
+### Fixed
+
+Fixed the binary incompatibility between Xcode version in release.
+
+## [1.2.25] - 2022-11-21
+
+### Changed
+
+Show the result after iProov completed for at least 1.5 second.
+
+## [1.2.24] - 2022-11-15
+
+### Fixed
+
+Prints an error log while loading the Font Awesome font.
+
+## [1.2.23] - 2022-11-10
+
+### Changed
+
+Implement NoActivePackage behaviour.
+Returns the result callback with proper user message
+Updated the session contract with ios sdk version number and the platform.
+
+## [1.2.22] - 2022-11-07
+
+### Changed
+
+Removed the callbacks for transaction model.
+Added an idDetectionProcessor to handles the id detection for camera frame. 
+Rewritten the test cases for transaction model and processors.
+Vibrate the device when NFC is detected.
+
+### Fixed
+
+Camera video streamming does not show on the viewfinder when scans the backside of the document
+
+## [1.2.21] - 2022-11-02
+
+### Changed
+
+Merge tag 1.2.20 with master branch.
+
+### Fixed
+
+In the debug build the root certificates was unnecessarily cleared
+
+## [1.2.20] - 2022-11-01
+
+### Fixed
+
+Implemented an animation to hide camera appearance.
+
+## [1.2.19] - 2022-10-31
+
+### Fixed
+
+Added checks to properly unwrap optional values.
+Removed the callbacks for transaction model.
+Added an idDetectionProcessor to handles the id detection for camera frame. 
+Rewritten the test cases for transaction model and processors.
+Vibrate the device when NFC is detected.
+
+## [1.2.17] - 2022-10-28
+
+### Fixed
+
+Build SDK for distribution was set to NO.
+
+### Changed
+
+Updated the detection library to version 1.1.13
+
+## [1.2.16] - 2022-10-21
+
+### Fixed
+
+Backside flip animation
+Communication channel was not checked for nil value. 
+
+## [1.2.15] - 2022-10-19
+
+### Fixed
+
+Textcontainer has missing text on the backside task
+
+## [1.2.14] - 2022-10-19
+
+### Changed
+
+Added timeout (20 seconds) for GRPC communication.
+Added a container view for iProov and removed the MBProgressHUD
+
+## [1.2.13] - 2022-10-07
+
+### Fixed
+
+Fixed NFC crash issue.
+
+## [1.2.12] - 2022-10-07
+
+### Fixed
+
+Removed the callbacks for iProov.
+Changed the NFC part no not use callbacks but instead a Pub/Sub solution.
+
+## [1.2.11] - 2022-09-29
+
+### Fixed
+
+Often SDK plays the shutter sound when the back button is pressed
+
+## [1.2.10] - 2022-09-23
+
+### Changed
+
+Revert the changes for text container view.
+Added fastlane
+
+## [1.2.9] - 2022-09-22
+
+### Changed
+
+Removed the callbacks from cameraModel, Instead switched to a publisher subscriber solution.
+
+## [1.2.8] - 2022-09-16
+
+### Changed
+
+Allow to call the StartSDKMainView before calling the startSDK().
+
+
+## [1.2.7] - 2022-09-14
+
+### Changed
+
+Updated the detection library to version 1.1.11
+
+## [1.2.6] - 2022-09-12
+
+### Fixed
+
+Fixed the bug for capturing front and backside sometimes it does not continue.
+
+## [1.2.5] - 2022-09-08
+
+### Fixed
+
+Fixed font not loaded correctly.
+Fixed dialog offset not calculated correctly.
+
+### Changed
+
+Updated the id detection library to version 1.1.10-rc5
+
+## [1.2.4] - 2022-09-06
+
+### Fixed
+
+Fixed the Lottie animation offset.
+Fixed the viewfinder alignment.
+Fixed the debug roi orientation.
+
+### Changed
+
+Updated the id detection cv version into 1.1.10-rc2
+
+## [1.2.2] - 2022-08-19
+
+### Fixed
+
+Fixed the issue for nfc connection lost.
+
+## [1.2.1] - 2022-08-04
+
+### Changed
+
+Updated .gitlab-ci.yml file to publish the ios sdk framework into ios example project.
+
+## [1.2.0] - 2022-08-03
 
 ### Added
 
