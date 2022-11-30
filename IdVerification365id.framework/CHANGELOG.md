@@ -4,6 +4,42 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [1.3.9] - 2022-11-30
+
+### Added
+
+There are now retries performed when there are communication issues.
+
+## [1.3.8] - 2022-11-30
+
+### Fixed
+
+SDK views does not reload if the there is consecutive FRONT_SIDE tasks.
+
+## [1.3.7] - 2022-11-29
+
+### Added
+
+Send a skipe nfc message if the device does not support NFC or the user skips it.
+
+## [1.3.6] - 2022-11-29
+
+### Fixed
+
+Stopped the SDK from being able to store a previously captured image.
+
+## [1.3.5] - 2022-11-29
+
+### Added
+
+Implement task InvalidVersion. Same logic as NoActivePackage.
+
+## [1.3.4] - 2022-11-28
+
+### Fixed
+
+Make the spinners and symbols the same size. 
+
 ## [1.3.3] - 2022-11-25
 
 ### Fixed

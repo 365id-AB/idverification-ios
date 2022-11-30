@@ -14,6 +14,8 @@ import _StringProcessing
 public enum ProgressSpinningViewType : Swift.StringLiteralType {
   case spinnerWithCard
   case spinnerWithFace
+  case spinnerWithFlipCard
+  case spinnerWithNfc
   case spinner
   public init?(rawValue: Swift.StringLiteralType)
   public typealias RawValue = Swift.StringLiteralType
