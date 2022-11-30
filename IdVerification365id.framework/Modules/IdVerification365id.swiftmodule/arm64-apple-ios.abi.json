@@ -137,317 +137,6 @@
         ]
       },
       {
-        "kind": "TypeDecl",
-        "name": "ProgressSpinningViewType",
-        "printedName": "ProgressSpinningViewType",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "spinnerWithCard",
-            "printedName": "spinnerWithCard",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(IdVerification365id.ProgressSpinningViewType.Type) -> IdVerification365id.ProgressSpinningViewType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ProgressSpinningViewType",
-                    "printedName": "IdVerification365id.ProgressSpinningViewType",
-                    "usr": "s:19IdVerification365id24ProgressSpinningViewTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "IdVerification365id.ProgressSpinningViewType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ProgressSpinningViewType",
-                        "printedName": "IdVerification365id.ProgressSpinningViewType",
-                        "usr": "s:19IdVerification365id24ProgressSpinningViewTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:19IdVerification365id24ProgressSpinningViewTypeO15spinnerWithCardyA2CmF",
-            "mangledName": "$s19IdVerification365id24ProgressSpinningViewTypeO15spinnerWithCardyA2CmF",
-            "moduleName": "IdVerification365id"
-          },
-          {
-            "kind": "Var",
-            "name": "spinnerWithFace",
-            "printedName": "spinnerWithFace",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(IdVerification365id.ProgressSpinningViewType.Type) -> IdVerification365id.ProgressSpinningViewType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ProgressSpinningViewType",
-                    "printedName": "IdVerification365id.ProgressSpinningViewType",
-                    "usr": "s:19IdVerification365id24ProgressSpinningViewTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "IdVerification365id.ProgressSpinningViewType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ProgressSpinningViewType",
-                        "printedName": "IdVerification365id.ProgressSpinningViewType",
-                        "usr": "s:19IdVerification365id24ProgressSpinningViewTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:19IdVerification365id24ProgressSpinningViewTypeO15spinnerWithFaceyA2CmF",
-            "mangledName": "$s19IdVerification365id24ProgressSpinningViewTypeO15spinnerWithFaceyA2CmF",
-            "moduleName": "IdVerification365id"
-          },
-          {
-            "kind": "Var",
-            "name": "spinnerWithFlipCard",
-            "printedName": "spinnerWithFlipCard",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(IdVerification365id.ProgressSpinningViewType.Type) -> IdVerification365id.ProgressSpinningViewType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ProgressSpinningViewType",
-                    "printedName": "IdVerification365id.ProgressSpinningViewType",
-                    "usr": "s:19IdVerification365id24ProgressSpinningViewTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "IdVerification365id.ProgressSpinningViewType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ProgressSpinningViewType",
-                        "printedName": "IdVerification365id.ProgressSpinningViewType",
-                        "usr": "s:19IdVerification365id24ProgressSpinningViewTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:19IdVerification365id24ProgressSpinningViewTypeO19spinnerWithFlipCardyA2CmF",
-            "mangledName": "$s19IdVerification365id24ProgressSpinningViewTypeO19spinnerWithFlipCardyA2CmF",
-            "moduleName": "IdVerification365id"
-          },
-          {
-            "kind": "Var",
-            "name": "spinnerWithNfc",
-            "printedName": "spinnerWithNfc",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(IdVerification365id.ProgressSpinningViewType.Type) -> IdVerification365id.ProgressSpinningViewType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ProgressSpinningViewType",
-                    "printedName": "IdVerification365id.ProgressSpinningViewType",
-                    "usr": "s:19IdVerification365id24ProgressSpinningViewTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "IdVerification365id.ProgressSpinningViewType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ProgressSpinningViewType",
-                        "printedName": "IdVerification365id.ProgressSpinningViewType",
-                        "usr": "s:19IdVerification365id24ProgressSpinningViewTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:19IdVerification365id24ProgressSpinningViewTypeO14spinnerWithNfcyA2CmF",
-            "mangledName": "$s19IdVerification365id24ProgressSpinningViewTypeO14spinnerWithNfcyA2CmF",
-            "moduleName": "IdVerification365id"
-          },
-          {
-            "kind": "Var",
-            "name": "spinner",
-            "printedName": "spinner",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(IdVerification365id.ProgressSpinningViewType.Type) -> IdVerification365id.ProgressSpinningViewType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ProgressSpinningViewType",
-                    "printedName": "IdVerification365id.ProgressSpinningViewType",
-                    "usr": "s:19IdVerification365id24ProgressSpinningViewTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "IdVerification365id.ProgressSpinningViewType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ProgressSpinningViewType",
-                        "printedName": "IdVerification365id.ProgressSpinningViewType",
-                        "usr": "s:19IdVerification365id24ProgressSpinningViewTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:19IdVerification365id24ProgressSpinningViewTypeO7spinneryA2CmF",
-            "mangledName": "$s19IdVerification365id24ProgressSpinningViewTypeO7spinneryA2CmF",
-            "moduleName": "IdVerification365id"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(rawValue:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "IdVerification365id.ProgressSpinningViewType?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ProgressSpinningViewType",
-                    "printedName": "IdVerification365id.ProgressSpinningViewType",
-                    "usr": "s:19IdVerification365id24ProgressSpinningViewTypeO"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:19IdVerification365id24ProgressSpinningViewTypeO8rawValueACSgSS_tcfc",
-            "mangledName": "$s19IdVerification365id24ProgressSpinningViewTypeO8rawValueACSgSS_tcfc",
-            "moduleName": "IdVerification365id",
-            "implicit": true,
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Var",
-            "name": "rawValue",
-            "printedName": "rawValue",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:19IdVerification365id24ProgressSpinningViewTypeO8rawValueSSvp",
-            "mangledName": "$s19IdVerification365id24ProgressSpinningViewTypeO8rawValueSSvp",
-            "moduleName": "IdVerification365id",
-            "implicit": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:19IdVerification365id24ProgressSpinningViewTypeO8rawValueSSvg",
-                "mangledName": "$s19IdVerification365id24ProgressSpinningViewTypeO8rawValueSSvg",
-                "moduleName": "IdVerification365id",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          }
-        ],
-        "declKind": "Enum",
-        "usr": "s:19IdVerification365id24ProgressSpinningViewTypeO",
-        "mangledName": "$s19IdVerification365id24ProgressSpinningViewTypeO",
-        "moduleName": "IdVerification365id",
-        "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "enumRawTypeName": "String",
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "RawRepresentable",
-            "printedName": "RawRepresentable",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "RawValue",
-                "printedName": "RawValue",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:SY",
-            "mangledName": "$sSY"
-          }
-        ]
-      },
-      {
         "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
@@ -3405,70 +3094,70 @@
     {
       "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/ProgressSpinningView.swift",
       "kind": "StringLiteral",
-      "offset": 226,
+      "offset": 219,
       "length": 17,
       "value": "\"SpinnerWithCard\""
     },
     {
       "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/ProgressSpinningView.swift",
       "kind": "StringLiteral",
-      "offset": 271,
+      "offset": 264,
       "length": 17,
       "value": "\"SpinnerWithFace\""
     },
     {
       "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/ProgressSpinningView.swift",
       "kind": "StringLiteral",
-      "offset": 320,
+      "offset": 313,
       "length": 21,
       "value": "\"SpinnerWithFlipCard\""
     },
     {
       "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/ProgressSpinningView.swift",
       "kind": "StringLiteral",
-      "offset": 368,
+      "offset": 361,
       "length": 16,
       "value": "\"SpinnerWithNfc\""
     },
     {
       "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/ProgressSpinningView.swift",
       "kind": "StringLiteral",
-      "offset": 404,
+      "offset": 397,
       "length": 9,
       "value": "\"Spinner\""
     },
     {
       "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/ProgressSpinningView.swift",
       "kind": "StringLiteral",
-      "offset": 226,
+      "offset": 219,
       "length": 17,
       "value": "\"SpinnerWithCard\""
     },
     {
       "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/ProgressSpinningView.swift",
       "kind": "StringLiteral",
-      "offset": 271,
+      "offset": 264,
       "length": 17,
       "value": "\"SpinnerWithFace\""
     },
     {
       "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/ProgressSpinningView.swift",
       "kind": "StringLiteral",
-      "offset": 320,
+      "offset": 313,
       "length": 21,
       "value": "\"SpinnerWithFlipCard\""
     },
     {
       "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/ProgressSpinningView.swift",
       "kind": "StringLiteral",
-      "offset": 368,
+      "offset": 361,
       "length": 16,
       "value": "\"SpinnerWithNfc\""
     },
     {
       "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/ProgressSpinningView.swift",
       "kind": "StringLiteral",
-      "offset": 404,
+      "offset": 397,
       "length": 9,
       "value": "\"Spinner\""
     },

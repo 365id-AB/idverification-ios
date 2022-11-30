@@ -11,18 +11,6 @@ import SwiftUI
 import UIKit
 import _Concurrency
 import _StringProcessing
-public enum ProgressSpinningViewType : Swift.StringLiteralType {
-  case spinnerWithCard
-  case spinnerWithFace
-  case spinnerWithFlipCard
-  case spinnerWithNfc
-  case spinner
-  public init?(rawValue: Swift.StringLiteralType)
-  public typealias RawValue = Swift.StringLiteralType
-  public var rawValue: Swift.StringLiteralType {
-    get
-  }
-}
 @objc public enum AssessmentType : Swift.Int, Swift.Codable {
   case Inconclusive
   case Valid
@@ -76,9 +64,6 @@ public func stopSDK()
   @objc override dynamic public init()
   @objc deinit
 }
-extension IdVerification365id.ProgressSpinningViewType : Swift.Equatable {}
-extension IdVerification365id.ProgressSpinningViewType : Swift.Hashable {}
-extension IdVerification365id.ProgressSpinningViewType : Swift.RawRepresentable {}
 extension IdVerification365id.AssessmentType : Swift.Equatable {}
 extension IdVerification365id.AssessmentType : Swift.Hashable {}
 extension IdVerification365id.AssessmentType : Swift.RawRepresentable {}
