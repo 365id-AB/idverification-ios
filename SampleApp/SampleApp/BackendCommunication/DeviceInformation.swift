@@ -9,50 +9,18 @@ class DeviceInformation {
     
     var locationName: String = ""   // NOTE This should be populated by the customer
     var locationId: String = ""     // NOTE This should be populated by the customer
-    var token: String = ""
-    var refreshToken: String = ""
 
     /// Returns the information needed by the SDK to perform a transaction.
-    func getInfo() -> [String : String] {
-        self.refreshTheToken()
-
-        return [
-            "LocationName": locationName,
-            "LocationId": locationId,
-            "Token": token,
-        ]
-    }
-
-    private func getToken() {
-        do {
-            let result = try GrpcCommunicator.sharedInstance()
-                .authenticate(licenseKey: Credentials.shared.licenseKey)
-
-            self.token = result.0
-            self.refreshToken = result.1
-
-        } catch {
-            print("Failed to receive the message from 365id server [Authenticate]: \(error)")
-            return
-        }
-    }
-
-    private func refreshTheToken() {
-        if self.refreshToken == "" {
-            getToken()
-            return
-        }
-
-        do {
-            let result = try GrpcCommunicator.sharedInstance()
-                .refresh(refreshToken: self.refreshToken, token: self.token)
-
-            self.token = result.0
-            self.refreshToken = result.1
-
-        } catch {
-            print("Failed to receive the message from 365id server [refreshToken]: \(error)")
-            return
+    func getInfo(_ completionHandler: @escaping (_ info: [String : String]) -> Void) {
+        TokenHandler.getToken(
+            clientSecret: Credentials.shared.clientSecret,
+            clientId: Credentials.shared.clientId
+        ) { token in
+            completionHandler([
+                "LocationName": DeviceInformation.shared.locationName,
+                "LocationId": DeviceInformation.shared.locationId,
+                "Token": token ?? "",
+            ])
         }
     }
 }

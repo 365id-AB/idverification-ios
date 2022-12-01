@@ -32,11 +32,12 @@ struct ContentView: View {
 
     /// Used to kickstart the SDK and register a callback that interacts with the user interface
     private func getTokenAndStartSDK() {
-        if startSDK(deviceInfo: DeviceInformation.shared.getInfo(), callBack: { result in
-
-            let status = result.Status
-
-            switch status {
+        DeviceInformation.shared.getInfo { info in
+            if startSDK(deviceInfo: info, callBack: { result in
+                
+                let status = result.Status
+                
+                switch status {
                 case .OK:
                     // This is returned when a transaction completes successfully
                     // Note: This does not mean the user identity or supplied document is verified,
@@ -62,19 +63,20 @@ struct ContentView: View {
                 default:
                     // This should not occur
                     print("Unsupported status type was returned")
+                }
+                
+                // Prints the entire result
+                print("Result: \(result)")
+                
+                // Stops the SDK and releases the resources.
+                stopSDK()
+                
+                // Makes the Navigation View Transition back from the SDK view
+                self.shouldShowSDKView = false
+            }) {
+                // Makes the Navigation View transition to the SDK view
+                self.shouldShowSDKView = true
             }
-
-            // Prints the entire result
-            print("Result: \(result)")
-
-            // Stops the SDK and releases the resources.
-            stopSDK()
-
-            // Makes the Navigation View Transition back from the SDK view
-            self.shouldShowSDKView = false
-        }) {
-            // Makes the Navigation View transition to the SDK view
-            self.shouldShowSDKView = true
         }
     }
 }

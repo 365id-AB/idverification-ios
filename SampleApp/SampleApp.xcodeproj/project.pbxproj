@@ -17,12 +17,10 @@
 		A1B3021528ABCD3D008863E9 /* SampleAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B3021428ABCD3D008863E9 /* SampleAppUITestsLaunchTests.swift */; };
 		A1B3022228ABCE59008863E9 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = A1B3022128ABCE59008863E9 /* Podfile */; };
 		A1B3022D28ACDB4C008863E9 /* Credentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B3022C28ACDB4C008863E9 /* Credentials.swift */; };
-		A1B3023028ACE690008863E9 /* Authentication.proto in Sources */ = {isa = PBXBuildFile; fileRef = A1B3022F28ACE690008863E9 /* Authentication.proto */; };
-		A1B3023328ACE6B7008863E9 /* GRPCConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B3023228ACE6B7008863E9 /* GRPCConfig.swift */; };
-		A1B3023528ACE6C1008863E9 /* GrpcCommunicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B3023428ACE6C1008863E9 /* GrpcCommunicator.swift */; };
 		A1B3023B28AD03E8008863E9 /* DeviceInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B3023A28AD03E8008863E9 /* DeviceInformation.swift */; };
 		F3D260C09035CF4298DDCF71 /* Pods_SampleApp_SampleAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB13D904A28D5C42871F92C6 /* Pods_SampleApp_SampleAppUITests.framework */; };
 		F9CE325593A7635122B7CA99 /* Pods_SampleAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC289211418662B972DACAB2 /* Pods_SampleAppTests.framework */; };
+		FB23963A2937912000118820 /* TokenHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2396392937912000118820 /* TokenHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildRule section */
@@ -77,15 +75,13 @@
 		A1B3022328ABCFB9008863E9 /* SampleApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SampleApp.entitlements; sourceTree = "<group>"; };
 		A1B3022428ABD35F008863E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		A1B3022C28ACDB4C008863E9 /* Credentials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Credentials.swift; sourceTree = "<group>"; };
-		A1B3022F28ACE690008863E9 /* Authentication.proto */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.protobuf; path = Authentication.proto; sourceTree = "<group>"; };
-		A1B3023228ACE6B7008863E9 /* GRPCConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRPCConfig.swift; sourceTree = "<group>"; };
-		A1B3023428ACE6C1008863E9 /* GrpcCommunicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GrpcCommunicator.swift; sourceTree = "<group>"; };
 		A1B3023A28AD03E8008863E9 /* DeviceInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceInformation.swift; sourceTree = "<group>"; };
 		BC289211418662B972DACAB2 /* Pods_SampleAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SampleAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB13D904A28D5C42871F92C6 /* Pods_SampleApp_SampleAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SampleApp_SampleAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAFAFBF022F027AE7648CBA9 /* Pods_SampleApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SampleApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE9CA906C25229CEA3BE4D2C /* Pods-SampleAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleAppTests.release.xcconfig"; path = "Target Support Files/Pods-SampleAppTests/Pods-SampleAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		F057E2EAAF1DC1F3D7BF06DD /* Pods-SampleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleApp.release.xcconfig"; path = "Target Support Files/Pods-SampleApp/Pods-SampleApp.release.xcconfig"; sourceTree = "<group>"; };
+		FB2396392937912000118820 /* TokenHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -205,20 +201,10 @@
 			isa = PBXGroup;
 			children = (
 				A1B3022C28ACDB4C008863E9 /* Credentials.swift */,
-				A1B3023428ACE6C1008863E9 /* GrpcCommunicator.swift */,
-				A1B3023228ACE6B7008863E9 /* GRPCConfig.swift */,
 				A1B3023A28AD03E8008863E9 /* DeviceInformation.swift */,
-				A1B3023128ACE69A008863E9 /* Protos */,
+				FB2396392937912000118820 /* TokenHandler.swift */,
 			);
 			path = BackendCommunication;
-			sourceTree = "<group>";
-		};
-		A1B3023128ACE69A008863E9 /* Protos */ = {
-			isa = PBXGroup;
-			children = (
-				A1B3022F28ACE690008863E9 /* Authentication.proto */,
-			);
-			path = Protos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -461,12 +447,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB23963A2937912000118820 /* TokenHandler.swift in Sources */,
 				A1B301FA28ABCD3C008863E9 /* ContentView.swift in Sources */,
 				A1B3023B28AD03E8008863E9 /* DeviceInformation.swift in Sources */,
-				A1B3023328ACE6B7008863E9 /* GRPCConfig.swift in Sources */,
 				A1B301F828ABCD3C008863E9 /* SampleApp.swift in Sources */,
-				A1B3023028ACE690008863E9 /* Authentication.proto in Sources */,
-				A1B3023528ACE6C1008863E9 /* GrpcCommunicator.swift in Sources */,
 				A1B3022D28ACDB4C008863E9 /* Credentials.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
