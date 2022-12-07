@@ -6,9 +6,6 @@ import Foundation
 class DeviceInformation {
 
     static var shared = DeviceInformation()
-    
-    var locationName: String = ""   // NOTE This should be populated by the customer
-    var locationId: String = ""     // NOTE This should be populated by the customer
 
     /// Returns the information needed by the SDK to perform a transaction.
     func getInfo(_ completionHandler: @escaping (_ info: [String : String]) -> Void) {
@@ -17,9 +14,7 @@ class DeviceInformation {
             clientId: Credentials.shared.clientId
         ) { token in
             completionHandler([
-                "LocationName": DeviceInformation.shared.locationName,
-                "LocationId": DeviceInformation.shared.locationId,
-                "Token": token ?? "",
+                "Token": token ?? ""
             ])
         }
     }

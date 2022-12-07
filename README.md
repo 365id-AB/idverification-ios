@@ -412,13 +412,9 @@ DispatchQueue.main.async {
 After starting the SDK by making a call to `startSDK()` and supplying `deviceInfo` which is a string to string dictionary and the callback function. You should switch to the `sdkMainVIew()`.
 
 ```swift
-// The following three entries are required to exist in the dictionary in order to start the SDK
+// The following entry is required to exist in the dictionary in order to start the SDK
 var deviceInfo = [
-   // The entry is required but the value is optional. Can be set to empty string.
-   "LocationName": "<the location name>",
-   // Required. Id is received from 365id along with license key
-   "LocationId": "<the location id>",
-   // Required. Is received by authenticating with the license key or the refresh token call.
+   // Required. Is received by authenticating with the client_secret and client_id.
    "Token": "<token>"
 ]
 
