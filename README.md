@@ -159,8 +159,7 @@ The 365id Id Verification SDK is distributed as a Cocoapod, therefore **you are 
 2. Add the following to your Pod file (inside the target section):
 
     ```ruby
-      pod 'iProov'
-      pod 'gRPC-Swift'
+      pod 'iProov', '~> 9.5.1'
       pod 'IdVerification365id'
     ```
 
@@ -178,7 +177,7 @@ The 365id Id Verification SDK is distributed as a Cocoapod, therefore **you are 
 	end
 	```
 
-4. Run `pod install`.
+4. Run `pod update`.
 
 <br/>
 <br/>
