@@ -1,1 +1,4 @@
-*.xcodeproj/xcuserdata/*
+/Pods/
+.DS_Store
+*.xcuserstate
+*.xcuserdatad
