@@ -264,6 +264,8 @@ typedef SWIFT_ENUM(NSInteger, AssessmentType, open) {
   AssessmentTypeRejected = 3,
 };
 
+
+@class WhiteLabeling;
 @class NSString;
 @class TransactionResult;
 @class UIViewController;
@@ -272,6 +274,10 @@ typedef SWIFT_ENUM(NSInteger, AssessmentType, open) {
 /// include it in a multi platform solution like Xamarin
 SWIFT_CLASS("_TtC19IdVerification365id14IdVerification")
 @interface IdVerification : NSObject
+/// Set custom theme to the SDK
+/// \param whiteLabeling Custom WhiteLabeling of the SDK
+///
++ (void)addCustomTheme:(WhiteLabeling * _Nonnull)whiteLabeling;
 /// This is the SDK main entry point
 /// Note: This is called when you are about to start the identification session.
 /// \param deviceInfo Device information used to identify and conect to the 365id cloud
@@ -283,6 +289,17 @@ SWIFT_CLASS("_TtC19IdVerification365id14IdVerification")
 ///
 /// Returns true if the devcie information is set properly and it received the session token from the cloud
 + (BOOL)startWithDeviceInfo:(NSDictionary<NSString *, NSString *> * _Nonnull)deviceInfo callBack:(void (^ _Nonnull)(TransactionResult * _Nonnull))callBack SWIFT_WARN_UNUSED_RESULT;
+/// This is a simplified SDK entry point
+/// Note: This is called when you are about to start the identification session.
+/// \param token The token used for the SDK authentication
+///
+/// \param callBack callBack used to receive the transaction result
+///
+///
+/// returns:
+///
+/// Returns true if the token is proper and the sdk received the session token from the cloud
++ (BOOL)startWithToken:(NSString * _Nonnull)token callBack:(void (^ _Nonnull)(TransactionResult * _Nonnull))callBack SWIFT_WARN_UNUSED_RESULT;
 /// Cleanup SDK
 /// Note: This is called when the sdk is done and you are done using it.
 + (void)stop;
@@ -325,6 +342,14 @@ SWIFT_CLASS("_TtC19IdVerification365id17TransactionResult")
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
+
+
+/// Custom WhiteLabeling of the SDK
+SWIFT_CLASS("_TtC19IdVerification365id13WhiteLabeling")
+@interface WhiteLabeling : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
 
 #endif
 #if defined(__cplusplus)

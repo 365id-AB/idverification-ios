@@ -4,6 +4,107 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [1.5.8] - 2023-01-16
+
+### Fixed
+
+Automatic detection takes long time to detect the document.
+
+## [1.5.7] - 2023-01-13
+
+### Fixed
+
+Stop sending the unwanted logs to sentry.
+
+## [1.5.6] - 2023-01-12
+
+### Fixed
+
+Updated sentry log to version 7.31.5
+
+## [1.5.5] - 2023-01-11
+
+### Fixed
+
+Added swift-flag for target 365id sdk.
+
+## [1.5.4] - 2023-01-11
+
+### Fixed
+
+Added checks in communication to not allow a response to go through after stopping the SDK.
+
+## [1.4.4] - 2023-01-11
+
+### Fixed
+
+Added checks in communication to not allow a response to go through after stopping the SDK.
+
+## [1.5.3] - 2023-01-10
+
+### Added
+
+Added Sentry to the SDK.
+
+## [1.5.2] - 2023-01-10
+
+### Added
+
+Added support for custom White Labeling of the SDK.
+
+## [1.5.1] - 2023-01-03
+
+### Fixed
+
+Fixed Protobuf build in xcode toolchain - Project can now handle all proto-files without custom edit.
+
+## [1.4.3] - 2022-12-22
+
+### Fixed
+
+Close GRPC channel immediately.
+
+## [1.4.2] - 2022-12-22
+
+### Fixed 
+
+Added a check for transaction id before sending the result to the called app.
+
+## [1.5.0] - 2022-12-15
+
+### Fixed
+
+Using DispatchQueue to manage the execution of tasks serially or concurrently.
+
+## [1.4.1] - 2022-12-13
+
+### Fixed
+
+Fixed the NFC animation wasn't reloading.
+
+## [1.4.0] - 2022-12-09
+
+### Added
+
+Added a simplified start function
+
+## [1.3.12] - 2022-12-06
+
+### Fixed
+
+Liveness result is replaced by a spinner.
+Handled the situation when LocationName and LocationId is not set in the SDK.
+
+## [1.3.11] - 2022-12-01
+
+### Fixed
+
+Fixed the crash related to closing the GRPC channel.
+
+### Added
+
+Added comunication retries on every comunication point
+
 ## [1.3.10] - 2022-11-30
 
 ### Fixed

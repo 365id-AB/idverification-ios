@@ -6,11 +6,16 @@ import AVFoundation
 import Combine
 import CoreNFC
 import Foundation
+import Sentry
 import Swift
 import SwiftUI
 import UIKit
 import _Concurrency
 import _StringProcessing
+@objc public class WhiteLabeling : ObjectiveC.NSObject {
+  public init(headerColor: SwiftUI.Color? = nil, backgroundColor: SwiftUI.Color? = nil, iconColor: SwiftUI.Color? = nil, appBarLogo: SwiftUI.Image? = nil, scanButtonColor: SwiftUI.Color? = nil, scanButtonTextColor: SwiftUI.Color? = nil, containerBoxOuterColor: SwiftUI.Color? = nil, containerBoxInnerColor: SwiftUI.Color? = nil, containerBoxTextColor: SwiftUI.Color? = nil, containerBoxSubTextColor: SwiftUI.Color? = nil)
+  @objc deinit
+}
 @objc public enum AssessmentType : Swift.Int, Swift.Codable {
   case Inconclusive
   case Valid
@@ -55,10 +60,13 @@ extension IdVerification365id.AssessmentType {
   }
   public typealias Body = @_opaqueReturnTypeOf("$s19IdVerification365id11SdkMainViewV4bodyQrvp", 0) __
 }
+public func addTheme(_ whiteLabeling: IdVerification365id.WhiteLabeling)
 public func startSDK(deviceInfo: [Swift.String : Swift.String], callBack: @escaping (IdVerification365id.TransactionResult) -> Swift.Void) -> Swift.Bool
 public func stopSDK()
 @_inheritsConvenienceInitializers @objc public class IdVerification : ObjectiveC.NSObject {
+  @objc public static func addCustomTheme(_ whiteLabeling: IdVerification365id.WhiteLabeling)
   @objc public static func start(deviceInfo: [Swift.String : Swift.String], callBack: @escaping (IdVerification365id.TransactionResult) -> Swift.Void) -> Swift.Bool
+  @objc public static func start(token: Swift.String, callBack: @escaping (IdVerification365id.TransactionResult) -> Swift.Void) -> Swift.Bool
   @objc public static func stop()
   @objc public static func createMainView(showAppBar: Swift.Bool) -> UIKit.UIViewController
   @objc override dynamic public init()
