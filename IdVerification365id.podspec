@@ -16,4 +16,7 @@ Pod::Spec.new do |s|
 
   s.ios.vendored_frameworks = 'IdVerification365id.framework'
 
+  s.dependency "Sentry", "7.31.5"
+  s.dependency "iProov", "9.5.1"
+
 end

@@ -156,28 +156,33 @@ The 365id Id Verification SDK is distributed as a Cocoapod, therefore **you are 
 
 1. If you are not yet using Cocoapods in your project, first run `sudo gem install cocoapods` followed by `pod init`. (For further information on installing Cocoapods, [click here](https://guides.cocoapods.org/using/getting-started.html#installation).)
 
-2. Add the following to your Pod file (inside the target section):
+2. Add the following in the top of your Pod file:
+
+   ```ruby
+      source 'https://github.com/CocoaPods/Specs.git'
+   ```
+
+3. Add the following to your Pod file (inside the target section):
 
     ```ruby
-      pod 'iProov', '~> 9.5.1'
       pod 'IdVerification365id'
     ```
 
-3. Add the following to the bottom of your Podfile:
+4. Add the following to the bottom of your Podfile:
 
-	```ruby
-	post_install do |installer|
-	  installer.pods_project.targets.each do |target|
-	    if ['iProov', 'Socket.IO-Client-Swift', 'Starscream'].include? target.name
-	      target.build_configurations.each do |config|
-	          config.build_settings['BUILD_LIBRARY_FOR_DISTRIBUTION'] = 'YES'
-	      end
-	    end
-	  end
-	end
-	```
+   ```ruby
+      post_install do |installer|
+         installer.pods_project.targets.each do |target|
+            if ['iProov', 'Socket.IO-Client-Swift', 'Starscream'].include? target.name
+               target.build_configurations.each do |config|
+                  config.build_settings['BUILD_LIBRARY_FOR_DISTRIBUTION'] = 'YES'
+               end
+            end
+         end
+      end
+   ```
 
-4. Run `pod update`.
+5. Run `pod update`.
 
 <br/>
 <br/>

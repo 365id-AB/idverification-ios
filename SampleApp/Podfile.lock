@@ -1,28 +1,16 @@
 PODS:
   - IdVerification365id (1.3.10)
-  - iProov (9.5.1):
-    - Socket.IO-Client-Swift (~> 16.0)
-  - Socket.IO-Client-Swift (16.0.1):
-    - Starscream (~> 4.0)
-  - Starscream (4.0.4)
 
 DEPENDENCIES:
   - IdVerification365id
-  - iProov (~> 9.5.1)
 
 SPEC REPOS:
-  trunk:
+  https://github.com/CocoaPods/Specs.git:
     - IdVerification365id
-    - iProov
-    - Socket.IO-Client-Swift
-    - Starscream
 
 SPEC CHECKSUMS:
   IdVerification365id: e8d7eca687ad204b01b5d211f9691751fd71a5c6
-  iProov: 35f8aac690d30ce97d28de3d521ff3286f69313c
-  Socket.IO-Client-Swift: c116d6dc9fd6be9c259bacfe143f8725bce7d79e
-  Starscream: 5178aed56b316f13fa3bc55694e583d35dd414d9
 
-PODFILE CHECKSUM: deeb8d78aef8ac707a8d1dd9f6523c6281298875
+PODFILE CHECKSUM: 7f7395b195d8a20d2e3d08180a782bbc62526004
 
 COCOAPODS: 1.11.3
