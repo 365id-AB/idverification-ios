@@ -4,6 +4,19 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [1.5.10] - 2023-01-19
+
+### Fixed
+
+Refactored the GRPC communication to avoid the unknown error exception.
+
+## [1.5.9] - 2023-01-17
+
+### Fixed
+
+Altered the qos level for communication tasks
+Extended the retries for gRPC to unlimited
+
 ## [1.5.8] - 2023-01-16
 
 ### Fixed

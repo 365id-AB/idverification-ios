@@ -3663,14 +3663,14 @@
     {
       "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Models\/CameraModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 532,
+      "offset": 395,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Models\/CameraModel.swift",
       "kind": "Array",
-      "offset": 1025,
+      "offset": 838,
       "length": 2,
       "value": "[]"
     },
@@ -3680,6 +3680,13 @@
       "offset": 442,
       "length": 2,
       "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationProcessor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 688,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Models\/WhiteLabeling.swift",
@@ -4104,7 +4111,7 @@
     {
       "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Models\/TransactionModel.swift",
       "kind": "Array",
-      "offset": 595,
+      "offset": 542,
       "length": 2,
       "value": "[]"
     },
@@ -4132,14 +4139,14 @@
     {
       "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IProov\/IProovProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 660,
+      "offset": 546,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IProov\/IProovProcessor.swift",
       "kind": "Array",
-      "offset": 716,
+      "offset": 602,
       "length": 2,
       "value": "[]"
     },
@@ -4289,6 +4296,20 @@
       "offset": 881,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 21010,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 21041,
+      "length": 1,
+      "value": "1"
     },
     {
       "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Models\/LandingModel.swift",
@@ -4517,7 +4538,7 @@
     {
       "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Models\/IProovModel.swift",
       "kind": "Array",
-      "offset": 492,
+      "offset": 441,
       "length": 2,
       "value": "[]"
     },
@@ -4643,21 +4664,21 @@
     {
       "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/NFC\/NfcProcessor.swift",
       "kind": "BooleanLiteral",
-      "offset": 407,
+      "offset": 356,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/NFC\/NfcProcessor.swift",
       "kind": "Array",
-      "offset": 630,
+      "offset": 579,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/NFC\/NfcProcessor.swift",
       "kind": "IntegerLiteral",
-      "offset": 682,
+      "offset": 631,
       "length": 1,
       "value": "0"
     },
