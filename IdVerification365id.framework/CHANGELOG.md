@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [1.5.11] - 2023-01-20
+
+### Changed
+
+Set the log level to include warning messages.
+
 ## [1.5.10] - 2023-01-19
 
 ### Fixed
