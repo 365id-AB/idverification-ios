@@ -4,6 +4,30 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [1.5.15] - 2023-01-31
+
+### Added
+
+Fixed the camera issue for xamarin app.
+
+## [1.5.14] - 2023-01-27
+
+### Added
+
+Published releases now uploads mapping files to Sentry.
+
+## [1.5.13] - 2023-01-26
+
+### Changed
+
+Added retries for the GRPC request errors except the unauthenticated error.
+
+## [1.5.12] - 2023-01-20
+
+### Changed
+
+Added a common function to make a grpc request.
+
 ## [1.5.11] - 2023-01-20
 
 ### Changed

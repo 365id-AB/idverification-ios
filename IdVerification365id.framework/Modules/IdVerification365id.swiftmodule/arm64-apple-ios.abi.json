@@ -3663,14 +3663,14 @@
     {
       "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Models\/CameraModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 395,
+      "offset": 394,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Models\/CameraModel.swift",
       "kind": "Array",
-      "offset": 838,
+      "offset": 837,
       "length": 2,
       "value": "[]"
     },
@@ -3999,14 +3999,7 @@
     {
       "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/SdkMainView.swift",
       "kind": "BooleanLiteral",
-      "offset": 250,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/SdkMainView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 317,
+      "offset": 265,
       "length": 5,
       "value": "false"
     },
@@ -4300,14 +4293,14 @@
     {
       "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 21010,
+      "offset": 18087,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 21041,
+      "offset": 18118,
       "length": 1,
       "value": "1"
     },
