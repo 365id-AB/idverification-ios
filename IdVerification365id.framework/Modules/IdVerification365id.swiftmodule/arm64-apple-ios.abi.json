@@ -4097,14 +4097,14 @@
     {
       "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Models\/TransactionModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 483,
+      "offset": 615,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Models\/TransactionModel.swift",
       "kind": "Array",
-      "offset": 542,
+      "offset": 674,
       "length": 2,
       "value": "[]"
     },

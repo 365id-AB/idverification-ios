@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [1.5.16] - 2023-02-09
+
+### Fixed
+
+Fixed an issue where the camera live preview could become hidden.
+
 ## [1.5.15] - 2023-01-31
 
 ### Added
