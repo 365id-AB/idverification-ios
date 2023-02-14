@@ -78,24 +78,25 @@
                     // The assessment shows a summary
                     // Have a look at `result.Assessment` for more information
                     NSLog(@"Successful result");
-
+                    break;
                 case StatusTypeDismissed:
                     // This is returned if the user dismisses the SDK view prematurely.
                     NSLog(@"User dismissed SDK");
-
+                    break;
                 case StatusTypeClientException:
                     // This is returned if the SDK encountered an internal error.
                     // Please Report such issues to 365id as bugs!
                     NSLog(@"Client has thrown an exception");
-
+                    break;
                 case StatusTypeServerException:
                     // This is returned if there was an issue communicating with the 365id Backend.
                     // Could be a connectivity issue.
                     NSLog(@"Server has thrown an exception");
-
+                    break;
                 default:
                     // This should not occur
                     NSLog(@"Unsupported status type was returned");
+                    break;
             }
 
             // Prints the entire result
