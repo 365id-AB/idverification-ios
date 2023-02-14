@@ -25,9 +25,6 @@
     if (navigationController == nil) {
         return;
     }
-    if (navigationController.viewControllers.count > 1) {
-        return;
-    }
     [navigationController popViewControllerAnimated:true];
 }
 
