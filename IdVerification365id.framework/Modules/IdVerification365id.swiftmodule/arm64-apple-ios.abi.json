@@ -1783,6 +1783,23 @@
       },
       {
         "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "IdVerification365id"
+      },
+      {
+        "kind": "Import",
+        "name": "AlertToast",
+        "printedName": "AlertToast",
+        "declKind": "Import",
+        "moduleName": "IdVerification365id",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "AVFoundation",
         "printedName": "AVFoundation",
         "declKind": "Import",
@@ -3669,8 +3686,15 @@
     },
     {
       "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Models\/CameraModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 489,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Models\/CameraModel.swift",
       "kind": "Array",
-      "offset": 837,
+      "offset": 892,
       "length": 2,
       "value": "[]"
     },
@@ -3741,6 +3765,13 @@
       "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/ViewModels\/CameraViewModel.swift",
       "kind": "BooleanLiteral",
       "offset": 180,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/ViewModels\/CameraViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 348,
       "length": 5,
       "value": "false"
     },
@@ -3872,8 +3903,15 @@
     },
     {
       "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Models\/DebugModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 359,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Models\/DebugModel.swift",
       "kind": "Array",
-      "offset": 416,
+      "offset": 566,
       "length": 2,
       "value": "[]"
     },
@@ -4095,6 +4133,27 @@
       "value": "15"
     },
     {
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/LowLightWarningView.swift",
+      "kind": "StringLiteral",
+      "offset": 215,
+      "length": 33,
+      "value": "\"_365id_camera_low_light_message\""
+    },
+    {
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/LowLightWarningView.swift",
+      "kind": "StringLiteral",
+      "offset": 297,
+      "length": 32,
+      "value": "\"_365id_scanner_sdk.Localizable\""
+    },
+    {
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/LowLightWarningView.swift",
+      "kind": "StringLiteral",
+      "offset": 455,
+      "length": 26,
+      "value": "\"Camera low light warning\""
+    },
+    {
       "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Models\/TransactionModel.swift",
       "kind": "BooleanLiteral",
       "offset": 615,
@@ -4145,22 +4204,57 @@
     },
     {
       "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Camera\/IdDetectionProcessor.swift",
+      "kind": "FloatLiteral",
+      "offset": 869,
+      "length": 4,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Camera\/IdDetectionProcessor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 921,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Camera\/IdDetectionProcessor.swift",
       "kind": "BooleanLiteral",
-      "offset": 867,
+      "offset": 965,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Camera\/IdDetectionProcessor.swift",
       "kind": "IntegerLiteral",
-      "offset": 927,
+      "offset": 1025,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Camera\/IdDetectionProcessor.swift",
+      "kind": "FloatLiteral",
+      "offset": 1115,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Camera\/IdDetectionProcessor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1908,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Camera\/IdDetectionProcessor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2121,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Camera\/IdDetectionProcessor.swift",
       "kind": "Array",
-      "offset": 1753,
+      "offset": 2321,
       "length": 2,
       "value": "[]"
     },
@@ -4378,34 +4472,34 @@
       "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/ViewModels\/ScanButtonViewModel.swift",
       "kind": "FloatLiteral",
       "offset": 134,
-      "length": 3,
-      "value": "8.0"
+      "length": 4,
+      "value": "30.0"
     },
     {
       "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/ViewModels\/ScanButtonViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 181,
+      "offset": 182,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/ViewModels\/ScanButtonViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 224,
+      "offset": 225,
       "length": 22,
       "value": "\"_365id_scan_manually\""
     },
     {
       "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/ViewModels\/ScanButtonViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 295,
+      "offset": 296,
       "length": 32,
       "value": "\"_365id_scanner_sdk.Localizable\""
     },
     {
       "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/ViewModels\/ScanButtonViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 457,
+      "offset": 458,
       "length": 13,
       "value": "\"manual mode\""
     },

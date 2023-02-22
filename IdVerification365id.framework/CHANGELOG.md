@@ -4,6 +4,18 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
+
+## [1.5.17] - 2023-02-16
+
+### Added
+
+Added a reticle to the viewfinder.
+Added a warning message when the camera light level is too low to detect a document.
+
+### Changed
+
+Changed the SCAN button delay from 8 to 30 seconds.
+
 ## [1.5.16] - 2023-02-09
 
 ### Fixed
