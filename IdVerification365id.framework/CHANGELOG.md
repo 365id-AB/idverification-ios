@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
 
+## [1.5.19] - 2023-03-08
+
+### Changed
+
+- Updated the viewfinder reticule to better guide the user
+- Updated the iOS CV detection to version 1.1.16.
+
 ## [1.5.17] - 2023-02-16
 
 ### Added
