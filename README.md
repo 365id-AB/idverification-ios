@@ -448,6 +448,26 @@ Documentation for that integration is not covered in this README, it is only del
 
 <br/>
 <br/>
+
+### White Labeling
+
+Before calling `startSDK()` you can customize the SDK´s design with your own colors and logo with `addCustomTheme()`. All parameters of this function are optional, so you can use only those that suits you. Below you see an example of how you can use this function:
+```swift
+IdVerification.addCustomTheme(WhiteLabeling(
+   headerColor: Color.white,
+   backgroundColor: Color.gray,
+   iconColor: Color.blue,
+   appBarLogo: Image("myCustomLogo"),
+   scanButtonColor: Color.blue,
+   scanButtonTextColor: Color.white,
+   containerBoxOuterColor: Color.gray,
+   containerBoxInnerColor: Color.white,
+   containerBoxTextColor: Color.black,
+   containerBoxSubTextColor: Color.black
+))
+```
+<br/>
+<br/>
 <br/>
 
 ## Run the SampleApp project
