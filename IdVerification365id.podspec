@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.summary          = 'A Framework that enables the integration of id verification from 365id AB.'
   s.homepage         = 'http://www.365id.com/'
   s.license          = { :type => 'Copyright', :text => <<-LICENSE
-                          Copyright 2022
+                          Copyright 2023
                           All rights reserved by 365id AB.
                           LICENSE
                       }
@@ -17,6 +17,6 @@ Pod::Spec.new do |s|
   s.ios.vendored_frameworks = 'IdVerification365id.framework'
 
   s.dependency "Sentry", "7.31.5"
-  s.dependency "iProov", "9.5.1"
+  s.dependency "iProov", "10.3.0"
 
 end
