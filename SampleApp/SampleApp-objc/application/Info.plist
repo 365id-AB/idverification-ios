@@ -26,6 +26,10 @@
 	<string>$(CURRENT_PROJECT_VERSION)</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NFCReaderUsageDescription</key>
+	<string>Allow access to NFC to read the e-passports.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Allow access to camera to scan ID document.</string>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen.storyboard</string>
 	<key>UIRequiredDeviceCapabilities</key>
@@ -43,14 +47,12 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>UIUserInterfaceStyle</key>
+	<string>Light</string>
 	<key>com.apple.developer.nfc.readersession.iso7816.select-identifiers</key>
 	<array>
 		<string>A0000002471001</string>
 		<string>A0000002472001</string>
 	</array>
-	<key>NSCameraUsageDescription</key>
-	<string>Allow access to camera to scan ID document.</string>
-	<key>NFCReaderUsageDescription</key>
-	<string>Allow access to NFC to read the e-passports.</string>
 </dict>
 </plist>

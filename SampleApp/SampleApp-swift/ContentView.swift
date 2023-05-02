@@ -1,9 +1,57 @@
 import SwiftUI
 import IdVerification365id
 
+/// This is a very simple example on how the IdVerificationEventDelegate can be implemented
+class SampleAppEventDelegate: IdVerificationEventDelegate, ObservableObject {
+
+    @Published var showSDKView: Bool = false {
+        didSet {
+            guard self.showSDKView else {
+                // The show SDKView was set to false, most likely by the user dismissing the view
+                IdVerification.stop()
+                return
+            }
+        }
+    }
+    @Published var information: String = ""
+
+    func onStarted() {
+        self.information = "Started\n"
+        self.showSDKView = true
+    }
+
+    /// Called when the user exits the SDK using the back button in the 365id AppBar.
+    func onUserDismissed() {
+        self.information += "Dismissed by the user.\n"
+        self.showSDKView = false
+        IdVerification.stop()
+    }
+
+    /// Called when all remaining resources tied to the SDK instance has been cleaned up.
+    func onClosed() {
+        self.information += "SDK CLOSED\n"
+    }
+
+    /// Called when there is an error with the sdk. A verification transaction can not be recovered after this call is
+    /// recieved.
+    func onError(_ error: IdVerificationErrorBundle) {
+        self.information += "ERROR\n\(error.message)\n\(error.error)\n"
+        showSDKView = false
+        IdVerification.stop()
+    }
+
+    /// Called when the id verification process has completed
+    func onCompleted(_ result: IdVerificationResult) {
+        self.information += "RESULT\n\(result.transactionId)\n"
+        showSDKView = false
+        IdVerification.stop()
+    }
+}
+
 struct ContentView: View {
 
     @State var shouldShowSDKView: Bool = false
+    @StateObject var eventDelegate: SampleAppEventDelegate = SampleAppEventDelegate()
 
     var body: some View {
         NavigationView {
@@ -12,70 +60,24 @@ struct ContentView: View {
                     .multilineTextAlignment(.center)
 
                 Spacer()
-                NavigationLink(destination: SdkMainView(showAppBar: false), isActive: $shouldShowSDKView) {
+                NavigationLink(destination: SdkMainView(showAppBar: false), isActive: $eventDelegate.showSDKView) {
                     Button("Enter 365id SDK") {
                         getTokenAndStartSDK()
                     }
                 }
                 Spacer()
+                Text("Event Log:\n\(eventDelegate.information)")
+                Spacer()
             }
         }
-        .preferredColorScheme(nil) 
-        .onChange(of: shouldShowSDKView) { value in
-            if !value {
-                // This call to stopSDK is made when the user press the back button in the
-                // Navigation view. This could leed to multiple calls to stopSDK, which is safe to do.
-                stopSDK()
-            }
-        }
+        .preferredColorScheme(nil)
     }
 
     /// Used to kickstart the SDK and register a callback that interacts with the user interface
     private func getTokenAndStartSDK() {
         DeviceInformation.shared.getInfo { info in
-            if startSDK(deviceInfo: info, callBack: { result in
-                
-                let status = result.Status
-                
-                switch status {
-                case .OK:
-                    // This is returned when a transaction completes successfully
-                    // Note: This does not mean the user identity or supplied document is verified,
-                    // only that the transaction process itself did not end prematurely.
-                    // The assessment shows a summary
-                    // Have a look at `result.Assessment` for more information
-                    print("Successful result")
-
-                case .Dismissed:
-                    // This is returned if the user dismisses the SDK view prematurely.
-                    print("User dismissed SDK")
-
-                case .ClientException:
-                    // This is returned if the SDK encountered an internal error.
-                    // Please Report such issues to 365id as bugs!
-                    print("Client has thrown an exception")
-
-                case .ServerException:
-                    // This is returned if there was an issue communicating with the 365id Backend.
-                    // Could be a connectivity issue.
-                    print("Server has thrown an exception")
-
-                default:
-                    // This should not occur
-                    print("Unsupported status type was returned")
-                }
-                
-                // Prints the entire result
-                print("Result: \(result)")
-                
-                // Stops the SDK and releases the resources.
-                stopSDK()
-                
-                // Makes the Navigation View Transition back from the SDK view
-                self.shouldShowSDKView = false
-            }) {
-                // Makes the Navigation View transition to the SDK view
-                self.shouldShowSDKView = true
+            if !IdVerification.start(token: info["Token"]!, delegate: eventDelegate) {
+                print("Unable to start the SDK, was the token provided properly?")
             }
         }
     }

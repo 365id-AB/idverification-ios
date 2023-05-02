@@ -164,23 +164,41 @@ The 365id Id Verification SDK is distributed as a Cocoapod, therefore **you are 
 
 3. Add the following to your Pod file (inside the target section):
 
-    ```ruby
-      pod 'IdVerification365id'
-    ```
+```ruby
+pod 'IdVerification365id'
+```
 
 4. Add the following to the bottom of your Podfile:
 
-   ```ruby
-      post_install do |installer|
-         installer.pods_project.targets.each do |target|
-            if ['iProov', 'Socket.IO-Client-Swift', 'Starscream'].include? target.name
-               target.build_configurations.each do |config|
-                  config.build_settings['BUILD_LIBRARY_FOR_DISTRIBUTION'] = 'YES'
-               end
-            end
-         end
+```ruby
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+    if ['Pods-SampleApp-objc'].include? target.name
+      target.build_configurations.each do |config|
+          config.build_settings['ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES'] = 'YES'
+          config.build_settings['EMBEDDED_CONTENT_CONTAINS_SWIFT'] = ''
       end
-   ```
+    end
+    if ['iProov', 'Starscream'].include? target.name
+      target.build_configurations.each do |config|
+          config.build_settings['BUILD_LIBRARY_FOR_DISTRIBUTION'] = 'YES'
+      end
+    end
+    if ['Sentry', 'iProov', 'Starscream'].include? target.name
+      target.build_configurations.each do |config|
+          config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '12.0'
+      end
+    end
+    if ['Starscream'].include? target.name
+      target.build_configurations.each do |config|
+          config.build_settings['GCC_WARN_INHIBIT_ALL_WARNINGS'] = 'YES'
+          config.build_settings['SWIFT_SUPPRESS_WARNINGS'] = 'YES'
+          config.build_settings['DEAD_CODE_STRIPPING'] = 'YES'
+      end
+    end
+  end
+end
+```
 
 5. Run `pod update`.
 
@@ -362,17 +380,62 @@ The access token is valid for a certain amount of time, after that you will have
 
 ### Call the SDK
 
-When you in your app have the access token, you are ready to call the `startSDK()` function, supplying the access token as part of the device information required as a parameter. Besides the `device information` you also need to provide a callback function.
+When you in your app have acquired an access token, you are ready to call the `start(token: String, delegate: IdVerificationEventDelegate)`
+ function. This function requires you to provide the access token and your own implementation of the `IdVerificationEventDelegate` protocol.  
 
-### The Callback
 
-An example callback solution can be seen in the Sample App.  
+#### Using the EventDelegate
+
+The protocol `IdVerificationEventDelegate` should be implemented and then a delegate object should be provided with the `start()` function. This gives you detailed feedback on the id verification process and then also the final result of the transaction will only be provided by our backend system, making it safer.
+
+There is an example how the delegate can be implemented and used in the sample app.
+
+```swift
+import IdVerification365id
+
+/// Example implementation of the IdVerificationEventDelegate
+private class MyEventDelegate: IdVerificationEventDelegate {
+   
+   // simplified log function
+   private func log(_ msg: String) { Log.info("IdVerification Event: \(msg)") }
+
+   func onStarted() {
+      log("The SDK started successfully.")
+      showSDKView()
+   }
+
+   func onUserDismissed() {
+      log("The SDK view was dismissed by the user.")
+   }
+
+   func onClosed() {
+      log("The Id Verification SDK has now released all its releasable objects.")
+      // The SDK is now ready to be started again.
+   }
+
+   func onError(_ error: IdVerificationErrorBundle) {
+      log("An error has ocurred during the verification process.")
+      hideSDKView()
+   }
+
+   func onCompleted(_ result: IdVerificationResult) {
+      log("The id verification process has completed.")
+      hideSDKView()
+   }
+}
+```
+
+#### Using the Callback
+
+**:exclamation: NOTICE:** the callback is going to be deprecated and is replaced by the [EventDelegate](#using-the-eventdelegate)
+
 The callback function takes a `TransactionResult` object as its only parameter. The `TransactionResult`contains the transaction id and status of the id verification transaction.  
+The function that use the callback is `start(token: String, callBack: @escaping (TransactionResult) -> Void)`. We do however recommend that you use the function with the `IdVerificationEventDelegate` as that provides you with better control.
 
 A callback example taken from the example project for swift
 ```swift
 /**
-* Callback
+* Callback Example
 */
 let transactionId = result.transactionId
 let status = result.status
@@ -409,7 +472,7 @@ switch status {
 print("Result: \(result)")
 
 // Stops the SDK and de-allocates the resources
-stopSDK()
+IdVerification.stop()
 
 // Disables the SDK view in example app
 self.isShowingSdkView = false
@@ -420,33 +483,17 @@ DispatchQueue.main.async {
 }
 ```
 
-> **:exclamation: NOTICE:** It is important that you call the `stopSDK()` in the callback, to clear up allocated resources.
+> **:exclamation: NOTICE:** It is important that you call the `stop()` function in the callback, to clear up allocated resources.
 
-> **:exclamation: NOTICE:** In order to return to the host apps view, you will have to dismiss Sdk view.
+> **:exclamation: NOTICE:** In order to return to the host apps view, you will have to dismiss the Sdk view.
 
 <br/>
 
 ### Launch the SDK View
 
-After starting the SDK by making a call to `startSDK()` and supplying `deviceInfo` which is a string to string dictionary and the callback function. You should switch to the `sdkMainVIew()`.
+After starting the SDK by making a call to `IdVerification.start()` and gotten a `true` response. You should switch to the `sdkMainView()`.
 
-```swift
-// The following entry is required to exist in the dictionary in order to start the SDK
-var deviceInfo = [
-   // Required. Is received by authenticating with the client_secret and client_id.
-   "Token": "<token>"
-]
-
-if startSDK(deviceInfo: self.deviceInfo, callback: { result in
-   // Handle the result from the transaction
-   stopSDK() // The stop function must be called, otherwise resources are not released.
-   // The callback is a good place to trigger a dismissal of the SdkMainView() as this is not done by the SDK itself.
-}) {
-   // Call the SDK main view
-   SdkMainView()
-}         
-```
-An example of how the `SdkMainView()` can be used can be seen in the [SampleApp](/SampleApp/SampleApp/ContentView.swift).
+An example of how the `SdkMainView()` can be used can be seen in the [SampleApp](/SampleApp/SampleApp-Swift/ContentView.swift).
 
 <br/>
 
