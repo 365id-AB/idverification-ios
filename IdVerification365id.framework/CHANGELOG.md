@@ -4,12 +4,143 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [1.10.0] - 2023-05-23
+
+### Changed
+
+- Enabled the use of material design 3 naming conventions in the theming
+
+## [1.9.1] - 2023-05-16
+
+### Added
+
+- Stop sending an apdu nfc command to the nfc tag if SW is mismatched.
+
+## [1.9.0] - 2023-05-12
+
+### Added
+
+- Added support with White labeling to select powered by logo
+
+## [1.8.0] - 2023-05-10
+
+### Added
+
+- Enabled the SDK theme to have an effect on the iProov theme.
+
+## [1.7.2] - 2023-05-05
+
+### Changed
+
+- If the user leaves or returns to the SDK during an active session, we validate the remaining time of the token.
+
+## [1.7.1] - 2023-05-04
+
+### Fixed
+
+- Prevent multiple IProov enrol request being triggered.
+
+## [1.7.0] - 2023-04-25
+
+### Changed
+
+- Allow user to take the picture as soon as possible.
+
+## [1.6.3] - 2023-04-26
+
+### Added
+
+- Implemented a way to set the backend URI to the SDK.
+
+## [1.6.2] - 2023-04-25
+
+### Fixed
+
+- Podspecfile dependency
+
+## [1.6.1] - 2023-04-25
+
+### Updated
+
+- Updated iProov to version 10.3.0
+
+## [1.6.0-rc2] - 2023-04-25
+
+### Fixed
+
+- Updated the objective-c interface
+
+## [1.6.0-rc1] - 2023-04-21
+
+### Updated
+
+- Updated the IdVerificationEventDelegate
+
+## [1.5.27] - 2023-04-14
+
+### Updated
+
+- Updates to IdVerificationEventDelegate:
+- Changed onExit() to onUserDismissed().
+- Added onClosed() when the SDK is cleared.
+
+## [1.5.26] - 2023-04-12
+
+### Updated
+
+- Updated iProov to version 10.1.3.
+- Changed gitlab CLI to run tests via fastlane.
+- Changed gitlab CLI to always clean the project before builds.
+
+## [1.5.25] - 2023-04-05
+
+### Fixed
+
+- Hides spinning circle completely of NFC Lottie Animation when it finish.
+
+## [1.5.24] - 2023-03-30
+
+### Fixed
+
+- Makes sure no callbacks to TransactionModel does not add more tasks when SDK has been cleared.
+- Fixed that the IdVerificationEventDelegate´s exit methods returns the whole TransactionResult.
+- Bugfixes in nfc manager that its session runs as aspected.
+
+## [1.5.23] - 2023-03-28
+
+### Added
+
+- Added Transition SDK result to a listener interface
+
+## [1.5.22] - 2023-03-27
+
+### Fixed
+
+- Stops cameramanager when permission is not authorized.
+
+## [1.5.21] - 2023-03-16
+
+### Changed
+
+- Updated the iOS CV detection to version 1.1.17.
+
+### Added
+
+- Shows a alert message if the user denies access to the camera.
+
+## [1.5.20] - 2023-03-09
+
+### Added
+
+- Implemented support for the new wait tasks.
+- Added updated animations with dates, so we know when these were added.
+- Deliver the device information when requesting the session token.
 
 ## [1.5.19] - 2023-03-08
 
 ### Changed
 
-- Updated the viewfinder reticule to better guide the user
+- Updated the viewfinder reticle to better guide the user
 - Updated the iOS CV detection to version 1.1.16.
 
 ## [1.5.17] - 2023-02-16
