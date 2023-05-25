@@ -50,27 +50,36 @@ class SampleAppEventDelegate: IdVerificationEventDelegate, ObservableObject {
 
 struct ContentView: View {
 
-    @State var shouldShowSDKView: Bool = false
     @StateObject var eventDelegate: SampleAppEventDelegate = SampleAppEventDelegate()
 
     var body: some View {
-        NavigationView {
             VStack {
                 Text("Sample Application\n\n365id Id Verification SDK")
                     .multilineTextAlignment(.center)
 
                 Spacer()
-                NavigationLink(destination: SdkMainView(showAppBar: false), isActive: $eventDelegate.showSDKView) {
-                    Button("Enter 365id SDK") {
-                        getTokenAndStartSDK()
+                NavigationLink(destination: IdVerificationContainerView(), isActive: $eventDelegate.showSDKView) {
+
+                    VStack {
+
+                        Button("Set Custom Theme") {
+                           setCustomTheme()
+                        }
+
+                        Spacer()
+                            .frame(width: 50, height: 50)
+
+                        Button("Enter 365id SDK") {
+                            getTokenAndStartSDK()
+                        }
                     }
                 }
                 Spacer()
                 Text("Event Log:\n\(eventDelegate.information)")
                 Spacer()
             }
-        }
-        .preferredColorScheme(nil)
+            .navigationBarHidden(true)
+            .preferredColorScheme(nil)
     }
 
     /// Used to kickstart the SDK and register a callback that interacts with the user interface
@@ -80,6 +89,24 @@ struct ContentView: View {
                 print("Unable to start the SDK, was the token provided properly?")
             }
         }
+    }
+
+    private func setCustomTheme() {
+
+        IdVerification.setCustomTheme(
+            IdVerificationTheme(
+                surface: .white,
+                onSurface: .purple,
+                background: .white,
+                primary: .purple,
+                onPrimary: .white,
+                secondary: .white,
+                secondaryContainer: .lightGray,
+                onSecondary: .purple,
+                onSecondaryContainer: .darkGray,
+                appBarLogo: nil,
+                poweredByLogo: .STANDARD,
+                showAppBar: true))
     }
 }
 

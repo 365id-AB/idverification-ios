@@ -15,6 +15,7 @@
 		A1B3022D28ACDB4C008863E9 /* Credentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B3022C28ACDB4C008863E9 /* Credentials.swift */; };
 		A1B3023B28AD03E8008863E9 /* DeviceInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B3023A28AD03E8008863E9 /* DeviceInformation.swift */; };
 		A2AF86221EF732B74397F528 /* Pods_SampleApp_objc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB9C4727543823EA21C00E4B /* Pods_SampleApp_objc.framework */; };
+		B7FFB1372A1E5FD7003033C2 /* IdVerificationContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FFB1362A1E5FD7003033C2 /* IdVerificationContainerView.swift */; };
 		FB23963A2937912000118820 /* TokenHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2396392937912000118820 /* TokenHandler.swift */; };
 		FBEE0EDD2947C5A900A91F6E /* Credentials.m in Sources */ = {isa = PBXBuildFile; fileRef = FBEE0EDC2947C5A900A91F6E /* Credentials.m */; };
 		FBEE0EE02947C5BD00A91F6E /* DeviceInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = FBEE0EDF2947C5BD00A91F6E /* DeviceInformation.m */; };
@@ -55,6 +56,7 @@
 		A1B3022428ABD35F008863E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		A1B3022C28ACDB4C008863E9 /* Credentials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Credentials.swift; sourceTree = "<group>"; };
 		A1B3023A28AD03E8008863E9 /* DeviceInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceInformation.swift; sourceTree = "<group>"; };
+		B7FFB1362A1E5FD7003033C2 /* IdVerificationContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdVerificationContainerView.swift; sourceTree = "<group>"; };
 		B98AFA183DA2A96F92CAD792 /* Pods-SampleApp-swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleApp-swift.release.xcconfig"; path = "Target Support Files/Pods-SampleApp-swift/Pods-SampleApp-swift.release.xcconfig"; sourceTree = "<group>"; };
 		BC7C8D437D4CF0B369122683 /* Pods_SampleApp_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SampleApp_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2776330147286ED7A93C3C4 /* Pods-SampleApp-objc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleApp-objc.debug.xcconfig"; path = "Target Support Files/Pods-SampleApp-objc/Pods-SampleApp-objc.debug.xcconfig"; sourceTree = "<group>"; };
@@ -148,6 +150,7 @@
 				A1B3022328ABCFB9008863E9 /* SampleApp.entitlements */,
 				A1B301F728ABCD3C008863E9 /* SampleApp.swift */,
 				A1B301F928ABCD3C008863E9 /* ContentView.swift */,
+				B7FFB1362A1E5FD7003033C2 /* IdVerificationContainerView.swift */,
 				A1B301FB28ABCD3D008863E9 /* Assets.xcassets */,
 				A1B301FD28ABCD3D008863E9 /* Preview Content */,
 			);
@@ -407,6 +410,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB23963A2937912000118820 /* TokenHandler.swift in Sources */,
+				B7FFB1372A1E5FD7003033C2 /* IdVerificationContainerView.swift in Sources */,
 				A1B301FA28ABCD3C008863E9 /* ContentView.swift in Sources */,
 				A1B3023B28AD03E8008863E9 /* DeviceInformation.swift in Sources */,
 				A1B301F828ABCD3C008863E9 /* SampleApp.swift in Sources */,
@@ -644,7 +648,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -675,7 +679,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

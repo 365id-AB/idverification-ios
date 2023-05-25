@@ -4,7 +4,10 @@ import SwiftUI
 struct SampleApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView {
+                ContentView()
+            }
+            .navigationViewStyle(.stack)
         }
     }
 }

@@ -52,20 +52,37 @@
     startSdkButton.translatesAutoresizingMaskIntoConstraints = false;
     [startSdkButton addTarget:self action:@selector(clickStartSdkButton:) forControlEvents:UIControlEventTouchUpInside];
 
+    // Set Custom theme button
+    UIButton *setCustomThemeButton = [[UIButton alloc] initWithFrame:CGRectZero];
+    setCustomThemeButton.backgroundColor = UIColor.blueColor;
+    [setCustomThemeButton setTitleColor:UIColor.whiteColor forState:UIControlStateNormal];
+    setCustomThemeButton.layer.cornerRadius = 10;
+    [setCustomThemeButton setTitle:@"Set Custom Theme" forState:UIControlStateNormal];
+    [safeAreaView addSubview:setCustomThemeButton];
+    setCustomThemeButton.translatesAutoresizingMaskIntoConstraints = false;
+    [setCustomThemeButton addTarget:self action:@selector(clickSetCustomThemeButton:) forControlEvents:UIControlEventTouchUpInside];
+
     // Set views in safe area
-    NSDictionary *viewsDictionary = @{@"infoLabel":infoLabel, @"startSdkButton":startSdkButton};
+    NSDictionary *viewsDictionary = @{@"infoLabel":infoLabel,
+                                      @"startSdkButton":startSdkButton,
+                                      @"setCustomThemeButton":setCustomThemeButton};
+
     [safeAreaView addConstraints: [NSLayoutConstraint constraintsWithVisualFormat:@"H:|-20-[infoLabel]-20-|" options:0 metrics:nil views:viewsDictionary]];
     [safeAreaView addConstraints: [NSLayoutConstraint constraintsWithVisualFormat:@"H:|-20-[startSdkButton]-20-|" options:0 metrics:nil views:viewsDictionary]];
-    [safeAreaView addConstraints: [NSLayoutConstraint constraintsWithVisualFormat:@"V:|-20-[infoLabel]-40-[startSdkButton(40)]->=0-|" options:0 metrics:nil views:viewsDictionary]];
+    [safeAreaView addConstraints: [NSLayoutConstraint constraintsWithVisualFormat:@"H:|-20-[setCustomThemeButton]-20-|" options:0 metrics:nil views:viewsDictionary]];
+    [safeAreaView addConstraints: [NSLayoutConstraint constraintsWithVisualFormat:@"V:|-20-[infoLabel]-40-[setCustomThemeButton(40)]-20-[startSdkButton(40)]->=0-|" options:0 metrics:nil views:viewsDictionary]];
 }
 
 -(void)showSdkView:(BOOL)value {
-    [AppNavigation popView];
+
     if (value) {
-        UIViewController *sdkViewController = [IdVerification createMainViewWithShowAppBar:true];
-        [AppNavigation pushView:sdkViewController];
+        UIViewController *vc = [IdVerification createMainView];
+        vc.navigationController.navigationBarHidden = true;
+        vc.modalPresentationStyle = UIModalPresentationFullScreen;
+        [self presentViewController:vc animated:YES completion:nil];
     }
     else {
+        [self dismissViewControllerAnimated:true completion:nil];
         // This call to stopSDK is made when the user press the back button in the
         // Navigation view. This could leed to multiple calls to stopSDK, which is safe to do.
         [IdVerification stop];
@@ -81,6 +98,25 @@
             // Unable to start the SDK. Most likely something was wrong with the token.
         }
     }];
+}
+
+-(void)clickSetCustomThemeButton:(id)sender
+{
+    IdVerificationTheme *theme = [[IdVerificationTheme alloc]
+        initWithSurface:(UIColor.whiteColor)
+        onSurface:(UIColor.purpleColor)
+        background:(UIColor.whiteColor)
+        primary:(UIColor.purpleColor)
+        onPrimary:(UIColor.whiteColor)
+        secondary:(UIColor.whiteColor)
+        secondaryContainer:(UIColor.lightGrayColor)
+        onSecondary:(UIColor.purpleColor)
+        onSecondaryContainer:(UIColor.darkGrayColor)
+        appBarLogo:(nil)
+        poweredByLogo:(PoweredByLogoSTANDARD)
+        showAppBar:(YES)];
+
+     [IdVerification setCustomTheme:theme];
 }
 
 - (void)onClosed {
