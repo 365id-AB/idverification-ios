@@ -510,22 +510,24 @@ Documentation for that integration is not covered in this README, it is only del
 <br/>
 <br/>
 
-### White Labeling
+### Custom Theme
 
-Before calling `startSDK()` you can customize the SDK´s design with your own colors and logo with `addCustomTheme()`. All parameters of this function are optional, so you can use only those that suits you. Below you see an example of how you can use this function:
+Before calling `Idverification.start()` you can customize the SDK colors and logo by using the function `IdVerification.setCustomTheme()`. Most of the parameters of this function are optional (except `poweredByLogo` and `showAppBar`), so you can use only those that suits you. Below you see an example of how you can use this function:
 ```swift
-IdVerification.addCustomTheme(WhiteLabeling(
-   headerColor: Color.white,
-   backgroundColor: Color.gray,
-   iconColor: Color.blue,
-   appBarLogo: Image("myCustomLogo"),
-   scanButtonColor: Color.blue,
-   scanButtonTextColor: Color.white,
-   containerBoxOuterColor: Color.gray,
-   containerBoxInnerColor: Color.white,
-   containerBoxTextColor: Color.black,
-   containerBoxSubTextColor: Color.black
-))
+IdVerification.setCustomTheme(
+   IdVerificationTheme(
+         surface: UIColor.white,
+         onSurface: UIColor.purple,
+         background: UIColor.white,
+         primary: UIColor.purple,
+         onPrimary: UIColor.white,
+         secondary: UIColor.white,
+         secondaryContainer: UIColor.lightGray,
+         onSecondary: UIColor.purple,
+         onSecondaryContainer: UIColor.darkGray,
+         appBarLogo: Image("myCustomLogo"),
+         poweredByLogo: .STANDARD,
+         showAppBar: true))
 ```
 <br/>
 <br/>
