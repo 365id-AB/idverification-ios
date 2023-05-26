@@ -303,7 +303,7 @@ SWIFT_CLASS("_TtC19IdVerification365id14IdVerification")
 /// Returns true if the token is proper and the sdk received the session token from the cloud
 + (BOOL)startWithToken:(NSString * _Nonnull)token callBack:(void (^ _Nonnull)(TransactionResult * _Nonnull))callBack SWIFT_WARN_UNUSED_RESULT SWIFT_DEPRECATED_MSG("Use IdVerification.start(token:locationId:delegate:) instead");
 /// Set custom theme to the SDK
-/// \param whiteLabeling Custom IdVerificationTheme of the SDK
+/// \param idVerificationTheme Custom IdVerificationTheme of the SDK
 ///
 + (void)setCustomTheme:(IdVerificationTheme * _Nonnull)idVerificationTheme;
 /// This is the SDK main entry point
