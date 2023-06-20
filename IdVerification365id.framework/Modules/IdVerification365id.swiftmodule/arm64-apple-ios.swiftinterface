@@ -72,6 +72,7 @@ extension IdVerification365id.AssessmentType {
 public struct SdkMainView : SwiftUI.View {
   @available(*, deprecated, message: "Use SdkMainView() instead")
   public init(showAppBar: Swift.Bool = false)
+  public init()
   @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
     get
   }

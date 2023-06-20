@@ -2375,6 +2375,27 @@
             "init_kind": "Designated"
           },
           {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SdkMainView",
+                "printedName": "IdVerification365id.SdkMainView",
+                "usr": "s:19IdVerification365id11SdkMainViewV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:19IdVerification365id11SdkMainViewVACycfc",
+            "mangledName": "$s19IdVerification365id11SdkMainViewVACycfc",
+            "moduleName": "IdVerification365id",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
             "kind": "Var",
             "name": "body",
             "printedName": "body",
