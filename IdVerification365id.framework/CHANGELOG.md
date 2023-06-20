@@ -4,6 +4,43 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
+
+## [1.12.1] - 2023-06-19
+
+### Fixed
+
+- All of the task view's are aligned correctly.
+
+## [1.12.0] - 2023-06-14
+
+### Added
+
+- Replaced Lottie with a custom animation in order to be able to set the color
+
+## [1.11.2] - 2023-06-05
+
+### Fixed
+
+- Prevent calling .onError() when the back button of iProov SDK is pressed.
+
+## [1.11.1] - 2023-06-02
+
+### Changed
+
+- Updated the errorPublisher in TransactionModel with more detailed error messages.
+
+## [1.11.0] - 2023-05-31
+
+### Added
+
+- Send the status of nfc support on the device to 365id backend when starting the SDK.
+
+## [1.10.2] - 2023-05-29
+
+### Fixed
+
+- Added an alert message for nfc tag timeout.
+
 ## [1.10.1] - 2023-05-26
 
 ### Changed

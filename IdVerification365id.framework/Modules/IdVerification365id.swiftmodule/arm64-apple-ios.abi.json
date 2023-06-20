@@ -20,6 +20,350 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IdVerification365id"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AssessmentType",
+        "printedName": "AssessmentType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "Inconclusive",
+            "printedName": "Inconclusive",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IdVerification365id.AssessmentType.Type) -> IdVerification365id.AssessmentType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AssessmentType",
+                    "printedName": "IdVerification365id.AssessmentType",
+                    "usr": "c:@M@IdVerification365id@E@AssessmentType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IdVerification365id.AssessmentType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AssessmentType",
+                        "printedName": "IdVerification365id.AssessmentType",
+                        "usr": "c:@M@IdVerification365id@E@AssessmentType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@IdVerification365id@E@AssessmentType@AssessmentTypeInconclusive",
+            "mangledName": "$s19IdVerification365id14AssessmentTypeO12InconclusiveyA2CmF",
+            "moduleName": "IdVerification365id",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "Valid",
+            "printedName": "Valid",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IdVerification365id.AssessmentType.Type) -> IdVerification365id.AssessmentType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AssessmentType",
+                    "printedName": "IdVerification365id.AssessmentType",
+                    "usr": "c:@M@IdVerification365id@E@AssessmentType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IdVerification365id.AssessmentType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AssessmentType",
+                        "printedName": "IdVerification365id.AssessmentType",
+                        "usr": "c:@M@IdVerification365id@E@AssessmentType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@IdVerification365id@E@AssessmentType@AssessmentTypeValid",
+            "mangledName": "$s19IdVerification365id14AssessmentTypeO5ValidyA2CmF",
+            "moduleName": "IdVerification365id",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Var",
+            "name": "Unidentified",
+            "printedName": "Unidentified",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IdVerification365id.AssessmentType.Type) -> IdVerification365id.AssessmentType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AssessmentType",
+                    "printedName": "IdVerification365id.AssessmentType",
+                    "usr": "c:@M@IdVerification365id@E@AssessmentType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IdVerification365id.AssessmentType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AssessmentType",
+                        "printedName": "IdVerification365id.AssessmentType",
+                        "usr": "c:@M@IdVerification365id@E@AssessmentType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@IdVerification365id@E@AssessmentType@AssessmentTypeUnidentified",
+            "mangledName": "$s19IdVerification365id14AssessmentTypeO12UnidentifiedyA2CmF",
+            "moduleName": "IdVerification365id",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 2
+          },
+          {
+            "kind": "Var",
+            "name": "Rejected",
+            "printedName": "Rejected",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IdVerification365id.AssessmentType.Type) -> IdVerification365id.AssessmentType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AssessmentType",
+                    "printedName": "IdVerification365id.AssessmentType",
+                    "usr": "c:@M@IdVerification365id@E@AssessmentType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IdVerification365id.AssessmentType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AssessmentType",
+                        "printedName": "IdVerification365id.AssessmentType",
+                        "usr": "c:@M@IdVerification365id@E@AssessmentType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@IdVerification365id@E@AssessmentType@AssessmentTypeRejected",
+            "mangledName": "$s19IdVerification365id14AssessmentTypeO8RejectedyA2CmF",
+            "moduleName": "IdVerification365id",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 3
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "IdVerification365id.AssessmentType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AssessmentType",
+                    "printedName": "IdVerification365id.AssessmentType",
+                    "usr": "c:@M@IdVerification365id@E@AssessmentType"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:19IdVerification365id14AssessmentTypeO8rawValueACSgSi_tcfc",
+            "mangledName": "$s19IdVerification365id14AssessmentTypeO8rawValueACSgSi_tcfc",
+            "moduleName": "IdVerification365id",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19IdVerification365id14AssessmentTypeO8rawValueSivp",
+            "mangledName": "$s19IdVerification365id14AssessmentTypeO8rawValueSivp",
+            "moduleName": "IdVerification365id",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IdVerification365id14AssessmentTypeO8rawValueSivg",
+                "mangledName": "$s19IdVerification365id14AssessmentTypeO8rawValueSivg",
+                "moduleName": "IdVerification365id",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19IdVerification365id14AssessmentTypeO6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s19IdVerification365id14AssessmentTypeO6encode2toys7Encoder_p_tKF",
+            "moduleName": "IdVerification365id",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@M@IdVerification365id@E@AssessmentType",
+        "mangledName": "$s19IdVerification365id14AssessmentTypeO",
+        "moduleName": "IdVerification365id",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
         "declKind": "Import",
@@ -29,6 +373,13 @@
         "kind": "Import",
         "name": "Combine",
         "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "IdVerification365id"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
         "declKind": "Import",
         "moduleName": "IdVerification365id"
       },
@@ -940,128 +1291,6 @@
         "moduleName": "IdVerification365id"
       },
       {
-        "kind": "Function",
-        "name": "addTheme",
-        "printedName": "addTheme(_:)",
-        "children": [
-          {
-            "kind": "TypeNominal",
-            "name": "Void",
-            "printedName": "()"
-          },
-          {
-            "kind": "TypeNominal",
-            "name": "WhiteLabeling",
-            "printedName": "IdVerification365id.WhiteLabeling",
-            "usr": "c:@M@IdVerification365id@objc(cs)WhiteLabeling"
-          }
-        ],
-        "declKind": "Func",
-        "usr": "s:19IdVerification365id8addThemeyyAA13WhiteLabelingCF",
-        "mangledName": "$s19IdVerification365id8addThemeyyAA13WhiteLabelingCF",
-        "moduleName": "IdVerification365id",
-        "deprecated": true,
-        "declAttributes": [
-          "AccessControl",
-          "Available",
-          "RawDocComment"
-        ],
-        "funcSelfKind": "NonMutating"
-      },
-      {
-        "kind": "Function",
-        "name": "startSDK",
-        "printedName": "startSDK(deviceInfo:callBack:)",
-        "children": [
-          {
-            "kind": "TypeNominal",
-            "name": "Bool",
-            "printedName": "Swift.Bool",
-            "usr": "s:Sb"
-          },
-          {
-            "kind": "TypeNominal",
-            "name": "Dictionary",
-            "printedName": "[Swift.String : Swift.String]",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "usr": "s:SD"
-          },
-          {
-            "kind": "TypeNominal",
-            "name": "Optional",
-            "printedName": "((IdVerification365id.TransactionResult) -> ())?",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(IdVerification365id.TransactionResult) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "TransactionResult",
-                    "printedName": "IdVerification365id.TransactionResult",
-                    "usr": "c:@M@IdVerification365id@objc(cs)TransactionResult"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:Sq"
-          }
-        ],
-        "declKind": "Func",
-        "usr": "s:19IdVerification365id8startSDK10deviceInfo8callBackSbSDyS2SG_yAA17TransactionResultCcSgtF",
-        "mangledName": "$s19IdVerification365id8startSDK10deviceInfo8callBackSbSDyS2SG_yAA17TransactionResultCcSgtF",
-        "moduleName": "IdVerification365id",
-        "deprecated": true,
-        "declAttributes": [
-          "AccessControl",
-          "Available",
-          "RawDocComment"
-        ],
-        "funcSelfKind": "NonMutating"
-      },
-      {
-        "kind": "Function",
-        "name": "stopSDK",
-        "printedName": "stopSDK()",
-        "children": [
-          {
-            "kind": "TypeNominal",
-            "name": "Void",
-            "printedName": "()"
-          }
-        ],
-        "declKind": "Func",
-        "usr": "s:19IdVerification365id7stopSDKyyF",
-        "mangledName": "$s19IdVerification365id7stopSDKyyF",
-        "moduleName": "IdVerification365id",
-        "deprecated": true,
-        "declAttributes": [
-          "AccessControl",
-          "Available",
-          "RawDocComment"
-        ],
-        "funcSelfKind": "NonMutating"
-      },
-      {
         "kind": "TypeDecl",
         "name": "IdVerification",
         "printedName": "IdVerification",
@@ -1483,23 +1712,6 @@
       },
       {
         "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "IdVerification365id"
-      },
-      {
-        "kind": "Import",
-        "name": "Lottie",
-        "printedName": "Lottie",
-        "declKind": "Import",
-        "moduleName": "IdVerification365id",
-        "declAttributes": [
-          "ImplementationOnly"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -1690,16 +1902,6 @@
       },
       {
         "kind": "Import",
-        "name": "Awesome",
-        "printedName": "Awesome",
-        "declKind": "Import",
-        "moduleName": "IdVerification365id",
-        "declAttributes": [
-          "ImplementationOnly"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
         "declKind": "Import",
@@ -1732,721 +1934,6 @@
         "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "IdVerification365id"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "AssessmentType",
-        "printedName": "AssessmentType",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "Inconclusive",
-            "printedName": "Inconclusive",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(IdVerification365id.AssessmentType.Type) -> IdVerification365id.AssessmentType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "AssessmentType",
-                    "printedName": "IdVerification365id.AssessmentType",
-                    "usr": "c:@M@IdVerification365id@E@AssessmentType"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "IdVerification365id.AssessmentType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "AssessmentType",
-                        "printedName": "IdVerification365id.AssessmentType",
-                        "usr": "c:@M@IdVerification365id@E@AssessmentType"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "c:@M@IdVerification365id@E@AssessmentType@AssessmentTypeInconclusive",
-            "mangledName": "$s19IdVerification365id14AssessmentTypeO12InconclusiveyA2CmF",
-            "moduleName": "IdVerification365id",
-            "declAttributes": [
-              "RawDocComment",
-              "ObjC"
-            ],
-            "fixedbinaryorder": 0
-          },
-          {
-            "kind": "Var",
-            "name": "Valid",
-            "printedName": "Valid",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(IdVerification365id.AssessmentType.Type) -> IdVerification365id.AssessmentType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "AssessmentType",
-                    "printedName": "IdVerification365id.AssessmentType",
-                    "usr": "c:@M@IdVerification365id@E@AssessmentType"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "IdVerification365id.AssessmentType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "AssessmentType",
-                        "printedName": "IdVerification365id.AssessmentType",
-                        "usr": "c:@M@IdVerification365id@E@AssessmentType"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "c:@M@IdVerification365id@E@AssessmentType@AssessmentTypeValid",
-            "mangledName": "$s19IdVerification365id14AssessmentTypeO5ValidyA2CmF",
-            "moduleName": "IdVerification365id",
-            "declAttributes": [
-              "RawDocComment",
-              "ObjC"
-            ],
-            "fixedbinaryorder": 1
-          },
-          {
-            "kind": "Var",
-            "name": "Unidentified",
-            "printedName": "Unidentified",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(IdVerification365id.AssessmentType.Type) -> IdVerification365id.AssessmentType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "AssessmentType",
-                    "printedName": "IdVerification365id.AssessmentType",
-                    "usr": "c:@M@IdVerification365id@E@AssessmentType"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "IdVerification365id.AssessmentType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "AssessmentType",
-                        "printedName": "IdVerification365id.AssessmentType",
-                        "usr": "c:@M@IdVerification365id@E@AssessmentType"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "c:@M@IdVerification365id@E@AssessmentType@AssessmentTypeUnidentified",
-            "mangledName": "$s19IdVerification365id14AssessmentTypeO12UnidentifiedyA2CmF",
-            "moduleName": "IdVerification365id",
-            "declAttributes": [
-              "RawDocComment",
-              "ObjC"
-            ],
-            "fixedbinaryorder": 2
-          },
-          {
-            "kind": "Var",
-            "name": "Rejected",
-            "printedName": "Rejected",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(IdVerification365id.AssessmentType.Type) -> IdVerification365id.AssessmentType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "AssessmentType",
-                    "printedName": "IdVerification365id.AssessmentType",
-                    "usr": "c:@M@IdVerification365id@E@AssessmentType"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "IdVerification365id.AssessmentType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "AssessmentType",
-                        "printedName": "IdVerification365id.AssessmentType",
-                        "usr": "c:@M@IdVerification365id@E@AssessmentType"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "c:@M@IdVerification365id@E@AssessmentType@AssessmentTypeRejected",
-            "mangledName": "$s19IdVerification365id14AssessmentTypeO8RejectedyA2CmF",
-            "moduleName": "IdVerification365id",
-            "declAttributes": [
-              "RawDocComment",
-              "ObjC"
-            ],
-            "fixedbinaryorder": 3
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(rawValue:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "IdVerification365id.AssessmentType?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "AssessmentType",
-                    "printedName": "IdVerification365id.AssessmentType",
-                    "usr": "c:@M@IdVerification365id@E@AssessmentType"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:19IdVerification365id14AssessmentTypeO8rawValueACSgSi_tcfc",
-            "mangledName": "$s19IdVerification365id14AssessmentTypeO8rawValueACSgSi_tcfc",
-            "moduleName": "IdVerification365id",
-            "implicit": true,
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Var",
-            "name": "rawValue",
-            "printedName": "rawValue",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:19IdVerification365id14AssessmentTypeO8rawValueSivp",
-            "mangledName": "$s19IdVerification365id14AssessmentTypeO8rawValueSivp",
-            "moduleName": "IdVerification365id",
-            "implicit": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:19IdVerification365id14AssessmentTypeO8rawValueSivg",
-                "mangledName": "$s19IdVerification365id14AssessmentTypeO8rawValueSivg",
-                "moduleName": "IdVerification365id",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Function",
-            "name": "encode",
-            "printedName": "encode(to:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Encoder",
-                "printedName": "Swift.Encoder",
-                "usr": "s:s7EncoderP"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:19IdVerification365id14AssessmentTypeO6encode2toys7Encoder_p_tKF",
-            "mangledName": "$s19IdVerification365id14AssessmentTypeO6encode2toys7Encoder_p_tKF",
-            "moduleName": "IdVerification365id",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "throwing": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Enum",
-        "usr": "c:@M@IdVerification365id@E@AssessmentType",
-        "mangledName": "$s19IdVerification365id14AssessmentTypeO",
-        "moduleName": "IdVerification365id",
-        "declAttributes": [
-          "AccessControl",
-          "ObjC",
-          "RawDocComment"
-        ],
-        "enumRawTypeName": "Int",
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "RawRepresentable",
-            "printedName": "RawRepresentable",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "RawValue",
-                "printedName": "RawValue",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:SY",
-            "mangledName": "$sSY"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Encodable",
-            "printedName": "Encodable",
-            "usr": "s:SE",
-            "mangledName": "$sSE"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "StatusType",
-        "printedName": "StatusType",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "OK",
-            "printedName": "OK",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(IdVerification365id.StatusType.Type) -> IdVerification365id.StatusType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "StatusType",
-                    "printedName": "IdVerification365id.StatusType",
-                    "usr": "c:@M@IdVerification365id@E@StatusType"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "IdVerification365id.StatusType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "StatusType",
-                        "printedName": "IdVerification365id.StatusType",
-                        "usr": "c:@M@IdVerification365id@E@StatusType"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "c:@M@IdVerification365id@E@StatusType@StatusTypeOK",
-            "mangledName": "$s19IdVerification365id10StatusTypeO2OKyA2CmF",
-            "moduleName": "IdVerification365id",
-            "declAttributes": [
-              "RawDocComment",
-              "ObjC"
-            ],
-            "fixedbinaryorder": 0
-          },
-          {
-            "kind": "Var",
-            "name": "Dismissed",
-            "printedName": "Dismissed",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(IdVerification365id.StatusType.Type) -> IdVerification365id.StatusType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "StatusType",
-                    "printedName": "IdVerification365id.StatusType",
-                    "usr": "c:@M@IdVerification365id@E@StatusType"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "IdVerification365id.StatusType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "StatusType",
-                        "printedName": "IdVerification365id.StatusType",
-                        "usr": "c:@M@IdVerification365id@E@StatusType"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "c:@M@IdVerification365id@E@StatusType@StatusTypeDismissed",
-            "mangledName": "$s19IdVerification365id10StatusTypeO9DismissedyA2CmF",
-            "moduleName": "IdVerification365id",
-            "declAttributes": [
-              "RawDocComment",
-              "ObjC"
-            ],
-            "fixedbinaryorder": 1
-          },
-          {
-            "kind": "Var",
-            "name": "ClientException",
-            "printedName": "ClientException",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(IdVerification365id.StatusType.Type) -> IdVerification365id.StatusType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "StatusType",
-                    "printedName": "IdVerification365id.StatusType",
-                    "usr": "c:@M@IdVerification365id@E@StatusType"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "IdVerification365id.StatusType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "StatusType",
-                        "printedName": "IdVerification365id.StatusType",
-                        "usr": "c:@M@IdVerification365id@E@StatusType"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "c:@M@IdVerification365id@E@StatusType@StatusTypeClientException",
-            "mangledName": "$s19IdVerification365id10StatusTypeO15ClientExceptionyA2CmF",
-            "moduleName": "IdVerification365id",
-            "declAttributes": [
-              "RawDocComment",
-              "ObjC"
-            ],
-            "fixedbinaryorder": 2
-          },
-          {
-            "kind": "Var",
-            "name": "ServerException",
-            "printedName": "ServerException",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(IdVerification365id.StatusType.Type) -> IdVerification365id.StatusType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "StatusType",
-                    "printedName": "IdVerification365id.StatusType",
-                    "usr": "c:@M@IdVerification365id@E@StatusType"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "IdVerification365id.StatusType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "StatusType",
-                        "printedName": "IdVerification365id.StatusType",
-                        "usr": "c:@M@IdVerification365id@E@StatusType"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "c:@M@IdVerification365id@E@StatusType@StatusTypeServerException",
-            "mangledName": "$s19IdVerification365id10StatusTypeO15ServerExceptionyA2CmF",
-            "moduleName": "IdVerification365id",
-            "declAttributes": [
-              "RawDocComment",
-              "ObjC"
-            ],
-            "fixedbinaryorder": 3
-          },
-          {
-            "kind": "Var",
-            "name": "SessionTimeout",
-            "printedName": "SessionTimeout",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(IdVerification365id.StatusType.Type) -> IdVerification365id.StatusType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "StatusType",
-                    "printedName": "IdVerification365id.StatusType",
-                    "usr": "c:@M@IdVerification365id@E@StatusType"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "IdVerification365id.StatusType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "StatusType",
-                        "printedName": "IdVerification365id.StatusType",
-                        "usr": "c:@M@IdVerification365id@E@StatusType"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "c:@M@IdVerification365id@E@StatusType@StatusTypeSessionTimeout",
-            "mangledName": "$s19IdVerification365id10StatusTypeO14SessionTimeoutyA2CmF",
-            "moduleName": "IdVerification365id",
-            "declAttributes": [
-              "RawDocComment",
-              "ObjC"
-            ],
-            "fixedbinaryorder": 4
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(rawValue:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "IdVerification365id.StatusType?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "StatusType",
-                    "printedName": "IdVerification365id.StatusType",
-                    "usr": "c:@M@IdVerification365id@E@StatusType"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:19IdVerification365id10StatusTypeO8rawValueACSgSi_tcfc",
-            "mangledName": "$s19IdVerification365id10StatusTypeO8rawValueACSgSi_tcfc",
-            "moduleName": "IdVerification365id",
-            "implicit": true,
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Var",
-            "name": "rawValue",
-            "printedName": "rawValue",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:19IdVerification365id10StatusTypeO8rawValueSivp",
-            "mangledName": "$s19IdVerification365id10StatusTypeO8rawValueSivp",
-            "moduleName": "IdVerification365id",
-            "implicit": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:19IdVerification365id10StatusTypeO8rawValueSivg",
-                "mangledName": "$s19IdVerification365id10StatusTypeO8rawValueSivg",
-                "moduleName": "IdVerification365id",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Function",
-            "name": "encode",
-            "printedName": "encode(to:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Encoder",
-                "printedName": "Swift.Encoder",
-                "usr": "s:s7EncoderP"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:19IdVerification365id10StatusTypeO6encode2toys7Encoder_p_tKF",
-            "mangledName": "$s19IdVerification365id10StatusTypeO6encode2toys7Encoder_p_tKF",
-            "moduleName": "IdVerification365id",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "throwing": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Enum",
-        "usr": "c:@M@IdVerification365id@E@StatusType",
-        "mangledName": "$s19IdVerification365id10StatusTypeO",
-        "moduleName": "IdVerification365id",
-        "declAttributes": [
-          "AccessControl",
-          "ObjC"
-        ],
-        "enumRawTypeName": "Int",
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "RawRepresentable",
-            "printedName": "RawRepresentable",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "RawValue",
-                "printedName": "RawValue",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:SY",
-            "mangledName": "$sSY"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Encodable",
-            "printedName": "Encodable",
-            "usr": "s:SE",
-            "mangledName": "$sSE"
-          }
-        ]
       },
       {
         "kind": "TypeDecl",
@@ -2853,16 +2340,6 @@
         "moduleName": "IdVerification365id"
       },
       {
-        "kind": "Import",
-        "name": "Awesome",
-        "printedName": "Awesome",
-        "declKind": "Import",
-        "moduleName": "IdVerification365id",
-        "declAttributes": [
-          "ImplementationOnly"
-        ]
-      },
-      {
         "kind": "TypeDecl",
         "name": "SdkMainView",
         "printedName": "SdkMainView",
@@ -2894,27 +2371,6 @@
             "declAttributes": [
               "AccessControl",
               "Available"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "SdkMainView",
-                "printedName": "IdVerification365id.SdkMainView",
-                "usr": "s:19IdVerification365id11SdkMainViewV"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:19IdVerification365id11SdkMainViewVACycfc",
-            "mangledName": "$s19IdVerification365id11SdkMainViewVACycfc",
-            "moduleName": "IdVerification365id",
-            "declAttributes": [
-              "AccessControl"
             ],
             "init_kind": "Designated"
           },
@@ -3016,6 +2472,349 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IdVerification365id"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "StatusType",
+        "printedName": "StatusType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "OK",
+            "printedName": "OK",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IdVerification365id.StatusType.Type) -> IdVerification365id.StatusType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StatusType",
+                    "printedName": "IdVerification365id.StatusType",
+                    "usr": "c:@M@IdVerification365id@E@StatusType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IdVerification365id.StatusType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StatusType",
+                        "printedName": "IdVerification365id.StatusType",
+                        "usr": "c:@M@IdVerification365id@E@StatusType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@IdVerification365id@E@StatusType@StatusTypeOK",
+            "mangledName": "$s19IdVerification365id10StatusTypeO2OKyA2CmF",
+            "moduleName": "IdVerification365id",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "Dismissed",
+            "printedName": "Dismissed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IdVerification365id.StatusType.Type) -> IdVerification365id.StatusType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StatusType",
+                    "printedName": "IdVerification365id.StatusType",
+                    "usr": "c:@M@IdVerification365id@E@StatusType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IdVerification365id.StatusType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StatusType",
+                        "printedName": "IdVerification365id.StatusType",
+                        "usr": "c:@M@IdVerification365id@E@StatusType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@IdVerification365id@E@StatusType@StatusTypeDismissed",
+            "mangledName": "$s19IdVerification365id10StatusTypeO9DismissedyA2CmF",
+            "moduleName": "IdVerification365id",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Var",
+            "name": "ClientException",
+            "printedName": "ClientException",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IdVerification365id.StatusType.Type) -> IdVerification365id.StatusType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StatusType",
+                    "printedName": "IdVerification365id.StatusType",
+                    "usr": "c:@M@IdVerification365id@E@StatusType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IdVerification365id.StatusType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StatusType",
+                        "printedName": "IdVerification365id.StatusType",
+                        "usr": "c:@M@IdVerification365id@E@StatusType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@IdVerification365id@E@StatusType@StatusTypeClientException",
+            "mangledName": "$s19IdVerification365id10StatusTypeO15ClientExceptionyA2CmF",
+            "moduleName": "IdVerification365id",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 2
+          },
+          {
+            "kind": "Var",
+            "name": "ServerException",
+            "printedName": "ServerException",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IdVerification365id.StatusType.Type) -> IdVerification365id.StatusType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StatusType",
+                    "printedName": "IdVerification365id.StatusType",
+                    "usr": "c:@M@IdVerification365id@E@StatusType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IdVerification365id.StatusType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StatusType",
+                        "printedName": "IdVerification365id.StatusType",
+                        "usr": "c:@M@IdVerification365id@E@StatusType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@IdVerification365id@E@StatusType@StatusTypeServerException",
+            "mangledName": "$s19IdVerification365id10StatusTypeO15ServerExceptionyA2CmF",
+            "moduleName": "IdVerification365id",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 3
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "IdVerification365id.StatusType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StatusType",
+                    "printedName": "IdVerification365id.StatusType",
+                    "usr": "c:@M@IdVerification365id@E@StatusType"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:19IdVerification365id10StatusTypeO8rawValueACSgSi_tcfc",
+            "mangledName": "$s19IdVerification365id10StatusTypeO8rawValueACSgSi_tcfc",
+            "moduleName": "IdVerification365id",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19IdVerification365id10StatusTypeO8rawValueSivp",
+            "mangledName": "$s19IdVerification365id10StatusTypeO8rawValueSivp",
+            "moduleName": "IdVerification365id",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IdVerification365id10StatusTypeO8rawValueSivg",
+                "mangledName": "$s19IdVerification365id10StatusTypeO8rawValueSivg",
+                "moduleName": "IdVerification365id",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19IdVerification365id10StatusTypeO6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s19IdVerification365id10StatusTypeO6encode2toys7Encoder_p_tKF",
+            "moduleName": "IdVerification365id",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@M@IdVerification365id@E@StatusType",
+        "mangledName": "$s19IdVerification365id10StatusTypeO",
+        "moduleName": "IdVerification365id",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
         "declKind": "Import",
@@ -3070,6 +2869,13 @@
         "kind": "Import",
         "name": "AVFoundation",
         "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "IdVerification365id"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "IdVerification365id"
       },
@@ -3141,6 +2947,13 @@
       },
       {
         "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "IdVerification365id"
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -3171,6 +2984,13 @@
         "kind": "Import",
         "name": "Combine",
         "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "IdVerification365id"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "IdVerification365id"
       },
@@ -3249,8 +3069,8 @@
       },
       {
         "kind": "Import",
-        "name": "AVFoundation",
-        "printedName": "AVFoundation",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
         "declKind": "Import",
         "moduleName": "IdVerification365id"
       },
@@ -3287,31 +3107,74 @@
       },
       {
         "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "IdVerification365id"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "IdVerification365id"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "IdVerification365id"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "IdVerification365id"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "IdVerification365id"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "IdVerification365id"
       },
       {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "IdVerification365id"
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "IdVerification365id"
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "IdVerification365id"
+        "kind": "Function",
+        "name": "addTheme",
+        "printedName": "addTheme(_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "WhiteLabeling",
+            "printedName": "IdVerification365id.WhiteLabeling",
+            "usr": "c:@M@IdVerification365id@objc(cs)WhiteLabeling"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:19IdVerification365id8addThemeyyAA13WhiteLabelingCF",
+        "mangledName": "$s19IdVerification365id8addThemeyyAA13WhiteLabelingCF",
+        "moduleName": "IdVerification365id",
+        "deprecated": true,
+        "declAttributes": [
+          "AccessControl",
+          "Available",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
       },
       {
         "kind": "Import",
@@ -3428,16 +3291,6 @@
         "printedName": "SwiftUI",
         "declKind": "Import",
         "moduleName": "IdVerification365id"
-      },
-      {
-        "kind": "Import",
-        "name": "Lottie",
-        "printedName": "Lottie",
-        "declKind": "Import",
-        "moduleName": "IdVerification365id",
-        "declAttributes": [
-          "ImplementationOnly"
-        ]
       },
       {
         "kind": "Import",
@@ -3854,206 +3707,6 @@
         ]
       },
       {
-        "kind": "TypeDecl",
-        "name": "IdVerificationErrorBundle",
-        "printedName": "IdVerificationErrorBundle",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "error",
-            "printedName": "error",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "IdVerificationError",
-                "printedName": "IdVerification365id.IdVerificationError",
-                "usr": "c:@M@IdVerification365id@E@IdVerificationError"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "c:@M@IdVerification365id@objc(cs)IdVerificationErrorBundle(py)error",
-            "mangledName": "$s19IdVerification365id0A23VerificationErrorBundleC5errorAA0acD0Ovp",
-            "moduleName": "IdVerification365id",
-            "declAttributes": [
-              "Final",
-              "HasStorage",
-              "AccessControl",
-              "ObjC",
-              "RawDocComment"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "IdVerificationError",
-                    "printedName": "IdVerification365id.IdVerificationError",
-                    "usr": "c:@M@IdVerification365id@E@IdVerificationError"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@IdVerification365id@objc(cs)IdVerificationErrorBundle(im)error",
-                "mangledName": "$s19IdVerification365id0A23VerificationErrorBundleC5errorAA0acD0Ovg",
-                "moduleName": "IdVerification365id",
-                "implicit": true,
-                "declAttributes": [
-                  "Final",
-                  "ObjC"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "message",
-            "printedName": "message",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "c:@M@IdVerification365id@objc(cs)IdVerificationErrorBundle(py)message",
-            "mangledName": "$s19IdVerification365id0A23VerificationErrorBundleC7messageSSvp",
-            "moduleName": "IdVerification365id",
-            "declAttributes": [
-              "Final",
-              "HasStorage",
-              "AccessControl",
-              "ObjC",
-              "RawDocComment"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@IdVerification365id@objc(cs)IdVerificationErrorBundle(im)message",
-                "mangledName": "$s19IdVerification365id0A23VerificationErrorBundleC7messageSSvg",
-                "moduleName": "IdVerification365id",
-                "implicit": true,
-                "declAttributes": [
-                  "Final",
-                  "ObjC"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "IdVerificationErrorBundle",
-                "printedName": "IdVerification365id.IdVerificationErrorBundle",
-                "usr": "c:@M@IdVerification365id@objc(cs)IdVerificationErrorBundle"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@M@IdVerification365id@objc(cs)IdVerificationErrorBundle(im)init",
-            "mangledName": "$s19IdVerification365id0A23VerificationErrorBundleCACycfc",
-            "moduleName": "IdVerification365id",
-            "overriding": true,
-            "implicit": true,
-            "objc_name": "init",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Override"
-            ],
-            "init_kind": "Designated"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "c:@M@IdVerification365id@objc(cs)IdVerificationErrorBundle",
-        "mangledName": "$s19IdVerification365id0A23VerificationErrorBundleC",
-        "moduleName": "IdVerification365id",
-        "declAttributes": [
-          "AccessControl",
-          "ObjC",
-          "RawDocComment"
-        ],
-        "superclassUsr": "c:objc(cs)NSObject",
-        "hasMissingDesignatedInitializers": true,
-        "superclassNames": [
-          "ObjectiveC.NSObject"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          }
-        ]
-      },
-      {
         "kind": "Import",
         "name": "AVFoundation",
         "printedName": "AVFoundation",
@@ -4280,11 +3933,248 @@
         "moduleName": "IdVerification365id"
       },
       {
+        "kind": "Function",
+        "name": "stopSDK",
+        "printedName": "stopSDK()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:19IdVerification365id7stopSDKyyF",
+        "mangledName": "$s19IdVerification365id7stopSDKyyF",
+        "moduleName": "IdVerification365id",
+        "deprecated": true,
+        "declAttributes": [
+          "AccessControl",
+          "Available",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IdVerification365id"
+      },
+      {
         "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
         "declKind": "Import",
         "moduleName": "IdVerification365id"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IdVerification365id"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "IdVerificationErrorBundle",
+        "printedName": "IdVerificationErrorBundle",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "error",
+            "printedName": "error",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "IdVerificationError",
+                "printedName": "IdVerification365id.IdVerificationError",
+                "usr": "c:@M@IdVerification365id@E@IdVerificationError"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@IdVerification365id@objc(cs)IdVerificationErrorBundle(py)error",
+            "mangledName": "$s19IdVerification365id0A23VerificationErrorBundleC5errorAA0acD0Ovp",
+            "moduleName": "IdVerification365id",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IdVerificationError",
+                    "printedName": "IdVerification365id.IdVerificationError",
+                    "usr": "c:@M@IdVerification365id@E@IdVerificationError"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IdVerification365id@objc(cs)IdVerificationErrorBundle(im)error",
+                "mangledName": "$s19IdVerification365id0A23VerificationErrorBundleC5errorAA0acD0Ovg",
+                "moduleName": "IdVerification365id",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "message",
+            "printedName": "message",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@IdVerification365id@objc(cs)IdVerificationErrorBundle(py)message",
+            "mangledName": "$s19IdVerification365id0A23VerificationErrorBundleC7messageSSvp",
+            "moduleName": "IdVerification365id",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IdVerification365id@objc(cs)IdVerificationErrorBundle(im)message",
+                "mangledName": "$s19IdVerification365id0A23VerificationErrorBundleC7messageSSvg",
+                "moduleName": "IdVerification365id",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "IdVerificationErrorBundle",
+                "printedName": "IdVerification365id.IdVerificationErrorBundle",
+                "usr": "c:@M@IdVerification365id@objc(cs)IdVerificationErrorBundle"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@IdVerification365id@objc(cs)IdVerificationErrorBundle(im)init",
+            "mangledName": "$s19IdVerification365id0A23VerificationErrorBundleCACycfc",
+            "moduleName": "IdVerification365id",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@IdVerification365id@objc(cs)IdVerificationErrorBundle",
+        "mangledName": "$s19IdVerification365id0A23VerificationErrorBundleC",
+        "moduleName": "IdVerification365id",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -4341,6 +4231,83 @@
         "printedName": "SwiftUI",
         "declKind": "Import",
         "moduleName": "IdVerification365id"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IdVerification365id"
+      },
+      {
+        "kind": "Function",
+        "name": "startSDK",
+        "printedName": "startSDK(deviceInfo:callBack:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Bool",
+            "printedName": "Swift.Bool",
+            "usr": "s:Sb"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Dictionary",
+            "printedName": "[Swift.String : Swift.String]",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "usr": "s:SD"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "((IdVerification365id.TransactionResult) -> ())?",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IdVerification365id.TransactionResult) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TransactionResult",
+                    "printedName": "IdVerification365id.TransactionResult",
+                    "usr": "c:@M@IdVerification365id@objc(cs)TransactionResult"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sq"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:19IdVerification365id8startSDK10deviceInfo8callBackSbSDyS2SG_yAA17TransactionResultCcSgtF",
+        "mangledName": "$s19IdVerification365id8startSDK10deviceInfo8callBackSbSDyS2SG_yAA17TransactionResultCcSgtF",
+        "moduleName": "IdVerification365id",
+        "deprecated": true,
+        "declAttributes": [
+          "AccessControl",
+          "Available",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
       },
       {
         "kind": "Import",
@@ -4771,8 +4738,8 @@
       },
       {
         "kind": "Import",
-        "name": "AVFoundation",
-        "printedName": "AVFoundation",
+        "name": "Combine",
+        "printedName": "Combine",
         "declKind": "Import",
         "moduleName": "IdVerification365id"
       },
@@ -5665,6 +5632,48 @@
   },
   "ConstValues": [
     {
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/TransactionResult\/TransactionResult+AssessmentType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 288,
+      "length": 5,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/TransactionResult\/TransactionResult+AssessmentType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 371,
+      "length": 12,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/TransactionResult\/TransactionResult+AssessmentType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 445,
+      "length": 8,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/TransactionResult\/TransactionResult+AssessmentType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 288,
+      "length": 5,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/TransactionResult\/TransactionResult+AssessmentType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 371,
+      "length": 12,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/TransactionResult\/TransactionResult+AssessmentType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 445,
+      "length": 8,
+      "value": "3"
+    },
+    {
       "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Models\/FrontAndBacksideModel.swift",
       "kind": "Array",
       "offset": 211,
@@ -5938,42 +5947,35 @@
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationProcessor.swift",
-      "kind": "BooleanLiteral",
-      "offset": 703,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/WhiteLabeling.swift",
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/Theme\/WhiteLabeling.swift",
       "kind": "IntegerLiteral",
       "offset": 809,
       "length": 8,
       "value": "0xffffff"
     },
     {
-      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/WhiteLabeling.swift",
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/Theme\/WhiteLabeling.swift",
       "kind": "IntegerLiteral",
       "offset": 864,
       "length": 8,
       "value": "0x702F8A"
     },
     {
-      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/WhiteLabeling.swift",
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/Theme\/WhiteLabeling.swift",
       "kind": "IntegerLiteral",
       "offset": 922,
       "length": 8,
       "value": "0xf5f5f5"
     },
     {
-      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/WhiteLabeling.swift",
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/Theme\/WhiteLabeling.swift",
       "kind": "IntegerLiteral",
       "offset": 979,
       "length": 8,
       "value": "0x707070"
     },
     {
-      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/WhiteLabeling.swift",
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/Theme\/WhiteLabeling.swift",
       "kind": "StringLiteral",
       "offset": 159,
       "length": 13,
@@ -5984,52 +5986,52 @@
       "kind": "IntegerLiteral",
       "offset": 175,
       "length": 1,
-      "value": "1"
+      "value": "0"
     },
     {
-      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerificationTheme.swift",
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/Theme\/IdVerificationTheme.swift",
       "kind": "IntegerLiteral",
       "offset": 769,
       "length": 8,
       "value": "0xffffff"
     },
     {
-      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerificationTheme.swift",
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/Theme\/IdVerificationTheme.swift",
       "kind": "IntegerLiteral",
       "offset": 824,
       "length": 8,
       "value": "0x702F8A"
     },
     {
-      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerificationTheme.swift",
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/Theme\/IdVerificationTheme.swift",
       "kind": "IntegerLiteral",
       "offset": 882,
       "length": 8,
       "value": "0xf5f5f5"
     },
     {
-      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerificationTheme.swift",
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/Theme\/IdVerificationTheme.swift",
       "kind": "IntegerLiteral",
       "offset": 939,
       "length": 8,
       "value": "0x707070"
     },
     {
-      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerificationTheme.swift",
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/Theme\/IdVerificationTheme.swift",
       "kind": "BooleanLiteral",
       "offset": 2145,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerificationTheme.swift",
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/Theme\/IdVerificationTheme.swift",
       "kind": "StringLiteral",
       "offset": 132,
       "length": 19,
       "value": "\"IdVerification365id.IdVerificationTheme\""
     },
     {
-      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/Extensions\/ViewExtension.swift",
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Extensions\/ViewExtension.swift",
       "kind": "IntegerLiteral",
       "offset": 112,
       "length": 1,
@@ -6064,23 +6066,9 @@
       "value": "60"
     },
     {
-      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification.swift",
-      "kind": "BooleanLiteral",
-      "offset": 143,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification.swift",
-      "kind": "StringLiteral",
-      "offset": 187,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification.swift",
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/IdVerification.swift",
       "kind": "IntegerLiteral",
-      "offset": 9908,
+      "offset": 3872,
       "length": 1,
       "value": "0"
     },
@@ -6125,83 +6113,6 @@
       "offset": 673,
       "length": 35,
       "value": "\"__365ID_FRONTEND_RELEASE_HOST_URL\""
-    },
-    {
-      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/ProgressSpinningView.swift",
-      "kind": "StringLiteral",
-      "offset": 207,
-      "length": 22,
-      "value": "\"nfc_pending_20230307\""
-    },
-    {
-      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/ProgressSpinningView.swift",
-      "kind": "StringLiteral",
-      "offset": 250,
-      "length": 20,
-      "value": "\"flip_card_20230222\""
-    },
-    {
-      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/ProgressSpinningView.swift",
-      "kind": "StringLiteral",
-      "offset": 298,
-      "length": 21,
-      "value": "\"id_pending_20230222\""
-    },
-    {
-      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/ProgressSpinningView.swift",
-      "kind": "StringLiteral",
-      "offset": 347,
-      "length": 26,
-      "value": "\"face_id_pending_20230307\""
-    },
-    {
-      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/ProgressSpinningView.swift",
-      "kind": "StringLiteral",
-      "offset": 393,
-      "length": 28,
-      "value": "\"cancelled_pending_20230307\""
-    },
-    {
-      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/ProgressSpinningView.swift",
-      "kind": "StringLiteral",
-      "offset": 207,
-      "length": 22,
-      "value": "\"nfc_pending_20230307\""
-    },
-    {
-      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/ProgressSpinningView.swift",
-      "kind": "StringLiteral",
-      "offset": 250,
-      "length": 20,
-      "value": "\"flip_card_20230222\""
-    },
-    {
-      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/ProgressSpinningView.swift",
-      "kind": "StringLiteral",
-      "offset": 298,
-      "length": 21,
-      "value": "\"id_pending_20230222\""
-    },
-    {
-      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/ProgressSpinningView.swift",
-      "kind": "StringLiteral",
-      "offset": 347,
-      "length": 26,
-      "value": "\"face_id_pending_20230307\""
-    },
-    {
-      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/ProgressSpinningView.swift",
-      "kind": "StringLiteral",
-      "offset": 393,
-      "length": 28,
-      "value": "\"cancelled_pending_20230307\""
-    },
-    {
-      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/ProgressSpinningView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 677,
-      "length": 5,
-      "value": "false"
     },
     {
       "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/TaskViews\/FrontSideView.swift",
@@ -6246,151 +6157,109 @@
       "value": "false"
     },
     {
-      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/TransactionResult.swift",
-      "kind": "IntegerLiteral",
-      "offset": 288,
-      "length": 5,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/TransactionResult.swift",
-      "kind": "IntegerLiteral",
-      "offset": 371,
-      "length": 12,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/TransactionResult.swift",
-      "kind": "IntegerLiteral",
-      "offset": 445,
-      "length": 8,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/TransactionResult.swift",
-      "kind": "IntegerLiteral",
-      "offset": 288,
-      "length": 5,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/TransactionResult.swift",
-      "kind": "IntegerLiteral",
-      "offset": 371,
-      "length": 12,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/TransactionResult.swift",
-      "kind": "IntegerLiteral",
-      "offset": 445,
-      "length": 8,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/TransactionResult.swift",
-      "kind": "IntegerLiteral",
-      "offset": 966,
-      "length": 9,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/TransactionResult.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1084,
-      "length": 15,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/TransactionResult.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1209,
-      "length": 15,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/TransactionResult.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1283,
-      "length": 14,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/TransactionResult.swift",
-      "kind": "IntegerLiteral",
-      "offset": 966,
-      "length": 9,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/TransactionResult.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1084,
-      "length": 15,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/TransactionResult.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1209,
-      "length": 15,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/TransactionResult.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1283,
-      "length": 14,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/TransactionResult.swift",
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/TransactionResult\/TransactionResult.swift",
       "kind": "StringLiteral",
-      "offset": 3403,
+      "offset": 1892,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/TransactionResult.swift",
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/TransactionResult\/TransactionResult.swift",
       "kind": "StringLiteral",
-      "offset": 3437,
+      "offset": 1926,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/TransactionResult.swift",
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/TransactionResult\/TransactionResult.swift",
       "kind": "StringLiteral",
-      "offset": 1612,
+      "offset": 157,
       "length": 17,
       "value": "\"IdVerification365id.TransactionResult\""
     },
     {
       "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/TaskViews\/NFCView.swift",
       "kind": "BooleanLiteral",
-      "offset": 285,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/SdkMainView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 221,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/SdkMainView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 254,
+      "offset": 173,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/SdkMainView.swift",
       "kind": "BooleanLiteral",
-      "offset": 364,
+      "offset": 185,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/SdkMainView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 218,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/SdkMainView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 328,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/TransactionResult\/TransactionResult+StatusType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 387,
+      "length": 9,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/TransactionResult\/TransactionResult+StatusType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 505,
+      "length": 15,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/TransactionResult\/TransactionResult+StatusType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 630,
+      "length": 15,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/TransactionResult\/TransactionResult+StatusType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 387,
+      "length": 9,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/TransactionResult\/TransactionResult+StatusType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 505,
+      "length": 15,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/TransactionResult\/TransactionResult+StatusType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 630,
+      "length": 15,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Utils\/SdkStatus.swift",
+      "kind": "BooleanLiteral",
+      "offset": 128,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Utils\/SdkStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 172,
+      "length": 2,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/Grpc\/GRPCConfig.swift",
@@ -6785,6 +6654,13 @@
       "value": "2"
     },
     {
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/FlipAnimation\/RotateCard3DEffect.swift",
+      "kind": "FloatLiteral",
+      "offset": 149,
+      "length": 3,
+      "value": "4.0"
+    },
+    {
       "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Camera\/CameraManager.swift",
       "kind": "BooleanLiteral",
       "offset": 474,
@@ -6806,9 +6682,93 @@
       "value": "false"
     },
     {
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/Spinner\/ImageView.swift",
+      "kind": "StringLiteral",
+      "offset": 155,
+      "length": 13,
+      "value": "\"nfc_pending\""
+    },
+    {
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/Spinner\/ImageView.swift",
+      "kind": "StringLiteral",
+      "offset": 190,
+      "length": 12,
+      "value": "\"card_front\""
+    },
+    {
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/Spinner\/ImageView.swift",
+      "kind": "StringLiteral",
+      "offset": 223,
+      "length": 11,
+      "value": "\"card_back\""
+    },
+    {
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/Spinner\/ImageView.swift",
+      "kind": "StringLiteral",
+      "offset": 253,
+      "length": 17,
+      "value": "\"face_id_pending\""
+    },
+    {
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/Spinner\/ImageView.swift",
+      "kind": "StringLiteral",
+      "offset": 290,
+      "length": 19,
+      "value": "\"cancelled_pending\""
+    },
+    {
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/Spinner\/ImageView.swift",
+      "kind": "StringLiteral",
+      "offset": 155,
+      "length": 13,
+      "value": "\"nfc_pending\""
+    },
+    {
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/Spinner\/ImageView.swift",
+      "kind": "StringLiteral",
+      "offset": 190,
+      "length": 12,
+      "value": "\"card_front\""
+    },
+    {
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/Spinner\/ImageView.swift",
+      "kind": "StringLiteral",
+      "offset": 223,
+      "length": 11,
+      "value": "\"card_back\""
+    },
+    {
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/Spinner\/ImageView.swift",
+      "kind": "StringLiteral",
+      "offset": 253,
+      "length": 17,
+      "value": "\"face_id_pending\""
+    },
+    {
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/Spinner\/ImageView.swift",
+      "kind": "StringLiteral",
+      "offset": 290,
+      "length": 19,
+      "value": "\"cancelled_pending\""
+    },
+    {
       "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/LogoView.swift",
       "kind": "IntegerLiteral",
       "offset": 157,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/Spinner\/SpinnerView.swift",
+      "kind": "FloatLiteral",
+      "offset": 205,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/Spinner\/SpinnerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 238,
       "length": 1,
       "value": "0"
     },
@@ -6822,14 +6782,14 @@
     {
       "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 19183,
+      "offset": 22845,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 19214,
+      "offset": 22876,
       "length": 1,
       "value": "1"
     },
@@ -6911,6 +6871,41 @@
       "value": "\"manual mode\""
     },
     {
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/FlipAnimation\/FlipDocumentAnimation.swift",
+      "kind": "IntegerLiteral",
+      "offset": 273,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/FlipAnimation\/FlipDocumentAnimation.swift",
+      "kind": "FloatLiteral",
+      "offset": 363,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/FlipAnimation\/FlipDocumentAnimation.swift",
+      "kind": "IntegerLiteral",
+      "offset": 413,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/FlipAnimation\/FlipDocumentAnimation.swift",
+      "kind": "BooleanLiteral",
+      "offset": 430,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/FlipAnimation\/FlipDocumentAnimation.swift",
+      "kind": "FloatLiteral",
+      "offset": 476,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
       "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/ViewModels\/PreCaptureDocumentViewModel.swift",
       "kind": "BooleanLiteral",
       "offset": 178,
@@ -6918,95 +6913,88 @@
       "value": "true"
     },
     {
-      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerificationError.swift",
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/Error\/IdVerificationError.swift",
       "kind": "IntegerLiteral",
       "offset": 245,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerificationError.swift",
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/Error\/IdVerificationError.swift",
       "kind": "IntegerLiteral",
       "offset": 351,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerificationError.swift",
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/Error\/IdVerificationError.swift",
       "kind": "IntegerLiteral",
       "offset": 443,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerificationError.swift",
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/Error\/IdVerificationError.swift",
       "kind": "IntegerLiteral",
       "offset": 565,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerificationError.swift",
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/Error\/IdVerificationError.swift",
       "kind": "IntegerLiteral",
       "offset": 734,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerificationError.swift",
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/Error\/IdVerificationError.swift",
       "kind": "IntegerLiteral",
       "offset": 812,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerificationError.swift",
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/Error\/IdVerificationError.swift",
       "kind": "IntegerLiteral",
       "offset": 245,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerificationError.swift",
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/Error\/IdVerificationError.swift",
       "kind": "IntegerLiteral",
       "offset": 351,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerificationError.swift",
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/Error\/IdVerificationError.swift",
       "kind": "IntegerLiteral",
       "offset": 443,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerificationError.swift",
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/Error\/IdVerificationError.swift",
       "kind": "IntegerLiteral",
       "offset": 565,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerificationError.swift",
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/Error\/IdVerificationError.swift",
       "kind": "IntegerLiteral",
       "offset": 734,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerificationError.swift",
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/Error\/IdVerificationError.swift",
       "kind": "IntegerLiteral",
       "offset": 812,
       "length": 1,
       "value": "5"
-    },
-    {
-      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerificationError.swift",
-      "kind": "StringLiteral",
-      "offset": 924,
-      "length": 25,
-      "value": "\"IdVerification365id.IdVerificationErrorBundle\""
     },
     {
       "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/CaptureDocumentViews\/DocumentView.swift",
@@ -7114,7 +7102,7 @@
       "value": "false"
     },
     {
-      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerificationResult.swift",
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/IdVerificationResult.swift",
       "kind": "StringLiteral",
       "offset": 137,
       "length": 20,
@@ -7156,6 +7144,13 @@
       "value": "false"
     },
     {
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/Error\/IdVerificationErrorBundle.swift",
+      "kind": "StringLiteral",
+      "offset": 126,
+      "length": 25,
+      "value": "\"IdVerification365id.IdVerificationErrorBundle\""
+    },
+    {
       "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Utils\/SentryHandler.swift",
       "kind": "StringLiteral",
       "offset": 1128,
@@ -7177,42 +7172,42 @@
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/PoweredByLogo.swift",
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/Theme\/PoweredByLogo.swift",
       "kind": "IntegerLiteral",
       "offset": 236,
       "length": 5,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/PoweredByLogo.swift",
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/Theme\/PoweredByLogo.swift",
       "kind": "IntegerLiteral",
       "offset": 283,
       "length": 5,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/PoweredByLogo.swift",
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/Theme\/PoweredByLogo.swift",
       "kind": "IntegerLiteral",
       "offset": 328,
       "length": 4,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/PoweredByLogo.swift",
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/Theme\/PoweredByLogo.swift",
       "kind": "IntegerLiteral",
       "offset": 236,
       "length": 5,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/PoweredByLogo.swift",
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/Theme\/PoweredByLogo.swift",
       "kind": "IntegerLiteral",
       "offset": 283,
       "length": 5,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/PoweredByLogo.swift",
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/Theme\/PoweredByLogo.swift",
       "kind": "IntegerLiteral",
       "offset": 328,
       "length": 4,
@@ -7221,7 +7216,7 @@
     {
       "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Models\/IProovModel.swift",
       "kind": "Array",
-      "offset": 441,
+      "offset": 402,
       "length": 2,
       "value": "[]"
     },
@@ -7256,49 +7251,77 @@
     {
       "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/NFC\/NfcManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 596,
+      "offset": 591,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/NFC\/NfcManager.swift",
       "kind": "StringLiteral",
-      "offset": 636,
+      "offset": 631,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/NFC\/NfcManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 674,
+      "offset": 669,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/NFC\/NfcManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 715,
+      "offset": 710,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/NFC\/NfcManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 759,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/NFC\/NfcManager.swift",
+      "kind": "StringLiteral",
+      "offset": 870,
+      "length": 20,
+      "value": "\"NFC tag reader tag\""
+    },
+    {
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/NFC\/NfcManager.swift",
+      "kind": "Array",
+      "offset": 944,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/NFC\/NfcManager.swift",
+      "kind": "FloatLiteral",
+      "offset": 977,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/NFC\/NfcManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 2014,
+      "offset": 2921,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/NFC\/NfcManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 2033,
+      "offset": 2940,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/NFC\/NfcManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 2616,
+      "offset": 3523,
       "length": 1,
       "value": "0"
     },
@@ -7389,7 +7412,7 @@
     {
       "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/NFC\/NfcProcessor.swift",
       "kind": "Array",
-      "offset": 4323,
+      "offset": 4431,
       "length": 2,
       "value": "[]"
     },
@@ -7424,42 +7447,42 @@
     {
       "filePath": "\/Users\/continousintegration\/Library\/Developer\/Xcode\/DerivedData\/IdVerification365id-ekpmftyumhtmfkecekjamhdldkcn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/UserMessage.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 6779,
+      "offset": 6682,
       "length": 22,
       "value": "\"NoServiceUserMessage\""
     },
     {
       "filePath": "\/Users\/continousintegration\/Library\/Developer\/Xcode\/DerivedData\/IdVerification365id-ekpmftyumhtmfkecekjamhdldkcn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/UserMessage.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 6817,
+      "offset": 6720,
       "length": 72,
       "value": "\"_365id.Glootie.Contracts.gRPC.Coordinator.Message.NoServiceUserMessage\""
     },
     {
       "filePath": "\/Users\/continousintegration\/Library\/Developer\/Xcode\/DerivedData\/IdVerification365id-ekpmftyumhtmfkecekjamhdldkcn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/UserMessage.grpc.swift",
       "kind": "Array",
-      "offset": 6904,
+      "offset": 6807,
       "length": 7,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/continousintegration\/Library\/Developer\/Xcode\/DerivedData\/IdVerification365id-ekpmftyumhtmfkecekjamhdldkcn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/UserMessage.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 9537,
+      "offset": 9392,
       "length": 22,
       "value": "\"NoServiceUserMessage\""
     },
     {
       "filePath": "\/Users\/continousintegration\/Library\/Developer\/Xcode\/DerivedData\/IdVerification365id-ekpmftyumhtmfkecekjamhdldkcn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/UserMessage.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 9575,
+      "offset": 9430,
       "length": 72,
       "value": "\"_365id.Glootie.Contracts.gRPC.Coordinator.Message.NoServiceUserMessage\""
     },
     {
       "filePath": "\/Users\/continousintegration\/Library\/Developer\/Xcode\/DerivedData\/IdVerification365id-ekpmftyumhtmfkecekjamhdldkcn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/UserMessage.grpc.swift",
       "kind": "Array",
-      "offset": 9662,
+      "offset": 9517,
       "length": 7,
       "value": "[]"
     },
@@ -7508,56 +7531,56 @@
     {
       "filePath": "\/Users\/continousintegration\/Library\/Developer\/Xcode\/DerivedData\/IdVerification365id-ekpmftyumhtmfkecekjamhdldkcn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/LicenseInfo.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 9216,
+      "offset": 9119,
       "length": 13,
       "value": "\"LicenseInfo\""
     },
     {
       "filePath": "\/Users\/continousintegration\/Library\/Developer\/Xcode\/DerivedData\/IdVerification365id-ekpmftyumhtmfkecekjamhdldkcn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/LicenseInfo.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 9245,
+      "offset": 9148,
       "length": 55,
       "value": "\"_365id.Glootie.Contracts.gRPC.LicenseInfo.LicenseInfo\""
     },
     {
       "filePath": "\/Users\/continousintegration\/Library\/Developer\/Xcode\/DerivedData\/IdVerification365id-ekpmftyumhtmfkecekjamhdldkcn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/LicenseInfo.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 9527,
+      "offset": 9430,
       "length": 16,
       "value": "\"GetLicenseInfo\""
     },
     {
       "filePath": "\/Users\/continousintegration\/Library\/Developer\/Xcode\/DerivedData\/IdVerification365id-ekpmftyumhtmfkecekjamhdldkcn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/LicenseInfo.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 9557,
+      "offset": 9460,
       "length": 71,
       "value": "\"\/_365id.Glootie.Contracts.gRPC.LicenseInfo.LicenseInfo\/GetLicenseInfo\""
     },
     {
       "filePath": "\/Users\/continousintegration\/Library\/Developer\/Xcode\/DerivedData\/IdVerification365id-ekpmftyumhtmfkecekjamhdldkcn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/LicenseInfo.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 13943,
+      "offset": 13798,
       "length": 13,
       "value": "\"LicenseInfo\""
     },
     {
       "filePath": "\/Users\/continousintegration\/Library\/Developer\/Xcode\/DerivedData\/IdVerification365id-ekpmftyumhtmfkecekjamhdldkcn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/LicenseInfo.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 13972,
+      "offset": 13827,
       "length": 55,
       "value": "\"_365id.Glootie.Contracts.gRPC.LicenseInfo.LicenseInfo\""
     },
     {
       "filePath": "\/Users\/continousintegration\/Library\/Developer\/Xcode\/DerivedData\/IdVerification365id-ekpmftyumhtmfkecekjamhdldkcn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/LicenseInfo.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 14254,
+      "offset": 14109,
       "length": 16,
       "value": "\"GetLicenseInfo\""
     },
     {
       "filePath": "\/Users\/continousintegration\/Library\/Developer\/Xcode\/DerivedData\/IdVerification365id-ekpmftyumhtmfkecekjamhdldkcn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/LicenseInfo.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 14284,
+      "offset": 14139,
       "length": 71,
       "value": "\"\/_365id.Glootie.Contracts.gRPC.LicenseInfo.LicenseInfo\/GetLicenseInfo\""
     },
@@ -7935,56 +7958,56 @@
     {
       "filePath": "\/Users\/continousintegration\/Library\/Developer\/Xcode\/DerivedData\/IdVerification365id-ekpmftyumhtmfkecekjamhdldkcn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Transaction.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 9280,
+      "offset": 9183,
       "length": 13,
       "value": "\"Transaction\""
     },
     {
       "filePath": "\/Users\/continousintegration\/Library\/Developer\/Xcode\/DerivedData\/IdVerification365id-ekpmftyumhtmfkecekjamhdldkcn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Transaction.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 9309,
+      "offset": 9212,
       "length": 55,
       "value": "\"_365id.Glootie.Contracts.gRPC.Transaction.Transaction\""
     },
     {
       "filePath": "\/Users\/continousintegration\/Library\/Developer\/Xcode\/DerivedData\/IdVerification365id-ekpmftyumhtmfkecekjamhdldkcn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Transaction.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 9599,
+      "offset": 9502,
       "length": 20,
       "value": "\"GetTransactionData\""
     },
     {
       "filePath": "\/Users\/continousintegration\/Library\/Developer\/Xcode\/DerivedData\/IdVerification365id-ekpmftyumhtmfkecekjamhdldkcn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Transaction.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 9633,
+      "offset": 9536,
       "length": 75,
       "value": "\"\/_365id.Glootie.Contracts.gRPC.Transaction.Transaction\/GetTransactionData\""
     },
     {
       "filePath": "\/Users\/continousintegration\/Library\/Developer\/Xcode\/DerivedData\/IdVerification365id-ekpmftyumhtmfkecekjamhdldkcn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Transaction.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 14083,
+      "offset": 13938,
       "length": 13,
       "value": "\"Transaction\""
     },
     {
       "filePath": "\/Users\/continousintegration\/Library\/Developer\/Xcode\/DerivedData\/IdVerification365id-ekpmftyumhtmfkecekjamhdldkcn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Transaction.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 14112,
+      "offset": 13967,
       "length": 55,
       "value": "\"_365id.Glootie.Contracts.gRPC.Transaction.Transaction\""
     },
     {
       "filePath": "\/Users\/continousintegration\/Library\/Developer\/Xcode\/DerivedData\/IdVerification365id-ekpmftyumhtmfkecekjamhdldkcn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Transaction.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 14402,
+      "offset": 14257,
       "length": 20,
       "value": "\"GetTransactionData\""
     },
     {
       "filePath": "\/Users\/continousintegration\/Library\/Developer\/Xcode\/DerivedData\/IdVerification365id-ekpmftyumhtmfkecekjamhdldkcn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Transaction.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 14436,
+      "offset": 14291,
       "length": 75,
       "value": "\"\/_365id.Glootie.Contracts.gRPC.Transaction.Transaction\/GetTransactionData\""
     },
@@ -8537,56 +8560,56 @@
     {
       "filePath": "\/Users\/continousintegration\/Library\/Developer\/Xcode\/DerivedData\/IdVerification365id-ekpmftyumhtmfkecekjamhdldkcn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Session.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 8837,
+      "offset": 8740,
       "length": 9,
       "value": "\"Session\""
     },
     {
       "filePath": "\/Users\/continousintegration\/Library\/Developer\/Xcode\/DerivedData\/IdVerification365id-ekpmftyumhtmfkecekjamhdldkcn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Session.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 8862,
+      "offset": 8765,
       "length": 47,
       "value": "\"_365id.Glootie.Contracts.gRPC.Session.Session\""
     },
     {
       "filePath": "\/Users\/continousintegration\/Library\/Developer\/Xcode\/DerivedData\/IdVerification365id-ekpmftyumhtmfkecekjamhdldkcn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Session.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 9124,
+      "offset": 9027,
       "length": 14,
       "value": "\"SessionToken\""
     },
     {
       "filePath": "\/Users\/continousintegration\/Library\/Developer\/Xcode\/DerivedData\/IdVerification365id-ekpmftyumhtmfkecekjamhdldkcn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Session.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 9152,
+      "offset": 9055,
       "length": 61,
       "value": "\"\/_365id.Glootie.Contracts.gRPC.Session.Session\/SessionToken\""
     },
     {
       "filePath": "\/Users\/continousintegration\/Library\/Developer\/Xcode\/DerivedData\/IdVerification365id-ekpmftyumhtmfkecekjamhdldkcn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Session.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 13256,
+      "offset": 13111,
       "length": 9,
       "value": "\"Session\""
     },
     {
       "filePath": "\/Users\/continousintegration\/Library\/Developer\/Xcode\/DerivedData\/IdVerification365id-ekpmftyumhtmfkecekjamhdldkcn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Session.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 13281,
+      "offset": 13136,
       "length": 47,
       "value": "\"_365id.Glootie.Contracts.gRPC.Session.Session\""
     },
     {
       "filePath": "\/Users\/continousintegration\/Library\/Developer\/Xcode\/DerivedData\/IdVerification365id-ekpmftyumhtmfkecekjamhdldkcn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Session.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 13543,
+      "offset": 13398,
       "length": 14,
       "value": "\"SessionToken\""
     },
     {
       "filePath": "\/Users\/continousintegration\/Library\/Developer\/Xcode\/DerivedData\/IdVerification365id-ekpmftyumhtmfkecekjamhdldkcn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Session.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 13571,
+      "offset": 13426,
       "length": 61,
       "value": "\"\/_365id.Glootie.Contracts.gRPC.Session.Session\/SessionToken\""
     },
@@ -8719,42 +8742,42 @@
     {
       "filePath": "\/Users\/continousintegration\/Library\/Developer\/Xcode\/DerivedData\/IdVerification365id-ekpmftyumhtmfkecekjamhdldkcn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/MessageType.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 6779,
+      "offset": 6682,
       "length": 22,
       "value": "\"NoServiceMessageType\""
     },
     {
       "filePath": "\/Users\/continousintegration\/Library\/Developer\/Xcode\/DerivedData\/IdVerification365id-ekpmftyumhtmfkecekjamhdldkcn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/MessageType.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 6817,
+      "offset": 6720,
       "length": 72,
       "value": "\"_365id.Glootie.Contracts.gRPC.Coordinator.Message.NoServiceMessageType\""
     },
     {
       "filePath": "\/Users\/continousintegration\/Library\/Developer\/Xcode\/DerivedData\/IdVerification365id-ekpmftyumhtmfkecekjamhdldkcn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/MessageType.grpc.swift",
       "kind": "Array",
-      "offset": 6904,
+      "offset": 6807,
       "length": 7,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/continousintegration\/Library\/Developer\/Xcode\/DerivedData\/IdVerification365id-ekpmftyumhtmfkecekjamhdldkcn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/MessageType.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 9537,
+      "offset": 9392,
       "length": 22,
       "value": "\"NoServiceMessageType\""
     },
     {
       "filePath": "\/Users\/continousintegration\/Library\/Developer\/Xcode\/DerivedData\/IdVerification365id-ekpmftyumhtmfkecekjamhdldkcn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/MessageType.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 9575,
+      "offset": 9430,
       "length": 72,
       "value": "\"_365id.Glootie.Contracts.gRPC.Coordinator.Message.NoServiceMessageType\""
     },
     {
       "filePath": "\/Users\/continousintegration\/Library\/Developer\/Xcode\/DerivedData\/IdVerification365id-ekpmftyumhtmfkecekjamhdldkcn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/MessageType.grpc.swift",
       "kind": "Array",
-      "offset": 9662,
+      "offset": 9517,
       "length": 7,
       "value": "[]"
     },
@@ -8845,210 +8868,231 @@
     {
       "filePath": "\/Users\/continousintegration\/Library\/Developer\/Xcode\/DerivedData\/IdVerification365id-ekpmftyumhtmfkecekjamhdldkcn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/DeviceInformation.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 6965,
+      "offset": 6868,
       "length": 28,
       "value": "\"NoServiceDeviceInformation\""
     },
     {
       "filePath": "\/Users\/continousintegration\/Library\/Developer\/Xcode\/DerivedData\/IdVerification365id-ekpmftyumhtmfkecekjamhdldkcn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/DeviceInformation.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 7009,
+      "offset": 6912,
       "length": 78,
       "value": "\"_365id.Glootie.Contracts.gRPC.Session.Infromation.NoServiceDeviceInformation\""
     },
     {
       "filePath": "\/Users\/continousintegration\/Library\/Developer\/Xcode\/DerivedData\/IdVerification365id-ekpmftyumhtmfkecekjamhdldkcn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/DeviceInformation.grpc.swift",
       "kind": "Array",
-      "offset": 7102,
+      "offset": 7005,
       "length": 7,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/continousintegration\/Library\/Developer\/Xcode\/DerivedData\/IdVerification365id-ekpmftyumhtmfkecekjamhdldkcn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/DeviceInformation.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 9807,
+      "offset": 9662,
       "length": 28,
       "value": "\"NoServiceDeviceInformation\""
     },
     {
       "filePath": "\/Users\/continousintegration\/Library\/Developer\/Xcode\/DerivedData\/IdVerification365id-ekpmftyumhtmfkecekjamhdldkcn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/DeviceInformation.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 9851,
+      "offset": 9706,
       "length": 78,
       "value": "\"_365id.Glootie.Contracts.gRPC.Session.Infromation.NoServiceDeviceInformation\""
     },
     {
       "filePath": "\/Users\/continousintegration\/Library\/Developer\/Xcode\/DerivedData\/IdVerification365id-ekpmftyumhtmfkecekjamhdldkcn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/DeviceInformation.grpc.swift",
       "kind": "Array",
-      "offset": 9944,
+      "offset": 9799,
       "length": 7,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/continousintegration\/Library\/Developer\/Xcode\/DerivedData\/IdVerification365id-ekpmftyumhtmfkecekjamhdldkcn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/DeviceInformation.pb.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1424,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/continousintegration\/Library\/Developer\/Xcode\/DerivedData\/IdVerification365id-ekpmftyumhtmfkecekjamhdldkcn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/DeviceInformation.pb.swift",
       "kind": "StringLiteral",
-      "offset": 1770,
+      "offset": 1804,
       "length": 51,
       "value": "\"_365id.Glootie.Contracts.gRPC.Session.Infromation\""
     },
     {
       "filePath": "\/Users\/continousintegration\/Library\/Developer\/Xcode\/DerivedData\/IdVerification365id-ekpmftyumhtmfkecekjamhdldkcn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/DeviceInformation.pb.swift",
       "kind": "StringLiteral",
-      "offset": 2063,
+      "offset": 2097,
       "length": 20,
       "value": "\".DeviceInformation\""
     },
     {
       "filePath": "\/Users\/continousintegration\/Library\/Developer\/Xcode\/DerivedData\/IdVerification365id-ekpmftyumhtmfkecekjamhdldkcn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/DeviceInformation.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 2147,
+      "offset": 2181,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/continousintegration\/Library\/Developer\/Xcode\/DerivedData\/IdVerification365id-ekpmftyumhtmfkecekjamhdldkcn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/DeviceInformation.pb.swift",
       "kind": "StringLiteral",
-      "offset": 2163,
+      "offset": 2197,
       "length": 7,
       "value": "\"Model\""
     },
     {
       "filePath": "\/Users\/continousintegration\/Library\/Developer\/Xcode\/DerivedData\/IdVerification365id-ekpmftyumhtmfkecekjamhdldkcn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/DeviceInformation.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 2177,
+      "offset": 2211,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/continousintegration\/Library\/Developer\/Xcode\/DerivedData\/IdVerification365id-ekpmftyumhtmfkecekjamhdldkcn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/DeviceInformation.pb.swift",
       "kind": "StringLiteral",
-      "offset": 2193,
+      "offset": 2227,
       "length": 18,
       "value": "\"CameraResolution\""
     },
     {
       "filePath": "\/Users\/continousintegration\/Library\/Developer\/Xcode\/DerivedData\/IdVerification365id-ekpmftyumhtmfkecekjamhdldkcn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/DeviceInformation.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 2218,
+      "offset": 2252,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/continousintegration\/Library\/Developer\/Xcode\/DerivedData\/IdVerification365id-ekpmftyumhtmfkecekjamhdldkcn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/DeviceInformation.pb.swift",
       "kind": "StringLiteral",
-      "offset": 2234,
+      "offset": 2268,
       "length": 19,
       "value": "\"DisplayResolution\""
     },
     {
       "filePath": "\/Users\/continousintegration\/Library\/Developer\/Xcode\/DerivedData\/IdVerification365id-ekpmftyumhtmfkecekjamhdldkcn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/DeviceInformation.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 2260,
+      "offset": 2294,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/continousintegration\/Library\/Developer\/Xcode\/DerivedData\/IdVerification365id-ekpmftyumhtmfkecekjamhdldkcn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/DeviceInformation.pb.swift",
       "kind": "StringLiteral",
-      "offset": 2276,
+      "offset": 2310,
       "length": 14,
       "value": "\"Manufacturer\""
     },
     {
       "filePath": "\/Users\/continousintegration\/Library\/Developer\/Xcode\/DerivedData\/IdVerification365id-ekpmftyumhtmfkecekjamhdldkcn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/DeviceInformation.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 2297,
+      "offset": 2331,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/continousintegration\/Library\/Developer\/Xcode\/DerivedData\/IdVerification365id-ekpmftyumhtmfkecekjamhdldkcn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/DeviceInformation.pb.swift",
       "kind": "StringLiteral",
-      "offset": 2313,
+      "offset": 2347,
       "length": 12,
       "value": "\"SdkVersion\""
     },
     {
       "filePath": "\/Users\/continousintegration\/Library\/Developer\/Xcode\/DerivedData\/IdVerification365id-ekpmftyumhtmfkecekjamhdldkcn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/DeviceInformation.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 2332,
+      "offset": 2366,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/continousintegration\/Library\/Developer\/Xcode\/DerivedData\/IdVerification365id-ekpmftyumhtmfkecekjamhdldkcn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/DeviceInformation.pb.swift",
       "kind": "StringLiteral",
-      "offset": 2348,
+      "offset": 2382,
       "length": 11,
       "value": "\"OsVersion\""
     },
     {
       "filePath": "\/Users\/continousintegration\/Library\/Developer\/Xcode\/DerivedData\/IdVerification365id-ekpmftyumhtmfkecekjamhdldkcn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/DeviceInformation.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 2366,
+      "offset": 2400,
       "length": 1,
       "value": "7"
     },
     {
       "filePath": "\/Users\/continousintegration\/Library\/Developer\/Xcode\/DerivedData\/IdVerification365id-ekpmftyumhtmfkecekjamhdldkcn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/DeviceInformation.pb.swift",
       "kind": "StringLiteral",
-      "offset": 2382,
+      "offset": 2416,
       "length": 10,
       "value": "\"Platform\""
     },
     {
+      "filePath": "\/Users\/continousintegration\/Library\/Developer\/Xcode\/DerivedData\/IdVerification365id-ekpmftyumhtmfkecekjamhdldkcn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/DeviceInformation.pb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2433,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/continousintegration\/Library\/Developer\/Xcode\/DerivedData\/IdVerification365id-ekpmftyumhtmfkecekjamhdldkcn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/DeviceInformation.pb.swift",
+      "kind": "StringLiteral",
+      "offset": 2449,
+      "length": 14,
+      "value": "\"NfcAvailable\""
+    },
+    {
       "filePath": "\/Users\/continousintegration\/Library\/Developer\/Xcode\/DerivedData\/IdVerification365id-ekpmftyumhtmfkecekjamhdldkcn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 8372,
+      "offset": 8275,
       "length": 5,
       "value": "\"Nfc\""
     },
     {
       "filePath": "\/Users\/continousintegration\/Library\/Developer\/Xcode\/DerivedData\/IdVerification365id-ekpmftyumhtmfkecekjamhdldkcn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 8393,
+      "offset": 8296,
       "length": 39,
       "value": "\"_365id.Glootie.Contracts.gRPC.Nfc.Nfc\""
     },
     {
       "filePath": "\/Users\/continousintegration\/Library\/Developer\/Xcode\/DerivedData\/IdVerification365id-ekpmftyumhtmfkecekjamhdldkcn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 8629,
+      "offset": 8532,
       "length": 9,
       "value": "\"Process\""
     },
     {
       "filePath": "\/Users\/continousintegration\/Library\/Developer\/Xcode\/DerivedData\/IdVerification365id-ekpmftyumhtmfkecekjamhdldkcn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 8652,
+      "offset": 8555,
       "length": 48,
       "value": "\"\/_365id.Glootie.Contracts.gRPC.Nfc.Nfc\/Process\""
     },
     {
       "filePath": "\/Users\/continousintegration\/Library\/Developer\/Xcode\/DerivedData\/IdVerification365id-ekpmftyumhtmfkecekjamhdldkcn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 12615,
+      "offset": 12470,
       "length": 5,
       "value": "\"Nfc\""
     },
     {
       "filePath": "\/Users\/continousintegration\/Library\/Developer\/Xcode\/DerivedData\/IdVerification365id-ekpmftyumhtmfkecekjamhdldkcn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 12636,
+      "offset": 12491,
       "length": 39,
       "value": "\"_365id.Glootie.Contracts.gRPC.Nfc.Nfc\""
     },
     {
       "filePath": "\/Users\/continousintegration\/Library\/Developer\/Xcode\/DerivedData\/IdVerification365id-ekpmftyumhtmfkecekjamhdldkcn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 12872,
+      "offset": 12727,
       "length": 9,
       "value": "\"Process\""
     },
     {
       "filePath": "\/Users\/continousintegration\/Library\/Developer\/Xcode\/DerivedData\/IdVerification365id-ekpmftyumhtmfkecekjamhdldkcn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 12895,
+      "offset": 12750,
       "length": 48,
       "value": "\"\/_365id.Glootie.Contracts.gRPC.Nfc.Nfc\/Process\""
     },
@@ -9391,84 +9435,84 @@
     {
       "filePath": "\/Users\/continousintegration\/Library\/Developer\/Xcode\/DerivedData\/IdVerification365id-ekpmftyumhtmfkecekjamhdldkcn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/iProov.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 11331,
+      "offset": 11234,
       "length": 8,
       "value": "\"iProov\""
     },
     {
       "filePath": "\/Users\/continousintegration\/Library\/Developer\/Xcode\/DerivedData\/IdVerification365id-ekpmftyumhtmfkecekjamhdldkcn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/iProov.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 11355,
+      "offset": 11258,
       "length": 45,
       "value": "\"_365id.Glootie.Contracts.gRPC.iProov.iProov\""
     },
     {
       "filePath": "\/Users\/continousintegration\/Library\/Developer\/Xcode\/DerivedData\/IdVerification365id-ekpmftyumhtmfkecekjamhdldkcn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/iProov.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 11694,
+      "offset": 11597,
       "length": 11,
       "value": "\"EnrolUser\""
     },
     {
       "filePath": "\/Users\/continousintegration\/Library\/Developer\/Xcode\/DerivedData\/IdVerification365id-ekpmftyumhtmfkecekjamhdldkcn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/iProov.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 11719,
+      "offset": 11622,
       "length": 56,
       "value": "\"\/_365id.Glootie.Contracts.gRPC.iProov.iProov\/EnrolUser\""
     },
     {
       "filePath": "\/Users\/continousintegration\/Library\/Developer\/Xcode\/DerivedData\/IdVerification365id-ekpmftyumhtmfkecekjamhdldkcn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/iProov.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 11889,
+      "offset": 11792,
       "length": 15,
       "value": "\"ValidateEnrol\""
     },
     {
       "filePath": "\/Users\/continousintegration\/Library\/Developer\/Xcode\/DerivedData\/IdVerification365id-ekpmftyumhtmfkecekjamhdldkcn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/iProov.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 11918,
+      "offset": 11821,
       "length": 60,
       "value": "\"\/_365id.Glootie.Contracts.gRPC.iProov.iProov\/ValidateEnrol\""
     },
     {
       "filePath": "\/Users\/continousintegration\/Library\/Developer\/Xcode\/DerivedData\/IdVerification365id-ekpmftyumhtmfkecekjamhdldkcn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/iProov.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 17487,
+      "offset": 17342,
       "length": 8,
       "value": "\"iProov\""
     },
     {
       "filePath": "\/Users\/continousintegration\/Library\/Developer\/Xcode\/DerivedData\/IdVerification365id-ekpmftyumhtmfkecekjamhdldkcn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/iProov.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 17511,
+      "offset": 17366,
       "length": 45,
       "value": "\"_365id.Glootie.Contracts.gRPC.iProov.iProov\""
     },
     {
       "filePath": "\/Users\/continousintegration\/Library\/Developer\/Xcode\/DerivedData\/IdVerification365id-ekpmftyumhtmfkecekjamhdldkcn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/iProov.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 17850,
+      "offset": 17705,
       "length": 11,
       "value": "\"EnrolUser\""
     },
     {
       "filePath": "\/Users\/continousintegration\/Library\/Developer\/Xcode\/DerivedData\/IdVerification365id-ekpmftyumhtmfkecekjamhdldkcn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/iProov.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 17875,
+      "offset": 17730,
       "length": 56,
       "value": "\"\/_365id.Glootie.Contracts.gRPC.iProov.iProov\/EnrolUser\""
     },
     {
       "filePath": "\/Users\/continousintegration\/Library\/Developer\/Xcode\/DerivedData\/IdVerification365id-ekpmftyumhtmfkecekjamhdldkcn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/iProov.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 18045,
+      "offset": 17900,
       "length": 15,
       "value": "\"ValidateEnrol\""
     },
     {
       "filePath": "\/Users\/continousintegration\/Library\/Developer\/Xcode\/DerivedData\/IdVerification365id-ekpmftyumhtmfkecekjamhdldkcn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/iProov.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 18074,
+      "offset": 17929,
       "length": 60,
       "value": "\"\/_365id.Glootie.Contracts.gRPC.iProov.iProov\/ValidateEnrol\""
     },
@@ -9720,56 +9764,56 @@
     {
       "filePath": "\/Users\/continousintegration\/Library\/Developer\/Xcode\/DerivedData\/IdVerification365id-ekpmftyumhtmfkecekjamhdldkcn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Coordinator.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 9064,
+      "offset": 8967,
       "length": 13,
       "value": "\"Coordinator\""
     },
     {
       "filePath": "\/Users\/continousintegration\/Library\/Developer\/Xcode\/DerivedData\/IdVerification365id-ekpmftyumhtmfkecekjamhdldkcn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Coordinator.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 9093,
+      "offset": 8996,
       "length": 55,
       "value": "\"_365id.Glootie.Contracts.gRPC.Coordinator.Coordinator\""
     },
     {
       "filePath": "\/Users\/continousintegration\/Library\/Developer\/Xcode\/DerivedData\/IdVerification365id-ekpmftyumhtmfkecekjamhdldkcn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Coordinator.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 9363,
+      "offset": 9266,
       "length": 10,
       "value": "\"NextTask\""
     },
     {
       "filePath": "\/Users\/continousintegration\/Library\/Developer\/Xcode\/DerivedData\/IdVerification365id-ekpmftyumhtmfkecekjamhdldkcn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Coordinator.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 9387,
+      "offset": 9290,
       "length": 65,
       "value": "\"\/_365id.Glootie.Contracts.gRPC.Coordinator.Coordinator\/NextTask\""
     },
     {
       "filePath": "\/Users\/continousintegration\/Library\/Developer\/Xcode\/DerivedData\/IdVerification365id-ekpmftyumhtmfkecekjamhdldkcn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Coordinator.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 13660,
+      "offset": 13515,
       "length": 13,
       "value": "\"Coordinator\""
     },
     {
       "filePath": "\/Users\/continousintegration\/Library\/Developer\/Xcode\/DerivedData\/IdVerification365id-ekpmftyumhtmfkecekjamhdldkcn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Coordinator.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 13689,
+      "offset": 13544,
       "length": 55,
       "value": "\"_365id.Glootie.Contracts.gRPC.Coordinator.Coordinator\""
     },
     {
       "filePath": "\/Users\/continousintegration\/Library\/Developer\/Xcode\/DerivedData\/IdVerification365id-ekpmftyumhtmfkecekjamhdldkcn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Coordinator.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 13959,
+      "offset": 13814,
       "length": 10,
       "value": "\"NextTask\""
     },
     {
       "filePath": "\/Users\/continousintegration\/Library\/Developer\/Xcode\/DerivedData\/IdVerification365id-ekpmftyumhtmfkecekjamhdldkcn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Coordinator.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 13983,
+      "offset": 13838,
       "length": 65,
       "value": "\"\/_365id.Glootie.Contracts.gRPC.Coordinator.Coordinator\/NextTask\""
     },
@@ -9909,56 +9953,56 @@
     {
       "filePath": "\/Users\/continousintegration\/Library\/Developer\/Xcode\/DerivedData\/IdVerification365id-ekpmftyumhtmfkecekjamhdldkcn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Identification.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 9337,
+      "offset": 9240,
       "length": 16,
       "value": "\"Identification\""
     },
     {
       "filePath": "\/Users\/continousintegration\/Library\/Developer\/Xcode\/DerivedData\/IdVerification365id-ekpmftyumhtmfkecekjamhdldkcn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Identification.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 9369,
+      "offset": 9272,
       "length": 61,
       "value": "\"_365id.Glootie.Contracts.gRPC.Identification.Identification\""
     },
     {
       "filePath": "\/Users\/continousintegration\/Library\/Developer\/Xcode\/DerivedData\/IdVerification365id-ekpmftyumhtmfkecekjamhdldkcn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Identification.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 9651,
+      "offset": 9554,
       "length": 10,
       "value": "\"Identify\""
     },
     {
       "filePath": "\/Users\/continousintegration\/Library\/Developer\/Xcode\/DerivedData\/IdVerification365id-ekpmftyumhtmfkecekjamhdldkcn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Identification.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 9675,
+      "offset": 9578,
       "length": 71,
       "value": "\"\/_365id.Glootie.Contracts.gRPC.Identification.Identification\/Identify\""
     },
     {
       "filePath": "\/Users\/continousintegration\/Library\/Developer\/Xcode\/DerivedData\/IdVerification365id-ekpmftyumhtmfkecekjamhdldkcn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Identification.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 14077,
+      "offset": 13932,
       "length": 16,
       "value": "\"Identification\""
     },
     {
       "filePath": "\/Users\/continousintegration\/Library\/Developer\/Xcode\/DerivedData\/IdVerification365id-ekpmftyumhtmfkecekjamhdldkcn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Identification.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 14109,
+      "offset": 13964,
       "length": 61,
       "value": "\"_365id.Glootie.Contracts.gRPC.Identification.Identification\""
     },
     {
       "filePath": "\/Users\/continousintegration\/Library\/Developer\/Xcode\/DerivedData\/IdVerification365id-ekpmftyumhtmfkecekjamhdldkcn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Identification.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 14391,
+      "offset": 14246,
       "length": 10,
       "value": "\"Identify\""
     },
     {
       "filePath": "\/Users\/continousintegration\/Library\/Developer\/Xcode\/DerivedData\/IdVerification365id-ekpmftyumhtmfkecekjamhdldkcn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Identification.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 14415,
+      "offset": 14270,
       "length": 71,
       "value": "\"\/_365id.Glootie.Contracts.gRPC.Identification.Identification\/Identify\""
     },
@@ -10168,42 +10212,42 @@
     {
       "filePath": "\/Users\/continousintegration\/Library\/Developer\/Xcode\/DerivedData\/IdVerification365id-ekpmftyumhtmfkecekjamhdldkcn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/CoordinatorTask.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 6813,
+      "offset": 6716,
       "length": 26,
       "value": "\"NoServiceCoordinatorTask\""
     },
     {
       "filePath": "\/Users\/continousintegration\/Library\/Developer\/Xcode\/DerivedData\/IdVerification365id-ekpmftyumhtmfkecekjamhdldkcn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/CoordinatorTask.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 6855,
+      "offset": 6758,
       "length": 73,
       "value": "\"_365id.Glootie.Contracts.gRPC.Coordinator.Task.NoServiceCoordinatorTask\""
     },
     {
       "filePath": "\/Users\/continousintegration\/Library\/Developer\/Xcode\/DerivedData\/IdVerification365id-ekpmftyumhtmfkecekjamhdldkcn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/CoordinatorTask.grpc.swift",
       "kind": "Array",
-      "offset": 6943,
+      "offset": 6846,
       "length": 7,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/continousintegration\/Library\/Developer\/Xcode\/DerivedData\/IdVerification365id-ekpmftyumhtmfkecekjamhdldkcn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/CoordinatorTask.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 9588,
+      "offset": 9443,
       "length": 26,
       "value": "\"NoServiceCoordinatorTask\""
     },
     {
       "filePath": "\/Users\/continousintegration\/Library\/Developer\/Xcode\/DerivedData\/IdVerification365id-ekpmftyumhtmfkecekjamhdldkcn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/CoordinatorTask.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 9630,
+      "offset": 9485,
       "length": 73,
       "value": "\"_365id.Glootie.Contracts.gRPC.Coordinator.Task.NoServiceCoordinatorTask\""
     },
     {
       "filePath": "\/Users\/continousintegration\/Library\/Developer\/Xcode\/DerivedData\/IdVerification365id-ekpmftyumhtmfkecekjamhdldkcn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/CoordinatorTask.grpc.swift",
       "kind": "Array",
-      "offset": 9718,
+      "offset": 9573,
       "length": 7,
       "value": "[]"
     },

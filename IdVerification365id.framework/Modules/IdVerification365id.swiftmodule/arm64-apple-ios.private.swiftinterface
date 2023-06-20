@@ -12,6 +12,20 @@ import SwiftUI
 import UIKit
 import _Concurrency
 import _StringProcessing
+@objc public enum AssessmentType : Swift.Int, Swift.Codable {
+  case Inconclusive
+  case Valid
+  case Unidentified
+  case Rejected
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+extension IdVerification365id.AssessmentType {
+  public func encode(to encoder: Swift.Encoder) throws
+}
 @available(*, deprecated, message: "Use IdVerificationTheme instead")
 @objc public class WhiteLabeling : ObjectiveC.NSObject {
   @objc public init(headerColor: UIKit.UIColor? = nil, backgroundColor: UIKit.UIColor? = nil, iconColor: UIKit.UIColor? = nil, appBarLogo: UIKit.UIImage? = nil, scanButtonColor: UIKit.UIColor? = nil, scanButtonTextColor: UIKit.UIColor? = nil, containerBoxOuterColor: UIKit.UIColor? = nil, containerBoxInnerColor: UIKit.UIColor? = nil, containerBoxTextColor: UIKit.UIColor? = nil, containerBoxSubTextColor: UIKit.UIColor? = nil, poweredByLogo: IdVerification365id.PoweredByLogo = .STANDARD)
@@ -22,12 +36,6 @@ import _StringProcessing
   public func copyWith(surface: UIKit.UIColor? = nil, onSurface: UIKit.UIColor? = nil, background: UIKit.UIColor? = nil, primary: UIKit.UIColor? = nil, onPrimary: UIKit.UIColor? = nil, secondary: UIKit.UIColor? = nil, secondaryContainer: UIKit.UIColor? = nil, onSecondary: UIKit.UIColor? = nil, onSecondaryContainer: UIKit.UIColor? = nil, appBarLogo: UIKit.UIImage? = nil, poweredByLogo: IdVerification365id.PoweredByLogo? = nil, showAppBar: Swift.Bool? = nil) -> IdVerification365id.IdVerificationTheme
   @objc deinit
 }
-@available(*, deprecated, message: "Use IdVerification.addCustomTheme(whiteLabeling:) instead")
-public func addTheme(_ whiteLabeling: IdVerification365id.WhiteLabeling)
-@available(*, deprecated, message: "Use IdVerification.start(token:locationId:delegate:) instead")
-public func startSDK(deviceInfo: [Swift.String : Swift.String], callBack: ((IdVerification365id.TransactionResult) -> Swift.Void)?) -> Swift.Bool
-@available(*, deprecated, message: "Use IdVerification.stop instead")
-public func stopSDK()
 @_inheritsConvenienceInitializers @objc public class IdVerification : ObjectiveC.NSObject {
   @available(*, deprecated, message: "Use setCustomTheme instead")
   @objc public static func addCustomTheme(_ whiteLabeling: IdVerification365id.WhiteLabeling)
@@ -51,29 +59,6 @@ public func stopSDK()
   @objc func onError(_ error: IdVerification365id.IdVerificationErrorBundle)
   @objc func onCompleted(_ result: IdVerification365id.IdVerificationResult)
 }
-@objc public enum AssessmentType : Swift.Int, Swift.Codable {
-  case Inconclusive
-  case Valid
-  case Unidentified
-  case Rejected
-  public init?(rawValue: Swift.Int)
-  public typealias RawValue = Swift.Int
-  public var rawValue: Swift.Int {
-    get
-  }
-}
-@objc public enum StatusType : Swift.Int, Swift.Codable {
-  case OK
-  case Dismissed
-  case ClientException
-  case ServerException
-  case SessionTimeout
-  public init?(rawValue: Swift.Int)
-  public typealias RawValue = Swift.Int
-  public var rawValue: Swift.Int {
-    get
-  }
-}
 @_hasMissingDesignatedInitializers @available(*, deprecated)
 @objc public class TransactionResult : ObjectiveC.NSObject, Swift.Codable {
   @objc final public let Status: IdVerification365id.StatusType
@@ -84,24 +69,33 @@ public func stopSDK()
   @objc deinit
   public func encode(to encoder: Swift.Encoder) throws
 }
-extension IdVerification365id.StatusType {
-  public func encode(to encoder: Swift.Encoder) throws
-}
-extension IdVerification365id.AssessmentType {
-  public func encode(to encoder: Swift.Encoder) throws
-}
 public struct SdkMainView : SwiftUI.View {
   @available(*, deprecated, message: "Use SdkMainView() instead")
   public init(showAppBar: Swift.Bool = false)
-  public init()
   @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
     get
   }
   public typealias Body = @_opaqueReturnTypeOf("$s19IdVerification365id11SdkMainViewV4bodyQrvp", 0) __
 }
+@objc public enum StatusType : Swift.Int, Swift.Codable {
+  case OK
+  case Dismissed
+  case ClientException
+  case ServerException
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+extension IdVerification365id.StatusType {
+  public func encode(to encoder: Swift.Encoder) throws
+}
 extension UIKit.UIView {
   @_Concurrency.MainActor(unsafe) public func asUIImage() -> UIKit.UIImage
 }
+@available(*, deprecated, message: "Use IdVerification.addCustomTheme(whiteLabeling:) instead")
+public func addTheme(_ whiteLabeling: IdVerification365id.WhiteLabeling)
 @objc public enum IdVerificationError : Swift.Int {
   case invalidTokenError = 0
   case clientError = 1
@@ -115,15 +109,19 @@ extension UIKit.UIView {
     get
   }
 }
+@_hasMissingDesignatedInitializers @objc public class IdVerificationResult : ObjectiveC.NSObject {
+  @objc final public let transactionId: Swift.String
+  @objc deinit
+}
+@available(*, deprecated, message: "Use IdVerification.stop instead")
+public func stopSDK()
 @_hasMissingDesignatedInitializers @objc public class IdVerificationErrorBundle : ObjectiveC.NSObject {
   @objc final public let error: IdVerification365id.IdVerificationError
   @objc final public let message: Swift.String
   @objc deinit
 }
-@_hasMissingDesignatedInitializers @objc public class IdVerificationResult : ObjectiveC.NSObject {
-  @objc final public let transactionId: Swift.String
-  @objc deinit
-}
+@available(*, deprecated, message: "Use IdVerification.start(token:locationId:delegate:) instead")
+public func startSDK(deviceInfo: [Swift.String : Swift.String], callBack: ((IdVerification365id.TransactionResult) -> Swift.Void)?) -> Swift.Bool
 @objc public enum PoweredByLogo : Swift.Int {
   case STANDARD
   case WHITE

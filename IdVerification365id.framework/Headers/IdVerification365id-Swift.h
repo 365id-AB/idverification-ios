@@ -460,8 +460,6 @@ typedef SWIFT_ENUM(NSInteger, StatusType, open) {
   StatusTypeClientException = 2,
 /// Returned if an exception was encountered in the verification process, on the server side.
   StatusTypeServerException = 3,
-/// Returned if the session token timed out
-  StatusTypeSessionTimeout = 4,
 };
 
 
