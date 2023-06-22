@@ -608,6 +608,11 @@ In writing, this can be described as such:
 <br/>
 <br/>
 
+## API
+
+You can find full API documentation here: [https://365id-ab.github.io/idverification-ios/documentation/idverification365id/](https://365id-ab.github.io/idverification-ios/documentation/idverification365id/)
+
+
 ## Help & support
 
 For additional help, please contact support@365id.com.
