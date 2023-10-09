@@ -250,20 +250,6 @@ Example:   ISO7816 application identifiers for NFC Tag Reader Session (A00000024
 <br/>
 <br/>
 
-### Logging and error handling
-
-The 365id IdVerification SDK uses Sentry for logging and error handling.
-
-Currently Sentry does not have support for running more than one instance at a time, or change the DSN during runtime, therefore, when the SDK starts it performs a check to see if an instance of Sentry is already running, and if that is the case it wont run Sentry.
-
-If your app have an instance of Sentry running, the logs will be sent to your Sentry project. If your app does not use Sentry this wont be an issue.
-
-To avoid getting our logs we suggest that your app exits Sentry just before the SDK starts and reinstantiate your Sentry right after the SDK exits.
-
-<br/>
-<br/>
-<br/>
-
 ### Sample Application
 
 Please note that there is a [Sample Application](/SampleApp/) written in Swift using SwiftUI that demonstrates how the SDK can be used, available in this repository.
@@ -529,6 +515,40 @@ IdVerification.setCustomTheme(
          poweredByLogo: .STANDARD,
          showAppBar: true))
 ```
+<br/>
+<br/>
+<br/>
+
+## Log and Telemetry collection
+
+The 365id IdVerification SDK uses [Sentry](https://sentry.io/) for collectiong logs and telemetry data.
+
+### What data are we collecting
+
+We are not, during any stage, collecting the users PII (Personal Identifiable Information). That includes, but are not limited to; email adresses, user names, phone number etc.
+
+#### Logging
+
+For logging we are collecting the following data to help us find and fix problems in our SDK:
+
+- SDK version
+- Stacktraces
+
+#### Telemetry
+
+The telemetry data we collect to find bottlenecks and slow processes in our SDK is:
+
+- The time different requests are taking to execute.
+- The time a user spend on each view.
+
+### If your app uses Sentry
+
+Currently Sentry does not have support for running more than one instance at a time, or change the DSN during runtime, therefore, when the SDK starts it performs a check to see if an instance of Sentry is already running, and if that is the case it wont run Sentry.
+
+If your app have an instance of Sentry running, the logs will be sent to your Sentry project. If your app does not use Sentry this wont be an issue.
+
+To avoid getting our logs we suggest that your app exits Sentry just before calling ```IdVerification.start()``` and reinstantiate your Sentry right after the ```OnClose``` callback is triggered.
+
 <br/>
 <br/>
 <br/>
