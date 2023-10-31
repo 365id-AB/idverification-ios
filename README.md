@@ -370,6 +370,21 @@ When you in your app have acquired an access token, you are ready to call the `s
  function. This function requires you to provide the access token and your own implementation of the `IdVerificationEventDelegate` protocol.  
 
 
+#### Modules To Skip
+
+The `skipModules`-parameter is an optional parameter to `start()` and with this you will be able to skip various identification processes, also known as modules. The input type for this parameter is `IdVerificationSkipModules` which is a class that has a constructor that takes a list of enum values. Here is an example of how to skip two modules:
+```swift
+IdVerification.start(
+   token: myToken,
+   skipModules: IdVerificationSkipModules([
+      // Define modules to skip here:
+      .faceMatch,
+      .nfc
+   ]),
+   delegate: myDelegate
+)
+```
+
 #### Using the EventDelegate
 
 The protocol `IdVerificationEventDelegate` should be implemented and then a delegate object should be provided with the `start()` function. This gives you detailed feedback on the id verification process and then also the final result of the transaction will only be provided by our backend system, making it safer.
