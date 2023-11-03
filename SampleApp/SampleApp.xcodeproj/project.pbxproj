@@ -17,6 +17,8 @@
 		A2AF86221EF732B74397F528 /* Pods_SampleApp_objc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB9C4727543823EA21C00E4B /* Pods_SampleApp_objc.framework */; };
 		B7FFB1372A1E5FD7003033C2 /* IdVerificationContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FFB1362A1E5FD7003033C2 /* IdVerificationContainerView.swift */; };
 		FB23963A2937912000118820 /* TokenHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2396392937912000118820 /* TokenHandler.swift */; };
+		FBE34AFE2AF4F176009E3EA2 /* Capture in Frameworks */ = {isa = PBXBuildFile; productRef = FBE34AFD2AF4F176009E3EA2 /* Capture */; };
+		FBE34B002AF4F4C6009E3EA2 /* Capture in Frameworks */ = {isa = PBXBuildFile; productRef = FBE34AFF2AF4F4C6009E3EA2 /* Capture */; };
 		FBEE0EDD2947C5A900A91F6E /* Credentials.m in Sources */ = {isa = PBXBuildFile; fileRef = FBEE0EDC2947C5A900A91F6E /* Credentials.m */; };
 		FBEE0EE02947C5BD00A91F6E /* DeviceInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = FBEE0EDF2947C5BD00A91F6E /* DeviceInformation.m */; };
 		FBEE0EE42947F7C700A91F6E /* AppNavigation.m in Sources */ = {isa = PBXBuildFile; fileRef = FBEE0EE32947F7C700A91F6E /* AppNavigation.m */; };
@@ -88,6 +90,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				11C72CCEAD94C269EC55D2E3 /* Pods_SampleApp_swift.framework in Frameworks */,
+				FBE34AFE2AF4F176009E3EA2 /* Capture in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,6 +99,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2AF86221EF732B74397F528 /* Pods_SampleApp_objc.framework in Frameworks */,
+				FBE34B002AF4F4C6009E3EA2 /* Capture in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,7 +238,7 @@
 				A1B301F028ABCD3C008863E9 /* Sources */,
 				A1B301F128ABCD3C008863E9 /* Frameworks */,
 				A1B301F228ABCD3C008863E9 /* Resources */,
-				4AC8B70D71CE4D3FA182DB06 /* [CP] Embed Pods Frameworks */,
+				226E83A9A0FAA5113964FBD3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 				A1B3023728ACEA30008863E9 /* PBXBuildRule */,
@@ -242,6 +246,9 @@
 			dependencies = (
 			);
 			name = "SampleApp-swift";
+			packageProductDependencies = (
+				FBE34AFD2AF4F176009E3EA2 /* Capture */,
+			);
 			productName = SampleApp;
 			productReference = A1B301F428ABCD3C008863E9 /* SampleApp-swift.app */;
 			productType = "com.apple.product-type.application";
@@ -254,13 +261,16 @@
 				FBF70268294365DF00DD30CA /* Sources */,
 				FBF70269294365DF00DD30CA /* Frameworks */,
 				FBF7026A294365DF00DD30CA /* Resources */,
-				31C90C282C90CFB4EEC7F655 /* [CP] Embed Pods Frameworks */,
+				78A460B73E89B07A29A9459C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "SampleApp-objc";
+			packageProductDependencies = (
+				FBE34AFF2AF4F4C6009E3EA2 /* Capture */,
+			);
 			productName = "SampleApp-objc";
 			productReference = FBF7026C294365DF00DD30CA /* SampleApp-objc.app */;
 			productType = "com.apple.product-type.application";
@@ -292,6 +302,9 @@
 				Base,
 			);
 			mainGroup = A1B301EB28ABCD3C008863E9;
+			packageReferences = (
+				FBE34AFC2AF4F176009E3EA2 /* XCRemoteSwiftPackageReference "capture-ios" */,
+			);
 			productRefGroup = A1B301F528ABCD3C008863E9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -324,21 +337,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		31C90C282C90CFB4EEC7F655 /* [CP] Embed Pods Frameworks */ = {
+		226E83A9A0FAA5113964FBD3 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SampleApp-objc/Pods-SampleApp-objc-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-SampleApp-swift/Pods-SampleApp-swift-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SampleApp-objc/Pods-SampleApp-objc-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-SampleApp-swift/Pods-SampleApp-swift-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SampleApp-objc/Pods-SampleApp-objc-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SampleApp-swift/Pods-SampleApp-swift-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		49CC27DA03C2CF08E7050B19 /* [CP] Check Pods Manifest.lock */ = {
@@ -363,21 +376,21 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		4AC8B70D71CE4D3FA182DB06 /* [CP] Embed Pods Frameworks */ = {
+		78A460B73E89B07A29A9459C /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SampleApp-swift/Pods-SampleApp-swift-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-SampleApp-objc/Pods-SampleApp-objc-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SampleApp-swift/Pods-SampleApp-swift-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-SampleApp-objc/Pods-SampleApp-objc-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SampleApp-swift/Pods-SampleApp-swift-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SampleApp-objc/Pods-SampleApp-objc-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		9808CFF8B989037CD284EC58 /* [CP] Check Pods Manifest.lock */ = {
@@ -723,6 +736,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FBE34AFC2AF4F176009E3EA2 /* XCRemoteSwiftPackageReference "capture-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/BlinkID/capture-ios";
+			requirement = {
+				kind = exactVersion;
+				version = 1.0.5;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FBE34AFD2AF4F176009E3EA2 /* Capture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FBE34AFC2AF4F176009E3EA2 /* XCRemoteSwiftPackageReference "capture-ios" */;
+			productName = Capture;
+		};
+		FBE34AFF2AF4F4C6009E3EA2 /* Capture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FBE34AFC2AF4F176009E3EA2 /* XCRemoteSwiftPackageReference "capture-ios" */;
+			productName = Capture;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A1B301EC28ABCD3C008863E9 /* Project object */;
 }

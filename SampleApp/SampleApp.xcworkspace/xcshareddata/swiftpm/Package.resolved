@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "capture-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/BlinkID/capture-ios",
+      "state" : {
+        "revision" : "794a504fc03f9d4cc6781c747f9b4367b5c82172",
+        "version" : "1.0.5"
+      }
+    }
+  ],
+  "version" : 2
+}

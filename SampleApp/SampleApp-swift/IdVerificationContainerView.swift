@@ -5,7 +5,7 @@ import IdVerification365id
 struct IdVerificationContainerView: View {
     var body: some View {
         ZStack {
-            SdkMainView()
+            IdVerificationView()
         }
         .navigationBarHidden(true)
     }

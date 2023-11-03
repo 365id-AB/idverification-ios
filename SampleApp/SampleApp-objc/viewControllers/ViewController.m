@@ -92,7 +92,11 @@
 -(void)clickStartSdkButton:(id)sender
 {
     [DeviceInformation getDeviceInfo:^(NSDictionary *deviceInfo) {
-        if([IdVerification startWithToken:deviceInfo[@"Token"] locationId:0 delegate: self]) {
+
+        // Skip no modules example
+        IdVerificationSkipModules *skipNoModules = [[IdVerificationSkipModules alloc] init];
+
+        if([IdVerification startWithToken:deviceInfo[@"Token"] locationId:0 skipModules:skipNoModules delegate:self]) {
             // SDK was happy with the provided arguments.
         } else {
             // Unable to start the SDK. Most likely something was wrong with the token.
