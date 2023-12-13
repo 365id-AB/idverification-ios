@@ -16,9 +16,19 @@ import _StringProcessing
   public func copyWith(surface: UIKit.UIColor? = nil, onSurface: UIKit.UIColor? = nil, background: UIKit.UIColor? = nil, primary: UIKit.UIColor? = nil, onPrimary: UIKit.UIColor? = nil, secondary: UIKit.UIColor? = nil, secondaryContainer: UIKit.UIColor? = nil, onSecondary: UIKit.UIColor? = nil, onSecondaryContainer: UIKit.UIColor? = nil, appBarLogo: UIKit.UIImage? = nil, poweredByLogo: IdVerification365id.PoweredByLogo? = nil, showAppBar: Swift.Bool? = nil) -> IdVerification365id.IdVerificationTheme
   @objc deinit
 }
+@objc public enum DocumentType : Swift.Int {
+  case id1 = 0
+  case id3 = 1
+  case document = 2
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
 @_inheritsConvenienceInitializers @objc public class IdVerification : ObjectiveC.NSObject {
   @objc public static func setCustomTheme(_ idVerificationTheme: IdVerification365id.IdVerificationTheme)
-  @objc public static func start(token: Swift.String, locationId: Swift.Int = 0, skipModules: IdVerification365id.IdVerificationSkipModules = IdVerificationSkipModules([]), delegate: IdVerification365id.IdVerificationEventDelegate) -> Swift.Bool
+  @objc public static func start(token: Swift.String, locationId: Swift.Int = 0, skipModules: IdVerification365id.IdVerificationSkipModules = IdVerificationSkipModules([]), documentType: IdVerification365id.DocumentType = .document, delegate: IdVerification365id.IdVerificationEventDelegate) -> Swift.Bool
   @objc public static func stop()
   @objc public static func createMainView() -> UIKit.UIViewController
   @objc override dynamic public init()
@@ -89,6 +99,9 @@ extension UIKit.UIView {
     get
   }
 }
+extension IdVerification365id.DocumentType : Swift.Equatable {}
+extension IdVerification365id.DocumentType : Swift.Hashable {}
+extension IdVerification365id.DocumentType : Swift.RawRepresentable {}
 extension IdVerification365id.IdVerificationError : Swift.Equatable {}
 extension IdVerification365id.IdVerificationError : Swift.Hashable {}
 extension IdVerification365id.IdVerificationError : Swift.RawRepresentable {}

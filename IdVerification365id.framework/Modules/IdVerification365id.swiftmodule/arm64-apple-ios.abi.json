@@ -694,6 +694,266 @@
         "moduleName": "IdVerification365id"
       },
       {
+        "kind": "TypeDecl",
+        "name": "DocumentType",
+        "printedName": "DocumentType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "id1",
+            "printedName": "id1",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IdVerification365id.DocumentType.Type) -> IdVerification365id.DocumentType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DocumentType",
+                    "printedName": "IdVerification365id.DocumentType",
+                    "usr": "c:@M@IdVerification365id@E@DocumentType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IdVerification365id.DocumentType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DocumentType",
+                        "printedName": "IdVerification365id.DocumentType",
+                        "usr": "c:@M@IdVerification365id@E@DocumentType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@IdVerification365id@E@DocumentType@DocumentTypeId1",
+            "mangledName": "$s19IdVerification365id12DocumentTypeO3id1yA2CmF",
+            "moduleName": "IdVerification365id",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "id3",
+            "printedName": "id3",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IdVerification365id.DocumentType.Type) -> IdVerification365id.DocumentType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DocumentType",
+                    "printedName": "IdVerification365id.DocumentType",
+                    "usr": "c:@M@IdVerification365id@E@DocumentType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IdVerification365id.DocumentType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DocumentType",
+                        "printedName": "IdVerification365id.DocumentType",
+                        "usr": "c:@M@IdVerification365id@E@DocumentType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@IdVerification365id@E@DocumentType@DocumentTypeId3",
+            "mangledName": "$s19IdVerification365id12DocumentTypeO3id3yA2CmF",
+            "moduleName": "IdVerification365id",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Var",
+            "name": "document",
+            "printedName": "document",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IdVerification365id.DocumentType.Type) -> IdVerification365id.DocumentType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DocumentType",
+                    "printedName": "IdVerification365id.DocumentType",
+                    "usr": "c:@M@IdVerification365id@E@DocumentType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IdVerification365id.DocumentType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DocumentType",
+                        "printedName": "IdVerification365id.DocumentType",
+                        "usr": "c:@M@IdVerification365id@E@DocumentType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@IdVerification365id@E@DocumentType@DocumentTypeDocument",
+            "mangledName": "$s19IdVerification365id12DocumentTypeO8documentyA2CmF",
+            "moduleName": "IdVerification365id",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 2
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "IdVerification365id.DocumentType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DocumentType",
+                    "printedName": "IdVerification365id.DocumentType",
+                    "usr": "c:@M@IdVerification365id@E@DocumentType"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:19IdVerification365id12DocumentTypeO8rawValueACSgSi_tcfc",
+            "mangledName": "$s19IdVerification365id12DocumentTypeO8rawValueACSgSi_tcfc",
+            "moduleName": "IdVerification365id",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19IdVerification365id12DocumentTypeO8rawValueSivp",
+            "mangledName": "$s19IdVerification365id12DocumentTypeO8rawValueSivp",
+            "moduleName": "IdVerification365id",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IdVerification365id12DocumentTypeO8rawValueSivg",
+                "mangledName": "$s19IdVerification365id12DocumentTypeO8rawValueSivg",
+                "moduleName": "IdVerification365id",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@M@IdVerification365id@E@DocumentType",
+        "mangledName": "$s19IdVerification365id12DocumentTypeO",
+        "moduleName": "IdVerification365id",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IdVerification365id"
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -745,7 +1005,7 @@
           {
             "kind": "Function",
             "name": "start",
-            "printedName": "start(token:locationId:skipModules:delegate:)",
+            "printedName": "start(token:locationId:skipModules:documentType:delegate:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -775,17 +1035,24 @@
               },
               {
                 "kind": "TypeNominal",
+                "name": "DocumentType",
+                "printedName": "IdVerification365id.DocumentType",
+                "hasDefaultArg": true,
+                "usr": "c:@M@IdVerification365id@E@DocumentType"
+              },
+              {
+                "kind": "TypeNominal",
                 "name": "IdVerificationEventDelegate",
                 "printedName": "IdVerification365id.IdVerificationEventDelegate",
                 "usr": "c:@M@IdVerification365id@objc(pl)IdVerificationEventDelegate"
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@IdVerification365id@objc(cs)IdVerification(cm)startWithToken:locationId:skipModules:delegate:",
-            "mangledName": "$s19IdVerification365id0A12VerificationC5start5token08locationA011skipModules8delegateSbSS_SiAA0ac4SkipH0CAA0aC13EventDelegate_ptFZ",
+            "usr": "c:@M@IdVerification365id@objc(cs)IdVerification(cm)startWithToken:locationId:skipModules:documentType:delegate:",
+            "mangledName": "$s19IdVerification365id0A12VerificationC5start5token08locationA011skipModules12documentType8delegateSbSS_SiAA0ac4SkipH0CAA08DocumentJ0OAA0aC13EventDelegate_ptFZ",
             "moduleName": "IdVerification365id",
             "static": true,
-            "objc_name": "startWithToken:locationId:skipModules:delegate:",
+            "objc_name": "startWithToken:locationId:skipModules:documentType:delegate:",
             "declAttributes": [
               "Final",
               "AccessControl",
@@ -5035,7 +5302,7 @@
     {
       "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/TaskViews\/MicroBlinkView.swift",
       "kind": "BooleanLiteral",
-      "offset": 383,
+      "offset": 419,
       "length": 5,
       "value": "false"
     },
@@ -5110,16 +5377,58 @@
       "value": "60"
     },
     {
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/DocumentType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 179,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/DocumentType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 258,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/DocumentType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 360,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/DocumentType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 179,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/DocumentType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 258,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/DocumentType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 360,
+      "length": 1,
+      "value": "2"
+    },
+    {
       "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/IdVerification.swift",
       "kind": "IntegerLiteral",
-      "offset": 1212,
+      "offset": 1329,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/IdVerification.swift",
       "kind": "Array",
-      "offset": 1317,
+      "offset": 1434,
       "length": 2,
       "value": "[]"
     },
@@ -5327,13 +5636,6 @@
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Utils\/SdkStatus.swift",
-      "kind": "Array",
-      "offset": 226,
-      "length": 2,
-      "value": "[]"
-    },
-    {
       "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/Grpc\/GRPCConfig.swift",
       "kind": "StringLiteral",
       "offset": 146,
@@ -5434,7 +5736,7 @@
     {
       "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Models\/TransactionModel.swift",
       "kind": "Array",
-      "offset": 709,
+      "offset": 767,
       "length": 2,
       "value": "[]"
     },
@@ -5728,14 +6030,14 @@
     {
       "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 23159,
+      "offset": 23211,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 23190,
+      "offset": 23242,
       "length": 1,
       "value": "1"
     },

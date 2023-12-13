@@ -252,6 +252,16 @@ using UInt = size_t;
 #endif
 
 #if defined(__OBJC__)
+/// Enumeration of different types of document.
+typedef SWIFT_ENUM(NSInteger, DocumentType, open) {
+/// The shape of the document is id1 (passport size).
+  DocumentTypeId1 = 0,
+/// The shape of the document is id3 (credit card size).
+  DocumentTypeId3 = 1,
+/// The default to use when any physical document is assumed to be scanned
+  DocumentTypeDocument = 2,
+};
+
 
 @class IdVerificationTheme;
 @class NSString;
@@ -276,13 +286,15 @@ SWIFT_CLASS("_TtC19IdVerification365id14IdVerification")
 ///
 /// \param skipModules Modules that can be skipped during the identification process.
 ///
+/// \param documentType The type of document the user is encouraged to scan, use <code>.document</code> if it is not needed.
+///
 /// \param delegate To register callbacks from IdVerification SDK that is informing about various events
 ///
 ///
 /// returns:
 ///
 /// Returns true if the sdk is able to start properly
-+ (BOOL)startWithToken:(NSString * _Nonnull)token locationId:(NSInteger)locationId skipModules:(IdVerificationSkipModules * _Nonnull)skipModules delegate:(id <IdVerificationEventDelegate> _Nonnull)delegate SWIFT_WARN_UNUSED_RESULT;
++ (BOOL)startWithToken:(NSString * _Nonnull)token locationId:(NSInteger)locationId skipModules:(IdVerificationSkipModules * _Nonnull)skipModules documentType:(enum DocumentType)documentType delegate:(id <IdVerificationEventDelegate> _Nonnull)delegate SWIFT_WARN_UNUSED_RESULT;
 /// Cleanup SDK
 /// note:
 /// This is called when the sdk is done and you are done using it.
