@@ -252,23 +252,10 @@ using UInt = size_t;
 #endif
 
 #if defined(__OBJC__)
-/// Status of the transaction
-typedef SWIFT_ENUM(NSInteger, AssessmentType, open) {
-/// “Yellow” result where the document is identified but where we can’t say yay nor nay
-  AssessmentTypeInconclusive = 0,
-/// “Green” result where the document is verified to be valid
-  AssessmentTypeValid = 1,
-/// “Yellow” result where the document could not be identified
-  AssessmentTypeUnidentified = 2,
-/// “Red” result where the document is invalid
-  AssessmentTypeRejected = 3,
-};
 
-
-@class WhiteLabeling;
-@class NSString;
-@class TransactionResult;
 @class IdVerificationTheme;
+@class NSString;
+@class IdVerificationSkipModules;
 @protocol IdVerificationEventDelegate;
 @class UIViewController;
 
@@ -277,40 +264,17 @@ typedef SWIFT_ENUM(NSInteger, AssessmentType, open) {
 SWIFT_CLASS("_TtC19IdVerification365id14IdVerification")
 @interface IdVerification : NSObject
 /// Set custom theme to the SDK
-/// \param whiteLabeling Custom WhiteLabeling of the SDK
-///
-+ (void)addCustomTheme:(WhiteLabeling * _Nonnull)whiteLabeling SWIFT_DEPRECATED_MSG("Use setCustomTheme instead");
-/// This is the SDK main entry point
-/// Note: This is called when you are about to start the identification session.
-/// \param deviceInfo Device information used to identify and conect to the 365id cloud
-///
-/// \param callBack callBack used to receive the transaction result
-///
-///
-/// returns:
-///
-/// Returns true if the devcie information is set properly and it received the session token from the cloud
-+ (BOOL)startWithDeviceInfo:(NSDictionary<NSString *, NSString *> * _Nonnull)deviceInfo callBack:(void (^ _Nonnull)(TransactionResult * _Nonnull))callBack SWIFT_WARN_UNUSED_RESULT SWIFT_DEPRECATED_MSG("Use IdVerification.start(token:locationId:delegate:) instead");
-/// This is a simplified SDK entry point
-/// Note: This is called when you are about to start the identification session.
-/// \param token The token used for the SDK authentication
-///
-/// \param callBack callBack used to receive the transaction result
-///
-///
-/// returns:
-///
-/// Returns true if the token is proper and the sdk received the session token from the cloud
-+ (BOOL)startWithToken:(NSString * _Nonnull)token callBack:(void (^ _Nonnull)(TransactionResult * _Nonnull))callBack SWIFT_WARN_UNUSED_RESULT SWIFT_DEPRECATED_MSG("Use IdVerification.start(token:locationId:delegate:) instead");
-/// Set custom theme to the SDK
 /// \param idVerificationTheme Custom IdVerificationTheme of the SDK
 ///
 + (void)setCustomTheme:(IdVerificationTheme * _Nonnull)idVerificationTheme;
 /// This is the SDK main entry point
-/// Note: This is called when you are about to start the identification session.
-/// \param token Device information used to identify and conect to the 365id cloud
+/// note:
+/// This is called when you are about to start the identification session.
+/// \param token Access token used to identify and connect to the 365id cloud
 ///
 /// \param locationId Unused parameter, must be set to 0.
+///
+/// \param skipModules Modules that can be skipped during the identification process.
 ///
 /// \param delegate To register callbacks from IdVerification SDK that is informing about various events
 ///
@@ -318,20 +282,11 @@ SWIFT_CLASS("_TtC19IdVerification365id14IdVerification")
 /// returns:
 ///
 /// Returns true if the sdk is able to start properly
-+ (BOOL)startWithToken:(NSString * _Nonnull)token locationId:(NSInteger)locationId delegate:(id <IdVerificationEventDelegate> _Nonnull)delegate SWIFT_WARN_UNUSED_RESULT;
++ (BOOL)startWithToken:(NSString * _Nonnull)token locationId:(NSInteger)locationId skipModules:(IdVerificationSkipModules * _Nonnull)skipModules delegate:(id <IdVerificationEventDelegate> _Nonnull)delegate SWIFT_WARN_UNUSED_RESULT;
 /// Cleanup SDK
-/// Note: This is called when the sdk is done and you are done using it.
+/// note:
+/// This is called when the sdk is done and you are done using it.
 + (void)stop;
-/// Creates the UIViewController for the SDK that you need to show to the user in order for the SDK to be able
-/// to perform the verification process
-/// \param showAppBar Boolean value deciding if the SDK should show the integrated AppBar (shown at the top of the
-/// view). The AppBar contains a close button the user can use to abort the verification process.
-///
-///
-/// returns:
-///
-/// Returns a UIHostingController containing the sdk verification views.
-+ (UIViewController * _Nonnull)createMainViewWithShowAppBar:(BOOL)showAppBar SWIFT_WARN_UNUSED_RESULT SWIFT_DEPRECATED_MSG("Use IdVerification.createMainView() instead");
 /// Creates the UIViewController for the SDK that you need to show to the user in order for the SDK to be able
 /// to perform the verification process
 ///
@@ -373,7 +328,7 @@ SWIFT_CLASS("_TtC19IdVerification365id25IdVerificationErrorBundle")
 
 @class IdVerificationResult;
 
-/// IdVerification SDK event Delegate
+/// IdVerification SDK event Delegate that is informing about various events
 SWIFT_PROTOCOL("_TtP19IdVerification365id27IdVerificationEventDelegate_")
 @protocol IdVerificationEventDelegate
 /// Called when SDK has finished initializing and is ready to be displayed on the device.
@@ -394,11 +349,28 @@ SWIFT_PROTOCOL("_TtP19IdVerification365id27IdVerificationEventDelegate_")
 SWIFT_CLASS("_TtC19IdVerification365id20IdVerificationResult")
 @interface IdVerificationResult : NSObject
 /// The id used to identify the verification transaction.
-/// @Note: This is the id you provide to your server side implementation to be able to look up the result of the
+/// note:
+/// This is the id you provide to your server side implementation to be able to look up the result of the
 /// transaction
 @property (nonatomic, readonly, copy) NSString * _Nonnull transactionId;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+/// Modules that can be skipped during the identification process.
+typedef SWIFT_ENUM(NSInteger, IdVerificationSkipModule, open) {
+/// The NFC identification process.
+  IdVerificationSkipModuleNfc = 0,
+/// The face match identification process.
+  IdVerificationSkipModuleFaceMatch = 1,
+};
+
+
+/// Class that contains a list of modules that can be skipped during the identification process.
+SWIFT_CLASS("_TtC19IdVerification365id25IdVerificationSkipModules")
+@interface IdVerificationSkipModules : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithObjCModules:(NSArray<NSNumber *> * _Nonnull)objCModules OBJC_DESIGNATED_INITIALIZER;
 @end
 
 @class UIColor;
@@ -438,6 +410,8 @@ SWIFT_CLASS("_TtC19IdVerification365id19IdVerificationTheme")
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
+
+/// Types of “powered by logo” to be shown at the bottom of the screen.
 typedef SWIFT_ENUM(NSInteger, PoweredByLogo, open) {
 /// The standard logo with the purple colors.
   PoweredByLogoSTANDARD = 0,
@@ -449,63 +423,8 @@ typedef SWIFT_ENUM(NSInteger, PoweredByLogo, open) {
   PoweredByLogoNONE = 3,
 };
 
-typedef SWIFT_ENUM(NSInteger, StatusType, open) {
-/// Returned when the verification process has completed successfully. Does NOT imply
-/// anything regarding the validity or authenticity of the document iself.
-  StatusTypeOK = 0,
-/// Returned if the User dismisses the SDK prematurely, e.g. by pressing the back button or
-/// performing a “back” gesture
-  StatusTypeDismissed = 1,
-/// Returned if an exception was encountered in the verification process, on the client side.
-  StatusTypeClientException = 2,
-/// Returned if an exception was encountered in the verification process, on the server side.
-  StatusTypeServerException = 3,
-};
 
 
-/// This struct represents the result that will always be returned by the 365iD SDK for iOS.
-SWIFT_CLASS("_TtC19IdVerification365id17TransactionResult") SWIFT_DEPRECATED
-@interface TransactionResult : NSObject
-/// Send the status of the SDK to flutter app
-@property (nonatomic, readonly) enum StatusType Status;
-@property (nonatomic, readonly) enum AssessmentType Assessment;
-@property (nonatomic, readonly, copy) NSString * _Nonnull TransactionId;
-@property (nonatomic, readonly, copy) NSString * _Nonnull UserMessage;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-
-
-
-/// Custom WhiteLabeling of the SDK
-SWIFT_CLASS("_TtC19IdVerification365id13WhiteLabeling") SWIFT_DEPRECATED_MSG("Use IdVerificationTheme instead")
-@interface WhiteLabeling : NSObject
-/// Creates a instance for WhiteLabeling the SDK
-/// \param headerColor Header bar
-///
-/// \param backgroundColor Body
-///
-/// \param iconColor Animations and icons
-///
-/// \param appBarLogo Header icon
-///
-/// \param scanButtonColor The scan button
-///
-/// \param scanButtonTextColor The scan button text
-///
-/// \param containerBoxOuterColor Infobox outer position
-///
-/// \param containerBoxInnerColor Infobox inner position
-///
-/// \param containerBoxTextColor Infobox text
-///
-/// \param containerBoxSubTextColor Infobox sub text
-///
-- (nonnull instancetype)initWithHeaderColor:(UIColor * _Nullable)headerColor backgroundColor:(UIColor * _Nullable)backgroundColor iconColor:(UIColor * _Nullable)iconColor appBarLogo:(UIImage * _Nullable)appBarLogo scanButtonColor:(UIColor * _Nullable)scanButtonColor scanButtonTextColor:(UIColor * _Nullable)scanButtonTextColor containerBoxOuterColor:(UIColor * _Nullable)containerBoxOuterColor containerBoxInnerColor:(UIColor * _Nullable)containerBoxInnerColor containerBoxTextColor:(UIColor * _Nullable)containerBoxTextColor containerBoxSubTextColor:(UIColor * _Nullable)containerBoxSubTextColor poweredByLogo:(enum PoweredByLogo)poweredByLogo OBJC_DESIGNATED_INITIALIZER;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
 
 #endif
 #if defined(__cplusplus)

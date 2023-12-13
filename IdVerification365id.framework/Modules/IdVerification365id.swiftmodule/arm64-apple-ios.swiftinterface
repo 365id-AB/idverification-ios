@@ -6,48 +6,20 @@ import AVFoundation
 import Combine
 import CoreNFC
 import Foundation
-import Sentry
 import Swift
 import SwiftUI
 import UIKit
 import _Concurrency
 import _StringProcessing
-@objc public enum AssessmentType : Swift.Int, Swift.Codable {
-  case Inconclusive
-  case Valid
-  case Unidentified
-  case Rejected
-  public init?(rawValue: Swift.Int)
-  public typealias RawValue = Swift.Int
-  public var rawValue: Swift.Int {
-    get
-  }
-}
-extension IdVerification365id.AssessmentType {
-  public func encode(to encoder: Swift.Encoder) throws
-}
-@available(*, deprecated, message: "Use IdVerificationTheme instead")
-@objc public class WhiteLabeling : ObjectiveC.NSObject {
-  @objc public init(headerColor: UIKit.UIColor? = nil, backgroundColor: UIKit.UIColor? = nil, iconColor: UIKit.UIColor? = nil, appBarLogo: UIKit.UIImage? = nil, scanButtonColor: UIKit.UIColor? = nil, scanButtonTextColor: UIKit.UIColor? = nil, containerBoxOuterColor: UIKit.UIColor? = nil, containerBoxInnerColor: UIKit.UIColor? = nil, containerBoxTextColor: UIKit.UIColor? = nil, containerBoxSubTextColor: UIKit.UIColor? = nil, poweredByLogo: IdVerification365id.PoweredByLogo = .STANDARD)
-  @objc deinit
-}
 @objc public class IdVerificationTheme : ObjectiveC.NSObject {
   @objc public init(surface: UIKit.UIColor? = nil, onSurface: UIKit.UIColor? = nil, background: UIKit.UIColor? = nil, primary: UIKit.UIColor? = nil, onPrimary: UIKit.UIColor? = nil, secondary: UIKit.UIColor? = nil, secondaryContainer: UIKit.UIColor? = nil, onSecondary: UIKit.UIColor? = nil, onSecondaryContainer: UIKit.UIColor? = nil, appBarLogo: UIKit.UIImage? = nil, poweredByLogo: IdVerification365id.PoweredByLogo = .STANDARD, showAppBar: Swift.Bool = false)
   public func copyWith(surface: UIKit.UIColor? = nil, onSurface: UIKit.UIColor? = nil, background: UIKit.UIColor? = nil, primary: UIKit.UIColor? = nil, onPrimary: UIKit.UIColor? = nil, secondary: UIKit.UIColor? = nil, secondaryContainer: UIKit.UIColor? = nil, onSecondary: UIKit.UIColor? = nil, onSecondaryContainer: UIKit.UIColor? = nil, appBarLogo: UIKit.UIImage? = nil, poweredByLogo: IdVerification365id.PoweredByLogo? = nil, showAppBar: Swift.Bool? = nil) -> IdVerification365id.IdVerificationTheme
   @objc deinit
 }
 @_inheritsConvenienceInitializers @objc public class IdVerification : ObjectiveC.NSObject {
-  @available(*, deprecated, message: "Use setCustomTheme instead")
-  @objc public static func addCustomTheme(_ whiteLabeling: IdVerification365id.WhiteLabeling)
-  @available(*, deprecated, message: "Use IdVerification.start(token:locationId:delegate:) instead")
-  @objc public static func start(deviceInfo: [Swift.String : Swift.String], callBack: @escaping (IdVerification365id.TransactionResult) -> Swift.Void) -> Swift.Bool
-  @available(*, deprecated, message: "Use IdVerification.start(token:locationId:delegate:) instead")
-  @objc public static func start(token: Swift.String, callBack: @escaping (IdVerification365id.TransactionResult) -> Swift.Void) -> Swift.Bool
   @objc public static func setCustomTheme(_ idVerificationTheme: IdVerification365id.IdVerificationTheme)
-  @objc public static func start(token: Swift.String, locationId: Swift.Int = 0, delegate: IdVerification365id.IdVerificationEventDelegate) -> Swift.Bool
+  @objc public static func start(token: Swift.String, locationId: Swift.Int = 0, skipModules: IdVerification365id.IdVerificationSkipModules = IdVerificationSkipModules([]), delegate: IdVerification365id.IdVerificationEventDelegate) -> Swift.Bool
   @objc public static func stop()
-  @available(*, deprecated, message: "Use IdVerification.createMainView() instead")
-  @objc public static func createMainView(showAppBar: Swift.Bool) -> UIKit.UIViewController
   @objc public static func createMainView() -> UIKit.UIViewController
   @objc override dynamic public init()
   @objc deinit
@@ -59,44 +31,16 @@ extension IdVerification365id.AssessmentType {
   @objc func onError(_ error: IdVerification365id.IdVerificationErrorBundle)
   @objc func onCompleted(_ result: IdVerification365id.IdVerificationResult)
 }
-@_hasMissingDesignatedInitializers @available(*, deprecated)
-@objc public class TransactionResult : ObjectiveC.NSObject, Swift.Codable {
-  @objc final public let Status: IdVerification365id.StatusType
-  @objc final public let Assessment: IdVerification365id.AssessmentType
-  @objc final public let TransactionId: Swift.String
-  @objc final public let UserMessage: Swift.String
-  required public init(from decoder: Swift.Decoder) throws
-  @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
-}
-public struct SdkMainView : SwiftUI.View {
-  @available(*, deprecated, message: "Use SdkMainView() instead")
-  public init(showAppBar: Swift.Bool = false)
+public struct IdVerificationView : SwiftUI.View {
   public init()
   @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
     get
   }
-  public typealias Body = @_opaqueReturnTypeOf("$s19IdVerification365id11SdkMainViewV4bodyQrvp", 0) __
-}
-@objc public enum StatusType : Swift.Int, Swift.Codable {
-  case OK
-  case Dismissed
-  case ClientException
-  case ServerException
-  public init?(rawValue: Swift.Int)
-  public typealias RawValue = Swift.Int
-  public var rawValue: Swift.Int {
-    get
-  }
-}
-extension IdVerification365id.StatusType {
-  public func encode(to encoder: Swift.Encoder) throws
+  public typealias Body = @_opaqueReturnTypeOf("$s19IdVerification365id0A16VerificationViewV4bodyQrvp", 0) __
 }
 extension UIKit.UIView {
   @_Concurrency.MainActor(unsafe) public func asUIImage() -> UIKit.UIImage
 }
-@available(*, deprecated, message: "Use IdVerification.addCustomTheme(whiteLabeling:) instead")
-public func addTheme(_ whiteLabeling: IdVerification365id.WhiteLabeling)
 @objc public enum IdVerificationError : Swift.Int {
   case invalidTokenError = 0
   case clientError = 1
@@ -114,15 +58,26 @@ public func addTheme(_ whiteLabeling: IdVerification365id.WhiteLabeling)
   @objc final public let transactionId: Swift.String
   @objc deinit
 }
-@available(*, deprecated, message: "Use IdVerification.stop instead")
-public func stopSDK()
 @_hasMissingDesignatedInitializers @objc public class IdVerificationErrorBundle : ObjectiveC.NSObject {
   @objc final public let error: IdVerification365id.IdVerificationError
   @objc final public let message: Swift.String
   @objc deinit
 }
-@available(*, deprecated, message: "Use IdVerification.start(token:locationId:delegate:) instead")
-public func startSDK(deviceInfo: [Swift.String : Swift.String], callBack: ((IdVerification365id.TransactionResult) -> Swift.Void)?) -> Swift.Bool
+@objc public enum IdVerificationSkipModule : Swift.Int {
+  case nfc = 0
+  case faceMatch = 1
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@_inheritsConvenienceInitializers @objc public class IdVerificationSkipModules : ObjectiveC.NSObject {
+  @objc override dynamic public init()
+  @objc public init(objCModules: [Swift.Int])
+  public init(_ modules: [IdVerification365id.IdVerificationSkipModule])
+  @objc deinit
+}
 @objc public enum PoweredByLogo : Swift.Int {
   case STANDARD
   case WHITE
@@ -134,15 +89,12 @@ public func startSDK(deviceInfo: [Swift.String : Swift.String], callBack: ((IdVe
     get
   }
 }
-extension IdVerification365id.AssessmentType : Swift.Equatable {}
-extension IdVerification365id.AssessmentType : Swift.Hashable {}
-extension IdVerification365id.AssessmentType : Swift.RawRepresentable {}
-extension IdVerification365id.StatusType : Swift.Equatable {}
-extension IdVerification365id.StatusType : Swift.Hashable {}
-extension IdVerification365id.StatusType : Swift.RawRepresentable {}
 extension IdVerification365id.IdVerificationError : Swift.Equatable {}
 extension IdVerification365id.IdVerificationError : Swift.Hashable {}
 extension IdVerification365id.IdVerificationError : Swift.RawRepresentable {}
+extension IdVerification365id.IdVerificationSkipModule : Swift.Equatable {}
+extension IdVerification365id.IdVerificationSkipModule : Swift.Hashable {}
+extension IdVerification365id.IdVerificationSkipModule : Swift.RawRepresentable {}
 extension IdVerification365id.PoweredByLogo : Swift.Equatable {}
 extension IdVerification365id.PoweredByLogo : Swift.Hashable {}
 extension IdVerification365id.PoweredByLogo : Swift.RawRepresentable {}

@@ -4,6 +4,264 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [2.0.18] - 2023-12-08
+
+### Changed
+
+- Updated the face matching library
+
+## [2.0.17] - 2023-12-07
+
+### Changed
+
+- Changed the loading spin design.
+
+## [2.0.16] - 2023-11-29
+
+### Changed
+
+- Changed the Front/Back-side camera design.
+
+## [2.0.15] - 2023-11-28
+
+### Changed
+
+- Changed the iProov view close button design.
+
+## [2.0.14] - 2023-11-27
+
+### Changed
+
+- Changed the NFC View design.
+
+## [2.0.13] - 2023-11-21
+
+### Updated
+
+- Removed Microblink´s UX library.
+
+## [2.0.12] - 2023-11-21
+
+### Updated
+
+- Updated Sentry to version 8.15.2.
+
+## [2.0.11] - 2023-11-21
+
+### Updated
+
+- Upgrade iProov to version 11.0.1.
+- Defined the responsiblity for Models and Processors.  
+- Verified that SDK sends a proper error messages to calling app.
+
+## [2.0.10] - 2023-11-20
+
+### Updated
+
+- Removed SDK.sdkResultCallback and updated tests.
+
+## [2.0.9] - 2023-11-13
+
+### Updated
+
+- Updated Microblink version to 1.1.1.
+
+## [2.0.8] - 2023-11-15
+
+### Updated
+
+- Upgrade iProov to version 11.0.0.
+
+## [2.0.7] - 2023-11-08
+
+### Updated
+
+- Microblink document sizes fixes.
+
+## [2.0.6] - 2023-11-06
+
+### Updated
+
+- Microblink license key update.
+
+## [2.0.5] - 2023-11-03
+
+### Fixed
+
+- Expose skipModules enum array to Objective C.
+
+## [2.0.4] - 2023-11-02
+
+### Fixed
+
+- Removed deprecated parts of the SDK API.
+- Also silent unnecessary lint warnings.
+
+## [2.0.3] - 2023-10-30
+
+### Fixed
+
+- Crashfix within MicroBlink SDK.
+- Starts the camera faster during startup.
+
+## [2.0.2] - 2023-10-26
+
+### Added
+
+- Added support to skip Modules during the identification process.
+
+## [2.0.1] - 2023-10-19
+
+### Updated
+
+- Removed old camera code. IdVerification now only uses MicroBlink camera.
+
+## [1.12.22] - 2023-10-10
+
+### Updated
+
+- Updated MicroBlink license.
+
+## [1.12.21] - 2023-10-09
+
+### Fixed
+
+- Make sure correct scanning text is shown when using MicroBlink.
+
+## [1.12.20] - 2023-10-05
+
+### Added
+
+- Added/updated informational views for front/back/nfc/iproov views. 
+
+## [1.12.19] - 2023-10-04
+
+### Added
+
+- Added a informational view before front and back side.
+- Updated MicroBlink´s UI. 
+
+## [1.12.18] - 2023-09-29
+
+### Fixed
+
+- Fixed translation strings issue within Microblink framework.
+
+## [1.12.17] - 2023-09-18
+
+### Fixed
+
+- Fixed document size bug in Microblink framework.
+
+## [1.12.16] - 2023-09-15
+
+### Fixed
+
+- Fixed document size bug in Microblink framework.
+
+## [1.12.15] - 2023-09-11
+
+### Added
+
+- Added Microblink framework.
+
+## [1.13.1] - 2023-10-16
+
+### Fixed
+
+- Fixed the crash issue while running SDK.
+
+## [1.13.0] - 2023-10-11
+
+### Changed
+
+- Changed the function name from SdkMainView() to IdVerificationView().
+
+## [1.12.16] - 2023-09-26
+
+### Fixed
+
+- Fixed bug issue on ci-pipeline.
+
+## [1.12.15] - 2023-09-15
+
+### Added
+
+- Added sentry performance spans.
+
+## [1.12.14] - 2023-08-30
+
+### Fixed
+
+- The continous integration pipeline order.
+
+
+## [1.12.13] - 2023-08-25
+
+### Changed
+
+- Updated iProov to version 10.3.1.
+
+## [1.12.12] - 2023-08-15
+
+### Added
+
+- Added support to install the SDK with Swift Package Manager.
+
+## [1.12.11] - 2023-08-15
+
+### Changed
+
+- Created a custom Toast message for the low light warning message.
+
+## [1.12.10] - 2023-08-10
+
+### Changed
+
+- Use the submodule for the proto-files.
+
+## [1.12.9] - 2023-07-11
+
+### Fixed
+
+- Camera does not stopped if user presses the back button.
+
+## [1.12.8] - 2023-07-06
+
+### Changed
+
+- Updated the iOS CV detection to version 2.0.3.
+
+## [1.12.7] - 2023-06-27
+
+### Fixed
+
+- Refactored the cameraModel to handle the sending picture to the front-end.
+
+## [1.12.6] - 2023-06-27
+
+### Added
+
+- Added support to create Api documentation of the SDK.
+
+## [1.12.5] - 2023-06-27
+
+### Fixed
+
+- Fixed bug to ensure that subscription functions are disabled when SDK exits.
+
+## [1.12.4] - 2023-06-22
+
+### Fixed
+
+- Fixed a bug where SDK offen gets grpc error (unavilable) when communicating with 365id cloud services.
+
+## [1.12.3] - 2023-06-21
+
+### Fixed
+
+- Fixed a bug where SDK exited prematurely when communicating with 365id cloud services.
+
 ## [1.12.2] - 2023-06-20
 
 ### Fixed
