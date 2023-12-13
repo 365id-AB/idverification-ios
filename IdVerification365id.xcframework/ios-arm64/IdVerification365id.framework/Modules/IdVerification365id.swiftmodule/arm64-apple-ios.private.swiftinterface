@@ -1,0 +1,100 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-module-flags: -target arm64-apple-ios14.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name IdVerification365id
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import AVFoundation
+import Combine
+import CoreNFC
+import Foundation
+import Swift
+import SwiftUI
+import UIKit
+import _Concurrency
+import _StringProcessing
+@objc public class IdVerificationTheme : ObjectiveC.NSObject {
+  @objc public init(surface: UIKit.UIColor? = nil, onSurface: UIKit.UIColor? = nil, background: UIKit.UIColor? = nil, primary: UIKit.UIColor? = nil, onPrimary: UIKit.UIColor? = nil, secondary: UIKit.UIColor? = nil, secondaryContainer: UIKit.UIColor? = nil, onSecondary: UIKit.UIColor? = nil, onSecondaryContainer: UIKit.UIColor? = nil, appBarLogo: UIKit.UIImage? = nil, poweredByLogo: IdVerification365id.PoweredByLogo = .STANDARD, showAppBar: Swift.Bool = false)
+  public func copyWith(surface: UIKit.UIColor? = nil, onSurface: UIKit.UIColor? = nil, background: UIKit.UIColor? = nil, primary: UIKit.UIColor? = nil, onPrimary: UIKit.UIColor? = nil, secondary: UIKit.UIColor? = nil, secondaryContainer: UIKit.UIColor? = nil, onSecondary: UIKit.UIColor? = nil, onSecondaryContainer: UIKit.UIColor? = nil, appBarLogo: UIKit.UIImage? = nil, poweredByLogo: IdVerification365id.PoweredByLogo? = nil, showAppBar: Swift.Bool? = nil) -> IdVerification365id.IdVerificationTheme
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class IdVerification : ObjectiveC.NSObject {
+  @objc public static func setCustomTheme(_ idVerificationTheme: IdVerification365id.IdVerificationTheme)
+  @objc public static func start(token: Swift.String, locationId: Swift.Int = 0, skipModules: IdVerification365id.IdVerificationSkipModules = IdVerificationSkipModules([]), delegate: IdVerification365id.IdVerificationEventDelegate) -> Swift.Bool
+  @objc public static func stop()
+  @objc public static func createMainView() -> UIKit.UIViewController
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc public protocol IdVerificationEventDelegate {
+  @objc func onStarted()
+  @objc func onUserDismissed()
+  @objc func onClosed()
+  @objc func onError(_ error: IdVerification365id.IdVerificationErrorBundle)
+  @objc func onCompleted(_ result: IdVerification365id.IdVerificationResult)
+}
+public struct IdVerificationView : SwiftUI.View {
+  public init()
+  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s19IdVerification365id0A16VerificationViewV4bodyQrvp", 0) __
+}
+extension UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) public func asUIImage() -> UIKit.UIImage
+}
+@objc public enum IdVerificationError : Swift.Int {
+  case invalidTokenError = 0
+  case clientError = 1
+  case serverError = 2
+  case unsupportedSdkVersionError = 3
+  case noActivePackageError = 4
+  case sessionTimeout = 5
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers @objc public class IdVerificationResult : ObjectiveC.NSObject {
+  @objc final public let transactionId: Swift.String
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc public class IdVerificationErrorBundle : ObjectiveC.NSObject {
+  @objc final public let error: IdVerification365id.IdVerificationError
+  @objc final public let message: Swift.String
+  @objc deinit
+}
+@objc public enum IdVerificationSkipModule : Swift.Int {
+  case nfc = 0
+  case faceMatch = 1
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@_inheritsConvenienceInitializers @objc public class IdVerificationSkipModules : ObjectiveC.NSObject {
+  @objc override dynamic public init()
+  @objc public init(objCModules: [Swift.Int])
+  public init(_ modules: [IdVerification365id.IdVerificationSkipModule])
+  @objc deinit
+}
+@objc public enum PoweredByLogo : Swift.Int {
+  case STANDARD
+  case WHITE
+  case BLACK
+  case NONE
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+extension IdVerification365id.IdVerificationError : Swift.Equatable {}
+extension IdVerification365id.IdVerificationError : Swift.Hashable {}
+extension IdVerification365id.IdVerificationError : Swift.RawRepresentable {}
+extension IdVerification365id.IdVerificationSkipModule : Swift.Equatable {}
+extension IdVerification365id.IdVerificationSkipModule : Swift.Hashable {}
+extension IdVerification365id.IdVerificationSkipModule : Swift.RawRepresentable {}
+extension IdVerification365id.PoweredByLogo : Swift.Equatable {}
+extension IdVerification365id.PoweredByLogo : Swift.Hashable {}
+extension IdVerification365id.PoweredByLogo : Swift.RawRepresentable {}
