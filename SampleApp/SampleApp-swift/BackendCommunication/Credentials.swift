@@ -8,6 +8,6 @@ class Credentials {
     static var shared = Credentials()
 
     // NOTE This should be populated by the customer, further information should be found in the SDK documentation.
-    var clientSecret: String = ""
-    var clientId: String = ""
+    let clientSecret = ""
+    let clientId: String = ""
 }

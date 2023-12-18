@@ -1,0 +1,23 @@
+PODS:
+  - IdVerification365id (2.1.0):
+    - iProov (= 11.0.2)
+    - MBCaptureCore (= 1.1.1)
+  - iProov (11.0.2)
+  - MBCaptureCore (1.1.1)
+
+DEPENDENCIES:
+  - IdVerification365id
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - iProov
+    - MBCaptureCore
+
+SPEC CHECKSUMS:
+  IdVerification365id: d3903ffc4047fc057e22826d9f7606d9c3b6e5bf
+  iProov: 728c99d21f8e25774366b4077841cd2c8e4932c1
+  MBCaptureCore: ae9eec0780fcf51d4a32221048ef5d8b90674ebd
+
+PODFILE CHECKSUM: f16e6f736eaede92fd3473b5710f7d4b1c3d897a
+
+COCOAPODS: 1.14.3

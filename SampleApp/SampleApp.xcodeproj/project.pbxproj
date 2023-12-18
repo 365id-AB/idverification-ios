@@ -234,6 +234,7 @@
 				A1B301F028ABCD3C008863E9 /* Sources */,
 				A1B301F128ABCD3C008863E9 /* Frameworks */,
 				A1B301F228ABCD3C008863E9 /* Resources */,
+				259E27BEC2CCA2C57C77F436 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 				A1B3023728ACEA30008863E9 /* PBXBuildRule */,
@@ -241,8 +242,6 @@
 			dependencies = (
 			);
 			name = "SampleApp-swift";
-			packageProductDependencies = (
-			);
 			productName = SampleApp;
 			productReference = A1B301F428ABCD3C008863E9 /* SampleApp-swift.app */;
 			productType = "com.apple.product-type.application";
@@ -255,6 +254,7 @@
 				FBF70268294365DF00DD30CA /* Sources */,
 				FBF70269294365DF00DD30CA /* Frameworks */,
 				FBF7026A294365DF00DD30CA /* Resources */,
+				8FD8ACE5FBE966ECA6F316C5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -292,8 +292,6 @@
 				Base,
 			);
 			mainGroup = A1B301EB28ABCD3C008863E9;
-			packageReferences = (
-			);
 			productRefGroup = A1B301F528ABCD3C008863E9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -326,6 +324,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		259E27BEC2CCA2C57C77F436 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SampleApp-swift/Pods-SampleApp-swift-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SampleApp-swift/Pods-SampleApp-swift-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SampleApp-swift/Pods-SampleApp-swift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		49CC27DA03C2CF08E7050B19 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -346,6 +361,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8FD8ACE5FBE966ECA6F316C5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SampleApp-objc/Pods-SampleApp-objc-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SampleApp-objc/Pods-SampleApp-objc-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SampleApp-objc/Pods-SampleApp-objc-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		9808CFF8B989037CD284EC58 /* [CP] Check Pods Manifest.lock */ = {

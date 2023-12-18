@@ -96,7 +96,7 @@
         // Skip no modules example
         IdVerificationSkipModules *skipNoModules = [[IdVerificationSkipModules alloc] init];
 
-        if([IdVerification startWithToken:deviceInfo[@"Token"] locationId:0 skipModules:skipNoModules delegate:self]) {
+        if([IdVerification startWithToken:deviceInfo[@"Token"] locationId:0 skipModules:skipNoModules documentType:DocumentTypeDocument delegate:self]) {
             // SDK was happy with the provided arguments.
         } else {
             // Unable to start the SDK. Most likely something was wrong with the token.

@@ -179,21 +179,14 @@ post_install do |installer|
           config.build_settings['EMBEDDED_CONTENT_CONTAINS_SWIFT'] = ''
       end
     end
-    if ['iProov', 'Starscream'].include? target.name
+    if ['iProov'].include? target.name
       target.build_configurations.each do |config|
           config.build_settings['BUILD_LIBRARY_FOR_DISTRIBUTION'] = 'YES'
       end
     end
-    if ['Sentry', 'iProov', 'Starscream'].include? target.name
+    if ['iProov'].include? target.name
       target.build_configurations.each do |config|
           config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '12.0'
-      end
-    end
-    if ['Starscream'].include? target.name
-      target.build_configurations.each do |config|
-          config.build_settings['GCC_WARN_INHIBIT_ALL_WARNINGS'] = 'YES'
-          config.build_settings['SWIFT_SUPPRESS_WARNINGS'] = 'YES'
-          config.build_settings['DEAD_CODE_STRIPPING'] = 'YES'
       end
     end
   end
@@ -369,6 +362,20 @@ The access token is valid for a certain amount of time, after that you will have
 When you in your app have acquired an access token, you are ready to call the `start(token: String, delegate: IdVerificationEventDelegate)`
  function. This function requires you to provide the access token and your own implementation of the `IdVerificationEventDelegate` protocol.  
 
+#### Document type selection
+
+The `documentType`-parameter is an optional parameter to `start()` and with this you will be able to select the document type.
+Currently, iOS SDK supports three types of document that is id1, id3 and document.
+
+Selecting a document type does not force the user to only scan that kind of document but rather encourages the user to scan that type of document by adjusting animations and other UI elements to hint the user to scan that specific type of document.  
+Here is an example of how to select the document type:
+```swift
+IdVerification.start(
+   token: myToken,
+   documentType: DocumentType.document,
+   delegate: myDelegate
+)
+```
 
 #### Modules To Skip
 
