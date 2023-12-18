@@ -433,65 +433,7 @@ private class MyEventDelegate: IdVerificationEventDelegate {
 }
 ```
 
-#### Using the Callback
-
-**:exclamation: NOTICE:** the callback is going to be deprecated and is replaced by the [EventDelegate](#using-the-eventdelegate)
-
-The callback function takes a `TransactionResult` object as its only parameter. The `TransactionResult`contains the transaction id and status of the id verification transaction.  
-The function that use the callback is `start(token: String, callBack: @escaping (TransactionResult) -> Void)`. We do however recommend that you use the function with the `IdVerificationEventDelegate` as that provides you with better control.
-
-A callback example taken from the example project for swift
-```swift
-/**
-* Callback Example
-*/
-let transactionId = result.transactionId
-let status = result.status
-
-switch status {
-   case .OK: 
-      // This is returned when a transaction completes successfully 
-      // Note: This does not mean the user identity or supplied document is verified, 
-      // only that the transaction process itself did not end prematurely.
-      // The assessment shows a summary 
-      let assessment = result.assessment
-      print("Verification process completed successfully with status: \(assessment)")
-
-   case .Dismissed:
-      // This is returned if the user dismisses the SDK view prematurely.
-      print("User dismissed SDK")
-
-   case .ClientException:
-      // This is returned if the SDK encountered an internal error. Report such 
-      // issues to 365id as bugs!
-      print("Client has thrown an exception")
-
-   case .ServerException:
-      // This is returned if there was an issue talking to 365id Services. 
-      // Could be a connectivity issue.
-      print("Server has thrown an exception")
-
-   default:
-      // This should not occur
-      print("Not supported status type was returned")
-}
-
-// Prints the entire result
-print("Result: \(result)")
-
-// Stops the SDK and de-allocates the resources
-IdVerification.stop()
-
-// Disables the SDK view in example app
-self.isShowingSdkView = false
-
-// Dismisses the SDK view
-DispatchQueue.main.async {
-      presentationMode.wrappedValue.dismiss()
-}
-```
-
-> **:exclamation: NOTICE:** It is important that you call the `stop()` function in the callback, to clear up allocated resources.
+> **:exclamation: NOTICE:** It is important that you call the `IdVerification.stop()` function, to clear up allocated resources.
 
 > **:exclamation: NOTICE:** In order to return to the host apps view, you will have to dismiss the Sdk view.
 

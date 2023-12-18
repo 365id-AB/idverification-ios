@@ -1,12 +1,12 @@
 PODS:
-  - IdVerification365id (2.1.0):
+  - IdVerification365id (2.1.0-beta2):
     - iProov (= 11.0.2)
     - MBCaptureCore (= 1.1.1)
   - iProov (11.0.2)
   - MBCaptureCore (1.1.1)
 
 DEPENDENCIES:
-  - IdVerification365id
+  - IdVerification365id (= 2.1.0-beta2)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:

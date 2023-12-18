@@ -3,7 +3,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '14.0'
 
 def common_pods
-  pod 'IdVerification365id'
+  pod 'IdVerification365id', "2.1.0-beta2"
 end
 
 target 'SampleApp-swift' do
