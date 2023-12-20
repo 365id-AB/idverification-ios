@@ -150,9 +150,15 @@ flowchart LR
 
 ## Project setup
 
-### Cocoapods
+### Package distribution
 
-The 365id Id Verification SDK is distributed as a Cocoapod, therefore **you are required to use Cocoapods 1.9.0 or newer** This could change depending on demand for other packaging systems.
+#### Swift Package
+
+The 365id Id Verification SDK is distributed as a Swift Package. You can add it as you add any other swift package. Swift Package support was added in version 2.1.x.
+
+#### Cocoapods
+
+The 365id Id Verification SDK is distributed as a Cocoapod, therefore **you are required to use Cocoapods 1.14.3 or newer** This could change depending on demand for other packaging systems.
 
 1. If you are not yet using Cocoapods in your project, first run `sudo gem install cocoapods` followed by `pod init`. (For further information on installing Cocoapods, [click here](https://guides.cocoapods.org/using/getting-started.html#installation).)
 
