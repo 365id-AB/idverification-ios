@@ -4,7 +4,13 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
-## [2.1.0] - 2023-12-12
+## [2.1.1-beta] - 2023-12-20
+
+### Changed
+
+- Beta release, UX changes will happen.
+
+## [2.1.0] - 2023-12-12 [YANKED]
 
 ### Added
 
