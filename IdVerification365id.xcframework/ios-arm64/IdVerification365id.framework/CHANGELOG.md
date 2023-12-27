@@ -4,6 +4,25 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [2.1.5-beta] - 2023-12-22
+
+### Changed
+
+- Updated the nfc view animations.
+
+## [2.1.4-beta] - 2023-12-22
+
+### Added
+
+- Added overlay view for view finder view.
+
+## [2.1.3-beta] - 2023-12-22
+
+### Changed
+
+- Changed the wait view design.
+
+
 ## [2.1.2-beta] - 2023-12-20
 
 ### Changed
