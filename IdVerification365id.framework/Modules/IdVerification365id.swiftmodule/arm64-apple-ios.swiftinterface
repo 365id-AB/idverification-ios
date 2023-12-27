@@ -9,6 +9,7 @@ import Foundation
 import Swift
 import SwiftUI
 import UIKit
+import _AVKit_SwiftUI
 import _Concurrency
 import _StringProcessing
 @objc public class IdVerificationTheme : ObjectiveC.NSObject {
