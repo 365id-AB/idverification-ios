@@ -171,7 +171,7 @@ The 365id Id Verification SDK is distributed as a Cocoapod, therefore **you are 
 3. Add the following to your Pod file (inside the target section):
 
 ```ruby
-pod 'IdVerification365id'
+pod 'IdVerification365id', "2.1.6-beta"
 ```
 
 4. Add the following to the bottom of your Podfile:
