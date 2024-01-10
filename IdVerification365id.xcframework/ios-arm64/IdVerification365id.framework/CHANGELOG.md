@@ -4,6 +4,19 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [2.1.8-beta] - 2024-01-08
+
+### Updated
+
+- Added Cancel buttons to all views.
+- Fixed the touch area of UI buttons. 
+
+## [2.1.7-beta] - 2024-01-02
+
+### Changed
+
+- Changed some of the texts used in the SDK.
+
 ## [2.1.6-beta] - 2024-01-02
 
 ### Updated
