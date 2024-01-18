@@ -1676,6 +1676,13 @@
       },
       {
         "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "IdVerification365id"
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -3525,6 +3532,23 @@
       },
       {
         "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "IdVerification365id",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "IdVerification365id"
+      },
+      {
+        "kind": "Import",
         "name": "Combine",
         "printedName": "Combine",
         "declKind": "Import",
@@ -5076,6 +5100,13 @@
       "value": "18"
     },
     {
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/CancelButton.swift",
+      "kind": "FloatLiteral",
+      "offset": 285,
+      "length": 4,
+      "value": "24.0"
+    },
+    {
       "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/TransactionResult\/TransactionResult+AssessmentType.swift",
       "kind": "IntegerLiteral",
       "offset": 290,
@@ -5248,7 +5279,7 @@
       "kind": "FloatLiteral",
       "offset": 130,
       "length": 4,
-      "value": "10.0"
+      "value": "20.0"
     },
     {
       "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Log.swift",
@@ -5545,6 +5576,13 @@
       "value": "18"
     },
     {
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/ContinueButton.swift",
+      "kind": "FloatLiteral",
+      "offset": 288,
+      "length": 4,
+      "value": "24.0"
+    },
+    {
       "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/IdVerification.swift",
       "kind": "IntegerLiteral",
       "offset": 1329,
@@ -5602,15 +5640,29 @@
     },
     {
       "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/LandingView.swift",
+      "kind": "FloatLiteral",
+      "offset": 98,
+      "length": 4,
+      "value": "0.25"
+    },
+    {
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/LandingView.swift",
+      "kind": "FloatLiteral",
+      "offset": 134,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/LandingView.swift",
       "kind": "BooleanLiteral",
-      "offset": 265,
+      "offset": 334,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/LandingView.swift",
       "kind": "BooleanLiteral",
-      "offset": 314,
+      "offset": 383,
       "length": 5,
       "value": "false"
     },
@@ -5658,22 +5710,36 @@
     },
     {
       "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/TaskViews\/NFCView.swift",
+      "kind": "FloatLiteral",
+      "offset": 122,
+      "length": 4,
+      "value": "0.25"
+    },
+    {
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/TaskViews\/NFCView.swift",
+      "kind": "FloatLiteral",
+      "offset": 151,
+      "length": 4,
+      "value": "24.0"
+    },
+    {
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/TaskViews\/NFCView.swift",
       "kind": "StringLiteral",
-      "offset": 175,
+      "offset": 255,
       "length": 42,
       "value": "\"_365id_nfc_passport_tag_detected_details\""
     },
     {
       "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/TaskViews\/NFCView.swift",
       "kind": "StringLiteral",
-      "offset": 238,
+      "offset": 318,
       "length": 32,
       "value": "\"_365id_scanner_sdk.Localizable\""
     },
     {
       "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/TaskViews\/NFCView.swift",
       "kind": "StringLiteral",
-      "offset": 337,
+      "offset": 417,
       "length": 23,
       "value": "\"Read nfc instruction.\""
     },
@@ -5853,58 +5919,58 @@
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/OverlayView.swift",
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/BottomOverlayView.swift",
       "kind": "IntegerLiteral",
-      "offset": 183,
+      "offset": 189,
       "length": 2,
       "value": "40"
     },
     {
-      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/OverlayView.swift",
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/BottomOverlayView.swift",
       "kind": "StringLiteral",
-      "offset": 241,
+      "offset": 247,
       "length": 9,
       "value": "\"#FFFFFF\""
     },
     {
-      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/OverlayView.swift",
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/BottomOverlayView.swift",
       "kind": "IntegerLiteral",
-      "offset": 297,
+      "offset": 303,
       "length": 2,
       "value": "24"
     },
     {
-      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/OverlayView.swift",
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/BottomOverlayView.swift",
       "kind": "StringLiteral",
-      "offset": 354,
+      "offset": 360,
       "length": 9,
       "value": "\"#858585\""
     },
     {
-      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/OverlayView.swift",
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/BottomOverlayView.swift",
       "kind": "IntegerLiteral",
-      "offset": 410,
+      "offset": 416,
       "length": 2,
       "value": "18"
     },
     {
-      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/OverlayView.swift",
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/BottomOverlayView.swift",
       "kind": "StringLiteral",
-      "offset": 472,
+      "offset": 478,
       "length": 9,
       "value": "\"#000000\""
     },
     {
-      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/OverlayView.swift",
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/BottomOverlayView.swift",
       "kind": "IntegerLiteral",
-      "offset": 532,
+      "offset": 538,
       "length": 2,
       "value": "15"
     },
     {
-      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/OverlayView.swift",
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/BottomOverlayView.swift",
       "kind": "StringLiteral",
-      "offset": 589,
+      "offset": 595,
       "length": 9,
       "value": "\"#D4D3DA\""
     },
@@ -6168,13 +6234,6 @@
       "value": "\"noImageNeeded\""
     },
     {
-      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/LogoView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 157,
-      "length": 1,
-      "value": "0"
-    },
-    {
       "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/Spinner\/SpinnerView.swift",
       "kind": "FloatLiteral",
       "offset": 205,
@@ -6308,6 +6367,27 @@
       "value": "5"
     },
     {
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/InformationView.swift",
+      "kind": "FloatLiteral",
+      "offset": 103,
+      "length": 4,
+      "value": "24.0"
+    },
+    {
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/InformationView.swift",
+      "kind": "FloatLiteral",
+      "offset": 141,
+      "length": 5,
+      "value": "100.0"
+    },
+    {
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/InformationView.swift",
+      "kind": "FloatLiteral",
+      "offset": 171,
+      "length": 4,
+      "value": "20.0"
+    },
+    {
       "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/MicroBlink\/MicroBlinkOverlayView.swift",
       "kind": "FloatLiteral",
       "offset": 248,
@@ -6316,45 +6396,10 @@
     },
     {
       "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/MicroBlink\/MicroBlinkOverlayView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 303,
-      "length": 1,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/MicroBlink\/MicroBlinkOverlayView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 352,
-      "length": 2,
-      "value": "65"
-    },
-    {
-      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/MicroBlink\/MicroBlinkOverlayView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 401,
-      "length": 2,
-      "value": "10"
-    },
-    {
-      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/MicroBlink\/MicroBlinkOverlayView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 445,
-      "length": 2,
-      "value": "20"
-    },
-    {
-      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/MicroBlink\/MicroBlinkOverlayView.swift",
       "kind": "FloatLiteral",
-      "offset": 636,
+      "offset": 441,
       "length": 3,
       "value": "0.5"
-    },
-    {
-      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/MicroBlink\/MicroBlinkOverlayView.swift",
-      "kind": "FloatLiteral",
-      "offset": 732,
-      "length": 4,
-      "value": "0.65"
     },
     {
       "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/ViewModels\/MicroBlinkViewModel.swift",
@@ -6607,6 +6652,41 @@
       "offset": 461,
       "length": 12,
       "value": "1.4204545455"
+    },
+    {
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/MicroBlink\/CameraOverlayView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 198,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/MicroBlink\/CameraOverlayView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 248,
+      "length": 2,
+      "value": "65"
+    },
+    {
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/MicroBlink\/CameraOverlayView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 302,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/MicroBlink\/CameraOverlayView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 345,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/MicroBlink\/CameraOverlayView.swift",
+      "kind": "FloatLiteral",
+      "offset": 407,
+      "length": 4,
+      "value": "0.65"
     },
     {
       "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Models\/IProovModel.swift",
