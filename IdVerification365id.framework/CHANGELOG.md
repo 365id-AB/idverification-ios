@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [2.1.12-beta] - 2024-01-24
+
+### Fixed
+
+- Adapted the SDK to respect safe areas.
+- Added and adjusted element animations.
+
 ## [2.1.11-beta] - 2024-01-18
 
 ### Fixed

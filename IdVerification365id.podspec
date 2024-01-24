@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "IdVerification365id"
-  s.version          = "2.1.11-beta"
+  s.version          = "2.1.12-beta"
   s.summary          = 'A Framework that enables the integration of id verification from 365id AB.'
   s.homepage         = 'http://www.365id.com/'
   s.license          = { :type => 'Copyright', :text => <<-LICENSE
