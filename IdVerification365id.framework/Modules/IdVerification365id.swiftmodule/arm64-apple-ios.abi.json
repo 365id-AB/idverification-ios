@@ -6257,14 +6257,14 @@
     {
       "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 23211,
+      "offset": 24233,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 23242,
+      "offset": 24264,
       "length": 1,
       "value": "1"
     },
