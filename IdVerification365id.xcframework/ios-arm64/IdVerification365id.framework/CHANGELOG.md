@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [2.1.13-beta] - 2024-01-25
+
+### Fixed
+
+- Retries now have call specific timeouts.
+- Updated UI.
+
 ## [2.1.12-beta] - 2024-01-24
 
 ### Fixed
