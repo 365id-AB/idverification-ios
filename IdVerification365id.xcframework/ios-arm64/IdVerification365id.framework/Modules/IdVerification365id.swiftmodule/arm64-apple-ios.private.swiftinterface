@@ -13,8 +13,27 @@ import _AVKit_SwiftUI
 import _Concurrency
 import _StringProcessing
 @objc public class IdVerificationTheme : ObjectiveC.NSObject {
-  @objc public init(surface: UIKit.UIColor? = nil, onSurface: UIKit.UIColor? = nil, background: UIKit.UIColor? = nil, primary: UIKit.UIColor? = nil, onPrimary: UIKit.UIColor? = nil, secondary: UIKit.UIColor? = nil, secondaryContainer: UIKit.UIColor? = nil, onSecondary: UIKit.UIColor? = nil, onSecondaryContainer: UIKit.UIColor? = nil, appBarLogo: UIKit.UIImage? = nil, poweredByLogo: IdVerification365id.PoweredByLogo = .STANDARD, showAppBar: Swift.Bool = false)
-  public func copyWith(surface: UIKit.UIColor? = nil, onSurface: UIKit.UIColor? = nil, background: UIKit.UIColor? = nil, primary: UIKit.UIColor? = nil, onPrimary: UIKit.UIColor? = nil, secondary: UIKit.UIColor? = nil, secondaryContainer: UIKit.UIColor? = nil, onSecondary: UIKit.UIColor? = nil, onSecondaryContainer: UIKit.UIColor? = nil, appBarLogo: UIKit.UIImage? = nil, poweredByLogo: IdVerification365id.PoweredByLogo? = nil, showAppBar: Swift.Bool? = nil) -> IdVerification365id.IdVerificationTheme
+  @objc public init(surface: UIKit.UIColor? = nil, onSurface: UIKit.UIColor? = nil, background: UIKit.UIColor? = nil, primary: UIKit.UIColor? = nil, onPrimary: UIKit.UIColor? = nil, secondary: UIKit.UIColor? = nil, secondaryContainer: UIKit.UIColor? = nil, onSecondary: UIKit.UIColor? = nil, onSecondaryContainer: UIKit.UIColor? = nil, appBarLogo: UIKit.UIImage? = nil, poweredByLogo: IdVerification365id.PoweredByLogo = .STANDARD, showAppBar: Swift.Bool = false, animations: IdVerification365id.Animations = Animations())
+  public func copyWith(surface: UIKit.UIColor? = nil, onSurface: UIKit.UIColor? = nil, background: UIKit.UIColor? = nil, primary: UIKit.UIColor? = nil, onPrimary: UIKit.UIColor? = nil, secondary: UIKit.UIColor? = nil, secondaryContainer: UIKit.UIColor? = nil, onSecondary: UIKit.UIColor? = nil, onSecondaryContainer: UIKit.UIColor? = nil, appBarLogo: UIKit.UIImage? = nil, poweredByLogo: IdVerification365id.PoweredByLogo? = nil, showAppBar: Swift.Bool? = nil, animations: IdVerification365id.Animations? = nil) -> IdVerification365id.IdVerificationTheme
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class Animations : ObjectiveC.NSObject {
+  public var prepareId3: @_opaqueReturnTypeOf("$s19IdVerification365id10AnimationsC10prepareId3Qrvp", 0) __
+  public var prepareId1Frontside: @_opaqueReturnTypeOf("$s19IdVerification365id10AnimationsC19prepareId1FrontsideQrvp", 0) __
+  public var prepareId1Backside: @_opaqueReturnTypeOf("$s19IdVerification365id10AnimationsC18prepareId1BacksideQrvp", 0) __
+  public var prepareDocument: @_opaqueReturnTypeOf("$s19IdVerification365id10AnimationsC15prepareDocumentQrvp", 0) __
+  public var prepareNfc: @_opaqueReturnTypeOf("$s19IdVerification365id10AnimationsC10prepareNfcQrvp", 0) __
+  public var prepareFaceMatch: @_opaqueReturnTypeOf("$s19IdVerification365id10AnimationsC16prepareFaceMatchQrvp", 0) __
+  public var instructionId3: @_opaqueReturnTypeOf("$s19IdVerification365id10AnimationsC14instructionId3Qrvp", 0) __
+  public var instructionId1Frontside: @_opaqueReturnTypeOf("$s19IdVerification365id10AnimationsC23instructionId1FrontsideQrvp", 0) __
+  public var instructionId1Backside: @_opaqueReturnTypeOf("$s19IdVerification365id10AnimationsC22instructionId1BacksideQrvp", 0) __
+  public var instructionDocument: @_opaqueReturnTypeOf("$s19IdVerification365id10AnimationsC19instructionDocumentQrvp", 0) __
+  public var instructionNfc: @_opaqueReturnTypeOf("$s19IdVerification365id10AnimationsC14instructionNfcQrvp", 0) __
+  public var loadingImageCapture: @_opaqueReturnTypeOf("$s19IdVerification365id10AnimationsC19loadingImageCaptureQrvp", 0) __
+  public var loadingNfc: @_opaqueReturnTypeOf("$s19IdVerification365id10AnimationsC10loadingNfcQrvp", 0) __
+  public var loadingFaceMatch: @_opaqueReturnTypeOf("$s19IdVerification365id10AnimationsC16loadingFaceMatchQrvp", 0) __
+  public var loadingGeneric: @_opaqueReturnTypeOf("$s19IdVerification365id10AnimationsC14loadingGenericQrvp", 0) __
+  @objc override dynamic public init()
   @objc deinit
 }
 @objc public enum DocumentType : Swift.Int {
@@ -99,6 +118,12 @@ extension UIKit.UIView {
   public var rawValue: Swift.Int {
     get
   }
+}
+public struct DefaultAnimationView : SwiftUI.View {
+  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s19IdVerification365id20DefaultAnimationViewV4bodyQrvp", 0) __
 }
 extension IdVerification365id.DocumentType : Swift.Equatable {}
 extension IdVerification365id.DocumentType : Swift.Hashable {}
