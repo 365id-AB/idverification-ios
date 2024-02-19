@@ -172,7 +172,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(surface:onSurface:background:primary:onPrimary:secondary:secondaryContainer:onSecondary:onSecondaryContainer:appBarLogo:poweredByLogo:showAppBar:)",
+            "printedName": "init(surface:onSurface:background:primary:onPrimary:secondary:secondaryContainer:onSecondary:onSecondaryContainer:appBarLogo:poweredByLogo:showAppBar:animations:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -343,13 +343,20 @@
                 "printedName": "Swift.Bool",
                 "hasDefaultArg": true,
                 "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Animations",
+                "printedName": "IdVerification365id.Animations",
+                "hasDefaultArg": true,
+                "usr": "c:@M@IdVerification365id@objc(cs)Animations"
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@IdVerification365id@objc(cs)IdVerificationTheme(im)initWithSurface:onSurface:background:primary:onPrimary:secondary:secondaryContainer:onSecondary:onSecondaryContainer:appBarLogo:poweredByLogo:showAppBar:",
-            "mangledName": "$s19IdVerification365id0A17VerificationThemeC7surface9onSurface10background7primary0F7Primary9secondary0K9Container0F9Secondary0fmL010appBarLogo09poweredByP007showAppO0ACSo7UIColorCSg_A8RSo7UIImageCSgAA07PoweredrP0OSbtcfc",
+            "usr": "c:@M@IdVerification365id@objc(cs)IdVerificationTheme(im)initWithSurface:onSurface:background:primary:onPrimary:secondary:secondaryContainer:onSecondary:onSecondaryContainer:appBarLogo:poweredByLogo:showAppBar:animations:",
+            "mangledName": "$s19IdVerification365id0A17VerificationThemeC7surface9onSurface10background7primary0F7Primary9secondary0K9Container0F9Secondary0fmL010appBarLogo09poweredByP007showAppO010animationsACSo7UIColorCSg_A8SSo7UIImageCSgAA07PoweredrP0OSbAA10AnimationsCtcfc",
             "moduleName": "IdVerification365id",
-            "objc_name": "initWithSurface:onSurface:background:primary:onPrimary:secondary:secondaryContainer:onSecondary:onSecondaryContainer:appBarLogo:poweredByLogo:showAppBar:",
+            "objc_name": "initWithSurface:onSurface:background:primary:onPrimary:secondary:secondaryContainer:onSecondary:onSecondaryContainer:appBarLogo:poweredByLogo:showAppBar:animations:",
             "declAttributes": [
               "AccessControl",
               "ObjC",
@@ -360,7 +367,7 @@
           {
             "kind": "Function",
             "name": "copyWith",
-            "printedName": "copyWith(surface:onSurface:background:primary:onPrimary:secondary:secondaryContainer:onSecondary:onSecondaryContainer:appBarLogo:poweredByLogo:showAppBar:)",
+            "printedName": "copyWith(surface:onSurface:background:primary:onPrimary:secondary:secondaryContainer:onSecondary:onSecondaryContainer:appBarLogo:poweredByLogo:showAppBar:animations:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -547,11 +554,26 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "IdVerification365id.Animations?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Animations",
+                    "printedName": "IdVerification365id.Animations",
+                    "usr": "c:@M@IdVerification365id@objc(cs)Animations"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Func",
-            "usr": "s:19IdVerification365id0A17VerificationThemeC8copyWith7surface9onSurface10background7primary0H7Primary9secondary0M9Container0H9Secondary0hoN010appBarLogo09poweredByR007showAppQ0ACSo7UIColorCSg_A8SSo7UIImageCSgAA07PoweredtR0OSgSbSgtF",
-            "mangledName": "$s19IdVerification365id0A17VerificationThemeC8copyWith7surface9onSurface10background7primary0H7Primary9secondary0M9Container0H9Secondary0hoN010appBarLogo09poweredByR007showAppQ0ACSo7UIColorCSg_A8SSo7UIImageCSgAA07PoweredtR0OSgSbSgtF",
+            "usr": "s:19IdVerification365id0A17VerificationThemeC8copyWith7surface9onSurface10background7primary0H7Primary9secondary0M9Container0H9Secondary0hoN010appBarLogo09poweredByR007showAppQ010animationsACSo7UIColorCSg_A8TSo7UIImageCSgAA07PoweredtR0OSgSbSgAA10AnimationsCSgtF",
+            "mangledName": "$s19IdVerification365id0A17VerificationThemeC8copyWith7surface9onSurface10background7primary0H7Primary9secondary0M9Container0H9Secondary0hoN010appBarLogo09poweredByR007showAppQ010animationsACSo7UIColorCSg_A8TSo7UIImageCSgAA07PoweredtR0OSgSbSgAA10AnimationsCSgtF",
             "moduleName": "IdVerification365id",
             "declAttributes": [
               "AccessControl",
@@ -713,6 +735,1401 @@
         "printedName": "Combine",
         "declKind": "Import",
         "moduleName": "IdVerification365id"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "IdVerification365id"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Animations",
+        "printedName": "Animations",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "prepareId3",
+            "printedName": "prepareId3",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DefaultAnimationView",
+                "printedName": "IdVerification365id.DefaultAnimationView",
+                "usr": "s:19IdVerification365id20DefaultAnimationViewV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19IdVerification365id10AnimationsC10prepareId3Qrvp",
+            "mangledName": "$s19IdVerification365id10AnimationsC10prepareId3Qrvp",
+            "moduleName": "IdVerification365id",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DefaultAnimationView",
+                    "printedName": "IdVerification365id.DefaultAnimationView",
+                    "usr": "s:19IdVerification365id20DefaultAnimationViewV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IdVerification365id10AnimationsC10prepareId3Qrvg",
+                "mangledName": "$s19IdVerification365id10AnimationsC10prepareId3Qrvg",
+                "moduleName": "IdVerification365id",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DefaultAnimationView",
+                    "printedName": "IdVerification365id.DefaultAnimationView",
+                    "usr": "s:19IdVerification365id20DefaultAnimationViewV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IdVerification365id10AnimationsC10prepareId3Qrvs",
+                "mangledName": "$s19IdVerification365id10AnimationsC10prepareId3Qrvs",
+                "moduleName": "IdVerification365id",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IdVerification365id10AnimationsC10prepareId3QrvM",
+                "mangledName": "$s19IdVerification365id10AnimationsC10prepareId3QrvM",
+                "moduleName": "IdVerification365id",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "prepareId1Frontside",
+            "printedName": "prepareId1Frontside",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DefaultAnimationView",
+                "printedName": "IdVerification365id.DefaultAnimationView",
+                "usr": "s:19IdVerification365id20DefaultAnimationViewV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19IdVerification365id10AnimationsC19prepareId1FrontsideQrvp",
+            "mangledName": "$s19IdVerification365id10AnimationsC19prepareId1FrontsideQrvp",
+            "moduleName": "IdVerification365id",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DefaultAnimationView",
+                    "printedName": "IdVerification365id.DefaultAnimationView",
+                    "usr": "s:19IdVerification365id20DefaultAnimationViewV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IdVerification365id10AnimationsC19prepareId1FrontsideQrvg",
+                "mangledName": "$s19IdVerification365id10AnimationsC19prepareId1FrontsideQrvg",
+                "moduleName": "IdVerification365id",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DefaultAnimationView",
+                    "printedName": "IdVerification365id.DefaultAnimationView",
+                    "usr": "s:19IdVerification365id20DefaultAnimationViewV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IdVerification365id10AnimationsC19prepareId1FrontsideQrvs",
+                "mangledName": "$s19IdVerification365id10AnimationsC19prepareId1FrontsideQrvs",
+                "moduleName": "IdVerification365id",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IdVerification365id10AnimationsC19prepareId1FrontsideQrvM",
+                "mangledName": "$s19IdVerification365id10AnimationsC19prepareId1FrontsideQrvM",
+                "moduleName": "IdVerification365id",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "prepareId1Backside",
+            "printedName": "prepareId1Backside",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DefaultAnimationView",
+                "printedName": "IdVerification365id.DefaultAnimationView",
+                "usr": "s:19IdVerification365id20DefaultAnimationViewV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19IdVerification365id10AnimationsC18prepareId1BacksideQrvp",
+            "mangledName": "$s19IdVerification365id10AnimationsC18prepareId1BacksideQrvp",
+            "moduleName": "IdVerification365id",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DefaultAnimationView",
+                    "printedName": "IdVerification365id.DefaultAnimationView",
+                    "usr": "s:19IdVerification365id20DefaultAnimationViewV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IdVerification365id10AnimationsC18prepareId1BacksideQrvg",
+                "mangledName": "$s19IdVerification365id10AnimationsC18prepareId1BacksideQrvg",
+                "moduleName": "IdVerification365id",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DefaultAnimationView",
+                    "printedName": "IdVerification365id.DefaultAnimationView",
+                    "usr": "s:19IdVerification365id20DefaultAnimationViewV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IdVerification365id10AnimationsC18prepareId1BacksideQrvs",
+                "mangledName": "$s19IdVerification365id10AnimationsC18prepareId1BacksideQrvs",
+                "moduleName": "IdVerification365id",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IdVerification365id10AnimationsC18prepareId1BacksideQrvM",
+                "mangledName": "$s19IdVerification365id10AnimationsC18prepareId1BacksideQrvM",
+                "moduleName": "IdVerification365id",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "prepareDocument",
+            "printedName": "prepareDocument",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DefaultAnimationView",
+                "printedName": "IdVerification365id.DefaultAnimationView",
+                "usr": "s:19IdVerification365id20DefaultAnimationViewV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19IdVerification365id10AnimationsC15prepareDocumentQrvp",
+            "mangledName": "$s19IdVerification365id10AnimationsC15prepareDocumentQrvp",
+            "moduleName": "IdVerification365id",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DefaultAnimationView",
+                    "printedName": "IdVerification365id.DefaultAnimationView",
+                    "usr": "s:19IdVerification365id20DefaultAnimationViewV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IdVerification365id10AnimationsC15prepareDocumentQrvg",
+                "mangledName": "$s19IdVerification365id10AnimationsC15prepareDocumentQrvg",
+                "moduleName": "IdVerification365id",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DefaultAnimationView",
+                    "printedName": "IdVerification365id.DefaultAnimationView",
+                    "usr": "s:19IdVerification365id20DefaultAnimationViewV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IdVerification365id10AnimationsC15prepareDocumentQrvs",
+                "mangledName": "$s19IdVerification365id10AnimationsC15prepareDocumentQrvs",
+                "moduleName": "IdVerification365id",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IdVerification365id10AnimationsC15prepareDocumentQrvM",
+                "mangledName": "$s19IdVerification365id10AnimationsC15prepareDocumentQrvM",
+                "moduleName": "IdVerification365id",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "prepareNfc",
+            "printedName": "prepareNfc",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DefaultAnimationView",
+                "printedName": "IdVerification365id.DefaultAnimationView",
+                "usr": "s:19IdVerification365id20DefaultAnimationViewV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19IdVerification365id10AnimationsC10prepareNfcQrvp",
+            "mangledName": "$s19IdVerification365id10AnimationsC10prepareNfcQrvp",
+            "moduleName": "IdVerification365id",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DefaultAnimationView",
+                    "printedName": "IdVerification365id.DefaultAnimationView",
+                    "usr": "s:19IdVerification365id20DefaultAnimationViewV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IdVerification365id10AnimationsC10prepareNfcQrvg",
+                "mangledName": "$s19IdVerification365id10AnimationsC10prepareNfcQrvg",
+                "moduleName": "IdVerification365id",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DefaultAnimationView",
+                    "printedName": "IdVerification365id.DefaultAnimationView",
+                    "usr": "s:19IdVerification365id20DefaultAnimationViewV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IdVerification365id10AnimationsC10prepareNfcQrvs",
+                "mangledName": "$s19IdVerification365id10AnimationsC10prepareNfcQrvs",
+                "moduleName": "IdVerification365id",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IdVerification365id10AnimationsC10prepareNfcQrvM",
+                "mangledName": "$s19IdVerification365id10AnimationsC10prepareNfcQrvM",
+                "moduleName": "IdVerification365id",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "prepareFaceMatch",
+            "printedName": "prepareFaceMatch",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DefaultAnimationView",
+                "printedName": "IdVerification365id.DefaultAnimationView",
+                "usr": "s:19IdVerification365id20DefaultAnimationViewV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19IdVerification365id10AnimationsC16prepareFaceMatchQrvp",
+            "mangledName": "$s19IdVerification365id10AnimationsC16prepareFaceMatchQrvp",
+            "moduleName": "IdVerification365id",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DefaultAnimationView",
+                    "printedName": "IdVerification365id.DefaultAnimationView",
+                    "usr": "s:19IdVerification365id20DefaultAnimationViewV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IdVerification365id10AnimationsC16prepareFaceMatchQrvg",
+                "mangledName": "$s19IdVerification365id10AnimationsC16prepareFaceMatchQrvg",
+                "moduleName": "IdVerification365id",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DefaultAnimationView",
+                    "printedName": "IdVerification365id.DefaultAnimationView",
+                    "usr": "s:19IdVerification365id20DefaultAnimationViewV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IdVerification365id10AnimationsC16prepareFaceMatchQrvs",
+                "mangledName": "$s19IdVerification365id10AnimationsC16prepareFaceMatchQrvs",
+                "moduleName": "IdVerification365id",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IdVerification365id10AnimationsC16prepareFaceMatchQrvM",
+                "mangledName": "$s19IdVerification365id10AnimationsC16prepareFaceMatchQrvM",
+                "moduleName": "IdVerification365id",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "instructionId3",
+            "printedName": "instructionId3",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DefaultAnimationView",
+                "printedName": "IdVerification365id.DefaultAnimationView",
+                "usr": "s:19IdVerification365id20DefaultAnimationViewV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19IdVerification365id10AnimationsC14instructionId3Qrvp",
+            "mangledName": "$s19IdVerification365id10AnimationsC14instructionId3Qrvp",
+            "moduleName": "IdVerification365id",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DefaultAnimationView",
+                    "printedName": "IdVerification365id.DefaultAnimationView",
+                    "usr": "s:19IdVerification365id20DefaultAnimationViewV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IdVerification365id10AnimationsC14instructionId3Qrvg",
+                "mangledName": "$s19IdVerification365id10AnimationsC14instructionId3Qrvg",
+                "moduleName": "IdVerification365id",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DefaultAnimationView",
+                    "printedName": "IdVerification365id.DefaultAnimationView",
+                    "usr": "s:19IdVerification365id20DefaultAnimationViewV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IdVerification365id10AnimationsC14instructionId3Qrvs",
+                "mangledName": "$s19IdVerification365id10AnimationsC14instructionId3Qrvs",
+                "moduleName": "IdVerification365id",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IdVerification365id10AnimationsC14instructionId3QrvM",
+                "mangledName": "$s19IdVerification365id10AnimationsC14instructionId3QrvM",
+                "moduleName": "IdVerification365id",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "instructionId1Frontside",
+            "printedName": "instructionId1Frontside",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DefaultAnimationView",
+                "printedName": "IdVerification365id.DefaultAnimationView",
+                "usr": "s:19IdVerification365id20DefaultAnimationViewV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19IdVerification365id10AnimationsC23instructionId1FrontsideQrvp",
+            "mangledName": "$s19IdVerification365id10AnimationsC23instructionId1FrontsideQrvp",
+            "moduleName": "IdVerification365id",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DefaultAnimationView",
+                    "printedName": "IdVerification365id.DefaultAnimationView",
+                    "usr": "s:19IdVerification365id20DefaultAnimationViewV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IdVerification365id10AnimationsC23instructionId1FrontsideQrvg",
+                "mangledName": "$s19IdVerification365id10AnimationsC23instructionId1FrontsideQrvg",
+                "moduleName": "IdVerification365id",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DefaultAnimationView",
+                    "printedName": "IdVerification365id.DefaultAnimationView",
+                    "usr": "s:19IdVerification365id20DefaultAnimationViewV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IdVerification365id10AnimationsC23instructionId1FrontsideQrvs",
+                "mangledName": "$s19IdVerification365id10AnimationsC23instructionId1FrontsideQrvs",
+                "moduleName": "IdVerification365id",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IdVerification365id10AnimationsC23instructionId1FrontsideQrvM",
+                "mangledName": "$s19IdVerification365id10AnimationsC23instructionId1FrontsideQrvM",
+                "moduleName": "IdVerification365id",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "instructionId1Backside",
+            "printedName": "instructionId1Backside",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DefaultAnimationView",
+                "printedName": "IdVerification365id.DefaultAnimationView",
+                "usr": "s:19IdVerification365id20DefaultAnimationViewV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19IdVerification365id10AnimationsC22instructionId1BacksideQrvp",
+            "mangledName": "$s19IdVerification365id10AnimationsC22instructionId1BacksideQrvp",
+            "moduleName": "IdVerification365id",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DefaultAnimationView",
+                    "printedName": "IdVerification365id.DefaultAnimationView",
+                    "usr": "s:19IdVerification365id20DefaultAnimationViewV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IdVerification365id10AnimationsC22instructionId1BacksideQrvg",
+                "mangledName": "$s19IdVerification365id10AnimationsC22instructionId1BacksideQrvg",
+                "moduleName": "IdVerification365id",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DefaultAnimationView",
+                    "printedName": "IdVerification365id.DefaultAnimationView",
+                    "usr": "s:19IdVerification365id20DefaultAnimationViewV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IdVerification365id10AnimationsC22instructionId1BacksideQrvs",
+                "mangledName": "$s19IdVerification365id10AnimationsC22instructionId1BacksideQrvs",
+                "moduleName": "IdVerification365id",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IdVerification365id10AnimationsC22instructionId1BacksideQrvM",
+                "mangledName": "$s19IdVerification365id10AnimationsC22instructionId1BacksideQrvM",
+                "moduleName": "IdVerification365id",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "instructionDocument",
+            "printedName": "instructionDocument",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DefaultAnimationView",
+                "printedName": "IdVerification365id.DefaultAnimationView",
+                "usr": "s:19IdVerification365id20DefaultAnimationViewV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19IdVerification365id10AnimationsC19instructionDocumentQrvp",
+            "mangledName": "$s19IdVerification365id10AnimationsC19instructionDocumentQrvp",
+            "moduleName": "IdVerification365id",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DefaultAnimationView",
+                    "printedName": "IdVerification365id.DefaultAnimationView",
+                    "usr": "s:19IdVerification365id20DefaultAnimationViewV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IdVerification365id10AnimationsC19instructionDocumentQrvg",
+                "mangledName": "$s19IdVerification365id10AnimationsC19instructionDocumentQrvg",
+                "moduleName": "IdVerification365id",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DefaultAnimationView",
+                    "printedName": "IdVerification365id.DefaultAnimationView",
+                    "usr": "s:19IdVerification365id20DefaultAnimationViewV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IdVerification365id10AnimationsC19instructionDocumentQrvs",
+                "mangledName": "$s19IdVerification365id10AnimationsC19instructionDocumentQrvs",
+                "moduleName": "IdVerification365id",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IdVerification365id10AnimationsC19instructionDocumentQrvM",
+                "mangledName": "$s19IdVerification365id10AnimationsC19instructionDocumentQrvM",
+                "moduleName": "IdVerification365id",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "instructionNfc",
+            "printedName": "instructionNfc",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DefaultAnimationView",
+                "printedName": "IdVerification365id.DefaultAnimationView",
+                "usr": "s:19IdVerification365id20DefaultAnimationViewV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19IdVerification365id10AnimationsC14instructionNfcQrvp",
+            "mangledName": "$s19IdVerification365id10AnimationsC14instructionNfcQrvp",
+            "moduleName": "IdVerification365id",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DefaultAnimationView",
+                    "printedName": "IdVerification365id.DefaultAnimationView",
+                    "usr": "s:19IdVerification365id20DefaultAnimationViewV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IdVerification365id10AnimationsC14instructionNfcQrvg",
+                "mangledName": "$s19IdVerification365id10AnimationsC14instructionNfcQrvg",
+                "moduleName": "IdVerification365id",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DefaultAnimationView",
+                    "printedName": "IdVerification365id.DefaultAnimationView",
+                    "usr": "s:19IdVerification365id20DefaultAnimationViewV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IdVerification365id10AnimationsC14instructionNfcQrvs",
+                "mangledName": "$s19IdVerification365id10AnimationsC14instructionNfcQrvs",
+                "moduleName": "IdVerification365id",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IdVerification365id10AnimationsC14instructionNfcQrvM",
+                "mangledName": "$s19IdVerification365id10AnimationsC14instructionNfcQrvM",
+                "moduleName": "IdVerification365id",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "loadingImageCapture",
+            "printedName": "loadingImageCapture",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DefaultAnimationView",
+                "printedName": "IdVerification365id.DefaultAnimationView",
+                "usr": "s:19IdVerification365id20DefaultAnimationViewV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19IdVerification365id10AnimationsC19loadingImageCaptureQrvp",
+            "mangledName": "$s19IdVerification365id10AnimationsC19loadingImageCaptureQrvp",
+            "moduleName": "IdVerification365id",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DefaultAnimationView",
+                    "printedName": "IdVerification365id.DefaultAnimationView",
+                    "usr": "s:19IdVerification365id20DefaultAnimationViewV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IdVerification365id10AnimationsC19loadingImageCaptureQrvg",
+                "mangledName": "$s19IdVerification365id10AnimationsC19loadingImageCaptureQrvg",
+                "moduleName": "IdVerification365id",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DefaultAnimationView",
+                    "printedName": "IdVerification365id.DefaultAnimationView",
+                    "usr": "s:19IdVerification365id20DefaultAnimationViewV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IdVerification365id10AnimationsC19loadingImageCaptureQrvs",
+                "mangledName": "$s19IdVerification365id10AnimationsC19loadingImageCaptureQrvs",
+                "moduleName": "IdVerification365id",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IdVerification365id10AnimationsC19loadingImageCaptureQrvM",
+                "mangledName": "$s19IdVerification365id10AnimationsC19loadingImageCaptureQrvM",
+                "moduleName": "IdVerification365id",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "loadingNfc",
+            "printedName": "loadingNfc",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DefaultAnimationView",
+                "printedName": "IdVerification365id.DefaultAnimationView",
+                "usr": "s:19IdVerification365id20DefaultAnimationViewV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19IdVerification365id10AnimationsC10loadingNfcQrvp",
+            "mangledName": "$s19IdVerification365id10AnimationsC10loadingNfcQrvp",
+            "moduleName": "IdVerification365id",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DefaultAnimationView",
+                    "printedName": "IdVerification365id.DefaultAnimationView",
+                    "usr": "s:19IdVerification365id20DefaultAnimationViewV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IdVerification365id10AnimationsC10loadingNfcQrvg",
+                "mangledName": "$s19IdVerification365id10AnimationsC10loadingNfcQrvg",
+                "moduleName": "IdVerification365id",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DefaultAnimationView",
+                    "printedName": "IdVerification365id.DefaultAnimationView",
+                    "usr": "s:19IdVerification365id20DefaultAnimationViewV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IdVerification365id10AnimationsC10loadingNfcQrvs",
+                "mangledName": "$s19IdVerification365id10AnimationsC10loadingNfcQrvs",
+                "moduleName": "IdVerification365id",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IdVerification365id10AnimationsC10loadingNfcQrvM",
+                "mangledName": "$s19IdVerification365id10AnimationsC10loadingNfcQrvM",
+                "moduleName": "IdVerification365id",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "loadingFaceMatch",
+            "printedName": "loadingFaceMatch",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DefaultAnimationView",
+                "printedName": "IdVerification365id.DefaultAnimationView",
+                "usr": "s:19IdVerification365id20DefaultAnimationViewV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19IdVerification365id10AnimationsC16loadingFaceMatchQrvp",
+            "mangledName": "$s19IdVerification365id10AnimationsC16loadingFaceMatchQrvp",
+            "moduleName": "IdVerification365id",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DefaultAnimationView",
+                    "printedName": "IdVerification365id.DefaultAnimationView",
+                    "usr": "s:19IdVerification365id20DefaultAnimationViewV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IdVerification365id10AnimationsC16loadingFaceMatchQrvg",
+                "mangledName": "$s19IdVerification365id10AnimationsC16loadingFaceMatchQrvg",
+                "moduleName": "IdVerification365id",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DefaultAnimationView",
+                    "printedName": "IdVerification365id.DefaultAnimationView",
+                    "usr": "s:19IdVerification365id20DefaultAnimationViewV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IdVerification365id10AnimationsC16loadingFaceMatchQrvs",
+                "mangledName": "$s19IdVerification365id10AnimationsC16loadingFaceMatchQrvs",
+                "moduleName": "IdVerification365id",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IdVerification365id10AnimationsC16loadingFaceMatchQrvM",
+                "mangledName": "$s19IdVerification365id10AnimationsC16loadingFaceMatchQrvM",
+                "moduleName": "IdVerification365id",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "loadingGeneric",
+            "printedName": "loadingGeneric",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DefaultAnimationView",
+                "printedName": "IdVerification365id.DefaultAnimationView",
+                "usr": "s:19IdVerification365id20DefaultAnimationViewV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19IdVerification365id10AnimationsC14loadingGenericQrvp",
+            "mangledName": "$s19IdVerification365id10AnimationsC14loadingGenericQrvp",
+            "moduleName": "IdVerification365id",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DefaultAnimationView",
+                    "printedName": "IdVerification365id.DefaultAnimationView",
+                    "usr": "s:19IdVerification365id20DefaultAnimationViewV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IdVerification365id10AnimationsC14loadingGenericQrvg",
+                "mangledName": "$s19IdVerification365id10AnimationsC14loadingGenericQrvg",
+                "moduleName": "IdVerification365id",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DefaultAnimationView",
+                    "printedName": "IdVerification365id.DefaultAnimationView",
+                    "usr": "s:19IdVerification365id20DefaultAnimationViewV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IdVerification365id10AnimationsC14loadingGenericQrvs",
+                "mangledName": "$s19IdVerification365id10AnimationsC14loadingGenericQrvs",
+                "moduleName": "IdVerification365id",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IdVerification365id10AnimationsC14loadingGenericQrvM",
+                "mangledName": "$s19IdVerification365id10AnimationsC14loadingGenericQrvM",
+                "moduleName": "IdVerification365id",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Animations",
+                "printedName": "IdVerification365id.Animations",
+                "usr": "c:@M@IdVerification365id@objc(cs)Animations"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@IdVerification365id@objc(cs)Animations(im)init",
+            "mangledName": "$s19IdVerification365id10AnimationsCACycfc",
+            "moduleName": "IdVerification365id",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@IdVerification365id@objc(cs)Animations",
+        "mangledName": "$s19IdVerification365id10AnimationsC",
+        "moduleName": "IdVerification365id",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -3678,6 +5095,113 @@
       },
       {
         "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "IdVerification365id"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DefaultAnimationView",
+        "printedName": "DefaultAnimationView",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19IdVerification365id20DefaultAnimationViewV4bodyQrvp",
+            "mangledName": "$s19IdVerification365id20DefaultAnimationViewV4bodyQrvp",
+            "moduleName": "IdVerification365id",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IdVerification365id20DefaultAnimationViewV4bodyQrvg",
+                "mangledName": "$s19IdVerification365id20DefaultAnimationViewV4bodyQrvg",
+                "moduleName": "IdVerification365id",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:19IdVerification365id20DefaultAnimationViewV",
+        "mangledName": "$s19IdVerification365id20DefaultAnimationViewV",
+        "moduleName": "IdVerification365id",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "AVFoundation",
         "printedName": "AVFoundation",
         "declKind": "Import",
@@ -5438,35 +6962,35 @@
     {
       "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/Theme\/IdVerificationTheme.swift",
       "kind": "IntegerLiteral",
-      "offset": 769,
+      "offset": 800,
       "length": 8,
       "value": "0xffffff"
     },
     {
       "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/Theme\/IdVerificationTheme.swift",
       "kind": "IntegerLiteral",
-      "offset": 824,
+      "offset": 855,
       "length": 8,
       "value": "0x702F8A"
     },
     {
       "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/Theme\/IdVerificationTheme.swift",
       "kind": "IntegerLiteral",
-      "offset": 882,
+      "offset": 913,
       "length": 8,
       "value": "0xf5f5f5"
     },
     {
       "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/Theme\/IdVerificationTheme.swift",
       "kind": "IntegerLiteral",
-      "offset": 939,
+      "offset": 970,
       "length": 8,
       "value": "0x707070"
     },
     {
       "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/Theme\/IdVerificationTheme.swift",
       "kind": "BooleanLiteral",
-      "offset": 2145,
+      "offset": 2278,
       "length": 5,
       "value": "false"
     },
