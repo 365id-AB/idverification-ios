@@ -142,7 +142,7 @@ flowchart LR
 ## Requirements
 - Xcode 14.0+
 - iOS version 14.0 and above
-- The framework has been written in Swift 5.3
+- The framework has been written with Swift 5.7 in mind, may work in earlier versions but there is no guarantee.
 
 <br/>
 <br/>
@@ -160,44 +160,9 @@ The 365id Id Verification SDK is distributed as a Swift Package. You can add it 
 
 The 365id Id Verification SDK is distributed as a Cocoapod, therefore **you are required to use Cocoapods 1.14.3 or newer** This could change depending on demand for other packaging systems.
 
-1. If you are not yet using Cocoapods in your project, first run `sudo gem install cocoapods` followed by `pod init`. (For further information on installing Cocoapods, [click here](https://guides.cocoapods.org/using/getting-started.html#installation).)
+1. If you are not yet using Cocoapods in your project, first run `gem install cocoapods` followed by `pod init`. (For further information on installing Cocoapods, [click here](https://guides.cocoapods.org/using/getting-started.html#installation).)
 
-2. Add the following in the top of your Pod file:
-
-   ```ruby
-      source 'https://github.com/CocoaPods/Specs.git'
-   ```
-
-3. Add the following to your Pod file (inside the target section):
-
-```ruby
-pod 'IdVerification365id', "2.1.6-beta"
-```
-
-4. Add the following to the bottom of your Podfile:
-
-```ruby
-post_install do |installer|
-  installer.pods_project.targets.each do |target|
-    if ['Pods-SampleApp-objc'].include? target.name
-      target.build_configurations.each do |config|
-          config.build_settings['ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES'] = 'YES'
-          config.build_settings['EMBEDDED_CONTENT_CONTAINS_SWIFT'] = ''
-      end
-    end
-    if ['iProov'].include? target.name
-      target.build_configurations.each do |config|
-          config.build_settings['BUILD_LIBRARY_FOR_DISTRIBUTION'] = 'YES'
-      end
-    end
-    if ['iProov'].include? target.name
-      target.build_configurations.each do |config|
-          config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '12.0'
-      end
-    end
-  end
-end
-```
+2. A helpful example of a [Podfile](SampleApp/Podfile) can be found in the SampleApp folder. Copy the complete file or choose sections as needed.
 
 5. Run `pod update`.
 
@@ -491,11 +456,11 @@ IdVerification.setCustomTheme(
 
 ## Log and Telemetry collection
 
-The 365id IdVerification SDK uses [Sentry](https://sentry.io/) for collectiong logs and telemetry data.
+The 365id IdVerification SDK uses [Sentry](https://sentry.io/) for collecting logs and telemetry data.
 
 ### What data are we collecting
 
-We are not, during any stage, collecting the users PII (Personal Identifiable Information). That includes, but are not limited to; email adresses, user names, phone number etc.
+We are not, during any stage, collecting the users PII (Personal Identifiable Information). That includes, but are not limited to; email addresses, user names, phone number etc.
 
 #### Logging
 
@@ -517,7 +482,7 @@ Currently Sentry does not have support for running more than one instance at a t
 
 If your app have an instance of Sentry running, the logs will be sent to your Sentry project. If your app does not use Sentry this wont be an issue.
 
-To avoid getting our logs we suggest that your app exits Sentry just before calling ```IdVerification.start()``` and reinstantiate your Sentry right after the ```OnClose``` callback is triggered.
+To avoid getting our logs we suggest that your app exits Sentry just before calling ```IdVerification.start()``` and re-instantiate your Sentry right after the ```OnClose``` callback is triggered.
 
 <br/>
 <br/>
@@ -601,6 +566,10 @@ In writing, this can be described as such:
 ## API
 
 You can find full API documentation here: [https://365id-ab.github.io/idverification-ios/documentation/idverification365id/](https://365id-ab.github.io/idverification-ios/documentation/idverification365id/)
+
+### local access to API documentation
+
+If you would like to access the documentation locally you can run the command `sh show_api.sh`
 
 
 ## Help & support
