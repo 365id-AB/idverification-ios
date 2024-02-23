@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [2.2.2-beta] - 2024-02-21
+
+### Fixed
+
+- Fixed the compilation issue brought on by the incorrect animation view type 
+
 ## [2.2.1-beta] - 2024-02-15
 
 ### Added

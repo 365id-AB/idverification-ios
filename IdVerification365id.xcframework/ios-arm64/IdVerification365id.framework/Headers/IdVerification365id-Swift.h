@@ -254,8 +254,8 @@ using UInt = size_t;
 #if defined(__OBJC__)
 
 /// Used to customize all the animations in the Idverification SDK
-SWIFT_CLASS("_TtC19IdVerification365id10Animations")
-@interface Animations : NSObject
+SWIFT_CLASS("_TtC19IdVerification365id20CustomAnimationViews")
+@interface CustomAnimationViews : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -426,7 +426,7 @@ SWIFT_CLASS("_TtC19IdVerification365id19IdVerificationTheme")
 ///
 /// \param animations A Class containing swiftUI animation views that can be replaced in the SDK.
 ///
-- (nonnull instancetype)initWithSurface:(UIColor * _Nullable)surface onSurface:(UIColor * _Nullable)onSurface background:(UIColor * _Nullable)background primary:(UIColor * _Nullable)primary onPrimary:(UIColor * _Nullable)onPrimary secondary:(UIColor * _Nullable)secondary secondaryContainer:(UIColor * _Nullable)secondaryContainer onSecondary:(UIColor * _Nullable)onSecondary onSecondaryContainer:(UIColor * _Nullable)onSecondaryContainer appBarLogo:(UIImage * _Nullable)appBarLogo poweredByLogo:(enum PoweredByLogo)poweredByLogo showAppBar:(BOOL)showAppBar animations:(Animations * _Nonnull)animations OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithSurface:(UIColor * _Nullable)surface onSurface:(UIColor * _Nullable)onSurface background:(UIColor * _Nullable)background primary:(UIColor * _Nullable)primary onPrimary:(UIColor * _Nullable)onPrimary secondary:(UIColor * _Nullable)secondary secondaryContainer:(UIColor * _Nullable)secondaryContainer onSecondary:(UIColor * _Nullable)onSecondary onSecondaryContainer:(UIColor * _Nullable)onSecondaryContainer appBarLogo:(UIImage * _Nullable)appBarLogo poweredByLogo:(enum PoweredByLogo)poweredByLogo showAppBar:(BOOL)showAppBar animations:(CustomAnimationViews * _Nonnull)animations OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
