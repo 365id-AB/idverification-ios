@@ -61,17 +61,30 @@ struct ContentView: View {
                 NavigationLink(destination: IdVerificationContainerView(), isActive: $eventDelegate.showSDKView) {
 
                     VStack {
-
+                        Spacer()
+                            .frame(height: 30)
                         Button("Set Custom Theme") {
                            setCustomTheme()
                         }
 
                         Spacer()
-                            .frame(width: 50, height: 50)
+                            .frame(height: 80)
 
-                        Button("Enter 365id SDK") {
-                            getTokenAndStartSDK()
+                        Button("Scan Generic Document") {
+                            getTokenAndStartSDK(documentType: .document)
                         }
+                        Spacer()
+                            .frame(height: 30)
+                        Button("Scan Id-card / Driving License") {
+                            getTokenAndStartSDK(documentType: .id1)
+                        }
+                        Spacer()
+                            .frame(height: 30)
+                        Button("Scan Passport") {
+                            getTokenAndStartSDK(documentType: .id3)
+                        }
+                        Spacer()
+                            .frame(height: 30)
                     }
                 }
                 Spacer()
@@ -83,15 +96,24 @@ struct ContentView: View {
     }
 
     /// Used to kickstart the SDK and register a callback that interacts with the user interface
-    private func getTokenAndStartSDK() {
+    private func getTokenAndStartSDK(documentType: DocumentType = .document) {
         DeviceInformation.shared.getInfo { info in
-            if !IdVerification.start(token: info["Token"]!, delegate: eventDelegate) {
+            if !IdVerification.start(token: info["Token"]!, documentType: documentType, delegate: eventDelegate) {
                 print("Unable to start the SDK, was the token provided properly?")
             }
         }
     }
 
     private func setCustomTheme() {
+
+        let customAnimationViews = CustomAnimationViews()
+
+        customAnimationViews.instructionDocument = Text("Place your custom \ndocument animation here")
+        customAnimationViews.prepareDocument = Text("Place your custom \ndocument animation here")
+
+        customAnimationViews.instructionId3 = Text("Place your custom\npassport animation here")
+        customAnimationViews.prepareId3 = Text("Place your custom\npassport animation here")
+
 
         IdVerification.setCustomTheme(
             IdVerificationTheme(
@@ -105,8 +127,9 @@ struct ContentView: View {
                 onSecondary: .purple,
                 onSecondaryContainer: .darkGray,
                 appBarLogo: nil,
-                poweredByLogo: .STANDARD,
-                showAppBar: true))
+                poweredByLogo: .WHITE,
+                showAppBar: false,
+                animations: customAnimationViews))
     }
 }
 

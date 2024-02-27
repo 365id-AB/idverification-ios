@@ -1,7 +1,6 @@
 #import "ViewController.h"
 #import "DeviceInformation.h"
 #import "IdVerification365id/IdVerification365id-Swift.h"
-#import "AppNavigation.h"
 
 @interface ViewController () <IdVerificationEventDelegate>
 
@@ -42,16 +41,6 @@
     [safeAreaView addSubview:infoLabel];
     infoLabel.translatesAutoresizingMaskIntoConstraints = false;
 
-    // Start SDK Button
-    UIButton *startSdkButton = [[UIButton alloc] initWithFrame:CGRectZero];
-    startSdkButton.backgroundColor = UIColor.blueColor;
-    [startSdkButton setTitleColor:UIColor.whiteColor forState:UIControlStateNormal];
-    startSdkButton.layer.cornerRadius = 10;
-    [startSdkButton setTitle:@"Enter 365id SDK" forState:UIControlStateNormal];
-    [safeAreaView addSubview:startSdkButton];
-    startSdkButton.translatesAutoresizingMaskIntoConstraints = false;
-    [startSdkButton addTarget:self action:@selector(clickStartSdkButton:) forControlEvents:UIControlEventTouchUpInside];
-
     // Set Custom theme button
     UIButton *setCustomThemeButton = [[UIButton alloc] initWithFrame:CGRectZero];
     setCustomThemeButton.backgroundColor = UIColor.blueColor;
@@ -62,15 +51,50 @@
     setCustomThemeButton.translatesAutoresizingMaskIntoConstraints = false;
     [setCustomThemeButton addTarget:self action:@selector(clickSetCustomThemeButton:) forControlEvents:UIControlEventTouchUpInside];
 
+    // Scan Generic Document
+    UIButton *scanGenericDocument = [[UIButton alloc] initWithFrame:CGRectZero];
+    scanGenericDocument.backgroundColor = UIColor.blueColor;
+    [scanGenericDocument setTitleColor:UIColor.whiteColor forState:UIControlStateNormal];
+    scanGenericDocument.layer.cornerRadius = 10;
+    [scanGenericDocument setTitle:@"Scan Generic Document" forState:UIControlStateNormal];
+    [safeAreaView addSubview:scanGenericDocument];
+    scanGenericDocument.translatesAutoresizingMaskIntoConstraints = false;
+    [scanGenericDocument addTarget:self action:@selector(clickscanGenericDocument:) forControlEvents:UIControlEventTouchUpInside];
+
+    // Scan Id-card / Driving License
+    UIButton *scanIdCard = [[UIButton alloc] initWithFrame:CGRectZero];
+    scanIdCard.backgroundColor = UIColor.blueColor;
+    [scanIdCard setTitleColor:UIColor.whiteColor forState:UIControlStateNormal];
+    scanIdCard.layer.cornerRadius = 10;
+    [scanIdCard setTitle:@"Scan Id-card / Driving License" forState:UIControlStateNormal];
+    [safeAreaView addSubview:scanIdCard];
+    scanIdCard.translatesAutoresizingMaskIntoConstraints = false;
+    [scanIdCard addTarget:self action:@selector(clickScanIdCard:) forControlEvents:UIControlEventTouchUpInside];
+
+    // Scan Passport
+    UIButton *scanPassport = [[UIButton alloc] initWithFrame:CGRectZero];
+    scanPassport.backgroundColor = UIColor.blueColor;
+    [scanPassport setTitleColor:UIColor.whiteColor forState:UIControlStateNormal];
+    scanPassport.layer.cornerRadius = 10;
+    [scanPassport setTitle:@"Scan Passport" forState:UIControlStateNormal];
+    [safeAreaView addSubview:scanPassport];
+    scanPassport.translatesAutoresizingMaskIntoConstraints = false;
+    [scanPassport addTarget:self action:@selector(clickScanPassport:) forControlEvents:UIControlEventTouchUpInside];
+
     // Set views in safe area
     NSDictionary *viewsDictionary = @{@"infoLabel":infoLabel,
-                                      @"startSdkButton":startSdkButton,
-                                      @"setCustomThemeButton":setCustomThemeButton};
+                                      @"setCustomThemeButton":setCustomThemeButton,
+                                      @"scanGenericDocument":scanGenericDocument,
+                                      @"scanIdCard":scanIdCard,
+                                      @"scanPassport":scanPassport};
 
     [safeAreaView addConstraints: [NSLayoutConstraint constraintsWithVisualFormat:@"H:|-20-[infoLabel]-20-|" options:0 metrics:nil views:viewsDictionary]];
-    [safeAreaView addConstraints: [NSLayoutConstraint constraintsWithVisualFormat:@"H:|-20-[startSdkButton]-20-|" options:0 metrics:nil views:viewsDictionary]];
+//    [safeAreaView addConstraints: [NSLayoutConstraint constraintsWithVisualFormat:@"H:|-20-[startSdkButton]-20-|" options:0 metrics:nil views:viewsDictionary]];
     [safeAreaView addConstraints: [NSLayoutConstraint constraintsWithVisualFormat:@"H:|-20-[setCustomThemeButton]-20-|" options:0 metrics:nil views:viewsDictionary]];
-    [safeAreaView addConstraints: [NSLayoutConstraint constraintsWithVisualFormat:@"V:|-20-[infoLabel]-40-[setCustomThemeButton(40)]-20-[startSdkButton(40)]->=0-|" options:0 metrics:nil views:viewsDictionary]];
+    [safeAreaView addConstraints: [NSLayoutConstraint constraintsWithVisualFormat:@"H:|-20-[scanGenericDocument]-20-|" options:0 metrics:nil views:viewsDictionary]];
+    [safeAreaView addConstraints: [NSLayoutConstraint constraintsWithVisualFormat:@"H:|-20-[scanIdCard]-20-|" options:0 metrics:nil views:viewsDictionary]];
+    [safeAreaView addConstraints: [NSLayoutConstraint constraintsWithVisualFormat:@"H:|-20-[scanPassport]-20-|" options:0 metrics:nil views:viewsDictionary]];
+    [safeAreaView addConstraints: [NSLayoutConstraint constraintsWithVisualFormat:@"V:|-20-[infoLabel]-60-[setCustomThemeButton]-60-[scanGenericDocument]-20-[scanIdCard]-20-[scanPassport]->=0-|" options:0 metrics:nil views:viewsDictionary]];
 }
 
 -(void)showSdkView:(BOOL)value {
@@ -89,21 +113,6 @@
     }
 }
 
--(void)clickStartSdkButton:(id)sender
-{
-    [DeviceInformation getDeviceInfo:^(NSDictionary *deviceInfo) {
-
-        // Skip no modules example
-        IdVerificationSkipModules *skipNoModules = [[IdVerificationSkipModules alloc] init];
-
-        if([IdVerification startWithToken:deviceInfo[@"Token"] locationId:0 skipModules:skipNoModules documentType:DocumentTypeDocument delegate:self]) {
-            // SDK was happy with the provided arguments.
-        } else {
-            // Unable to start the SDK. Most likely something was wrong with the token.
-        }
-    }];
-}
-
 -(void)clickSetCustomThemeButton:(id)sender
 {
     IdVerificationTheme *theme = [[IdVerificationTheme alloc]
@@ -118,9 +127,40 @@
         onSecondaryContainer:(UIColor.darkGrayColor)
         appBarLogo:(nil)
         poweredByLogo:(PoweredByLogoSTANDARD)
-        showAppBar:(YES)];
+        showAppBar:(YES)
+        animations:[[CustomAnimationViews alloc]init]
+    ];
 
      [IdVerification setCustomTheme:theme];
+}
+
+-(void)_start:(DocumentType)documentType {
+    [DeviceInformation getDeviceInfo:^(NSDictionary *deviceInfo) {
+
+        // Skip no modules example
+        IdVerificationSkipModules *skipNoModules = [[IdVerificationSkipModules alloc] init];
+
+        if([IdVerification startWithToken:deviceInfo[@"Token"] locationId:0 skipModules:skipNoModules documentType:documentType delegate:self]) {
+            // SDK was happy with the provided arguments.
+        } else {
+            // Unable to start the SDK. Most likely something was wrong with the token.
+        }
+    }];
+}
+
+-(void)clickscanGenericDocument:(id)sender
+{
+    [self _start:(DocumentTypeDocument)];
+}
+
+-(void)clickScanIdCard:(id)sender
+{
+    [self _start:(DocumentTypeId1)];
+}
+
+-(void)clickScanPassport:(id)sender
+{
+    [self _start:(DocumentTypeId3)];
 }
 
 - (void)onClosed {
