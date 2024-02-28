@@ -9,31 +9,11 @@ import Foundation
 import Swift
 import SwiftUI
 import UIKit
-import _AVKit_SwiftUI
 import _Concurrency
 import _StringProcessing
 @objc public class IdVerificationTheme : ObjectiveC.NSObject {
-  @objc public init(surface: UIKit.UIColor? = nil, onSurface: UIKit.UIColor? = nil, background: UIKit.UIColor? = nil, primary: UIKit.UIColor? = nil, onPrimary: UIKit.UIColor? = nil, secondary: UIKit.UIColor? = nil, secondaryContainer: UIKit.UIColor? = nil, onSecondary: UIKit.UIColor? = nil, onSecondaryContainer: UIKit.UIColor? = nil, appBarLogo: UIKit.UIImage? = nil, poweredByLogo: IdVerification365id.PoweredByLogo = .STANDARD, showAppBar: Swift.Bool = false, animations: IdVerification365id.CustomAnimationViews = CustomAnimationViews())
-  public func copyWith(surface: UIKit.UIColor? = nil, onSurface: UIKit.UIColor? = nil, background: UIKit.UIColor? = nil, primary: UIKit.UIColor? = nil, onPrimary: UIKit.UIColor? = nil, secondary: UIKit.UIColor? = nil, secondaryContainer: UIKit.UIColor? = nil, onSecondary: UIKit.UIColor? = nil, onSecondaryContainer: UIKit.UIColor? = nil, appBarLogo: UIKit.UIImage? = nil, poweredByLogo: IdVerification365id.PoweredByLogo? = nil, showAppBar: Swift.Bool? = nil, animations: IdVerification365id.CustomAnimationViews? = nil) -> IdVerification365id.IdVerificationTheme
-  @objc deinit
-}
-@_inheritsConvenienceInitializers @objc public class CustomAnimationViews : ObjectiveC.NSObject {
-  public var prepareId3: SwiftUI.View
-  public var prepareId1Frontside: SwiftUI.View
-  public var prepareId1Backside: SwiftUI.View
-  public var prepareDocument: SwiftUI.View
-  public var prepareNfc: SwiftUI.View
-  public var prepareFaceMatch: SwiftUI.View
-  public var instructionId3: SwiftUI.View
-  public var instructionId1Frontside: SwiftUI.View
-  public var instructionId1Backside: SwiftUI.View
-  public var instructionDocument: SwiftUI.View
-  public var instructionNfc: SwiftUI.View
-  public var loadingImageCapture: SwiftUI.View
-  public var loadingNfc: SwiftUI.View
-  public var loadingFaceMatch: SwiftUI.View
-  public var loadingGeneric: SwiftUI.View
-  @objc override dynamic public init()
+  @objc public init(surface: UIKit.UIColor? = nil, onSurface: UIKit.UIColor? = nil, background: UIKit.UIColor? = nil, primary: UIKit.UIColor? = nil, onPrimary: UIKit.UIColor? = nil, secondary: UIKit.UIColor? = nil, secondaryContainer: UIKit.UIColor? = nil, onSecondary: UIKit.UIColor? = nil, onSecondaryContainer: UIKit.UIColor? = nil, appBarLogo: UIKit.UIImage? = nil, poweredByLogo: IdVerification365id.PoweredByLogo = .STANDARD, showAppBar: Swift.Bool = false, animations: IdVerification365id.IdVerification.Animations = IdVerification.Animations())
+  public func copyWith(surface: UIKit.UIColor? = nil, onSurface: UIKit.UIColor? = nil, background: UIKit.UIColor? = nil, primary: UIKit.UIColor? = nil, onPrimary: UIKit.UIColor? = nil, secondary: UIKit.UIColor? = nil, secondaryContainer: UIKit.UIColor? = nil, onSecondary: UIKit.UIColor? = nil, onSecondaryContainer: UIKit.UIColor? = nil, appBarLogo: UIKit.UIImage? = nil, poweredByLogo: IdVerification365id.PoweredByLogo? = nil, showAppBar: Swift.Bool? = nil, animations: IdVerification365id.IdVerification.Animations? = nil) -> IdVerification365id.IdVerificationTheme
   @objc deinit
 }
 @objc public enum DocumentType : Swift.Int {
@@ -47,6 +27,25 @@ import _StringProcessing
   }
 }
 @_inheritsConvenienceInitializers @objc public class IdVerification : ObjectiveC.NSObject {
+  @_inheritsConvenienceInitializers @objc public class Animations : ObjectiveC.NSObject {
+    public var prepareId3: SwiftUI.View
+    public var prepareId1Frontside: SwiftUI.View
+    public var prepareId1Backside: SwiftUI.View
+    public var prepareDocument: SwiftUI.View
+    public var prepareNfc: SwiftUI.View
+    public var prepareFaceMatch: SwiftUI.View
+    public var instructionId3: SwiftUI.View
+    public var instructionId1Frontside: SwiftUI.View
+    public var instructionId1Backside: SwiftUI.View
+    public var instructionDocument: SwiftUI.View
+    public var instructionNfc: SwiftUI.View
+    public var loadingImageCapture: SwiftUI.View
+    public var loadingNfc: SwiftUI.View
+    public var loadingFaceMatch: SwiftUI.View
+    public var loadingGeneric: SwiftUI.View
+    @objc override dynamic public init()
+    @objc deinit
+  }
   @objc public static func setCustomTheme(_ idVerificationTheme: IdVerification365id.IdVerificationTheme)
   @objc public static func start(token: Swift.String, locationId: Swift.Int = 0, skipModules: IdVerification365id.IdVerificationSkipModules = IdVerificationSkipModules([]), documentType: IdVerification365id.DocumentType = .document, delegate: IdVerification365id.IdVerificationEventDelegate) -> Swift.Bool
   @objc public static func stop()
@@ -118,12 +117,6 @@ extension UIKit.UIView {
   public var rawValue: Swift.Int {
     get
   }
-}
-public struct DefaultAnimationView : SwiftUI.View {
-  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
-    get
-  }
-  public typealias Body = @_opaqueReturnTypeOf("$s19IdVerification365id20DefaultAnimationViewV4bodyQrvp", 0) __
 }
 extension IdVerification365id.DocumentType : Swift.Equatable {}
 extension IdVerification365id.DocumentType : Swift.Hashable {}

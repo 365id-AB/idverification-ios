@@ -252,13 +252,6 @@ using UInt = size_t;
 #endif
 
 #if defined(__OBJC__)
-
-/// Used to customize all the animations in the Idverification SDK
-SWIFT_CLASS("_TtC19IdVerification365id20CustomAnimationViews")
-@interface CustomAnimationViews : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
 /// Enumeration of different types of document.
 typedef SWIFT_ENUM(NSInteger, DocumentType, open) {
 /// The shape of the document is id1 (passport size).
@@ -316,6 +309,13 @@ SWIFT_CLASS("_TtC19IdVerification365id14IdVerification")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+
+/// Used to customize all the animations in the Idverification SDK
+SWIFT_CLASS("_TtCC19IdVerification365id14IdVerification10Animations")
+@interface Animations : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
 /// Id Verification Errors used in the <code>onError(error:)</code> method in the <code>IdVerificationEventDelegate</code>
 typedef SWIFT_ENUM(NSInteger, IdVerificationError, open) {
 /// Happens when the provided token is invalid
@@ -360,6 +360,14 @@ SWIFT_PROTOCOL("_TtP19IdVerification365id27IdVerificationEventDelegate_")
 /// recieved.
 - (void)onError:(IdVerificationErrorBundle * _Nonnull)error;
 /// Called when the id verification process has completed
+/// <ul>
+///   <li>
+///     Parameters:
+///   </li>
+///   <li>
+///     result: The idverification result from the completed verification transaction.
+///   </li>
+/// </ul>
 - (void)onCompleted:(IdVerificationResult * _Nonnull)result;
 @end
 
@@ -371,6 +379,9 @@ SWIFT_CLASS("_TtC19IdVerification365id20IdVerificationResult")
 /// note:
 /// This is the id you provide to your server side implementation to be able to look up the result of the
 /// transaction
+/// note:
+/// When a result is delivered the transactionId shall always contain a string representation of the
+/// transaction id, i.e. It shall never be an empty string.
 @property (nonatomic, readonly, copy) NSString * _Nonnull transactionId;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
@@ -426,7 +437,7 @@ SWIFT_CLASS("_TtC19IdVerification365id19IdVerificationTheme")
 ///
 /// \param animations A Class containing swiftUI animation views that can be replaced in the SDK.
 ///
-- (nonnull instancetype)initWithSurface:(UIColor * _Nullable)surface onSurface:(UIColor * _Nullable)onSurface background:(UIColor * _Nullable)background primary:(UIColor * _Nullable)primary onPrimary:(UIColor * _Nullable)onPrimary secondary:(UIColor * _Nullable)secondary secondaryContainer:(UIColor * _Nullable)secondaryContainer onSecondary:(UIColor * _Nullable)onSecondary onSecondaryContainer:(UIColor * _Nullable)onSecondaryContainer appBarLogo:(UIImage * _Nullable)appBarLogo poweredByLogo:(enum PoweredByLogo)poweredByLogo showAppBar:(BOOL)showAppBar animations:(CustomAnimationViews * _Nonnull)animations OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithSurface:(UIColor * _Nullable)surface onSurface:(UIColor * _Nullable)onSurface background:(UIColor * _Nullable)background primary:(UIColor * _Nullable)primary onPrimary:(UIColor * _Nullable)onPrimary secondary:(UIColor * _Nullable)secondary secondaryContainer:(UIColor * _Nullable)secondaryContainer onSecondary:(UIColor * _Nullable)onSecondary onSecondaryContainer:(UIColor * _Nullable)onSecondaryContainer appBarLogo:(UIImage * _Nullable)appBarLogo poweredByLogo:(enum PoweredByLogo)poweredByLogo showAppBar:(BOOL)showAppBar animations:(Animations * _Nonnull)animations OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end

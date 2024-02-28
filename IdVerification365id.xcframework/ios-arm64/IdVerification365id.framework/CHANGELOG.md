@@ -4,6 +4,16 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [2.2.4-beta] - 2024-02-28
+
+### Added
+
+- Created default animation for custom animation views.
+
+### Changed
+
+- Renamed CustomAnimations() class name into Animations().
+
 ## [2.2.3-beta] - 2024-02-22
 
 ### Added

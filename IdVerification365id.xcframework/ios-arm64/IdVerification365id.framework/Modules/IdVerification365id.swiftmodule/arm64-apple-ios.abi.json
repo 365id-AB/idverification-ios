@@ -346,15 +346,15 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "CustomAnimationViews",
-                "printedName": "IdVerification365id.CustomAnimationViews",
+                "name": "Animations",
+                "printedName": "IdVerification365id.IdVerification.Animations",
                 "hasDefaultArg": true,
-                "usr": "c:@M@IdVerification365id@objc(cs)CustomAnimationViews"
+                "usr": "s:19IdVerification365id0A12VerificationC10AnimationsC"
               }
             ],
             "declKind": "Constructor",
             "usr": "c:@M@IdVerification365id@objc(cs)IdVerificationTheme(im)initWithSurface:onSurface:background:primary:onPrimary:secondary:secondaryContainer:onSecondary:onSecondaryContainer:appBarLogo:poweredByLogo:showAppBar:animations:",
-            "mangledName": "$s19IdVerification365id0A17VerificationThemeC7surface9onSurface10background7primary0F7Primary9secondary0K9Container0F9Secondary0fmL010appBarLogo09poweredByP007showAppO010animationsACSo7UIColorCSg_A8SSo7UIImageCSgAA07PoweredrP0OSbAA20CustomAnimationViewsCtcfc",
+            "mangledName": "$s19IdVerification365id0A17VerificationThemeC7surface9onSurface10background7primary0F7Primary9secondary0K9Container0F9Secondary0fmL010appBarLogo09poweredByP007showAppO010animationsACSo7UIColorCSg_A8SSo7UIImageCSgAA07PoweredrP0OSbAA0aC0C10AnimationsCtcfc",
             "moduleName": "IdVerification365id",
             "objc_name": "initWithSurface:onSurface:background:primary:onPrimary:secondary:secondaryContainer:onSecondary:onSecondaryContainer:appBarLogo:poweredByLogo:showAppBar:animations:",
             "declAttributes": [
@@ -558,13 +558,13 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "IdVerification365id.CustomAnimationViews?",
+                "printedName": "IdVerification365id.IdVerification.Animations?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "CustomAnimationViews",
-                    "printedName": "IdVerification365id.CustomAnimationViews",
-                    "usr": "c:@M@IdVerification365id@objc(cs)CustomAnimationViews"
+                    "name": "Animations",
+                    "printedName": "IdVerification365id.IdVerification.Animations",
+                    "usr": "s:19IdVerification365id0A12VerificationC10AnimationsC"
                   }
                 ],
                 "hasDefaultArg": true,
@@ -572,8 +572,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:19IdVerification365id0A17VerificationThemeC8copyWith7surface9onSurface10background7primary0H7Primary9secondary0M9Container0H9Secondary0hoN010appBarLogo09poweredByR007showAppQ010animationsACSo7UIColorCSg_A8TSo7UIImageCSgAA07PoweredtR0OSgSbSgAA20CustomAnimationViewsCSgtF",
-            "mangledName": "$s19IdVerification365id0A17VerificationThemeC8copyWith7surface9onSurface10background7primary0H7Primary9secondary0M9Container0H9Secondary0hoN010appBarLogo09poweredByR007showAppQ010animationsACSo7UIColorCSg_A8TSo7UIImageCSgAA07PoweredtR0OSgSbSgAA20CustomAnimationViewsCSgtF",
+            "usr": "s:19IdVerification365id0A17VerificationThemeC8copyWith7surface9onSurface10background7primary0H7Primary9secondary0M9Container0H9Secondary0hoN010appBarLogo09poweredByR007showAppQ010animationsACSo7UIColorCSg_A8TSo7UIImageCSgAA07PoweredtR0OSgSbSgAA0aC0C10AnimationsCSgtF",
+            "mangledName": "$s19IdVerification365id0A17VerificationThemeC8copyWith7surface9onSurface10background7primary0H7Primary9secondary0M9Container0H9Secondary0hoN010appBarLogo09poweredByR007showAppQ010animationsACSo7UIColorCSg_A8TSo7UIImageCSgAA07PoweredtR0OSgSbSgAA0aC0C10AnimationsCSgtF",
             "moduleName": "IdVerification365id",
             "declAttributes": [
               "AccessControl",
@@ -742,1401 +742,6 @@
         "printedName": "Combine",
         "declKind": "Import",
         "moduleName": "IdVerification365id"
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "IdVerification365id"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "CustomAnimationViews",
-        "printedName": "CustomAnimationViews",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "prepareId3",
-            "printedName": "prepareId3",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "View",
-                "printedName": "SwiftUI.View",
-                "usr": "s:7SwiftUI4ViewP"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:19IdVerification365id20CustomAnimationViewsC10prepareId37SwiftUI4View_pvp",
-            "mangledName": "$s19IdVerification365id20CustomAnimationViewsC10prepareId37SwiftUI4View_pvp",
-            "moduleName": "IdVerification365id",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "View",
-                    "printedName": "SwiftUI.View",
-                    "usr": "s:7SwiftUI4ViewP"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:19IdVerification365id20CustomAnimationViewsC10prepareId37SwiftUI4View_pvg",
-                "mangledName": "$s19IdVerification365id20CustomAnimationViewsC10prepareId37SwiftUI4View_pvg",
-                "moduleName": "IdVerification365id",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "View",
-                    "printedName": "SwiftUI.View",
-                    "usr": "s:7SwiftUI4ViewP"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:19IdVerification365id20CustomAnimationViewsC10prepareId37SwiftUI4View_pvs",
-                "mangledName": "$s19IdVerification365id20CustomAnimationViewsC10prepareId37SwiftUI4View_pvs",
-                "moduleName": "IdVerification365id",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:19IdVerification365id20CustomAnimationViewsC10prepareId37SwiftUI4View_pvM",
-                "mangledName": "$s19IdVerification365id20CustomAnimationViewsC10prepareId37SwiftUI4View_pvM",
-                "moduleName": "IdVerification365id",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "prepareId1Frontside",
-            "printedName": "prepareId1Frontside",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "View",
-                "printedName": "SwiftUI.View",
-                "usr": "s:7SwiftUI4ViewP"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:19IdVerification365id20CustomAnimationViewsC19prepareId1Frontside7SwiftUI4View_pvp",
-            "mangledName": "$s19IdVerification365id20CustomAnimationViewsC19prepareId1Frontside7SwiftUI4View_pvp",
-            "moduleName": "IdVerification365id",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "View",
-                    "printedName": "SwiftUI.View",
-                    "usr": "s:7SwiftUI4ViewP"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:19IdVerification365id20CustomAnimationViewsC19prepareId1Frontside7SwiftUI4View_pvg",
-                "mangledName": "$s19IdVerification365id20CustomAnimationViewsC19prepareId1Frontside7SwiftUI4View_pvg",
-                "moduleName": "IdVerification365id",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "View",
-                    "printedName": "SwiftUI.View",
-                    "usr": "s:7SwiftUI4ViewP"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:19IdVerification365id20CustomAnimationViewsC19prepareId1Frontside7SwiftUI4View_pvs",
-                "mangledName": "$s19IdVerification365id20CustomAnimationViewsC19prepareId1Frontside7SwiftUI4View_pvs",
-                "moduleName": "IdVerification365id",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:19IdVerification365id20CustomAnimationViewsC19prepareId1Frontside7SwiftUI4View_pvM",
-                "mangledName": "$s19IdVerification365id20CustomAnimationViewsC19prepareId1Frontside7SwiftUI4View_pvM",
-                "moduleName": "IdVerification365id",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "prepareId1Backside",
-            "printedName": "prepareId1Backside",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "View",
-                "printedName": "SwiftUI.View",
-                "usr": "s:7SwiftUI4ViewP"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:19IdVerification365id20CustomAnimationViewsC18prepareId1Backside7SwiftUI4View_pvp",
-            "mangledName": "$s19IdVerification365id20CustomAnimationViewsC18prepareId1Backside7SwiftUI4View_pvp",
-            "moduleName": "IdVerification365id",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "View",
-                    "printedName": "SwiftUI.View",
-                    "usr": "s:7SwiftUI4ViewP"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:19IdVerification365id20CustomAnimationViewsC18prepareId1Backside7SwiftUI4View_pvg",
-                "mangledName": "$s19IdVerification365id20CustomAnimationViewsC18prepareId1Backside7SwiftUI4View_pvg",
-                "moduleName": "IdVerification365id",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "View",
-                    "printedName": "SwiftUI.View",
-                    "usr": "s:7SwiftUI4ViewP"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:19IdVerification365id20CustomAnimationViewsC18prepareId1Backside7SwiftUI4View_pvs",
-                "mangledName": "$s19IdVerification365id20CustomAnimationViewsC18prepareId1Backside7SwiftUI4View_pvs",
-                "moduleName": "IdVerification365id",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:19IdVerification365id20CustomAnimationViewsC18prepareId1Backside7SwiftUI4View_pvM",
-                "mangledName": "$s19IdVerification365id20CustomAnimationViewsC18prepareId1Backside7SwiftUI4View_pvM",
-                "moduleName": "IdVerification365id",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "prepareDocument",
-            "printedName": "prepareDocument",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "View",
-                "printedName": "SwiftUI.View",
-                "usr": "s:7SwiftUI4ViewP"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:19IdVerification365id20CustomAnimationViewsC15prepareDocument7SwiftUI4View_pvp",
-            "mangledName": "$s19IdVerification365id20CustomAnimationViewsC15prepareDocument7SwiftUI4View_pvp",
-            "moduleName": "IdVerification365id",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "View",
-                    "printedName": "SwiftUI.View",
-                    "usr": "s:7SwiftUI4ViewP"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:19IdVerification365id20CustomAnimationViewsC15prepareDocument7SwiftUI4View_pvg",
-                "mangledName": "$s19IdVerification365id20CustomAnimationViewsC15prepareDocument7SwiftUI4View_pvg",
-                "moduleName": "IdVerification365id",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "View",
-                    "printedName": "SwiftUI.View",
-                    "usr": "s:7SwiftUI4ViewP"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:19IdVerification365id20CustomAnimationViewsC15prepareDocument7SwiftUI4View_pvs",
-                "mangledName": "$s19IdVerification365id20CustomAnimationViewsC15prepareDocument7SwiftUI4View_pvs",
-                "moduleName": "IdVerification365id",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:19IdVerification365id20CustomAnimationViewsC15prepareDocument7SwiftUI4View_pvM",
-                "mangledName": "$s19IdVerification365id20CustomAnimationViewsC15prepareDocument7SwiftUI4View_pvM",
-                "moduleName": "IdVerification365id",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "prepareNfc",
-            "printedName": "prepareNfc",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "View",
-                "printedName": "SwiftUI.View",
-                "usr": "s:7SwiftUI4ViewP"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:19IdVerification365id20CustomAnimationViewsC10prepareNfc7SwiftUI4View_pvp",
-            "mangledName": "$s19IdVerification365id20CustomAnimationViewsC10prepareNfc7SwiftUI4View_pvp",
-            "moduleName": "IdVerification365id",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "View",
-                    "printedName": "SwiftUI.View",
-                    "usr": "s:7SwiftUI4ViewP"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:19IdVerification365id20CustomAnimationViewsC10prepareNfc7SwiftUI4View_pvg",
-                "mangledName": "$s19IdVerification365id20CustomAnimationViewsC10prepareNfc7SwiftUI4View_pvg",
-                "moduleName": "IdVerification365id",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "View",
-                    "printedName": "SwiftUI.View",
-                    "usr": "s:7SwiftUI4ViewP"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:19IdVerification365id20CustomAnimationViewsC10prepareNfc7SwiftUI4View_pvs",
-                "mangledName": "$s19IdVerification365id20CustomAnimationViewsC10prepareNfc7SwiftUI4View_pvs",
-                "moduleName": "IdVerification365id",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:19IdVerification365id20CustomAnimationViewsC10prepareNfc7SwiftUI4View_pvM",
-                "mangledName": "$s19IdVerification365id20CustomAnimationViewsC10prepareNfc7SwiftUI4View_pvM",
-                "moduleName": "IdVerification365id",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "prepareFaceMatch",
-            "printedName": "prepareFaceMatch",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "View",
-                "printedName": "SwiftUI.View",
-                "usr": "s:7SwiftUI4ViewP"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:19IdVerification365id20CustomAnimationViewsC16prepareFaceMatch7SwiftUI4View_pvp",
-            "mangledName": "$s19IdVerification365id20CustomAnimationViewsC16prepareFaceMatch7SwiftUI4View_pvp",
-            "moduleName": "IdVerification365id",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "View",
-                    "printedName": "SwiftUI.View",
-                    "usr": "s:7SwiftUI4ViewP"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:19IdVerification365id20CustomAnimationViewsC16prepareFaceMatch7SwiftUI4View_pvg",
-                "mangledName": "$s19IdVerification365id20CustomAnimationViewsC16prepareFaceMatch7SwiftUI4View_pvg",
-                "moduleName": "IdVerification365id",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "View",
-                    "printedName": "SwiftUI.View",
-                    "usr": "s:7SwiftUI4ViewP"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:19IdVerification365id20CustomAnimationViewsC16prepareFaceMatch7SwiftUI4View_pvs",
-                "mangledName": "$s19IdVerification365id20CustomAnimationViewsC16prepareFaceMatch7SwiftUI4View_pvs",
-                "moduleName": "IdVerification365id",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:19IdVerification365id20CustomAnimationViewsC16prepareFaceMatch7SwiftUI4View_pvM",
-                "mangledName": "$s19IdVerification365id20CustomAnimationViewsC16prepareFaceMatch7SwiftUI4View_pvM",
-                "moduleName": "IdVerification365id",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "instructionId3",
-            "printedName": "instructionId3",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "View",
-                "printedName": "SwiftUI.View",
-                "usr": "s:7SwiftUI4ViewP"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:19IdVerification365id20CustomAnimationViewsC14instructionId37SwiftUI4View_pvp",
-            "mangledName": "$s19IdVerification365id20CustomAnimationViewsC14instructionId37SwiftUI4View_pvp",
-            "moduleName": "IdVerification365id",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "View",
-                    "printedName": "SwiftUI.View",
-                    "usr": "s:7SwiftUI4ViewP"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:19IdVerification365id20CustomAnimationViewsC14instructionId37SwiftUI4View_pvg",
-                "mangledName": "$s19IdVerification365id20CustomAnimationViewsC14instructionId37SwiftUI4View_pvg",
-                "moduleName": "IdVerification365id",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "View",
-                    "printedName": "SwiftUI.View",
-                    "usr": "s:7SwiftUI4ViewP"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:19IdVerification365id20CustomAnimationViewsC14instructionId37SwiftUI4View_pvs",
-                "mangledName": "$s19IdVerification365id20CustomAnimationViewsC14instructionId37SwiftUI4View_pvs",
-                "moduleName": "IdVerification365id",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:19IdVerification365id20CustomAnimationViewsC14instructionId37SwiftUI4View_pvM",
-                "mangledName": "$s19IdVerification365id20CustomAnimationViewsC14instructionId37SwiftUI4View_pvM",
-                "moduleName": "IdVerification365id",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "instructionId1Frontside",
-            "printedName": "instructionId1Frontside",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "View",
-                "printedName": "SwiftUI.View",
-                "usr": "s:7SwiftUI4ViewP"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:19IdVerification365id20CustomAnimationViewsC23instructionId1Frontside7SwiftUI4View_pvp",
-            "mangledName": "$s19IdVerification365id20CustomAnimationViewsC23instructionId1Frontside7SwiftUI4View_pvp",
-            "moduleName": "IdVerification365id",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "View",
-                    "printedName": "SwiftUI.View",
-                    "usr": "s:7SwiftUI4ViewP"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:19IdVerification365id20CustomAnimationViewsC23instructionId1Frontside7SwiftUI4View_pvg",
-                "mangledName": "$s19IdVerification365id20CustomAnimationViewsC23instructionId1Frontside7SwiftUI4View_pvg",
-                "moduleName": "IdVerification365id",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "View",
-                    "printedName": "SwiftUI.View",
-                    "usr": "s:7SwiftUI4ViewP"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:19IdVerification365id20CustomAnimationViewsC23instructionId1Frontside7SwiftUI4View_pvs",
-                "mangledName": "$s19IdVerification365id20CustomAnimationViewsC23instructionId1Frontside7SwiftUI4View_pvs",
-                "moduleName": "IdVerification365id",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:19IdVerification365id20CustomAnimationViewsC23instructionId1Frontside7SwiftUI4View_pvM",
-                "mangledName": "$s19IdVerification365id20CustomAnimationViewsC23instructionId1Frontside7SwiftUI4View_pvM",
-                "moduleName": "IdVerification365id",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "instructionId1Backside",
-            "printedName": "instructionId1Backside",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "View",
-                "printedName": "SwiftUI.View",
-                "usr": "s:7SwiftUI4ViewP"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:19IdVerification365id20CustomAnimationViewsC22instructionId1Backside7SwiftUI4View_pvp",
-            "mangledName": "$s19IdVerification365id20CustomAnimationViewsC22instructionId1Backside7SwiftUI4View_pvp",
-            "moduleName": "IdVerification365id",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "View",
-                    "printedName": "SwiftUI.View",
-                    "usr": "s:7SwiftUI4ViewP"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:19IdVerification365id20CustomAnimationViewsC22instructionId1Backside7SwiftUI4View_pvg",
-                "mangledName": "$s19IdVerification365id20CustomAnimationViewsC22instructionId1Backside7SwiftUI4View_pvg",
-                "moduleName": "IdVerification365id",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "View",
-                    "printedName": "SwiftUI.View",
-                    "usr": "s:7SwiftUI4ViewP"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:19IdVerification365id20CustomAnimationViewsC22instructionId1Backside7SwiftUI4View_pvs",
-                "mangledName": "$s19IdVerification365id20CustomAnimationViewsC22instructionId1Backside7SwiftUI4View_pvs",
-                "moduleName": "IdVerification365id",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:19IdVerification365id20CustomAnimationViewsC22instructionId1Backside7SwiftUI4View_pvM",
-                "mangledName": "$s19IdVerification365id20CustomAnimationViewsC22instructionId1Backside7SwiftUI4View_pvM",
-                "moduleName": "IdVerification365id",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "instructionDocument",
-            "printedName": "instructionDocument",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "View",
-                "printedName": "SwiftUI.View",
-                "usr": "s:7SwiftUI4ViewP"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:19IdVerification365id20CustomAnimationViewsC19instructionDocument7SwiftUI4View_pvp",
-            "mangledName": "$s19IdVerification365id20CustomAnimationViewsC19instructionDocument7SwiftUI4View_pvp",
-            "moduleName": "IdVerification365id",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "View",
-                    "printedName": "SwiftUI.View",
-                    "usr": "s:7SwiftUI4ViewP"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:19IdVerification365id20CustomAnimationViewsC19instructionDocument7SwiftUI4View_pvg",
-                "mangledName": "$s19IdVerification365id20CustomAnimationViewsC19instructionDocument7SwiftUI4View_pvg",
-                "moduleName": "IdVerification365id",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "View",
-                    "printedName": "SwiftUI.View",
-                    "usr": "s:7SwiftUI4ViewP"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:19IdVerification365id20CustomAnimationViewsC19instructionDocument7SwiftUI4View_pvs",
-                "mangledName": "$s19IdVerification365id20CustomAnimationViewsC19instructionDocument7SwiftUI4View_pvs",
-                "moduleName": "IdVerification365id",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:19IdVerification365id20CustomAnimationViewsC19instructionDocument7SwiftUI4View_pvM",
-                "mangledName": "$s19IdVerification365id20CustomAnimationViewsC19instructionDocument7SwiftUI4View_pvM",
-                "moduleName": "IdVerification365id",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "instructionNfc",
-            "printedName": "instructionNfc",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "View",
-                "printedName": "SwiftUI.View",
-                "usr": "s:7SwiftUI4ViewP"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:19IdVerification365id20CustomAnimationViewsC14instructionNfc7SwiftUI4View_pvp",
-            "mangledName": "$s19IdVerification365id20CustomAnimationViewsC14instructionNfc7SwiftUI4View_pvp",
-            "moduleName": "IdVerification365id",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "View",
-                    "printedName": "SwiftUI.View",
-                    "usr": "s:7SwiftUI4ViewP"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:19IdVerification365id20CustomAnimationViewsC14instructionNfc7SwiftUI4View_pvg",
-                "mangledName": "$s19IdVerification365id20CustomAnimationViewsC14instructionNfc7SwiftUI4View_pvg",
-                "moduleName": "IdVerification365id",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "View",
-                    "printedName": "SwiftUI.View",
-                    "usr": "s:7SwiftUI4ViewP"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:19IdVerification365id20CustomAnimationViewsC14instructionNfc7SwiftUI4View_pvs",
-                "mangledName": "$s19IdVerification365id20CustomAnimationViewsC14instructionNfc7SwiftUI4View_pvs",
-                "moduleName": "IdVerification365id",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:19IdVerification365id20CustomAnimationViewsC14instructionNfc7SwiftUI4View_pvM",
-                "mangledName": "$s19IdVerification365id20CustomAnimationViewsC14instructionNfc7SwiftUI4View_pvM",
-                "moduleName": "IdVerification365id",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "loadingImageCapture",
-            "printedName": "loadingImageCapture",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "View",
-                "printedName": "SwiftUI.View",
-                "usr": "s:7SwiftUI4ViewP"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:19IdVerification365id20CustomAnimationViewsC19loadingImageCapture7SwiftUI4View_pvp",
-            "mangledName": "$s19IdVerification365id20CustomAnimationViewsC19loadingImageCapture7SwiftUI4View_pvp",
-            "moduleName": "IdVerification365id",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "View",
-                    "printedName": "SwiftUI.View",
-                    "usr": "s:7SwiftUI4ViewP"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:19IdVerification365id20CustomAnimationViewsC19loadingImageCapture7SwiftUI4View_pvg",
-                "mangledName": "$s19IdVerification365id20CustomAnimationViewsC19loadingImageCapture7SwiftUI4View_pvg",
-                "moduleName": "IdVerification365id",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "View",
-                    "printedName": "SwiftUI.View",
-                    "usr": "s:7SwiftUI4ViewP"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:19IdVerification365id20CustomAnimationViewsC19loadingImageCapture7SwiftUI4View_pvs",
-                "mangledName": "$s19IdVerification365id20CustomAnimationViewsC19loadingImageCapture7SwiftUI4View_pvs",
-                "moduleName": "IdVerification365id",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:19IdVerification365id20CustomAnimationViewsC19loadingImageCapture7SwiftUI4View_pvM",
-                "mangledName": "$s19IdVerification365id20CustomAnimationViewsC19loadingImageCapture7SwiftUI4View_pvM",
-                "moduleName": "IdVerification365id",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "loadingNfc",
-            "printedName": "loadingNfc",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "View",
-                "printedName": "SwiftUI.View",
-                "usr": "s:7SwiftUI4ViewP"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:19IdVerification365id20CustomAnimationViewsC10loadingNfc7SwiftUI4View_pvp",
-            "mangledName": "$s19IdVerification365id20CustomAnimationViewsC10loadingNfc7SwiftUI4View_pvp",
-            "moduleName": "IdVerification365id",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "View",
-                    "printedName": "SwiftUI.View",
-                    "usr": "s:7SwiftUI4ViewP"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:19IdVerification365id20CustomAnimationViewsC10loadingNfc7SwiftUI4View_pvg",
-                "mangledName": "$s19IdVerification365id20CustomAnimationViewsC10loadingNfc7SwiftUI4View_pvg",
-                "moduleName": "IdVerification365id",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "View",
-                    "printedName": "SwiftUI.View",
-                    "usr": "s:7SwiftUI4ViewP"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:19IdVerification365id20CustomAnimationViewsC10loadingNfc7SwiftUI4View_pvs",
-                "mangledName": "$s19IdVerification365id20CustomAnimationViewsC10loadingNfc7SwiftUI4View_pvs",
-                "moduleName": "IdVerification365id",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:19IdVerification365id20CustomAnimationViewsC10loadingNfc7SwiftUI4View_pvM",
-                "mangledName": "$s19IdVerification365id20CustomAnimationViewsC10loadingNfc7SwiftUI4View_pvM",
-                "moduleName": "IdVerification365id",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "loadingFaceMatch",
-            "printedName": "loadingFaceMatch",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "View",
-                "printedName": "SwiftUI.View",
-                "usr": "s:7SwiftUI4ViewP"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:19IdVerification365id20CustomAnimationViewsC16loadingFaceMatch7SwiftUI4View_pvp",
-            "mangledName": "$s19IdVerification365id20CustomAnimationViewsC16loadingFaceMatch7SwiftUI4View_pvp",
-            "moduleName": "IdVerification365id",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "View",
-                    "printedName": "SwiftUI.View",
-                    "usr": "s:7SwiftUI4ViewP"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:19IdVerification365id20CustomAnimationViewsC16loadingFaceMatch7SwiftUI4View_pvg",
-                "mangledName": "$s19IdVerification365id20CustomAnimationViewsC16loadingFaceMatch7SwiftUI4View_pvg",
-                "moduleName": "IdVerification365id",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "View",
-                    "printedName": "SwiftUI.View",
-                    "usr": "s:7SwiftUI4ViewP"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:19IdVerification365id20CustomAnimationViewsC16loadingFaceMatch7SwiftUI4View_pvs",
-                "mangledName": "$s19IdVerification365id20CustomAnimationViewsC16loadingFaceMatch7SwiftUI4View_pvs",
-                "moduleName": "IdVerification365id",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:19IdVerification365id20CustomAnimationViewsC16loadingFaceMatch7SwiftUI4View_pvM",
-                "mangledName": "$s19IdVerification365id20CustomAnimationViewsC16loadingFaceMatch7SwiftUI4View_pvM",
-                "moduleName": "IdVerification365id",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "loadingGeneric",
-            "printedName": "loadingGeneric",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "View",
-                "printedName": "SwiftUI.View",
-                "usr": "s:7SwiftUI4ViewP"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:19IdVerification365id20CustomAnimationViewsC14loadingGeneric7SwiftUI4View_pvp",
-            "mangledName": "$s19IdVerification365id20CustomAnimationViewsC14loadingGeneric7SwiftUI4View_pvp",
-            "moduleName": "IdVerification365id",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "View",
-                    "printedName": "SwiftUI.View",
-                    "usr": "s:7SwiftUI4ViewP"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:19IdVerification365id20CustomAnimationViewsC14loadingGeneric7SwiftUI4View_pvg",
-                "mangledName": "$s19IdVerification365id20CustomAnimationViewsC14loadingGeneric7SwiftUI4View_pvg",
-                "moduleName": "IdVerification365id",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "View",
-                    "printedName": "SwiftUI.View",
-                    "usr": "s:7SwiftUI4ViewP"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:19IdVerification365id20CustomAnimationViewsC14loadingGeneric7SwiftUI4View_pvs",
-                "mangledName": "$s19IdVerification365id20CustomAnimationViewsC14loadingGeneric7SwiftUI4View_pvs",
-                "moduleName": "IdVerification365id",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:19IdVerification365id20CustomAnimationViewsC14loadingGeneric7SwiftUI4View_pvM",
-                "mangledName": "$s19IdVerification365id20CustomAnimationViewsC14loadingGeneric7SwiftUI4View_pvM",
-                "moduleName": "IdVerification365id",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "CustomAnimationViews",
-                "printedName": "IdVerification365id.CustomAnimationViews",
-                "usr": "c:@M@IdVerification365id@objc(cs)CustomAnimationViews"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@M@IdVerification365id@objc(cs)CustomAnimationViews(im)init",
-            "mangledName": "$s19IdVerification365id20CustomAnimationViewsCACycfc",
-            "moduleName": "IdVerification365id",
-            "overriding": true,
-            "implicit": true,
-            "objc_name": "init",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Override"
-            ],
-            "init_kind": "Designated"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "c:@M@IdVerification365id@objc(cs)CustomAnimationViews",
-        "mangledName": "$s19IdVerification365id20CustomAnimationViewsC",
-        "moduleName": "IdVerification365id",
-        "declAttributes": [
-          "AccessControl",
-          "ObjC",
-          "RawDocComment"
-        ],
-        "superclassUsr": "c:objc(cs)NSObject",
-        "inheritsConvenienceInitializers": true,
-        "superclassNames": [
-          "ObjectiveC.NSObject"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          }
-        ]
       },
       {
         "kind": "Import",
@@ -2424,6 +1029,1394 @@
         "name": "IdVerification",
         "printedName": "IdVerification",
         "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "Animations",
+            "printedName": "Animations",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "prepareId3",
+                "printedName": "prepareId3",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:19IdVerification365id0A12VerificationC10AnimationsC10prepareId37SwiftUI4View_pvp",
+                "mangledName": "$s19IdVerification365id0A12VerificationC10AnimationsC10prepareId37SwiftUI4View_pvp",
+                "moduleName": "IdVerification365id",
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:19IdVerification365id0A12VerificationC10AnimationsC10prepareId37SwiftUI4View_pvg",
+                    "mangledName": "$s19IdVerification365id0A12VerificationC10AnimationsC10prepareId37SwiftUI4View_pvg",
+                    "moduleName": "IdVerification365id",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:19IdVerification365id0A12VerificationC10AnimationsC10prepareId37SwiftUI4View_pvs",
+                    "mangledName": "$s19IdVerification365id0A12VerificationC10AnimationsC10prepareId37SwiftUI4View_pvs",
+                    "moduleName": "IdVerification365id",
+                    "implicit": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:19IdVerification365id0A12VerificationC10AnimationsC10prepareId37SwiftUI4View_pvM",
+                    "mangledName": "$s19IdVerification365id0A12VerificationC10AnimationsC10prepareId37SwiftUI4View_pvM",
+                    "moduleName": "IdVerification365id",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "prepareId1Frontside",
+                "printedName": "prepareId1Frontside",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:19IdVerification365id0A12VerificationC10AnimationsC19prepareId1Frontside7SwiftUI4View_pvp",
+                "mangledName": "$s19IdVerification365id0A12VerificationC10AnimationsC19prepareId1Frontside7SwiftUI4View_pvp",
+                "moduleName": "IdVerification365id",
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:19IdVerification365id0A12VerificationC10AnimationsC19prepareId1Frontside7SwiftUI4View_pvg",
+                    "mangledName": "$s19IdVerification365id0A12VerificationC10AnimationsC19prepareId1Frontside7SwiftUI4View_pvg",
+                    "moduleName": "IdVerification365id",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:19IdVerification365id0A12VerificationC10AnimationsC19prepareId1Frontside7SwiftUI4View_pvs",
+                    "mangledName": "$s19IdVerification365id0A12VerificationC10AnimationsC19prepareId1Frontside7SwiftUI4View_pvs",
+                    "moduleName": "IdVerification365id",
+                    "implicit": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:19IdVerification365id0A12VerificationC10AnimationsC19prepareId1Frontside7SwiftUI4View_pvM",
+                    "mangledName": "$s19IdVerification365id0A12VerificationC10AnimationsC19prepareId1Frontside7SwiftUI4View_pvM",
+                    "moduleName": "IdVerification365id",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "prepareId1Backside",
+                "printedName": "prepareId1Backside",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:19IdVerification365id0A12VerificationC10AnimationsC18prepareId1Backside7SwiftUI4View_pvp",
+                "mangledName": "$s19IdVerification365id0A12VerificationC10AnimationsC18prepareId1Backside7SwiftUI4View_pvp",
+                "moduleName": "IdVerification365id",
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:19IdVerification365id0A12VerificationC10AnimationsC18prepareId1Backside7SwiftUI4View_pvg",
+                    "mangledName": "$s19IdVerification365id0A12VerificationC10AnimationsC18prepareId1Backside7SwiftUI4View_pvg",
+                    "moduleName": "IdVerification365id",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:19IdVerification365id0A12VerificationC10AnimationsC18prepareId1Backside7SwiftUI4View_pvs",
+                    "mangledName": "$s19IdVerification365id0A12VerificationC10AnimationsC18prepareId1Backside7SwiftUI4View_pvs",
+                    "moduleName": "IdVerification365id",
+                    "implicit": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:19IdVerification365id0A12VerificationC10AnimationsC18prepareId1Backside7SwiftUI4View_pvM",
+                    "mangledName": "$s19IdVerification365id0A12VerificationC10AnimationsC18prepareId1Backside7SwiftUI4View_pvM",
+                    "moduleName": "IdVerification365id",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "prepareDocument",
+                "printedName": "prepareDocument",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:19IdVerification365id0A12VerificationC10AnimationsC15prepareDocument7SwiftUI4View_pvp",
+                "mangledName": "$s19IdVerification365id0A12VerificationC10AnimationsC15prepareDocument7SwiftUI4View_pvp",
+                "moduleName": "IdVerification365id",
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:19IdVerification365id0A12VerificationC10AnimationsC15prepareDocument7SwiftUI4View_pvg",
+                    "mangledName": "$s19IdVerification365id0A12VerificationC10AnimationsC15prepareDocument7SwiftUI4View_pvg",
+                    "moduleName": "IdVerification365id",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:19IdVerification365id0A12VerificationC10AnimationsC15prepareDocument7SwiftUI4View_pvs",
+                    "mangledName": "$s19IdVerification365id0A12VerificationC10AnimationsC15prepareDocument7SwiftUI4View_pvs",
+                    "moduleName": "IdVerification365id",
+                    "implicit": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:19IdVerification365id0A12VerificationC10AnimationsC15prepareDocument7SwiftUI4View_pvM",
+                    "mangledName": "$s19IdVerification365id0A12VerificationC10AnimationsC15prepareDocument7SwiftUI4View_pvM",
+                    "moduleName": "IdVerification365id",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "prepareNfc",
+                "printedName": "prepareNfc",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:19IdVerification365id0A12VerificationC10AnimationsC10prepareNfc7SwiftUI4View_pvp",
+                "mangledName": "$s19IdVerification365id0A12VerificationC10AnimationsC10prepareNfc7SwiftUI4View_pvp",
+                "moduleName": "IdVerification365id",
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:19IdVerification365id0A12VerificationC10AnimationsC10prepareNfc7SwiftUI4View_pvg",
+                    "mangledName": "$s19IdVerification365id0A12VerificationC10AnimationsC10prepareNfc7SwiftUI4View_pvg",
+                    "moduleName": "IdVerification365id",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:19IdVerification365id0A12VerificationC10AnimationsC10prepareNfc7SwiftUI4View_pvs",
+                    "mangledName": "$s19IdVerification365id0A12VerificationC10AnimationsC10prepareNfc7SwiftUI4View_pvs",
+                    "moduleName": "IdVerification365id",
+                    "implicit": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:19IdVerification365id0A12VerificationC10AnimationsC10prepareNfc7SwiftUI4View_pvM",
+                    "mangledName": "$s19IdVerification365id0A12VerificationC10AnimationsC10prepareNfc7SwiftUI4View_pvM",
+                    "moduleName": "IdVerification365id",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "prepareFaceMatch",
+                "printedName": "prepareFaceMatch",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:19IdVerification365id0A12VerificationC10AnimationsC16prepareFaceMatch7SwiftUI4View_pvp",
+                "mangledName": "$s19IdVerification365id0A12VerificationC10AnimationsC16prepareFaceMatch7SwiftUI4View_pvp",
+                "moduleName": "IdVerification365id",
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:19IdVerification365id0A12VerificationC10AnimationsC16prepareFaceMatch7SwiftUI4View_pvg",
+                    "mangledName": "$s19IdVerification365id0A12VerificationC10AnimationsC16prepareFaceMatch7SwiftUI4View_pvg",
+                    "moduleName": "IdVerification365id",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:19IdVerification365id0A12VerificationC10AnimationsC16prepareFaceMatch7SwiftUI4View_pvs",
+                    "mangledName": "$s19IdVerification365id0A12VerificationC10AnimationsC16prepareFaceMatch7SwiftUI4View_pvs",
+                    "moduleName": "IdVerification365id",
+                    "implicit": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:19IdVerification365id0A12VerificationC10AnimationsC16prepareFaceMatch7SwiftUI4View_pvM",
+                    "mangledName": "$s19IdVerification365id0A12VerificationC10AnimationsC16prepareFaceMatch7SwiftUI4View_pvM",
+                    "moduleName": "IdVerification365id",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "instructionId3",
+                "printedName": "instructionId3",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:19IdVerification365id0A12VerificationC10AnimationsC14instructionId37SwiftUI4View_pvp",
+                "mangledName": "$s19IdVerification365id0A12VerificationC10AnimationsC14instructionId37SwiftUI4View_pvp",
+                "moduleName": "IdVerification365id",
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:19IdVerification365id0A12VerificationC10AnimationsC14instructionId37SwiftUI4View_pvg",
+                    "mangledName": "$s19IdVerification365id0A12VerificationC10AnimationsC14instructionId37SwiftUI4View_pvg",
+                    "moduleName": "IdVerification365id",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:19IdVerification365id0A12VerificationC10AnimationsC14instructionId37SwiftUI4View_pvs",
+                    "mangledName": "$s19IdVerification365id0A12VerificationC10AnimationsC14instructionId37SwiftUI4View_pvs",
+                    "moduleName": "IdVerification365id",
+                    "implicit": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:19IdVerification365id0A12VerificationC10AnimationsC14instructionId37SwiftUI4View_pvM",
+                    "mangledName": "$s19IdVerification365id0A12VerificationC10AnimationsC14instructionId37SwiftUI4View_pvM",
+                    "moduleName": "IdVerification365id",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "instructionId1Frontside",
+                "printedName": "instructionId1Frontside",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:19IdVerification365id0A12VerificationC10AnimationsC23instructionId1Frontside7SwiftUI4View_pvp",
+                "mangledName": "$s19IdVerification365id0A12VerificationC10AnimationsC23instructionId1Frontside7SwiftUI4View_pvp",
+                "moduleName": "IdVerification365id",
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:19IdVerification365id0A12VerificationC10AnimationsC23instructionId1Frontside7SwiftUI4View_pvg",
+                    "mangledName": "$s19IdVerification365id0A12VerificationC10AnimationsC23instructionId1Frontside7SwiftUI4View_pvg",
+                    "moduleName": "IdVerification365id",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:19IdVerification365id0A12VerificationC10AnimationsC23instructionId1Frontside7SwiftUI4View_pvs",
+                    "mangledName": "$s19IdVerification365id0A12VerificationC10AnimationsC23instructionId1Frontside7SwiftUI4View_pvs",
+                    "moduleName": "IdVerification365id",
+                    "implicit": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:19IdVerification365id0A12VerificationC10AnimationsC23instructionId1Frontside7SwiftUI4View_pvM",
+                    "mangledName": "$s19IdVerification365id0A12VerificationC10AnimationsC23instructionId1Frontside7SwiftUI4View_pvM",
+                    "moduleName": "IdVerification365id",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "instructionId1Backside",
+                "printedName": "instructionId1Backside",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:19IdVerification365id0A12VerificationC10AnimationsC22instructionId1Backside7SwiftUI4View_pvp",
+                "mangledName": "$s19IdVerification365id0A12VerificationC10AnimationsC22instructionId1Backside7SwiftUI4View_pvp",
+                "moduleName": "IdVerification365id",
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:19IdVerification365id0A12VerificationC10AnimationsC22instructionId1Backside7SwiftUI4View_pvg",
+                    "mangledName": "$s19IdVerification365id0A12VerificationC10AnimationsC22instructionId1Backside7SwiftUI4View_pvg",
+                    "moduleName": "IdVerification365id",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:19IdVerification365id0A12VerificationC10AnimationsC22instructionId1Backside7SwiftUI4View_pvs",
+                    "mangledName": "$s19IdVerification365id0A12VerificationC10AnimationsC22instructionId1Backside7SwiftUI4View_pvs",
+                    "moduleName": "IdVerification365id",
+                    "implicit": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:19IdVerification365id0A12VerificationC10AnimationsC22instructionId1Backside7SwiftUI4View_pvM",
+                    "mangledName": "$s19IdVerification365id0A12VerificationC10AnimationsC22instructionId1Backside7SwiftUI4View_pvM",
+                    "moduleName": "IdVerification365id",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "instructionDocument",
+                "printedName": "instructionDocument",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:19IdVerification365id0A12VerificationC10AnimationsC19instructionDocument7SwiftUI4View_pvp",
+                "mangledName": "$s19IdVerification365id0A12VerificationC10AnimationsC19instructionDocument7SwiftUI4View_pvp",
+                "moduleName": "IdVerification365id",
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:19IdVerification365id0A12VerificationC10AnimationsC19instructionDocument7SwiftUI4View_pvg",
+                    "mangledName": "$s19IdVerification365id0A12VerificationC10AnimationsC19instructionDocument7SwiftUI4View_pvg",
+                    "moduleName": "IdVerification365id",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:19IdVerification365id0A12VerificationC10AnimationsC19instructionDocument7SwiftUI4View_pvs",
+                    "mangledName": "$s19IdVerification365id0A12VerificationC10AnimationsC19instructionDocument7SwiftUI4View_pvs",
+                    "moduleName": "IdVerification365id",
+                    "implicit": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:19IdVerification365id0A12VerificationC10AnimationsC19instructionDocument7SwiftUI4View_pvM",
+                    "mangledName": "$s19IdVerification365id0A12VerificationC10AnimationsC19instructionDocument7SwiftUI4View_pvM",
+                    "moduleName": "IdVerification365id",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "instructionNfc",
+                "printedName": "instructionNfc",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:19IdVerification365id0A12VerificationC10AnimationsC14instructionNfc7SwiftUI4View_pvp",
+                "mangledName": "$s19IdVerification365id0A12VerificationC10AnimationsC14instructionNfc7SwiftUI4View_pvp",
+                "moduleName": "IdVerification365id",
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:19IdVerification365id0A12VerificationC10AnimationsC14instructionNfc7SwiftUI4View_pvg",
+                    "mangledName": "$s19IdVerification365id0A12VerificationC10AnimationsC14instructionNfc7SwiftUI4View_pvg",
+                    "moduleName": "IdVerification365id",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:19IdVerification365id0A12VerificationC10AnimationsC14instructionNfc7SwiftUI4View_pvs",
+                    "mangledName": "$s19IdVerification365id0A12VerificationC10AnimationsC14instructionNfc7SwiftUI4View_pvs",
+                    "moduleName": "IdVerification365id",
+                    "implicit": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:19IdVerification365id0A12VerificationC10AnimationsC14instructionNfc7SwiftUI4View_pvM",
+                    "mangledName": "$s19IdVerification365id0A12VerificationC10AnimationsC14instructionNfc7SwiftUI4View_pvM",
+                    "moduleName": "IdVerification365id",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "loadingImageCapture",
+                "printedName": "loadingImageCapture",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:19IdVerification365id0A12VerificationC10AnimationsC19loadingImageCapture7SwiftUI4View_pvp",
+                "mangledName": "$s19IdVerification365id0A12VerificationC10AnimationsC19loadingImageCapture7SwiftUI4View_pvp",
+                "moduleName": "IdVerification365id",
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:19IdVerification365id0A12VerificationC10AnimationsC19loadingImageCapture7SwiftUI4View_pvg",
+                    "mangledName": "$s19IdVerification365id0A12VerificationC10AnimationsC19loadingImageCapture7SwiftUI4View_pvg",
+                    "moduleName": "IdVerification365id",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:19IdVerification365id0A12VerificationC10AnimationsC19loadingImageCapture7SwiftUI4View_pvs",
+                    "mangledName": "$s19IdVerification365id0A12VerificationC10AnimationsC19loadingImageCapture7SwiftUI4View_pvs",
+                    "moduleName": "IdVerification365id",
+                    "implicit": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:19IdVerification365id0A12VerificationC10AnimationsC19loadingImageCapture7SwiftUI4View_pvM",
+                    "mangledName": "$s19IdVerification365id0A12VerificationC10AnimationsC19loadingImageCapture7SwiftUI4View_pvM",
+                    "moduleName": "IdVerification365id",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "loadingNfc",
+                "printedName": "loadingNfc",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:19IdVerification365id0A12VerificationC10AnimationsC10loadingNfc7SwiftUI4View_pvp",
+                "mangledName": "$s19IdVerification365id0A12VerificationC10AnimationsC10loadingNfc7SwiftUI4View_pvp",
+                "moduleName": "IdVerification365id",
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:19IdVerification365id0A12VerificationC10AnimationsC10loadingNfc7SwiftUI4View_pvg",
+                    "mangledName": "$s19IdVerification365id0A12VerificationC10AnimationsC10loadingNfc7SwiftUI4View_pvg",
+                    "moduleName": "IdVerification365id",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:19IdVerification365id0A12VerificationC10AnimationsC10loadingNfc7SwiftUI4View_pvs",
+                    "mangledName": "$s19IdVerification365id0A12VerificationC10AnimationsC10loadingNfc7SwiftUI4View_pvs",
+                    "moduleName": "IdVerification365id",
+                    "implicit": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:19IdVerification365id0A12VerificationC10AnimationsC10loadingNfc7SwiftUI4View_pvM",
+                    "mangledName": "$s19IdVerification365id0A12VerificationC10AnimationsC10loadingNfc7SwiftUI4View_pvM",
+                    "moduleName": "IdVerification365id",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "loadingFaceMatch",
+                "printedName": "loadingFaceMatch",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:19IdVerification365id0A12VerificationC10AnimationsC16loadingFaceMatch7SwiftUI4View_pvp",
+                "mangledName": "$s19IdVerification365id0A12VerificationC10AnimationsC16loadingFaceMatch7SwiftUI4View_pvp",
+                "moduleName": "IdVerification365id",
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:19IdVerification365id0A12VerificationC10AnimationsC16loadingFaceMatch7SwiftUI4View_pvg",
+                    "mangledName": "$s19IdVerification365id0A12VerificationC10AnimationsC16loadingFaceMatch7SwiftUI4View_pvg",
+                    "moduleName": "IdVerification365id",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:19IdVerification365id0A12VerificationC10AnimationsC16loadingFaceMatch7SwiftUI4View_pvs",
+                    "mangledName": "$s19IdVerification365id0A12VerificationC10AnimationsC16loadingFaceMatch7SwiftUI4View_pvs",
+                    "moduleName": "IdVerification365id",
+                    "implicit": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:19IdVerification365id0A12VerificationC10AnimationsC16loadingFaceMatch7SwiftUI4View_pvM",
+                    "mangledName": "$s19IdVerification365id0A12VerificationC10AnimationsC16loadingFaceMatch7SwiftUI4View_pvM",
+                    "moduleName": "IdVerification365id",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "loadingGeneric",
+                "printedName": "loadingGeneric",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:19IdVerification365id0A12VerificationC10AnimationsC14loadingGeneric7SwiftUI4View_pvp",
+                "mangledName": "$s19IdVerification365id0A12VerificationC10AnimationsC14loadingGeneric7SwiftUI4View_pvp",
+                "moduleName": "IdVerification365id",
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:19IdVerification365id0A12VerificationC10AnimationsC14loadingGeneric7SwiftUI4View_pvg",
+                    "mangledName": "$s19IdVerification365id0A12VerificationC10AnimationsC14loadingGeneric7SwiftUI4View_pvg",
+                    "moduleName": "IdVerification365id",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:19IdVerification365id0A12VerificationC10AnimationsC14loadingGeneric7SwiftUI4View_pvs",
+                    "mangledName": "$s19IdVerification365id0A12VerificationC10AnimationsC14loadingGeneric7SwiftUI4View_pvs",
+                    "moduleName": "IdVerification365id",
+                    "implicit": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:19IdVerification365id0A12VerificationC10AnimationsC14loadingGeneric7SwiftUI4View_pvM",
+                    "mangledName": "$s19IdVerification365id0A12VerificationC10AnimationsC14loadingGeneric7SwiftUI4View_pvM",
+                    "moduleName": "IdVerification365id",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Animations",
+                    "printedName": "IdVerification365id.IdVerification.Animations",
+                    "usr": "s:19IdVerification365id0A12VerificationC10AnimationsC"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:19IdVerification365id0A12VerificationC10AnimationsCAEycfc",
+                "mangledName": "$s19IdVerification365id0A12VerificationC10AnimationsCAEycfc",
+                "moduleName": "IdVerification365id",
+                "overriding": true,
+                "implicit": true,
+                "objc_name": "init",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC",
+                  "Override"
+                ],
+                "init_kind": "Designated"
+              }
+            ],
+            "declKind": "Class",
+            "usr": "s:19IdVerification365id0A12VerificationC10AnimationsC",
+            "mangledName": "$s19IdVerification365id0A12VerificationC10AnimationsC",
+            "moduleName": "IdVerification365id",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "superclassUsr": "c:objc(cs)NSObject",
+            "inheritsConvenienceInitializers": true,
+            "superclassNames": [
+              "ObjectiveC.NSObject"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CVarArg",
+                "printedName": "CVarArg",
+                "usr": "s:s7CVarArgP",
+                "mangledName": "$ss7CVarArgP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "_KeyValueCodingAndObservingPublishing",
+                "printedName": "_KeyValueCodingAndObservingPublishing",
+                "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+                "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "_KeyValueCodingAndObserving",
+                "printedName": "_KeyValueCodingAndObserving",
+                "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+                "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CustomStringConvertible",
+                "printedName": "CustomStringConvertible",
+                "usr": "s:s23CustomStringConvertibleP",
+                "mangledName": "$ss23CustomStringConvertibleP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CustomDebugStringConvertible",
+                "printedName": "CustomDebugStringConvertible",
+                "usr": "s:s28CustomDebugStringConvertibleP",
+                "mangledName": "$ss28CustomDebugStringConvertibleP"
+              }
+            ]
+          },
           {
             "kind": "Function",
             "name": "setCustomTheme",
@@ -3027,27 +3020,6 @@
       },
       {
         "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "IdVerification365id"
-      },
-      {
-        "kind": "Import",
-        "name": "AVKit",
-        "printedName": "AVKit",
-        "declKind": "Import",
-        "moduleName": "IdVerification365id"
-      },
-      {
-        "kind": "Import",
-        "name": "AVFoundation",
-        "printedName": "AVFoundation",
-        "declKind": "Import",
-        "moduleName": "IdVerification365id"
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -3109,6 +3081,13 @@
         "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "IdVerification365id"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "IdVerification365id"
       },
@@ -5122,106 +5101,6 @@
         "moduleName": "IdVerification365id"
       },
       {
-        "kind": "TypeDecl",
-        "name": "DefaultAnimationView",
-        "printedName": "DefaultAnimationView",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "body",
-            "printedName": "body",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "OpaqueTypeArchetype",
-                "printedName": "some SwiftUI.View",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "View",
-                    "printedName": "SwiftUI.View",
-                    "usr": "s:7SwiftUI4ViewP"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:19IdVerification365id20DefaultAnimationViewV4bodyQrvp",
-            "mangledName": "$s19IdVerification365id20DefaultAnimationViewV4bodyQrvp",
-            "moduleName": "IdVerification365id",
-            "declAttributes": [
-              "Custom",
-              "AccessControl"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "OpaqueTypeArchetype",
-                    "printedName": "some SwiftUI.View",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "View",
-                        "printedName": "SwiftUI.View",
-                        "usr": "s:7SwiftUI4ViewP"
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:19IdVerification365id20DefaultAnimationViewV4bodyQrvg",
-                "mangledName": "$s19IdVerification365id20DefaultAnimationViewV4bodyQrvg",
-                "moduleName": "IdVerification365id",
-                "accessorKind": "get"
-              }
-            ]
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:19IdVerification365id20DefaultAnimationViewV",
-        "mangledName": "$s19IdVerification365id20DefaultAnimationViewV",
-        "moduleName": "IdVerification365id",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "View",
-            "printedName": "View",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "Body",
-                "printedName": "Body",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "OpaqueTypeArchetype",
-                    "printedName": "some SwiftUI.View",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "View",
-                        "printedName": "SwiftUI.View",
-                        "usr": "s:7SwiftUI4ViewP"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "usr": "s:7SwiftUI4ViewP",
-            "mangledName": "$s7SwiftUI4ViewP"
-          }
-        ]
-      },
-      {
         "kind": "Import",
         "name": "AVFoundation",
         "printedName": "AVFoundation",
@@ -6983,35 +6862,35 @@
     {
       "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/Theme\/IdVerificationTheme.swift",
       "kind": "IntegerLiteral",
-      "offset": 810,
+      "offset": 815,
       "length": 8,
       "value": "0xffffff"
     },
     {
       "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/Theme\/IdVerificationTheme.swift",
       "kind": "IntegerLiteral",
-      "offset": 865,
+      "offset": 870,
       "length": 8,
       "value": "0x702F8A"
     },
     {
       "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/Theme\/IdVerificationTheme.swift",
       "kind": "IntegerLiteral",
-      "offset": 923,
+      "offset": 928,
       "length": 8,
       "value": "0xf5f5f5"
     },
     {
       "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/Theme\/IdVerificationTheme.swift",
       "kind": "IntegerLiteral",
-      "offset": 980,
+      "offset": 985,
       "length": 8,
       "value": "0x707070"
     },
     {
       "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/Theme\/IdVerificationTheme.swift",
       "kind": "BooleanLiteral",
-      "offset": 2288,
+      "offset": 2293,
       "length": 5,
       "value": "false"
     },
@@ -7130,14 +7009,14 @@
     {
       "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/IdVerification.swift",
       "kind": "IntegerLiteral",
-      "offset": 1329,
+      "offset": 2660,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/IdVerification.swift",
       "kind": "Array",
-      "offset": 1434,
+      "offset": 2765,
       "length": 2,
       "value": "[]"
     },
@@ -7443,6 +7322,104 @@
       "value": "[]"
     },
     {
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Extensions\/ImageType.swift",
+      "kind": "StringLiteral",
+      "offset": 179,
+      "length": 13,
+      "value": "\"nfc_pending\""
+    },
+    {
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Extensions\/ImageType.swift",
+      "kind": "StringLiteral",
+      "offset": 214,
+      "length": 12,
+      "value": "\"card_front\""
+    },
+    {
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Extensions\/ImageType.swift",
+      "kind": "StringLiteral",
+      "offset": 247,
+      "length": 11,
+      "value": "\"card_back\""
+    },
+    {
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Extensions\/ImageType.swift",
+      "kind": "StringLiteral",
+      "offset": 277,
+      "length": 17,
+      "value": "\"face_id_pending\""
+    },
+    {
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Extensions\/ImageType.swift",
+      "kind": "StringLiteral",
+      "offset": 314,
+      "length": 15,
+      "value": "\"noImageNeeded\""
+    },
+    {
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Extensions\/ImageType.swift",
+      "kind": "StringLiteral",
+      "offset": 355,
+      "length": 22,
+      "value": "\"passport_front_image\""
+    },
+    {
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Extensions\/ImageType.swift",
+      "kind": "StringLiteral",
+      "offset": 401,
+      "length": 20,
+      "value": "\"passport_nfc_image\""
+    },
+    {
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Extensions\/ImageType.swift",
+      "kind": "StringLiteral",
+      "offset": 179,
+      "length": 13,
+      "value": "\"nfc_pending\""
+    },
+    {
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Extensions\/ImageType.swift",
+      "kind": "StringLiteral",
+      "offset": 214,
+      "length": 12,
+      "value": "\"card_front\""
+    },
+    {
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Extensions\/ImageType.swift",
+      "kind": "StringLiteral",
+      "offset": 247,
+      "length": 11,
+      "value": "\"card_back\""
+    },
+    {
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Extensions\/ImageType.swift",
+      "kind": "StringLiteral",
+      "offset": 277,
+      "length": 17,
+      "value": "\"face_id_pending\""
+    },
+    {
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Extensions\/ImageType.swift",
+      "kind": "StringLiteral",
+      "offset": 314,
+      "length": 15,
+      "value": "\"noImageNeeded\""
+    },
+    {
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Extensions\/ImageType.swift",
+      "kind": "StringLiteral",
+      "offset": 355,
+      "length": 22,
+      "value": "\"passport_front_image\""
+    },
+    {
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Extensions\/ImageType.swift",
+      "kind": "StringLiteral",
+      "offset": 401,
+      "length": 20,
+      "value": "\"passport_nfc_image\""
+    },
+    {
       "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/NFC\/DataExtension.swift",
       "kind": "IntegerLiteral",
       "offset": 315,
@@ -7716,74 +7693,11 @@
       "value": "24.0"
     },
     {
-      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/Spinner\/ImageView.swift",
-      "kind": "StringLiteral",
-      "offset": 155,
-      "length": 13,
-      "value": "\"nfc_pending\""
-    },
-    {
-      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/Spinner\/ImageView.swift",
-      "kind": "StringLiteral",
-      "offset": 190,
-      "length": 12,
-      "value": "\"card_front\""
-    },
-    {
-      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/Spinner\/ImageView.swift",
-      "kind": "StringLiteral",
-      "offset": 223,
-      "length": 11,
-      "value": "\"card_back\""
-    },
-    {
-      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/Spinner\/ImageView.swift",
-      "kind": "StringLiteral",
-      "offset": 253,
-      "length": 17,
-      "value": "\"face_id_pending\""
-    },
-    {
-      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/Spinner\/ImageView.swift",
-      "kind": "StringLiteral",
-      "offset": 290,
-      "length": 15,
-      "value": "\"noImageNeeded\""
-    },
-    {
-      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/Spinner\/ImageView.swift",
-      "kind": "StringLiteral",
-      "offset": 155,
-      "length": 13,
-      "value": "\"nfc_pending\""
-    },
-    {
-      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/Spinner\/ImageView.swift",
-      "kind": "StringLiteral",
-      "offset": 190,
-      "length": 12,
-      "value": "\"card_front\""
-    },
-    {
-      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/Spinner\/ImageView.swift",
-      "kind": "StringLiteral",
-      "offset": 223,
-      "length": 11,
-      "value": "\"card_back\""
-    },
-    {
-      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/Spinner\/ImageView.swift",
-      "kind": "StringLiteral",
-      "offset": 253,
-      "length": 17,
-      "value": "\"face_id_pending\""
-    },
-    {
-      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/Spinner\/ImageView.swift",
-      "kind": "StringLiteral",
-      "offset": 290,
-      "length": 15,
-      "value": "\"noImageNeeded\""
+      "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/TaskViews\/IProovView.swift",
+      "kind": "FloatLiteral",
+      "offset": 214,
+      "length": 4,
+      "value": "80.0"
     },
     {
       "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/Spinner\/SpinnerView.swift",
@@ -8243,14 +8157,14 @@
     {
       "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Models\/IProovModel.swift",
       "kind": "Array",
-      "offset": 312,
+      "offset": 297,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/continousintegration\/builds\/QbWEy-sB\/0\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/TaskViews\/WaitView.swift",
       "kind": "FloatLiteral",
-      "offset": 221,
+      "offset": 206,
       "length": 4,
       "value": "24.0"
     },
