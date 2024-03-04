@@ -106,7 +106,7 @@ struct ContentView: View {
 
     private func setCustomTheme() {
 
-        let customAnimationViews = CustomAnimationViews()
+        let customAnimationViews = IdVerification.Animations()
 
         customAnimationViews.instructionDocument = Text("Place your custom \ndocument animation here")
         customAnimationViews.prepareDocument = Text("Place your custom \ndocument animation here")

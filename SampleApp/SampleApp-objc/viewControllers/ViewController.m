@@ -1,6 +1,7 @@
 #import "ViewController.h"
 #import "DeviceInformation.h"
 #import "IdVerification365id/IdVerification365id-Swift.h"
+#import "SampleApp_objc-Swift.h"
 
 @interface ViewController () <IdVerificationEventDelegate>
 
@@ -115,6 +116,8 @@
 
 -(void)clickSetCustomThemeButton:(id)sender
 {
+    Animations  *animations = [MyCustomAnimations createMyCustomAnimations];
+
     IdVerificationTheme *theme = [[IdVerificationTheme alloc]
         initWithSurface:(UIColor.whiteColor)
         onSurface:(UIColor.purpleColor)
@@ -127,8 +130,8 @@
         onSecondaryContainer:(UIColor.darkGrayColor)
         appBarLogo:(nil)
         poweredByLogo:(PoweredByLogoSTANDARD)
-        showAppBar:(YES)
-        animations:[[CustomAnimationViews alloc]init]
+        showAppBar:(NO)
+        animations:(animations)
     ];
 
      [IdVerification setCustomTheme:theme];

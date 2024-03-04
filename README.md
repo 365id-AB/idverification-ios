@@ -433,8 +433,23 @@ Documentation for that integration is not covered in this README, it is only del
 
 ### Custom Theme
 
-Before calling `Idverification.start()` you can customize the SDK colors and logo by using the function `IdVerification.setCustomTheme()`. Most of the parameters of this function are optional (except `poweredByLogo` and `showAppBar`), so you can use only those that suits you. Below you see an example of how you can use this function:
+Before calling `Idverification.start()` you can customize the SDK colors, logo and animations by using the function `IdVerification.setCustomTheme()`. Most of the parameters of this function are optional (except `poweredByLogo` and `showAppBar`), so you can use only those that suits you. Below you see an example of how you can use this function:
 ```swift
+
+// You can use IdVerification.Animations() to set custom animations for preparation, loading and instructions.
+let customAnimations = IdVerification.Animations()
+
+// The prepare animations are shown before the step is to be performed.
+customAnimations.prepareDocument = Text("Place your custom \ndocument animation here")
+customAnimations.prepareId3 = Text("Place your custom\npassport animation here")
+
+// The instruction animations are shown during the step.
+customAnimations.instructionDocument = Text("Place your custom \ndocument animation here")
+customAnimations.instructionId3 = Text("Place your custom\npassport animation here")
+
+// The loading animations are shown after the step is performed.
+customAnimations.loadingNfc = Image("myCustomAnimation")
+
 IdVerification.setCustomTheme(
    IdVerificationTheme(
          surface: UIColor.white,
@@ -448,7 +463,8 @@ IdVerification.setCustomTheme(
          onSecondaryContainer: UIColor.darkGray,
          appBarLogo: Image("myCustomLogo"),
          poweredByLogo: .STANDARD,
-         showAppBar: true))
+         showAppBar: true,
+         animations: customAnimations))
 ```
 <br/>
 <br/>

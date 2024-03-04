@@ -14,6 +14,7 @@
 		A1B301FF28ABCD3D008863E9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1B301FE28ABCD3D008863E9 /* Preview Assets.xcassets */; };
 		A1B3022D28ACDB4C008863E9 /* Credentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B3022C28ACDB4C008863E9 /* Credentials.swift */; };
 		A1B3023B28AD03E8008863E9 /* DeviceInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B3023A28AD03E8008863E9 /* DeviceInformation.swift */; };
+		B793E7F52B90DDAB001FA525 /* MyCustomAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = B793E7F42B90DDAB001FA525 /* MyCustomAnimations.swift */; };
 		B7AA3A362B8CBCA4002255DE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B7AA3A352B8CBCA4002255DE /* AppDelegate.m */; };
 		B7AA3A392B8CBCA4002255DE /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B7AA3A382B8CBCA4002255DE /* SceneDelegate.m */; };
 		B7AA3A3C2B8CBCA4002255DE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7AA3A3B2B8CBCA4002255DE /* ViewController.m */; };
@@ -60,6 +61,7 @@
 		A1B3022C28ACDB4C008863E9 /* Credentials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Credentials.swift; sourceTree = "<group>"; };
 		A1B3023A28AD03E8008863E9 /* DeviceInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceInformation.swift; sourceTree = "<group>"; };
 		B70C772B2B8DF3EF006CD2D7 /* SampleApp-objc.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = "SampleApp-objc.entitlements"; sourceTree = "<group>"; };
+		B793E7F42B90DDAB001FA525 /* MyCustomAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomAnimations.swift; sourceTree = "<group>"; };
 		B7AA3A322B8CBCA4002255DE /* SampleApp-objc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SampleApp-objc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7AA3A342B8CBCA4002255DE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B7AA3A352B8CBCA4002255DE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -200,6 +202,7 @@
 			children = (
 				B7AA3A3B2B8CBCA4002255DE /* ViewController.m */,
 				B7AA3A3A2B8CBCA4002255DE /* ViewController.h */,
+				B793E7F42B90DDAB001FA525 /* MyCustomAnimations.swift */,
 			);
 			path = viewControllers;
 			sourceTree = "<group>";
@@ -286,6 +289,7 @@
 					};
 					B7AA3A312B8CBCA4002255DE = {
 						CreatedOnToolsVersion = 15.0.1;
+						LastSwiftMigration = 1500;
 					};
 				};
 			};
@@ -431,6 +435,7 @@
 			files = (
 				B7AA3A4E2B8CBD25002255DE /* Credentials.m in Sources */,
 				B7AA3A4F2B8CBD25002255DE /* DeviceInformation.m in Sources */,
+				B793E7F52B90DDAB001FA525 /* MyCustomAnimations.swift in Sources */,
 				B7AA3A502B8CBD25002255DE /* TokenHandler.m in Sources */,
 				B7AA3A4A2B8CBCA5002255DE /* main.m in Sources */,
 				B7AA3A3C2B8CBCA4002255DE /* ViewController.m in Sources */,
@@ -654,7 +659,8 @@
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
-				CODE_SIGN_ENTITLEMENTS = "SampleApp-swift/SampleApp.entitlements";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "SampleApp-objc/application/SampleApp-objc.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 63PHGT3AA5;
@@ -678,9 +684,11 @@
 				);
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "id365.SampleApp-objc";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.365id.idverification.SampleApp-objc";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -693,7 +701,8 @@
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
-				CODE_SIGN_ENTITLEMENTS = "SampleApp-swift/SampleApp.entitlements";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "SampleApp-objc/application/SampleApp-objc.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 63PHGT3AA5;
@@ -717,9 +726,10 @@
 				);
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "id365.SampleApp-objc";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.365id.idverification.SampleApp-objc";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
