@@ -4,7 +4,21 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
-## [2.2.4-beta] - 2024-02-28
+## [2.2.7-beta] - 2024-03-06
+
+### Changed
+
+- Incremented version to 2.2.7
+
+
+## [2.2.6-beta] - 2024-03-04
+
+### Changed
+
+- Changed the spinner width of the segment.
+- Showing the spinner while waiting for iProov token.
+
+## [2.2.5-beta] - 2024-02-29
 
 ### Added
 
