@@ -4,12 +4,17 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [2.2.8-beta] - 2024-03-06
+
+### Updated
+
+- Updated an iProov to version 11.0.3
+
 ## [2.2.7-beta] - 2024-03-06
 
 ### Changed
 
 - Incremented version to 2.2.7
-
 
 ## [2.2.6-beta] - 2024-03-04
 

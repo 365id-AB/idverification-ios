@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "IdVerification365id"
-  s.version          = "2.2.7"
+  s.version          = "2.2.8"
   s.summary          = 'A Framework that enables the integration of id verification from 365id AB.'
   s.homepage         = 'http://www.365id.com/'
   s.license          = { :type => 'Copyright', :text => <<-LICENSE
@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
 
   s.ios.vendored_frameworks = 'IdVerification365id.framework'
 
-  s.dependency "iProov", "11.0.2"
+  s.dependency "iProov", "11.0.3"
   s.dependency "MBCaptureCore", "1.2.1"
 
 end
