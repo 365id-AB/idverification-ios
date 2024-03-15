@@ -2,7 +2,7 @@
 
 # 365id Id Verification iOS SDK
 
-The 365id Id Verification SDK enables you to integrate 365id services into your iOS app. We also support [Android](https://github.com/365id-AB/idverification-android).  
+The 365id Id Verification SDK enables you to integrate 365id services into your iOS app. We also support [Android](https://github.com/365id-AB/idverification-android).
 
 The SDK supports identifying and validating ID documents such as passports, ID cards and drivers' licenses, as well as reading the text on the document and automatically mapping these to relevant fields when used in conjunction with the [365id Integration Service](https://365id.com/integrations/?lang=en).
 
@@ -10,9 +10,8 @@ The SDK supports identifying and validating ID documents such as passports, ID c
 <br/>
 <br/>
 
-
-
 ## Registration
+
 If you are already a customer of 365id then you can request sdk credentials by contacting 365id's support at [support@365id.com](mailto:support@365id.com).
 
 Otherwise you can contact us at [info@365id.com](mailto:info@365id.com) for further information.
@@ -21,77 +20,42 @@ Otherwise you can contact us at [info@365id.com](mailto:info@365id.com) for furt
 <br/>
 <br/>
 
-## System integration flow
-
-This is a overview representation how the relationships between the Customer backend, Customer App, SDK and 365id Verification Services looks.
-
-```mermaid
-
-flowchart
-
-   subgraph HOSTAPP[Host Application]
-      SDK(SDK)
-   end   
-
-   365IDCES(365id<br> Id Verification Service)
-   
-   CUSTEND[Customer Backend]
-   
-
-
-   HOSTAPP --1. Request Access Token--> CUSTEND
-   CUSTEND --2. Access Token Response--> HOSTAPP
-
-   SDK --3. Id Verification Process--> 365IDCES
-
-   365IDCES --4. Transaction Id--> SDK
-   CUSTEND --4. Transaction Id--> 365IDCES
-   HOSTAPP --4. Transaction Id----> CUSTEND
-
-   365IDCES --5. Transaction Result----> CUSTEND
-   CUSTEND --6. Final Decision--> HOSTAPP
-```
-
-<br/>
-<br/>
-<br/>
-
 ## Application SDK integration flow
 
-This is a basic representation of the flow in an App, integrating the  365id Id Verification SDK together with a Customer backend. Boxes with a dashed outline are configurable steps in the process.
+This is a basic representation of the flow in an App, integrating the 365id Id Verification SDK together with a Customer backend. Boxes with a dashed outline are configurable steps in the process.
 
 ```mermaid
 flowchart LR
 
    subgraph APP1[APP]
-      
+
       user[The user interaction comes<br> to a point where<br> identification is needed]
       id_begin[The identification flow<br>begins in the App]
       token[An access token<br> is requested from the<br> customer backend]
 
       user --> id_begin
       id_begin --> token
-      
+
    end
 
    subgraph CUSTOMER_BACKEND1[CUSTOMER BACKEND]
-   
+
       request[The customer backend makes<br> a request for an access token]
       backend_365[The customer backend retrieves<br> an access token from the<br> 365id backend]
       response[The access token is<br> delivered back to the App]
 
       request --> backend_365
       backend_365 --> response
-      
+
    end
 
    subgraph APP2[APP]
 
       valid[The app receives the<br> access token]
       startSDK[The app now starts the<br> SDK with the access token]
-      
+
       valid --> startSDK
-      
+
    end
 
    subgraph SDK
@@ -116,7 +80,7 @@ flowchart LR
       contact[The app sends the transaction id<br> to the customer backend]
 
       callback --> contact
-      
+
    end
 
    subgraph CUSTOMER_BACKEND2[CUSTOMER BACKEND]
@@ -140,6 +104,7 @@ flowchart LR
 <br/>
 
 ## Requirements
+
 - Xcode 14.0+
 - iOS version 14.0 and above
 - The framework has been written with Swift 5.7 in mind, may work in earlier versions but there is no guarantee.
@@ -164,7 +129,7 @@ The 365id Id Verification SDK is distributed as a Cocoapod, therefore **you are 
 
 2. A helpful example of a [Podfile](SampleApp/Podfile) can be found in the SampleApp folder. Copy the complete file or choose sections as needed.
 
-5. Run `pod update`.
+3. Run `pod update`.
 
 <br/>
 <br/>
@@ -176,30 +141,31 @@ The 365id Id Verification SDK uses NFC reading technology to verify the contents
 
 This is how that is done in Xcode 13.4:
 
-1. Set your provisioning profile to support Near Field Communication Tag Reading. You do this on the Apple developer webpage. 
+1. Set your provisioning profile to support Near Field Communication Tag Reading. You do this on the Apple developer webpage.
 
-2. Open your project target, on Signing & Capabilities tab, add the Capability of Near Field Communication Tag Reading (By pressing the + button).  
+2. Open your project target, on Signing & Capabilities tab, add the Capability of Near Field Communication Tag Reading (By pressing the + button).
 
 ![Set the app capabilities](images/capabilities.png)
 
 3. Remove the NDEF entitlement.
-> **:exclamation: NOTICE:** if the NDEF entitlement is not removed there can be issues when releasing to the AppStore. 
+   > **:exclamation: NOTICE:** if the NDEF entitlement is not removed there can be issues when releasing to the AppStore.
 
 ![Remove the NDF entitlement](images/remove-ndef.png)
 
 <br/>
 <br/>
-<br/>  
+<br/>
 
 ### Add the target properties
 
-Add a `NSCameraUsageDescription` entry to your app's Info.plist, with the reason why your app requires camera access (e.g. “Allow access to camera to scan ID document.”)  
+Add a `NSCameraUsageDescription` entry to your app's Info.plist, with the reason why your app requires camera access (e.g. “Allow access to camera to scan ID document.”)
 
 Add a `NFCReaderUsageDescription` entry to your app's Info.plist, with the reason why your app requires NFC access (e.g. “Allow access to NFC to read the e-passports.”)
 
 Add a `NFC tag type description` to your Info.plist
 
-Example:   ISO7816 application identifiers for NFC Tag Reader Session (A0000002471001 and A0000002472001) 
+Example: ISO7816 application identifiers for NFC Tag Reader Session (A0000002471001 and A0000002472001)
+
 ```xml
    <key>com.apple.developer.nfc.readersession.iso7816.select-identifiers</key>
    <array>
@@ -227,31 +193,36 @@ Please note that there is a [Sample Application](/SampleApp/) written in Swift u
 In order to use the 365id Id Verification SDK it is necessary to follow the steps below.
 
 ### Retrieve a token
-Before being able to use the 365id Id Verification SDK, you will need an access token and to get that you will need to make a Rest API call with your client id and secret. If you don't have the credentials, please contact us at [info@365id.com](mailto:info@365id.com). Once you have received the credentials you will be able to request an access token. If the access token has expired you don't have to request a new one, all you have to do is refresh it using the refresh_token endpoint.
 
+Before being able to use the 365id Id Verification SDK, you will need an access token and to get that you will need to make a Rest API call with your client id and secret. If you don't have the credentials, please contact us at [info@365id.com](mailto:info@365id.com). Once you have received the credentials you will be able to request an access token. If the access token has expired you don't have to request a new one, all you have to do is refresh it using the refresh_token endpoint.
 
 **Url**: https://eu.customer.365id.com
 
 ---
-#### **/api/v1/access_token**  
-*Used for retrieving a new access token using the client id and secret, also known as customer external id and license key*  
 
-POST  
-Request  
+#### **/api/v1/access_token**
 
-*Body - application/json*
+_Used for retrieving a new access token using the client id and secret, also known as customer external id and license key_
+
+POST
+Request
+
+_Body - application/json_
+
 ```json
 {
   "client_id": "string",
   "client_secret": "string"
 }
-```  
+```
+
 Response
 | Code | Description |
 | ---- | ----------- |
-| 200 | Success |  
-  
-*Body - application/json*
+| 200 | Success |
+
+_Body - application/json_
+
 ```json
 {
   "access_token": "string",
@@ -261,43 +232,49 @@ Response
   "scope": "string"
 }
 ```
+
 | Code | Description |
 | ---- | ----------- |
-| 400 | Bad Request |  
-  
-*Body - application/json*
+| 400  | Bad Request |
+
+_Body - application/json_
+
 ```json
 {
   "error": "string",
   "error_description": "string"
 }
 ```
-----  
 
-#### **/api/v1/refresh_token**  
-*Used for refreshing an already retrieved access token. The access token can be or almost be expired when making this call*
+---
 
-POST  
-Request  
+#### **/api/v1/refresh_token**
 
-*Header*
+_Used for refreshing an already retrieved access token. The access token can be or almost be expired when making this call_
+
+POST
+Request
+
+_Header_
 | Key | Value |
 | ----| ----- |
-| Authorization | Bearer \<access_token\> |  
-  
-*Body - application/json*
+| Authorization | Bearer \<access_token\> |
+
+_Body - application/json_
+
 ```json
 {
   "refresh_token": "string"
 }
 ```
-  
-Response  
+
+Response
 | Code | Description |
 | ---- | ----------- |
-| 200 | Success |  
-  
-*Body - application/json*
+| 200 | Success |
+
+_Body - application/json_
+
 ```json
 {
   "access_token": "string",
@@ -310,20 +287,22 @@ Response
 
 | Code | Description |
 | ---- | ----------- |
-| 400 | Bad Request |  
-  
-*Body - application/json*
+| 400  | Bad Request |
+
+_Body - application/json_
+
 ```json
 {
   "error": "string",
   "error_description": "string"
 }
 ```
----  
+
+---
 
 The access token is valid for a certain amount of time, after that you will have to refresh the access token using the provided refresh token
 
-> **⚠️ SECURITY NOTICE:**  In a production app, it is recommended that you obtain the JWT token using a server-to-server call. The example app retrieves it directly for the sake of simplicity.  
+> **⚠️ SECURITY NOTICE:** In a production app, it is recommended that you obtain the JWT token using a server-to-server call. The example app retrieves it directly for the sake of simplicity.
 
 <br/>
 <br/>
@@ -331,15 +310,16 @@ The access token is valid for a certain amount of time, after that you will have
 ### Call the SDK
 
 When you in your app have acquired an access token, you are ready to call the `start(token: String, delegate: IdVerificationEventDelegate)`
- function. This function requires you to provide the access token and your own implementation of the `IdVerificationEventDelegate` protocol.  
+function. This function requires you to provide the access token and your own implementation of the `IdVerificationEventDelegate` protocol.
 
 #### Document type selection
 
 The `documentType`-parameter is an optional parameter to `start()` and with this you will be able to select the document type.
 Currently, iOS SDK supports three types of document that is id1, id3 and document.
 
-Selecting a document type does not force the user to only scan that kind of document but rather encourages the user to scan that type of document by adjusting animations and other UI elements to hint the user to scan that specific type of document.  
+Selecting a document type does not force the user to only scan that kind of document but rather encourages the user to scan that type of document by adjusting animations and other UI elements to hint the user to scan that specific type of document.
 Here is an example of how to select the document type:
+
 ```swift
 IdVerification.start(
    token: myToken,
@@ -351,6 +331,7 @@ IdVerification.start(
 #### Modules To Skip
 
 The `skipModules`-parameter is an optional parameter to `start()` and with this you will be able to skip various identification processes, also known as modules. The input type for this parameter is `IdVerificationSkipModules` which is a class that has a constructor that takes a list of enum values. Here is an example of how to skip two modules:
+
 ```swift
 IdVerification.start(
    token: myToken,
@@ -374,7 +355,7 @@ import IdVerification365id
 
 /// Example implementation of the IdVerificationEventDelegate
 private class MyEventDelegate: IdVerificationEventDelegate {
-   
+
    // simplified log function
    private func log(_ msg: String) { Log.info("IdVerification Event: \(msg)") }
 
@@ -420,7 +401,7 @@ An example of how the `SdkMainView()` can be used can be seen in the [SampleApp]
 
 ### Validation of result
 
-To validate the result you will have to use an existing or a new integration with 365id Services. The data returned back contains all the extracted fields along with the captured images and the assessment of the document. The 
+To validate the result you will have to use an existing or a new integration with 365id Services. The data returned back contains all the extracted fields along with the captured images and the assessment of the document. The
 captured data is handled in accordance with GDPR and our official [privacy policy](https://365id.com/privacy-policy/).
 The data retention time is configurable in our [Customer Portal](https://365id.com/integrations/), though only within the limits of the GDPR.
 
@@ -434,6 +415,7 @@ Documentation for that integration is not covered in this README, it is only del
 ### Custom Theme
 
 Before calling `Idverification.start()` you can customize the SDK colors, logo and animations by using the function `IdVerification.setCustomTheme()`. Most of the parameters of this function are optional (except `poweredByLogo` and `showAppBar`), so you can use only those that suits you. Below you see an example of how you can use this function:
+
 ```swift
 
 // You can use IdVerification.Animations() to set custom animations for preparation, loading and instructions.
@@ -466,6 +448,7 @@ IdVerification.setCustomTheme(
          showAppBar: true,
          animations: customAnimations))
 ```
+
 <br/>
 <br/>
 <br/>
@@ -498,7 +481,7 @@ Currently Sentry does not have support for running more than one instance at a t
 
 If your app have an instance of Sentry running, the logs will be sent to your Sentry project. If your app does not use Sentry this wont be an issue.
 
-To avoid getting our logs we suggest that your app exits Sentry just before calling ```IdVerification.start()``` and re-instantiate your Sentry right after the ```OnClose``` callback is triggered.
+To avoid getting our logs we suggest that your app exits Sentry just before calling `IdVerification.start()` and re-instantiate your Sentry right after the `OnClose` callback is triggered.
 
 <br/>
 <br/>
@@ -510,12 +493,12 @@ To avoid getting our logs we suggest that your app exits Sentry just before call
 
 1. Open `SampleApp.xcworkspace`.
 
-1. Add your `client_id` and `client_secret` to [Credentials.swift](/SampleApp/SampleApp/BackendCommunication/Credentials.swift), also add your `Location name` and `Location Id` to [DeviceInformation.swift](/SampleApp/SampleApp/BackendCommunication/DeviceInformation.swift).  
-You can obtain these credentials from the [support@365id.com](mailto:support@365id.com). 
+1. Add your `client_id` and `client_secret` to [Credentials.swift](/SampleApp/SampleApp/BackendCommunication/Credentials.swift), also add your `Location name` and `Location Id` to [DeviceInformation.swift](/SampleApp/SampleApp/BackendCommunication/DeviceInformation.swift).
+   You can obtain these credentials from the [support@365id.com](mailto:support@365id.com).
 
-4. You should now be able to build and run the project. Please note that you need to run the 365id SDK on a physical device; it will not work in the simulator.
+1. You should now be able to build and run the project. Please note that you need to run the 365id SDK on a physical device; it will not work in the simulator.
 
-> **⚠️ SECURITY NOTICE:**  The Sample App uses the sdk credentials to directly fetch the access token from the 365id Backend. This is inherently insecure. `This is only done in the purpose of demonstration.` We strongly recommend for a production environment to perform this step with a server-to-server call.
+> **⚠️ SECURITY NOTICE:** The Sample App uses the sdk credentials to directly fetch the access token from the 365id Backend. This is inherently insecure. `This is only done in the purpose of demonstration.` We strongly recommend for a production environment to perform this step with a server-to-server call.
 
 <br/>
 <br/>
@@ -537,7 +520,7 @@ sequenceDiagram
     activate 365id Backend
     365id Backend->>Customer Backend: Access Token + Refresh Token
     deactivate 365id Backend
-    
+
     Customer Backend->>App: Access Token
     deactivate Customer Backend
     App->>SDK: Access Token + Location Data
@@ -574,7 +557,6 @@ In writing, this can be described as such:
 - App uses the received access token to start the SDK, beginning a transaction. The SDK will take over the app until all requested steps have been completed, after which it will return a summary of the transaction result, alongside a transaction ID.
 - The transaction ID is used to poll 365id services about the details of the transaction. The recommendation here is that your backend receives this ID from the App, then makes a decision based on the result received from the 365id Backend API.
 
-
 <br/>
 <br/>
 <br/>
@@ -586,7 +568,6 @@ You can find full API documentation here: [https://365id-ab.github.io/idverifica
 ### local access to API documentation
 
 If you would like to access the documentation locally you can run the command `sh show_api.sh`
-
 
 ## Help & support
 
