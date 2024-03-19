@@ -4,6 +4,53 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [2.2.15] - 2024-03-19
+
+### Changed
+
+- Changed the camera reticle animation used when a document is captured.
+
+## [2.2.14-beta] - 2024-03-15
+
+### Updated
+
+- All texts are translated into Swedish.
+
+## [2.2.13-beta] - 2024-03-15
+
+### Updated
+
+- Updated the informational view texts.
+- Removed the title from camera view overlay.
+
+### Added
+
+- Added cancel button in Waitview. 
+
+## [2.2.12-beta] - 2024-03-14
+
+### Updated
+
+- Updated the progress bar to use the task progress indication.
+
+## [2.2.11-beta] - 2024-03-12
+
+### Updated
+
+- Removed hardcoded colors in the different views and replaced with theme colors.
+
+## [2.2.10-beta] - 2024-03-08
+
+### Fixed
+
+- Spinner in different views are aligned correctly.
+
+## [2.2.9-beta] - 2024-03-07
+
+### Updated
+
+- Added new parameters to IdVerificationTheme to support customizing colors of the transaction progress indicator.
+
 ## [2.2.8-beta] - 2024-03-06
 
 ### Updated
@@ -43,13 +90,13 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 
 ### Fixed
 
-- Fixed the compilation issue brought on by the incorrect animation view type 
+- Fixed the compilation issue brought on by the incorrect animation view type
 
 ## [2.2.1-beta] - 2024-02-15
 
 ### Added
 
-- Added customizable animations in SDK 
+- Added customizable animations in SDK
 
 ## [2.1.13-beta] - 2024-01-25
 
@@ -92,7 +139,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 ### Updated
 
 - Added Cancel buttons to all views.
-- Fixed the touch area of UI buttons. 
+- Fixed the touch area of UI buttons.
 
 ## [2.1.7-beta] - 2024-01-02
 
@@ -123,7 +170,6 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 ### Changed
 
 - Changed the wait view design.
-
 
 ## [2.1.2-beta] - 2023-12-20
 
@@ -190,7 +236,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 ### Updated
 
 - Upgrade iProov to version 11.0.1.
-- Defined the responsiblity for Models and Processors.  
+- Defined the responsiblity for Models and Processors.
 - Verified that SDK sends a proper error messages to calling app.
 
 ## [2.0.10] - 2023-11-20
@@ -271,14 +317,14 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 
 ### Added
 
-- Added/updated informational views for front/back/nfc/iproov views. 
+- Added/updated informational views for front/back/nfc/iproov views.
 
 ## [1.12.19] - 2023-10-04
 
 ### Added
 
 - Added a informational view before front and back side.
-- Updated MicroBlink´s UI. 
+- Updated MicroBlink´s UI.
 
 ## [1.12.18] - 2023-09-29
 
@@ -333,7 +379,6 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 ### Fixed
 
 - The continous integration pipeline order.
-
 
 ## [1.12.13] - 2023-08-25
 
@@ -710,7 +755,7 @@ Close GRPC channel immediately.
 
 ## [1.4.2] - 2022-12-22
 
-### Fixed 
+### Fixed
 
 Added a check for transaction id before sending the result to the called app.
 
@@ -789,13 +834,13 @@ Implement task InvalidVersion. Same logic as NoActivePackage.
 
 ### Fixed
 
-Make the spinners and symbols the same size. 
+Make the spinners and symbols the same size.
 
 ## [1.3.3] - 2022-11-25
 
 ### Fixed
 
-Only shows iproov statustext when finished. Added new default loading animation and iproov animation. 
+Only shows iproov statustext when finished. Added new default loading animation and iproov animation.
 
 ## [1.3.2] - 2022-11-24
 
@@ -846,7 +891,7 @@ Updated the session contract with ios sdk version number and the platform.
 ### Changed
 
 Removed the callbacks for transaction model.
-Added an idDetectionProcessor to handles the id detection for camera frame. 
+Added an idDetectionProcessor to handles the id detection for camera frame.
 Rewritten the test cases for transaction model and processors.
 Vibrate the device when NFC is detected.
 
@@ -876,7 +921,7 @@ Implemented an animation to hide camera appearance.
 
 Added checks to properly unwrap optional values.
 Removed the callbacks for transaction model.
-Added an idDetectionProcessor to handles the id detection for camera frame. 
+Added an idDetectionProcessor to handles the id detection for camera frame.
 Rewritten the test cases for transaction model and processors.
 Vibrate the device when NFC is detected.
 
@@ -895,7 +940,7 @@ Updated the detection library to version 1.1.13
 ### Fixed
 
 Backside flip animation
-Communication channel was not checked for nil value. 
+Communication channel was not checked for nil value.
 
 ## [1.2.15] - 2022-10-19
 
@@ -947,7 +992,6 @@ Removed the callbacks from cameraModel, Instead switched to a publisher subscrib
 ### Changed
 
 Allow to call the StartSDKMainView before calling the startSDK().
-
 
 ## [1.2.7] - 2022-09-14
 
@@ -1022,8 +1066,8 @@ Ignore the detection if the auto focus is not enable
 
 ### Changed
 
-Removed superfluous IdTransactionResult and simplified the code a bit.  
-Updated version of Id Detection Library to 1.1.9  
+Removed superfluous IdTransactionResult and simplified the code a bit.
+Updated version of Id Detection Library to 1.1.9
 
 ## [1.1.1] - 2022-07-13
 
@@ -1065,7 +1109,6 @@ Fixed an issue with importing the SDK into scannerapp.
 ### Fixed
 
 Fixed an issue with third party dependencies inside a XCFramework through SPM
-
 
 ## [0.2.15] - 2022-06-22
 
@@ -1149,7 +1192,7 @@ Updated new viewfinder
 
 ### Added
 
-Updated the IdDetectionCV framework 1.0.1 (Fix for the passports are rotated upside down) 
+Updated the IdDetectionCV framework 1.0.1 (Fix for the passports are rotated upside down)
 
 ## [0.2.3] - 20222-04-13
 
@@ -1159,7 +1202,7 @@ Sending the scanning response to the scanner app twice
 
 ### Added
 
-Implemented a new viewfinder 
+Implemented a new viewfinder
 
 ## [0.2.2] - 20222-04-13
 
@@ -1288,4 +1331,3 @@ The first release made, so far everything has had changes.
 ### Fixed
 
 The first release made, no fixes yet.
-
