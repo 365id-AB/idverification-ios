@@ -462,19 +462,29 @@ SWIFT_CLASS("_TtC19IdVerification365id19IdVerificationTheme")
 ///
 /// \param onSurface Animations and icons
 ///
+/// \param surfaceVariant NFC and iProov background color
+///
 /// \param background Body
 ///
-/// \param primary The scan button
+/// \param primary The continue button color
 ///
-/// \param onPrimary The scan button text
+/// \param onPrimary The scan button text color
 ///
-/// \param secondary Infobox outer position
+/// \param primaryContainer Camera view recticle and iProov ovel stroke color
 ///
-/// \param secondaryContainer Infobox inner position
+/// \param onPrimaryContainer Camera view recticle and iProov ovel stroke color when it completes
 ///
-/// \param onSecondary Infobox text
+/// \param secondary The cancel button color
 ///
-/// \param onSecondaryContainer Infobox sub text
+/// \param secondaryContainer The cancel button text color
+///
+/// \param onSecondary Information heading text
+///
+/// \param onSecondaryContainer Information sub text
+///
+/// \param tertiary progress bar background color
+///
+/// \param onTertiary progress bar color
 ///
 /// \param appBarLogo Header icon
 ///
@@ -484,7 +494,7 @@ SWIFT_CLASS("_TtC19IdVerification365id19IdVerificationTheme")
 ///
 /// \param animations A Class containing swiftUI animation views that can be replaced in the SDK.
 ///
-- (nonnull instancetype)initWithSurface:(UIColor * _Nullable)surface onSurface:(UIColor * _Nullable)onSurface background:(UIColor * _Nullable)background primary:(UIColor * _Nullable)primary onPrimary:(UIColor * _Nullable)onPrimary secondary:(UIColor * _Nullable)secondary secondaryContainer:(UIColor * _Nullable)secondaryContainer onSecondary:(UIColor * _Nullable)onSecondary onSecondaryContainer:(UIColor * _Nullable)onSecondaryContainer appBarLogo:(UIImage * _Nullable)appBarLogo poweredByLogo:(enum PoweredByLogo)poweredByLogo showAppBar:(BOOL)showAppBar animations:(Animations * _Nonnull)animations OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithSurface:(UIColor * _Nullable)surface onSurface:(UIColor * _Nullable)onSurface surfaceVariant:(UIColor * _Nullable)surfaceVariant background:(UIColor * _Nullable)background primary:(UIColor * _Nullable)primary onPrimary:(UIColor * _Nullable)onPrimary primaryContainer:(UIColor * _Nullable)primaryContainer onPrimaryContainer:(UIColor * _Nullable)onPrimaryContainer secondary:(UIColor * _Nullable)secondary onSecondary:(UIColor * _Nullable)onSecondary secondaryContainer:(UIColor * _Nullable)secondaryContainer onSecondaryContainer:(UIColor * _Nullable)onSecondaryContainer tertiary:(UIColor * _Nullable)tertiary onTertiary:(UIColor * _Nullable)onTertiary appBarLogo:(UIImage * _Nullable)appBarLogo poweredByLogo:(enum PoweredByLogo)poweredByLogo showAppBar:(BOOL)showAppBar animations:(Animations * _Nonnull)animations OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end

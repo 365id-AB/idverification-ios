@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
-// swift-module-flags: -target arm64-apple-ios14.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name IdVerification365id
+// swift-module-flags: -target arm64-apple-ios15.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name IdVerification365id
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AVFoundation
 import Combine
@@ -14,8 +14,8 @@ import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
 @objc public class IdVerificationTheme : ObjectiveC.NSObject {
-  @objc public init(surface: UIKit.UIColor? = nil, onSurface: UIKit.UIColor? = nil, background: UIKit.UIColor? = nil, primary: UIKit.UIColor? = nil, onPrimary: UIKit.UIColor? = nil, secondary: UIKit.UIColor? = nil, secondaryContainer: UIKit.UIColor? = nil, onSecondary: UIKit.UIColor? = nil, onSecondaryContainer: UIKit.UIColor? = nil, appBarLogo: UIKit.UIImage? = nil, poweredByLogo: IdVerification365id.PoweredByLogo = .STANDARD, showAppBar: Swift.Bool = false, animations: IdVerification365id.IdVerification.Animations = IdVerification.Animations())
-  public func copyWith(surface: UIKit.UIColor? = nil, onSurface: UIKit.UIColor? = nil, background: UIKit.UIColor? = nil, primary: UIKit.UIColor? = nil, onPrimary: UIKit.UIColor? = nil, secondary: UIKit.UIColor? = nil, secondaryContainer: UIKit.UIColor? = nil, onSecondary: UIKit.UIColor? = nil, onSecondaryContainer: UIKit.UIColor? = nil, appBarLogo: UIKit.UIImage? = nil, poweredByLogo: IdVerification365id.PoweredByLogo? = nil, showAppBar: Swift.Bool? = nil, animations: IdVerification365id.IdVerification.Animations? = nil) -> IdVerification365id.IdVerificationTheme
+  @objc public init(surface: UIKit.UIColor? = nil, onSurface: UIKit.UIColor? = nil, surfaceVariant: UIKit.UIColor? = nil, background: UIKit.UIColor? = nil, primary: UIKit.UIColor? = nil, onPrimary: UIKit.UIColor? = nil, primaryContainer: UIKit.UIColor? = nil, onPrimaryContainer: UIKit.UIColor? = nil, secondary: UIKit.UIColor? = nil, onSecondary: UIKit.UIColor? = nil, secondaryContainer: UIKit.UIColor? = nil, onSecondaryContainer: UIKit.UIColor? = nil, tertiary: UIKit.UIColor? = nil, onTertiary: UIKit.UIColor? = nil, appBarLogo: UIKit.UIImage? = nil, poweredByLogo: IdVerification365id.PoweredByLogo = .STANDARD, showAppBar: Swift.Bool = false, animations: IdVerification365id.IdVerification.Animations = IdVerification.Animations())
+  public func copyWith(surface: UIKit.UIColor? = nil, onSurface: UIKit.UIColor? = nil, surfaceVariant: UIKit.UIColor? = nil, background: UIKit.UIColor? = nil, primary: UIKit.UIColor? = nil, onPrimary: UIKit.UIColor? = nil, primaryContainer: UIKit.UIColor? = nil, onPrimaryContainer: UIKit.UIColor? = nil, secondary: UIKit.UIColor? = nil, onSecondary: UIKit.UIColor? = nil, secondaryContainer: UIKit.UIColor? = nil, onSecondaryContainer: UIKit.UIColor? = nil, tertiary: UIKit.UIColor? = nil, onTertiary: UIKit.UIColor? = nil, appBarLogo: UIKit.UIImage? = nil, poweredByLogo: IdVerification365id.PoweredByLogo? = nil, showAppBar: Swift.Bool? = nil, animations: IdVerification365id.IdVerification.Animations? = nil) -> IdVerification365id.IdVerificationTheme
   @objc deinit
 }
 @objc public enum DocumentType : Swift.Int {
@@ -89,6 +89,7 @@ extension UIKit.UIView {
   @objc final public let transactionId: Swift.String
   @objc deinit
 }
+
 @_hasMissingDesignatedInitializers @objc public class IdVerificationErrorBundle : ObjectiveC.NSObject {
   @objc final public let error: IdVerification365id.IdVerificationError
   @objc final public let message: Swift.String
@@ -120,6 +121,19 @@ extension UIKit.UIView {
     get
   }
 }
+extension SwiftUI.View {
+  @inlinable public func reverseMask<Mask>(alignment: SwiftUI.Alignment = .center, @SwiftUI.ViewBuilder _ mask: () -> Mask) -> some SwiftUI.View where Mask : SwiftUI.View {
+    self.mask {
+      Rectangle()
+        .overlay(alignment: alignment) {
+          mask()
+            .blendMode(.destinationOut)
+        }
+    }
+  }
+  
+}
+
 extension IdVerification365id.DocumentType : Swift.Equatable {}
 extension IdVerification365id.DocumentType : Swift.Hashable {}
 extension IdVerification365id.DocumentType : Swift.RawRepresentable {}
