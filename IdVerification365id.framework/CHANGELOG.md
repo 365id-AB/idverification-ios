@@ -4,7 +4,25 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
-## [2.2.15] - 2024-03-19
+## [2.2.18-beta] - 2024-03-20
+
+### Fixed
+
+- Fixed the issue that the information view expanded between views.
+
+## [2.2.17-beta] - 2024-03-20
+
+### Changed
+
+- Replaced loading spinners with a simpler.
+
+## [2.2.16-beta] - 2024-03-19
+
+### Fixed
+
+- Fixed the issue to use the preview views when integrating with the SDK.
+
+## [2.2.15-beta] - 2024-03-19
 
 ### Changed
 

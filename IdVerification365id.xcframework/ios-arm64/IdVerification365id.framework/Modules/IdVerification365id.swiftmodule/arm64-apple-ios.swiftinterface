@@ -13,6 +13,8 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+
+
 @objc public class IdVerificationTheme : ObjectiveC.NSObject {
   @objc public init(surface: UIKit.UIColor? = nil, onSurface: UIKit.UIColor? = nil, surfaceVariant: UIKit.UIColor? = nil, background: UIKit.UIColor? = nil, primary: UIKit.UIColor? = nil, onPrimary: UIKit.UIColor? = nil, primaryContainer: UIKit.UIColor? = nil, onPrimaryContainer: UIKit.UIColor? = nil, secondary: UIKit.UIColor? = nil, onSecondary: UIKit.UIColor? = nil, secondaryContainer: UIKit.UIColor? = nil, onSecondaryContainer: UIKit.UIColor? = nil, tertiary: UIKit.UIColor? = nil, onTertiary: UIKit.UIColor? = nil, appBarLogo: UIKit.UIImage? = nil, poweredByLogo: IdVerification365id.PoweredByLogo = .STANDARD, showAppBar: Swift.Bool = false, animations: IdVerification365id.IdVerification.Animations = IdVerification.Animations())
   public func copyWith(surface: UIKit.UIColor? = nil, onSurface: UIKit.UIColor? = nil, surfaceVariant: UIKit.UIColor? = nil, background: UIKit.UIColor? = nil, primary: UIKit.UIColor? = nil, onPrimary: UIKit.UIColor? = nil, primaryContainer: UIKit.UIColor? = nil, onPrimaryContainer: UIKit.UIColor? = nil, secondary: UIKit.UIColor? = nil, onSecondary: UIKit.UIColor? = nil, secondaryContainer: UIKit.UIColor? = nil, onSecondaryContainer: UIKit.UIColor? = nil, tertiary: UIKit.UIColor? = nil, onTertiary: UIKit.UIColor? = nil, appBarLogo: UIKit.UIImage? = nil, poweredByLogo: IdVerification365id.PoweredByLogo? = nil, showAppBar: Swift.Bool? = nil, animations: IdVerification365id.IdVerification.Animations? = nil) -> IdVerification365id.IdVerificationTheme
@@ -62,6 +64,7 @@ import _SwiftConcurrencyShims
   @objc func onError(_ error: IdVerification365id.IdVerificationErrorBundle)
   @objc func onCompleted(_ result: IdVerification365id.IdVerificationResult)
 }
+
 public struct IdVerificationView : SwiftUI.View {
   public init()
   @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
