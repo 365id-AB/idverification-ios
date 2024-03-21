@@ -9081,14 +9081,42 @@
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/LandingView.swift",
       "kind": "BooleanLiteral",
-      "offset": 523,
+      "offset": 524,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/LandingView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2101,
+      "offset": 1631,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "@__swiftmacro_19IdVerification365id33_227425DC477034451717347B1B2ABCE0Ll7PreviewfMf0_.swift",
+      "kind": "StringLiteral",
+      "offset": 250,
+      "length": 39,
+      "value": "\"IdVerification365id\/LandingView.swift\""
+    },
+    {
+      "filePath": "@__swiftmacro_19IdVerification365id33_227425DC477034451717347B1B2ABCE0Ll7PreviewfMf0_.swift",
+      "kind": "IntegerLiteral",
+      "offset": 317,
+      "length": 2,
+      "value": "51"
+    },
+    {
+      "filePath": "@__swiftmacro_19IdVerification365id33_227425DC477034451717347B1B2ABCE0Ll7PreviewfMf0_.swift",
+      "kind": "IntegerLiteral",
+      "offset": 349,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "@__swiftmacro_19IdVerification365id33_227425DC477034451717347B1B2ABCE0Ll7PreviewfMf0_.swift",
+      "kind": "BooleanLiteral",
+      "offset": 596,
       "length": 4,
       "value": "true"
     },
@@ -9368,21 +9396,21 @@
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/IdVerificationView.swift",
       "kind": "FloatLiteral",
-      "offset": 912,
+      "offset": 940,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/IdVerificationView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1484,
+      "offset": 1512,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/IdVerificationView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1611,
+      "offset": 1639,
       "length": 5,
       "value": "false"
     },
@@ -11198,6 +11226,27 @@
       "offset": 303,
       "length": 3,
       "value": "0.9"
+    },
+    {
+      "filePath": "@__swiftmacro_19IdVerification365id33_C7AE43E2A7FA4DA207E9EA261A3A8E56Ll7PreviewfMf0_.swift",
+      "kind": "StringLiteral",
+      "offset": 250,
+      "length": 36,
+      "value": "\"IdVerification365id\/LogoView.swift\""
+    },
+    {
+      "filePath": "@__swiftmacro_19IdVerification365id33_C7AE43E2A7FA4DA207E9EA261A3A8E56Ll7PreviewfMf0_.swift",
+      "kind": "IntegerLiteral",
+      "offset": 314,
+      "length": 2,
+      "value": "18"
+    },
+    {
+      "filePath": "@__swiftmacro_19IdVerification365id33_C7AE43E2A7FA4DA207E9EA261A3A8E56Ll7PreviewfMf0_.swift",
+      "kind": "IntegerLiteral",
+      "offset": 346,
+      "length": 1,
+      "value": "1"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/MicroBlink\/MicroBlinkError.swift",
@@ -13204,98 +13253,112 @@
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IProov\/IProovManager.swift",
       "kind": "StringLiteral",
-      "offset": 1917,
+      "offset": 1778,
+      "length": 30,
+      "value": "\"com.365id.sdk.idverification\""
+    },
+    {
+      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IProov\/IProovManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1841,
+      "length": 32,
+      "value": "\"_365id_scanner_sdk.Localizable\""
+    },
+    {
+      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IProov\/IProovManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2064,
       "length": 33,
       "value": "\"wss:\/\/eu.rp.secure.iproov.me\/ws\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IProov\/IProovManager.swift",
       "kind": "StringLiteral",
-      "offset": 2350,
+      "offset": 2497,
       "length": 12,
       "value": "\"connecting\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IProov\/IProovManager.swift",
       "kind": "StringLiteral",
-      "offset": 2467,
+      "offset": 2614,
       "length": 11,
       "value": "\"connected\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IProov\/IProovManager.swift",
       "kind": "StringLiteral",
-      "offset": 2606,
+      "offset": 2753,
       "length": 48,
       "value": "\"processing: \""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IProov\/IProovManager.swift",
       "kind": "StringLiteral",
-      "offset": 2629,
+      "offset": 2776,
       "length": 1,
       "value": "\" (Progress: \""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IProov\/IProovManager.swift",
       "kind": "StringLiteral",
-      "offset": 2652,
+      "offset": 2799,
       "length": 1,
       "value": "\")\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IProov\/IProovManager.swift",
       "kind": "StringLiteral",
-      "offset": 2757,
+      "offset": 2904,
       "length": 9,
       "value": "\"success\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IProov\/IProovManager.swift",
       "kind": "StringLiteral",
-      "offset": 2878,
+      "offset": 3025,
       "length": 48,
       "value": "\"IProov failure: \""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IProov\/IProovManager.swift",
       "kind": "StringLiteral",
-      "offset": 2925,
+      "offset": 3072,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IProov\/IProovManager.swift",
       "kind": "StringLiteral",
-      "offset": 3042,
+      "offset": 3189,
       "length": 48,
       "value": "\"User cancelled the iProov process: \""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IProov\/IProovManager.swift",
       "kind": "StringLiteral",
-      "offset": 3089,
+      "offset": 3236,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IProov\/IProovManager.swift",
       "kind": "StringLiteral",
-      "offset": 3201,
+      "offset": 3348,
       "length": 45,
       "value": "\"IProov error: \""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IProov\/IProovManager.swift",
       "kind": "StringLiteral",
-      "offset": 3245,
+      "offset": 3392,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IProov\/IProovManager.swift",
       "kind": "StringLiteral",
-      "offset": 3479,
+      "offset": 3626,
       "length": 28,
       "value": "\"IProovManager was cleared.\""
     },

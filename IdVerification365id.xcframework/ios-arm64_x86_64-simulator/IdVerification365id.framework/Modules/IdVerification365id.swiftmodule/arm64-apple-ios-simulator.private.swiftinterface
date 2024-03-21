@@ -65,6 +65,7 @@ import _SwiftConcurrencyShims
   @objc func onCompleted(_ result: IdVerification365id.IdVerificationResult)
 }
 
+
 public struct IdVerificationView : SwiftUI.View {
   public init()
   @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
@@ -75,6 +76,7 @@ public struct IdVerificationView : SwiftUI.View {
 extension UIKit.UIView {
   @_Concurrency.MainActor(unsafe) public func asUIImage() -> UIKit.UIImage
 }
+
 @objc public enum IdVerificationError : Swift.Int {
   case invalidTokenError = 0
   case clientError = 1

@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
+## [2.2.20-beta] - 2024-03-21
+
+### Changed
+
+- Replaced the SDK landing view image with the generic loading spinner
+
+## [2.2.19-beta] - 2024-03-20
+
+### Added
+
+- Added swedish translations to the face matching step.
 
 ## [2.2.18-beta] - 2024-03-20
 
