@@ -1,4 +1,0 @@
-framework module IdVerification365id {
-  header "IdVerification365id-Swift.h"
-  requires objc
-}

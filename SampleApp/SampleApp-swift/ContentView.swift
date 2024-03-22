@@ -119,15 +119,20 @@ struct ContentView: View {
             IdVerificationTheme(
                 surface: .white,
                 onSurface: .purple,
+                surfaceVariant: .black,
                 background: .white,
                 primary: .purple,
                 onPrimary: .white,
+                primaryContainer: .gray,
+                onPrimaryContainer: .yellow,
                 secondary: .white,
-                secondaryContainer: .lightGray,
                 onSecondary: .purple,
+                secondaryContainer: .lightGray,
                 onSecondaryContainer: .darkGray,
+                tertiary: .black,
+                onTertiary: .green,
                 appBarLogo: nil,
-                poweredByLogo: .WHITE,
+                poweredByLogo: .STANDARD,
                 showAppBar: false,
                 animations: customAnimationViews))
     }

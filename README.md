@@ -105,9 +105,9 @@ flowchart LR
 
 ## Requirements
 
-- Xcode 14.0+
-- iOS version 14.0 and above
-- The framework has been written with Swift 5.7 in mind, may work in earlier versions but there is no guarantee.
+- Xcode 15.0+
+- iOS version 15.0 and above
+- The framework has been written with Swift 5.0 in mind, may work in earlier versions but there is no guarantee.
 
 <br/>
 <br/>
@@ -123,7 +123,7 @@ The 365id Id Verification SDK is distributed as a Swift Package. You can add it 
 
 #### Cocoapods
 
-The 365id Id Verification SDK is distributed as a Cocoapod, therefore **you are required to use Cocoapods 1.14.3 or newer** This could change depending on demand for other packaging systems.
+The 365id Id Verification SDK is distributed as a Cocoapod, therefore **you are required to use Cocoapods 1.15.2 or newer** This could change depending on demand for other packaging systems.
 
 1. If you are not yet using Cocoapods in your project, first run `gem install cocoapods` followed by `pod init`. (For further information on installing Cocoapods, [click here](https://guides.cocoapods.org/using/getting-started.html#installation).)
 
@@ -139,7 +139,7 @@ The 365id Id Verification SDK is distributed as a Cocoapod, therefore **you are 
 
 The 365id Id Verification SDK uses NFC reading technology to verify the contents of chips present in id documents. In order for this to work, this needs to be added to the integrating application as a capability.
 
-This is how that is done in Xcode 13.4:
+This is how that is done in Xcode 15.0:
 
 1. Set your provisioning profile to support Near Field Communication Tag Reading. You do this on the Apple developer webpage.
 
@@ -412,44 +412,13 @@ Documentation for that integration is not covered in this README, it is only del
 <br/>
 <br/>
 
-### Custom Theme
+## Custom Theme
 
-Before calling `Idverification.start()` you can customize the SDK colors, logo and animations by using the function `IdVerification.setCustomTheme()`. Most of the parameters of this function are optional (except `poweredByLogo` and `showAppBar`), so you can use only those that suits you. Below you see an example of how you can use this function:
+Before calling `Idverification.start()` you can customize the SDK colors, logo and animations by using the function `IdVerification.setCustomTheme()`. 
 
-```swift
+You can replace the animations with your own custom animations or static images. 
 
-// You can use IdVerification.Animations() to set custom animations for preparation, loading and instructions.
-let customAnimations = IdVerification.Animations()
-
-// The prepare animations are shown before the step is to be performed.
-customAnimations.prepareDocument = Text("Place your custom \ndocument animation here")
-customAnimations.prepareId3 = Text("Place your custom\npassport animation here")
-
-// The instruction animations are shown during the step.
-customAnimations.instructionDocument = Text("Place your custom \ndocument animation here")
-customAnimations.instructionId3 = Text("Place your custom\npassport animation here")
-
-// The loading animations are shown after the step is performed.
-customAnimations.loadingNfc = Image("myCustomAnimation")
-
-IdVerification.setCustomTheme(
-   IdVerificationTheme(
-         surface: UIColor.white,
-         onSurface: UIColor.purple,
-         background: UIColor.white,
-         primary: UIColor.purple,
-         onPrimary: UIColor.white,
-         secondary: UIColor.white,
-         secondaryContainer: UIColor.lightGray,
-         onSecondary: UIColor.purple,
-         onSecondaryContainer: UIColor.darkGray,
-         appBarLogo: Image("myCustomLogo"),
-         poweredByLogo: .STANDARD,
-         showAppBar: true,
-         animations: customAnimations))
-```
-
-<br/>
+For more information on how to do this, check out the [custom theme documentation](README.THEME.md)
 <br/>
 <br/>
 
