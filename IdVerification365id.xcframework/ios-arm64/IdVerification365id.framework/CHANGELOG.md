@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
+
+## [2.2.21-beta] - 2024-03-22
+
+### Fixed
+
+- Set generic loading spinner into the middle of the screen.
+
 ## [2.2.20-beta] - 2024-03-21
 
 ### Changed

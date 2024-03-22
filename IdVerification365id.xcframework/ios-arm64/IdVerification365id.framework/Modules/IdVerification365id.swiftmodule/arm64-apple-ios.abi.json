@@ -9087,8 +9087,15 @@
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/LandingView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1506,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/LandingView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1631,
+      "offset": 1641,
       "length": 4,
       "value": "true"
     },
@@ -9104,7 +9111,7 @@
       "kind": "IntegerLiteral",
       "offset": 317,
       "length": 2,
-      "value": "51"
+      "value": "52"
     },
     {
       "filePath": "@__swiftmacro_19IdVerification365id33_227425DC477034451717347B1B2ABCE0Ll7PreviewfMf0_.swift",
@@ -13666,21 +13673,21 @@
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/TaskViews\/WaitView.swift",
       "kind": "FloatLiteral",
-      "offset": 609,
+      "offset": 475,
       "length": 3,
       "value": "3.0"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/TaskViews\/WaitView.swift",
       "kind": "FloatLiteral",
-      "offset": 613,
+      "offset": 479,
       "length": 3,
       "value": "2.0"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/TaskViews\/WaitView.swift",
       "kind": "FloatLiteral",
-      "offset": 970,
+      "offset": 836,
       "length": 3,
       "value": "0.5"
     },
