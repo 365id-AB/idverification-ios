@@ -1,0 +1,79 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "Event Log:\n%@" : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Händelselogg: %@"
+          }
+        }
+      }
+    },
+    "Place your custom\npassport animation here" : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Placera din anpassade dokumentanimering här"
+          }
+        }
+      }
+    },
+    "Place your custom \ndocument animation here" : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Placera din anpassade  dokumentanimering här"
+          }
+        }
+      }
+    },
+    "Sample Application\n\n365id Id Verification SDK" : {
+
+    },
+    "Scan Generic Document" : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skanna allmänt dokument"
+          }
+        }
+      }
+    },
+    "Scan Id-card / Driving License" : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skanna ID-kort / körkort"
+          }
+        }
+      }
+    },
+    "Scan Passport" : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skanna pass"
+          }
+        }
+      }
+    },
+    "Set Custom Theme" : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ställ in anpassat tema"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}
