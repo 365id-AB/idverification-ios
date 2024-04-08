@@ -37,6 +37,13 @@
       },
       {
         "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "IdVerification365id"
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -63,6 +70,13 @@
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IdVerification365id"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
         "declKind": "Import",
         "moduleName": "IdVerification365id"
       },
@@ -172,7 +186,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(surface:onSurface:surfaceVariant:background:primary:onPrimary:primaryContainer:onPrimaryContainer:secondary:onSecondary:secondaryContainer:onSecondaryContainer:tertiary:onTertiary:appBarLogo:poweredByLogo:showAppBar:animations:)",
+            "printedName": "init(primary:onPrimary:primaryContainer:secondary:onSecondary:secondaryContainer:onSecondaryContainer:tertiary:onTertiary:tertiaryContainer:onTertiaryContainer:surface:onSurface:onSurfaceVariant:inverseSurface:inverseOnSurface:poweredByLogo:animations:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -393,13 +407,28 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "UIKit.UIImage?",
+                "printedName": "UIKit.UIColor?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "UIImage",
-                    "printedName": "UIKit.UIImage",
-                    "usr": "c:objc(cs)UIImage"
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
                   }
                 ],
                 "hasDefaultArg": true,
@@ -414,13 +443,6 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "hasDefaultArg": true,
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
                 "name": "Animations",
                 "printedName": "IdVerification365id.IdVerification.Animations",
                 "hasDefaultArg": true,
@@ -428,10 +450,10 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@IdVerification365id@objc(cs)IdVerificationTheme(im)initWithSurface:onSurface:surfaceVariant:background:primary:onPrimary:primaryContainer:onPrimaryContainer:secondary:onSecondary:secondaryContainer:onSecondaryContainer:tertiary:onTertiary:appBarLogo:poweredByLogo:showAppBar:animations:",
-            "mangledName": "$s19IdVerification365id0A17VerificationThemeC7surface9onSurface0E7Variant10background7primary0F7Primary0J9Container0fkL09secondary0F9Secondary0mL00fnL08tertiary0F8Tertiary10appBarLogo09poweredByS007showAppR010animationsACSo7UIColorCSg_A13XSo7UIImageCSgAA07PowereduS0OSbAA0aC0C10AnimationsCtcfc",
+            "usr": "c:@M@IdVerification365id@objc(cs)IdVerificationTheme(im)initWithPrimary:onPrimary:primaryContainer:secondary:onSecondary:secondaryContainer:onSecondaryContainer:tertiary:onTertiary:tertiaryContainer:onTertiaryContainer:surface:onSurface:onSurfaceVariant:inverseSurface:inverseOnSurface:poweredByLogo:animations:",
+            "mangledName": "$s19IdVerification365id0A17VerificationThemeC7primary9onPrimary0E9Container9secondary0F9Secondary0iH00fjH08tertiary0F8Tertiary0kH00flH07surface0F7Surface0fN7Variant07inverseN00p2OnN013poweredByLogo10animationsACSo7UIColorCSg_A15xA07PoweredsT0OAA0aC0C10AnimationsCtcfc",
             "moduleName": "IdVerification365id",
-            "objc_name": "initWithSurface:onSurface:surfaceVariant:background:primary:onPrimary:primaryContainer:onPrimaryContainer:secondary:onSecondary:secondaryContainer:onSecondaryContainer:tertiary:onTertiary:appBarLogo:poweredByLogo:showAppBar:animations:",
+            "objc_name": "initWithPrimary:onPrimary:primaryContainer:secondary:onSecondary:secondaryContainer:onSecondaryContainer:tertiary:onTertiary:tertiaryContainer:onTertiaryContainer:surface:onSurface:onSurfaceVariant:inverseSurface:inverseOnSurface:poweredByLogo:animations:",
             "declAttributes": [
               "AccessControl",
               "ObjC",
@@ -442,7 +464,7 @@
           {
             "kind": "Function",
             "name": "copyWith",
-            "printedName": "copyWith(surface:onSurface:surfaceVariant:background:primary:onPrimary:primaryContainer:onPrimaryContainer:secondary:onSecondary:secondaryContainer:onSecondaryContainer:tertiary:onTertiary:appBarLogo:poweredByLogo:showAppBar:animations:)",
+            "printedName": "copyWith(primary:onPrimary:primaryContainer:secondary:onSecondary:secondaryContainer:onSecondaryContainer:tertiary:onTertiary:tertiaryContainer:onTertiaryContainer:surface:onSurface:onSurfaceVariant:inverseSurface:inverseOnSurface:poweredByLogo:animations:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -663,13 +685,28 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "UIKit.UIImage?",
+                "printedName": "UIKit.UIColor?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "UIImage",
-                    "printedName": "UIKit.UIImage",
-                    "usr": "c:objc(cs)UIImage"
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
                   }
                 ],
                 "hasDefaultArg": true,
@@ -693,21 +730,6 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "Swift.Bool?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
                 "printedName": "IdVerification365id.IdVerification.Animations?",
                 "children": [
                   {
@@ -722,8 +744,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:19IdVerification365id0A17VerificationThemeC8copyWith7surface9onSurface0G7Variant10background7primary0H7Primary0L9Container0hmN09secondary0H9Secondary0oN00hpN08tertiary0H8Tertiary10appBarLogo09poweredByU007showAppT010animationsACSo7UIColorCSg_A13YSo7UIImageCSgAA07PoweredwU0OSgSbSgAA0aC0C10AnimationsCSgtF",
-            "mangledName": "$s19IdVerification365id0A17VerificationThemeC8copyWith7surface9onSurface0G7Variant10background7primary0H7Primary0L9Container0hmN09secondary0H9Secondary0oN00hpN08tertiary0H8Tertiary10appBarLogo09poweredByU007showAppT010animationsACSo7UIColorCSg_A13YSo7UIImageCSgAA07PoweredwU0OSgSbSgAA0aC0C10AnimationsCSgtF",
+            "usr": "s:19IdVerification365id0A17VerificationThemeC8copyWith7primary9onPrimary0G9Container9secondary0H9Secondary0kJ00hlJ08tertiary0H8Tertiary0mJ00hnJ07surface0H7Surface0hP7Variant07inverseP00r2OnP013poweredByLogo10animationsACSo7UIColorCSg_A15yA07PowereduV0OSgAA0aC0C10AnimationsCSgtF",
+            "mangledName": "$s19IdVerification365id0A17VerificationThemeC8copyWith7primary9onPrimary0G9Container9secondary0H9Secondary0kJ00hlJ08tertiary0H8Tertiary0mJ00hnJ07surface0H7Surface0hP7Variant07inverseP00r2OnP013poweredByLogo10animationsACSo7UIColorCSg_A15yA07PowereduV0OSgAA0aC0C10AnimationsCSgtF",
             "moduleName": "IdVerification365id",
             "declAttributes": [
               "AccessControl",
@@ -2800,13 +2822,6 @@
       },
       {
         "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "IdVerification365id"
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -3057,16 +3072,146 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "OpaqueTypeArchetype",
-                "printedName": "some SwiftUI.View",
+                "name": "ModifiedContent",
+                "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.ModifiedContent<SwiftUI.Color, SwiftUI._SafeAreaRegionsIgnoringLayout>, SwiftUI.ModifiedContent<SwiftUI.Group<SwiftUI._ConditionalContent<IdVerification365id.LandingView, IdVerification365id.TaskViews>>, SwiftUI._TraitWritingModifier<SwiftUI.TransitionTraitKey>>)>>, SwiftUI._ValueActionModifier<SwiftUI.ScenePhase>>, SwiftUI._AppearanceActionModifier>, SwiftUI._AppearanceActionModifier>",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "View",
-                    "printedName": "SwiftUI.View",
-                    "usr": "s:7SwiftUI4ViewP"
+                    "name": "ModifiedContent",
+                    "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.ModifiedContent<SwiftUI.Color, SwiftUI._SafeAreaRegionsIgnoringLayout>, SwiftUI.ModifiedContent<SwiftUI.Group<SwiftUI._ConditionalContent<IdVerification365id.LandingView, IdVerification365id.TaskViews>>, SwiftUI._TraitWritingModifier<SwiftUI.TransitionTraitKey>>)>>, SwiftUI._ValueActionModifier<SwiftUI.ScenePhase>>, SwiftUI._AppearanceActionModifier>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ModifiedContent",
+                        "printedName": "SwiftUI.ModifiedContent<SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.ModifiedContent<SwiftUI.Color, SwiftUI._SafeAreaRegionsIgnoringLayout>, SwiftUI.ModifiedContent<SwiftUI.Group<SwiftUI._ConditionalContent<IdVerification365id.LandingView, IdVerification365id.TaskViews>>, SwiftUI._TraitWritingModifier<SwiftUI.TransitionTraitKey>>)>>, SwiftUI._ValueActionModifier<SwiftUI.ScenePhase>>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ZStack",
+                            "printedName": "SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.ModifiedContent<SwiftUI.Color, SwiftUI._SafeAreaRegionsIgnoringLayout>, SwiftUI.ModifiedContent<SwiftUI.Group<SwiftUI._ConditionalContent<IdVerification365id.LandingView, IdVerification365id.TaskViews>>, SwiftUI._TraitWritingModifier<SwiftUI.TransitionTraitKey>>)>>",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "TupleView",
+                                "printedName": "SwiftUI.TupleView<(SwiftUI.ModifiedContent<SwiftUI.Color, SwiftUI._SafeAreaRegionsIgnoringLayout>, SwiftUI.ModifiedContent<SwiftUI.Group<SwiftUI._ConditionalContent<IdVerification365id.LandingView, IdVerification365id.TaskViews>>, SwiftUI._TraitWritingModifier<SwiftUI.TransitionTraitKey>>)>",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "Tuple",
+                                    "printedName": "(SwiftUI.ModifiedContent<SwiftUI.Color, SwiftUI._SafeAreaRegionsIgnoringLayout>, SwiftUI.ModifiedContent<SwiftUI.Group<SwiftUI._ConditionalContent<IdVerification365id.LandingView, IdVerification365id.TaskViews>>, SwiftUI._TraitWritingModifier<SwiftUI.TransitionTraitKey>>)",
+                                    "children": [
+                                      {
+                                        "kind": "TypeNominal",
+                                        "name": "ModifiedContent",
+                                        "printedName": "SwiftUI.ModifiedContent<SwiftUI.Color, SwiftUI._SafeAreaRegionsIgnoringLayout>",
+                                        "children": [
+                                          {
+                                            "kind": "TypeNominal",
+                                            "name": "Color",
+                                            "printedName": "SwiftUI.Color",
+                                            "usr": "s:7SwiftUI5ColorV"
+                                          },
+                                          {
+                                            "kind": "TypeNominal",
+                                            "name": "_SafeAreaRegionsIgnoringLayout",
+                                            "printedName": "SwiftUI._SafeAreaRegionsIgnoringLayout",
+                                            "usr": "s:7SwiftUI30_SafeAreaRegionsIgnoringLayoutV"
+                                          }
+                                        ],
+                                        "usr": "s:7SwiftUI15ModifiedContentV"
+                                      },
+                                      {
+                                        "kind": "TypeNominal",
+                                        "name": "ModifiedContent",
+                                        "printedName": "SwiftUI.ModifiedContent<SwiftUI.Group<SwiftUI._ConditionalContent<IdVerification365id.LandingView, IdVerification365id.TaskViews>>, SwiftUI._TraitWritingModifier<SwiftUI.TransitionTraitKey>>",
+                                        "children": [
+                                          {
+                                            "kind": "TypeNominal",
+                                            "name": "Group",
+                                            "printedName": "SwiftUI.Group<SwiftUI._ConditionalContent<IdVerification365id.LandingView, IdVerification365id.TaskViews>>",
+                                            "children": [
+                                              {
+                                                "kind": "TypeNominal",
+                                                "name": "_ConditionalContent",
+                                                "printedName": "SwiftUI._ConditionalContent<IdVerification365id.LandingView, IdVerification365id.TaskViews>",
+                                                "children": [
+                                                  {
+                                                    "kind": "TypeNominal",
+                                                    "name": "LandingView",
+                                                    "printedName": "IdVerification365id.LandingView",
+                                                    "usr": "s:19IdVerification365id11LandingViewV"
+                                                  },
+                                                  {
+                                                    "kind": "TypeNominal",
+                                                    "name": "TaskViews",
+                                                    "printedName": "IdVerification365id.TaskViews",
+                                                    "usr": "s:19IdVerification365id9TaskViewsV"
+                                                  }
+                                                ],
+                                                "usr": "s:7SwiftUI19_ConditionalContentV"
+                                              }
+                                            ],
+                                            "usr": "s:7SwiftUI5GroupV"
+                                          },
+                                          {
+                                            "kind": "TypeNominal",
+                                            "name": "_TraitWritingModifier",
+                                            "printedName": "SwiftUI._TraitWritingModifier<SwiftUI.TransitionTraitKey>",
+                                            "children": [
+                                              {
+                                                "kind": "TypeNominal",
+                                                "name": "TransitionTraitKey",
+                                                "printedName": "SwiftUI.TransitionTraitKey",
+                                                "usr": "s:7SwiftUI18TransitionTraitKeyV"
+                                              }
+                                            ],
+                                            "usr": "s:7SwiftUI21_TraitWritingModifierV"
+                                          }
+                                        ],
+                                        "usr": "s:7SwiftUI15ModifiedContentV"
+                                      }
+                                    ]
+                                  }
+                                ],
+                                "usr": "s:7SwiftUI9TupleViewV"
+                              }
+                            ],
+                            "usr": "s:7SwiftUI6ZStackV"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "_ValueActionModifier",
+                            "printedName": "SwiftUI._ValueActionModifier<SwiftUI.ScenePhase>",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ScenePhase",
+                                "printedName": "SwiftUI.ScenePhase",
+                                "usr": "s:7SwiftUI10ScenePhaseO"
+                              }
+                            ],
+                            "usr": "s:7SwiftUI20_ValueActionModifierV"
+                          }
+                        ],
+                        "usr": "s:7SwiftUI15ModifiedContentV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "_AppearanceActionModifier",
+                        "printedName": "SwiftUI._AppearanceActionModifier",
+                        "usr": "s:7SwiftUI25_AppearanceActionModifierV"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI15ModifiedContentV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "_AppearanceActionModifier",
+                    "printedName": "SwiftUI._AppearanceActionModifier",
+                    "usr": "s:7SwiftUI25_AppearanceActionModifierV"
                   }
-                ]
+                ],
+                "usr": "s:7SwiftUI15ModifiedContentV"
               }
             ],
             "declKind": "Var",
@@ -3086,16 +3231,146 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "OpaqueTypeArchetype",
-                    "printedName": "some SwiftUI.View",
+                    "name": "ModifiedContent",
+                    "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.ModifiedContent<SwiftUI.Color, SwiftUI._SafeAreaRegionsIgnoringLayout>, SwiftUI.ModifiedContent<SwiftUI.Group<SwiftUI._ConditionalContent<IdVerification365id.LandingView, IdVerification365id.TaskViews>>, SwiftUI._TraitWritingModifier<SwiftUI.TransitionTraitKey>>)>>, SwiftUI._ValueActionModifier<SwiftUI.ScenePhase>>, SwiftUI._AppearanceActionModifier>, SwiftUI._AppearanceActionModifier>",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "View",
-                        "printedName": "SwiftUI.View",
-                        "usr": "s:7SwiftUI4ViewP"
+                        "name": "ModifiedContent",
+                        "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.ModifiedContent<SwiftUI.Color, SwiftUI._SafeAreaRegionsIgnoringLayout>, SwiftUI.ModifiedContent<SwiftUI.Group<SwiftUI._ConditionalContent<IdVerification365id.LandingView, IdVerification365id.TaskViews>>, SwiftUI._TraitWritingModifier<SwiftUI.TransitionTraitKey>>)>>, SwiftUI._ValueActionModifier<SwiftUI.ScenePhase>>, SwiftUI._AppearanceActionModifier>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ModifiedContent",
+                            "printedName": "SwiftUI.ModifiedContent<SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.ModifiedContent<SwiftUI.Color, SwiftUI._SafeAreaRegionsIgnoringLayout>, SwiftUI.ModifiedContent<SwiftUI.Group<SwiftUI._ConditionalContent<IdVerification365id.LandingView, IdVerification365id.TaskViews>>, SwiftUI._TraitWritingModifier<SwiftUI.TransitionTraitKey>>)>>, SwiftUI._ValueActionModifier<SwiftUI.ScenePhase>>",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ZStack",
+                                "printedName": "SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.ModifiedContent<SwiftUI.Color, SwiftUI._SafeAreaRegionsIgnoringLayout>, SwiftUI.ModifiedContent<SwiftUI.Group<SwiftUI._ConditionalContent<IdVerification365id.LandingView, IdVerification365id.TaskViews>>, SwiftUI._TraitWritingModifier<SwiftUI.TransitionTraitKey>>)>>",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "TupleView",
+                                    "printedName": "SwiftUI.TupleView<(SwiftUI.ModifiedContent<SwiftUI.Color, SwiftUI._SafeAreaRegionsIgnoringLayout>, SwiftUI.ModifiedContent<SwiftUI.Group<SwiftUI._ConditionalContent<IdVerification365id.LandingView, IdVerification365id.TaskViews>>, SwiftUI._TraitWritingModifier<SwiftUI.TransitionTraitKey>>)>",
+                                    "children": [
+                                      {
+                                        "kind": "TypeNominal",
+                                        "name": "Tuple",
+                                        "printedName": "(SwiftUI.ModifiedContent<SwiftUI.Color, SwiftUI._SafeAreaRegionsIgnoringLayout>, SwiftUI.ModifiedContent<SwiftUI.Group<SwiftUI._ConditionalContent<IdVerification365id.LandingView, IdVerification365id.TaskViews>>, SwiftUI._TraitWritingModifier<SwiftUI.TransitionTraitKey>>)",
+                                        "children": [
+                                          {
+                                            "kind": "TypeNominal",
+                                            "name": "ModifiedContent",
+                                            "printedName": "SwiftUI.ModifiedContent<SwiftUI.Color, SwiftUI._SafeAreaRegionsIgnoringLayout>",
+                                            "children": [
+                                              {
+                                                "kind": "TypeNominal",
+                                                "name": "Color",
+                                                "printedName": "SwiftUI.Color",
+                                                "usr": "s:7SwiftUI5ColorV"
+                                              },
+                                              {
+                                                "kind": "TypeNominal",
+                                                "name": "_SafeAreaRegionsIgnoringLayout",
+                                                "printedName": "SwiftUI._SafeAreaRegionsIgnoringLayout",
+                                                "usr": "s:7SwiftUI30_SafeAreaRegionsIgnoringLayoutV"
+                                              }
+                                            ],
+                                            "usr": "s:7SwiftUI15ModifiedContentV"
+                                          },
+                                          {
+                                            "kind": "TypeNominal",
+                                            "name": "ModifiedContent",
+                                            "printedName": "SwiftUI.ModifiedContent<SwiftUI.Group<SwiftUI._ConditionalContent<IdVerification365id.LandingView, IdVerification365id.TaskViews>>, SwiftUI._TraitWritingModifier<SwiftUI.TransitionTraitKey>>",
+                                            "children": [
+                                              {
+                                                "kind": "TypeNominal",
+                                                "name": "Group",
+                                                "printedName": "SwiftUI.Group<SwiftUI._ConditionalContent<IdVerification365id.LandingView, IdVerification365id.TaskViews>>",
+                                                "children": [
+                                                  {
+                                                    "kind": "TypeNominal",
+                                                    "name": "_ConditionalContent",
+                                                    "printedName": "SwiftUI._ConditionalContent<IdVerification365id.LandingView, IdVerification365id.TaskViews>",
+                                                    "children": [
+                                                      {
+                                                        "kind": "TypeNominal",
+                                                        "name": "LandingView",
+                                                        "printedName": "IdVerification365id.LandingView",
+                                                        "usr": "s:19IdVerification365id11LandingViewV"
+                                                      },
+                                                      {
+                                                        "kind": "TypeNominal",
+                                                        "name": "TaskViews",
+                                                        "printedName": "IdVerification365id.TaskViews",
+                                                        "usr": "s:19IdVerification365id9TaskViewsV"
+                                                      }
+                                                    ],
+                                                    "usr": "s:7SwiftUI19_ConditionalContentV"
+                                                  }
+                                                ],
+                                                "usr": "s:7SwiftUI5GroupV"
+                                              },
+                                              {
+                                                "kind": "TypeNominal",
+                                                "name": "_TraitWritingModifier",
+                                                "printedName": "SwiftUI._TraitWritingModifier<SwiftUI.TransitionTraitKey>",
+                                                "children": [
+                                                  {
+                                                    "kind": "TypeNominal",
+                                                    "name": "TransitionTraitKey",
+                                                    "printedName": "SwiftUI.TransitionTraitKey",
+                                                    "usr": "s:7SwiftUI18TransitionTraitKeyV"
+                                                  }
+                                                ],
+                                                "usr": "s:7SwiftUI21_TraitWritingModifierV"
+                                              }
+                                            ],
+                                            "usr": "s:7SwiftUI15ModifiedContentV"
+                                          }
+                                        ]
+                                      }
+                                    ],
+                                    "usr": "s:7SwiftUI9TupleViewV"
+                                  }
+                                ],
+                                "usr": "s:7SwiftUI6ZStackV"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "_ValueActionModifier",
+                                "printedName": "SwiftUI._ValueActionModifier<SwiftUI.ScenePhase>",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "ScenePhase",
+                                    "printedName": "SwiftUI.ScenePhase",
+                                    "usr": "s:7SwiftUI10ScenePhaseO"
+                                  }
+                                ],
+                                "usr": "s:7SwiftUI20_ValueActionModifierV"
+                              }
+                            ],
+                            "usr": "s:7SwiftUI15ModifiedContentV"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "_AppearanceActionModifier",
+                            "printedName": "SwiftUI._AppearanceActionModifier",
+                            "usr": "s:7SwiftUI25_AppearanceActionModifierV"
+                          }
+                        ],
+                        "usr": "s:7SwiftUI15ModifiedContentV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "_AppearanceActionModifier",
+                        "printedName": "SwiftUI._AppearanceActionModifier",
+                        "usr": "s:7SwiftUI25_AppearanceActionModifierV"
                       }
-                    ]
+                    ],
+                    "usr": "s:7SwiftUI15ModifiedContentV"
                   }
                 ],
                 "declKind": "Accessor",
@@ -3128,16 +3403,146 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "OpaqueTypeArchetype",
-                    "printedName": "some SwiftUI.View",
+                    "name": "ModifiedContent",
+                    "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.ModifiedContent<SwiftUI.Color, SwiftUI._SafeAreaRegionsIgnoringLayout>, SwiftUI.ModifiedContent<SwiftUI.Group<SwiftUI._ConditionalContent<IdVerification365id.LandingView, IdVerification365id.TaskViews>>, SwiftUI._TraitWritingModifier<SwiftUI.TransitionTraitKey>>)>>, SwiftUI._ValueActionModifier<SwiftUI.ScenePhase>>, SwiftUI._AppearanceActionModifier>, SwiftUI._AppearanceActionModifier>",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "View",
-                        "printedName": "SwiftUI.View",
-                        "usr": "s:7SwiftUI4ViewP"
+                        "name": "ModifiedContent",
+                        "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.ModifiedContent<SwiftUI.Color, SwiftUI._SafeAreaRegionsIgnoringLayout>, SwiftUI.ModifiedContent<SwiftUI.Group<SwiftUI._ConditionalContent<IdVerification365id.LandingView, IdVerification365id.TaskViews>>, SwiftUI._TraitWritingModifier<SwiftUI.TransitionTraitKey>>)>>, SwiftUI._ValueActionModifier<SwiftUI.ScenePhase>>, SwiftUI._AppearanceActionModifier>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ModifiedContent",
+                            "printedName": "SwiftUI.ModifiedContent<SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.ModifiedContent<SwiftUI.Color, SwiftUI._SafeAreaRegionsIgnoringLayout>, SwiftUI.ModifiedContent<SwiftUI.Group<SwiftUI._ConditionalContent<IdVerification365id.LandingView, IdVerification365id.TaskViews>>, SwiftUI._TraitWritingModifier<SwiftUI.TransitionTraitKey>>)>>, SwiftUI._ValueActionModifier<SwiftUI.ScenePhase>>",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ZStack",
+                                "printedName": "SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.ModifiedContent<SwiftUI.Color, SwiftUI._SafeAreaRegionsIgnoringLayout>, SwiftUI.ModifiedContent<SwiftUI.Group<SwiftUI._ConditionalContent<IdVerification365id.LandingView, IdVerification365id.TaskViews>>, SwiftUI._TraitWritingModifier<SwiftUI.TransitionTraitKey>>)>>",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "TupleView",
+                                    "printedName": "SwiftUI.TupleView<(SwiftUI.ModifiedContent<SwiftUI.Color, SwiftUI._SafeAreaRegionsIgnoringLayout>, SwiftUI.ModifiedContent<SwiftUI.Group<SwiftUI._ConditionalContent<IdVerification365id.LandingView, IdVerification365id.TaskViews>>, SwiftUI._TraitWritingModifier<SwiftUI.TransitionTraitKey>>)>",
+                                    "children": [
+                                      {
+                                        "kind": "TypeNominal",
+                                        "name": "Tuple",
+                                        "printedName": "(SwiftUI.ModifiedContent<SwiftUI.Color, SwiftUI._SafeAreaRegionsIgnoringLayout>, SwiftUI.ModifiedContent<SwiftUI.Group<SwiftUI._ConditionalContent<IdVerification365id.LandingView, IdVerification365id.TaskViews>>, SwiftUI._TraitWritingModifier<SwiftUI.TransitionTraitKey>>)",
+                                        "children": [
+                                          {
+                                            "kind": "TypeNominal",
+                                            "name": "ModifiedContent",
+                                            "printedName": "SwiftUI.ModifiedContent<SwiftUI.Color, SwiftUI._SafeAreaRegionsIgnoringLayout>",
+                                            "children": [
+                                              {
+                                                "kind": "TypeNominal",
+                                                "name": "Color",
+                                                "printedName": "SwiftUI.Color",
+                                                "usr": "s:7SwiftUI5ColorV"
+                                              },
+                                              {
+                                                "kind": "TypeNominal",
+                                                "name": "_SafeAreaRegionsIgnoringLayout",
+                                                "printedName": "SwiftUI._SafeAreaRegionsIgnoringLayout",
+                                                "usr": "s:7SwiftUI30_SafeAreaRegionsIgnoringLayoutV"
+                                              }
+                                            ],
+                                            "usr": "s:7SwiftUI15ModifiedContentV"
+                                          },
+                                          {
+                                            "kind": "TypeNominal",
+                                            "name": "ModifiedContent",
+                                            "printedName": "SwiftUI.ModifiedContent<SwiftUI.Group<SwiftUI._ConditionalContent<IdVerification365id.LandingView, IdVerification365id.TaskViews>>, SwiftUI._TraitWritingModifier<SwiftUI.TransitionTraitKey>>",
+                                            "children": [
+                                              {
+                                                "kind": "TypeNominal",
+                                                "name": "Group",
+                                                "printedName": "SwiftUI.Group<SwiftUI._ConditionalContent<IdVerification365id.LandingView, IdVerification365id.TaskViews>>",
+                                                "children": [
+                                                  {
+                                                    "kind": "TypeNominal",
+                                                    "name": "_ConditionalContent",
+                                                    "printedName": "SwiftUI._ConditionalContent<IdVerification365id.LandingView, IdVerification365id.TaskViews>",
+                                                    "children": [
+                                                      {
+                                                        "kind": "TypeNominal",
+                                                        "name": "LandingView",
+                                                        "printedName": "IdVerification365id.LandingView",
+                                                        "usr": "s:19IdVerification365id11LandingViewV"
+                                                      },
+                                                      {
+                                                        "kind": "TypeNominal",
+                                                        "name": "TaskViews",
+                                                        "printedName": "IdVerification365id.TaskViews",
+                                                        "usr": "s:19IdVerification365id9TaskViewsV"
+                                                      }
+                                                    ],
+                                                    "usr": "s:7SwiftUI19_ConditionalContentV"
+                                                  }
+                                                ],
+                                                "usr": "s:7SwiftUI5GroupV"
+                                              },
+                                              {
+                                                "kind": "TypeNominal",
+                                                "name": "_TraitWritingModifier",
+                                                "printedName": "SwiftUI._TraitWritingModifier<SwiftUI.TransitionTraitKey>",
+                                                "children": [
+                                                  {
+                                                    "kind": "TypeNominal",
+                                                    "name": "TransitionTraitKey",
+                                                    "printedName": "SwiftUI.TransitionTraitKey",
+                                                    "usr": "s:7SwiftUI18TransitionTraitKeyV"
+                                                  }
+                                                ],
+                                                "usr": "s:7SwiftUI21_TraitWritingModifierV"
+                                              }
+                                            ],
+                                            "usr": "s:7SwiftUI15ModifiedContentV"
+                                          }
+                                        ]
+                                      }
+                                    ],
+                                    "usr": "s:7SwiftUI9TupleViewV"
+                                  }
+                                ],
+                                "usr": "s:7SwiftUI6ZStackV"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "_ValueActionModifier",
+                                "printedName": "SwiftUI._ValueActionModifier<SwiftUI.ScenePhase>",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "ScenePhase",
+                                    "printedName": "SwiftUI.ScenePhase",
+                                    "usr": "s:7SwiftUI10ScenePhaseO"
+                                  }
+                                ],
+                                "usr": "s:7SwiftUI20_ValueActionModifierV"
+                              }
+                            ],
+                            "usr": "s:7SwiftUI15ModifiedContentV"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "_AppearanceActionModifier",
+                            "printedName": "SwiftUI._AppearanceActionModifier",
+                            "usr": "s:7SwiftUI25_AppearanceActionModifierV"
+                          }
+                        ],
+                        "usr": "s:7SwiftUI15ModifiedContentV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "_AppearanceActionModifier",
+                        "printedName": "SwiftUI._AppearanceActionModifier",
+                        "usr": "s:7SwiftUI25_AppearanceActionModifierV"
                       }
-                    ]
+                    ],
+                    "usr": "s:7SwiftUI15ModifiedContentV"
                   }
                 ]
               }
@@ -3236,13 +3641,6 @@
       },
       {
         "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "IdVerification365id"
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -3362,22 +3760,8 @@
       },
       {
         "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "IdVerification365id"
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "IdVerification365id"
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
         "declKind": "Import",
         "moduleName": "IdVerification365id"
       },
@@ -3460,13 +3844,6 @@
         "kind": "Import",
         "name": "AVFoundation",
         "printedName": "AVFoundation",
-        "declKind": "Import",
-        "moduleName": "IdVerification365id"
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
         "declKind": "Import",
         "moduleName": "IdVerification365id"
       },
@@ -5223,13 +5600,6 @@
         "kind": "Import",
         "name": "CoreNFC",
         "printedName": "CoreNFC",
-        "declKind": "Import",
-        "moduleName": "IdVerification365id"
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
         "declKind": "Import",
         "moduleName": "IdVerification365id"
       },
@@ -7002,14 +7372,14 @@
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/ProgressBarViewStyle.swift",
       "kind": "IntegerLiteral",
-      "offset": 491,
+      "offset": 498,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/ProgressBarViewStyle.swift",
       "kind": "FloatLiteral",
-      "offset": 583,
+      "offset": 590,
       "length": 3,
       "value": "2.0"
     },
@@ -7033,6 +7403,76 @@
       "offset": 621,
       "length": 1,
       "value": "4"
+    },
+    {
+      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/Theme\/AppColors.swift",
+      "kind": "IntegerLiteral",
+      "offset": 104,
+      "length": 8,
+      "value": "0x702F8A"
+    },
+    {
+      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/Theme\/AppColors.swift",
+      "kind": "IntegerLiteral",
+      "offset": 154,
+      "length": 8,
+      "value": "0xffffff"
+    },
+    {
+      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/Theme\/AppColors.swift",
+      "kind": "IntegerLiteral",
+      "offset": 210,
+      "length": 8,
+      "value": "0xE7DAEB"
+    },
+    {
+      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/Theme\/AppColors.swift",
+      "kind": "IntegerLiteral",
+      "offset": 260,
+      "length": 8,
+      "value": "0x000000"
+    },
+    {
+      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/Theme\/AppColors.swift",
+      "kind": "IntegerLiteral",
+      "offset": 310,
+      "length": 8,
+      "value": "0x009900"
+    },
+    {
+      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/Theme\/AppColors.swift",
+      "kind": "IntegerLiteral",
+      "offset": 365,
+      "length": 8,
+      "value": "0x93D594"
+    },
+    {
+      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/Theme\/AppColors.swift",
+      "kind": "IntegerLiteral",
+      "offset": 414,
+      "length": 8,
+      "value": "0xa7a7a7"
+    },
+    {
+      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/Theme\/AppColors.swift",
+      "kind": "IntegerLiteral",
+      "offset": 468,
+      "length": 8,
+      "value": "0xf5f5f5"
+    },
+    {
+      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/Theme\/AppColors.swift",
+      "kind": "IntegerLiteral",
+      "offset": 523,
+      "length": 8,
+      "value": "0xB3B3B3"
+    },
+    {
+      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/Theme\/AppColors.swift",
+      "kind": "IntegerLiteral",
+      "offset": 576,
+      "length": 8,
+      "value": "0x707070"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/MicroBlink\/MicroBlinkHandler.swift",
@@ -7177,42 +7617,42 @@
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/CancelButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 340,
+      "offset": 358,
       "length": 2,
       "value": "18"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/CancelButton.swift",
       "kind": "StringLiteral",
-      "offset": 417,
+      "offset": 435,
       "length": 32,
       "value": "\"User pressed the cancel button\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/CancelButton.swift",
       "kind": "StringLiteral",
-      "offset": 615,
+      "offset": 633,
       "length": 32,
       "value": "\"User pressed the cancel button\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/CancelButton.swift",
       "kind": "StringLiteral",
-      "offset": 734,
+      "offset": 752,
       "length": 27,
       "value": "\"_365id_cancel_button_text\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/CancelButton.swift",
       "kind": "StringLiteral",
-      "offset": 790,
+      "offset": 808,
       "length": 32,
       "value": "\"_365id_scanner_sdk.Localizable\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/CancelButton.swift",
       "kind": "StringLiteral",
-      "offset": 905,
+      "offset": 923,
       "length": 17,
       "value": "\"A cancel button\""
     },
@@ -7306,6 +7746,76 @@
       "offset": 1031,
       "length": 10,
       "value": "\"Rejected\""
+    },
+    {
+      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/Theme\/SelectAnimationView.swift",
+      "kind": "StringLiteral",
+      "offset": 7597,
+      "length": 19,
+      "value": "\"Missing Animation\""
+    },
+    {
+      "filePath": "@__swiftmacro_19IdVerification365id33_51495F0F54587F895520F5637B4B575CLl7PreviewfMf_.swift",
+      "kind": "StringLiteral",
+      "offset": 249,
+      "length": 47,
+      "value": "\"IdVerification365id\/SelectAnimationView.swift\""
+    },
+    {
+      "filePath": "@__swiftmacro_19IdVerification365id33_51495F0F54587F895520F5637B4B575CLl7PreviewfMf_.swift",
+      "kind": "IntegerLiteral",
+      "offset": 324,
+      "length": 3,
+      "value": "160"
+    },
+    {
+      "filePath": "@__swiftmacro_19IdVerification365id33_51495F0F54587F895520F5637B4B575CLl7PreviewfMf_.swift",
+      "kind": "IntegerLiteral",
+      "offset": 357,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "@__swiftmacro_19IdVerification365id33_51495F0F54587F895520F5637B4B575CLl7PreviewfMf2_.swift",
+      "kind": "StringLiteral",
+      "offset": 250,
+      "length": 47,
+      "value": "\"IdVerification365id\/SelectAnimationView.swift\""
+    },
+    {
+      "filePath": "@__swiftmacro_19IdVerification365id33_51495F0F54587F895520F5637B4B575CLl7PreviewfMf2_.swift",
+      "kind": "IntegerLiteral",
+      "offset": 325,
+      "length": 3,
+      "value": "164"
+    },
+    {
+      "filePath": "@__swiftmacro_19IdVerification365id33_51495F0F54587F895520F5637B4B575CLl7PreviewfMf2_.swift",
+      "kind": "IntegerLiteral",
+      "offset": 358,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "@__swiftmacro_19IdVerification365id33_51495F0F54587F895520F5637B4B575CLl7PreviewfMf4_.swift",
+      "kind": "StringLiteral",
+      "offset": 250,
+      "length": 47,
+      "value": "\"IdVerification365id\/SelectAnimationView.swift\""
+    },
+    {
+      "filePath": "@__swiftmacro_19IdVerification365id33_51495F0F54587F895520F5637B4B575CLl7PreviewfMf4_.swift",
+      "kind": "IntegerLiteral",
+      "offset": 325,
+      "length": 3,
+      "value": "168"
+    },
+    {
+      "filePath": "@__swiftmacro_19IdVerification365id33_51495F0F54587F895520F5637B4B575CLl7PreviewfMf4_.swift",
+      "kind": "IntegerLiteral",
+      "offset": 358,
+      "length": 1,
+      "value": "1"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/NFCStatus.swift",
@@ -7427,23 +7937,23 @@
       "value": "0.25"
     },
     {
-      "filePath": "@__swiftmacro_19IdVerification365id33_E06D9AF78CE69571751498D9025CC544Ll7PreviewfMf_.swift",
+      "filePath": "@__swiftmacro_19IdVerification365id33_E06D9AF78CE69571751498D9025CC544Ll7PreviewfMf0_.swift",
       "kind": "StringLiteral",
-      "offset": 249,
+      "offset": 250,
       "length": 43,
       "value": "\"IdVerification365id\/SpinnerWithIcon.swift\""
     },
     {
-      "filePath": "@__swiftmacro_19IdVerification365id33_E06D9AF78CE69571751498D9025CC544Ll7PreviewfMf_.swift",
+      "filePath": "@__swiftmacro_19IdVerification365id33_E06D9AF78CE69571751498D9025CC544Ll7PreviewfMf0_.swift",
       "kind": "IntegerLiteral",
-      "offset": 320,
+      "offset": 321,
       "length": 2,
       "value": "22"
     },
     {
-      "filePath": "@__swiftmacro_19IdVerification365id33_E06D9AF78CE69571751498D9025CC544Ll7PreviewfMf_.swift",
+      "filePath": "@__swiftmacro_19IdVerification365id33_E06D9AF78CE69571751498D9025CC544Ll7PreviewfMf0_.swift",
       "kind": "IntegerLiteral",
-      "offset": 352,
+      "offset": 353,
       "length": 1,
       "value": "1"
     },
@@ -7478,14 +7988,14 @@
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/AnimateTextSizeView.swift",
       "kind": "IntegerLiteral",
-      "offset": 564,
+      "offset": 566,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/AnimateTextSizeView.swift",
       "kind": "StringLiteral",
-      "offset": 730,
+      "offset": 732,
       "length": 13,
       "value": "\"Hello world\""
     },
@@ -8060,8 +8570,8 @@
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/ViewModels\/NfcViewModel.swift",
       "kind": "StringLiteral",
       "offset": 220,
-      "length": 2,
-      "value": "\"\""
+      "length": 5,
+      "value": "\"NFC\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/TaskViews\/MicroBlinkView.swift",
@@ -8080,100 +8590,9 @@
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/TaskViews\/MicroBlinkView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1511,
+      "offset": 1520,
       "length": 4,
       "value": "true"
-    },
-    {
-      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/Theme\/IdVerificationTheme.swift",
-      "kind": "IntegerLiteral",
-      "offset": 961,
-      "length": 8,
-      "value": "0xffffff"
-    },
-    {
-      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/Theme\/IdVerificationTheme.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1016,
-      "length": 8,
-      "value": "0x702F8A"
-    },
-    {
-      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/Theme\/IdVerificationTheme.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1070,
-      "length": 8,
-      "value": "0x000000"
-    },
-    {
-      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/Theme\/IdVerificationTheme.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1124,
-      "length": 8,
-      "value": "0x008000"
-    },
-    {
-      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/Theme\/IdVerificationTheme.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1177,
-      "length": 8,
-      "value": "0xa7a7a7"
-    },
-    {
-      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/Theme\/IdVerificationTheme.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1235,
-      "length": 8,
-      "value": "0xf5f5f5"
-    },
-    {
-      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/Theme\/IdVerificationTheme.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1294,
-      "length": 8,
-      "value": "0xB3B3B3"
-    },
-    {
-      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/Theme\/IdVerificationTheme.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1351,
-      "length": 8,
-      "value": "0x707070"
-    },
-    {
-      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/Theme\/IdVerificationTheme.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1409,
-      "length": 8,
-      "value": "0x068c7f"
-    },
-    {
-      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/Theme\/IdVerificationTheme.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1462,
-      "length": 8,
-      "value": "0x0088ce"
-    },
-    {
-      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/Theme\/IdVerificationTheme.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3352,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/Theme\/IdVerificationTheme.swift",
-      "kind": "StringLiteral",
-      "offset": 4579,
-      "length": 28,
-      "value": "\"logo_192px_no_catch_phrase\""
-    },
-    {
-      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/Theme\/IdVerificationTheme.swift",
-      "kind": "StringLiteral",
-      "offset": 4654,
-      "length": 30,
-      "value": "\"com.365id.sdk.idverification\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/Theme\/IdVerificationTheme.swift",
@@ -8836,170 +9255,128 @@
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/IdVerification.swift",
       "kind": "IntegerLiteral",
-      "offset": 2755,
+      "offset": 2703,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/IdVerification.swift",
       "kind": "Array",
-      "offset": 2860,
+      "offset": 2808,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/IdVerification.swift",
       "kind": "StringLiteral",
-      "offset": 3304,
+      "offset": 3252,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/IdVerification.swift",
       "kind": "StringLiteral",
-      "offset": 3326,
+      "offset": 3274,
       "length": 25,
       "value": "\"Starting the ios SDK...\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/IdVerification.swift",
       "kind": "StringLiteral",
-      "offset": 3409,
+      "offset": 3357,
       "length": 47,
       "value": "\"SDK was not cleared, stopSDK() was not called\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/IdVerification.swift",
       "kind": "BooleanLiteral",
-      "offset": 3496,
+      "offset": 3444,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/IdVerification.swift",
       "kind": "StringLiteral",
-      "offset": 3571,
+      "offset": 3519,
       "length": 16,
       "value": "\"Token is empty\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/IdVerification.swift",
       "kind": "BooleanLiteral",
-      "offset": 3627,
+      "offset": 3575,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/IdVerification.swift",
       "kind": "BooleanLiteral",
-      "offset": 3666,
+      "offset": 3614,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/IdVerification.swift",
       "kind": "StringLiteral",
-      "offset": 3971,
+      "offset": 3919,
       "length": 12,
       "value": "\"LocationId\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/IdVerification.swift",
       "kind": "StringLiteral",
-      "offset": 3985,
+      "offset": 3933,
       "length": 15,
       "value": "\"\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/IdVerification.swift",
       "kind": "StringLiteral",
-      "offset": 3999,
+      "offset": 3947,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/IdVerification.swift",
       "kind": "StringLiteral",
-      "offset": 4066,
+      "offset": 4014,
       "length": 14,
       "value": "\"NFCAvailable\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/IdVerification.swift",
       "kind": "BooleanLiteral",
-      "offset": 4307,
+      "offset": 4255,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/IdVerification.swift",
       "kind": "StringLiteral",
-      "offset": 4503,
+      "offset": 4451,
       "length": 58,
       "value": "\"Ignoring stopping the ios SDK. (Already been stopped...)\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/IdVerification.swift",
       "kind": "StringLiteral",
-      "offset": 4611,
+      "offset": 4559,
       "length": 25,
       "value": "\"Stopping the ios SDK...\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/IdVerification.swift",
       "kind": "BooleanLiteral",
-      "offset": 5088,
+      "offset": 5036,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/IdVerification.swift",
       "kind": "StringLiteral",
-      "offset": 5233,
+      "offset": 5181,
       "length": 2,
       "value": "\"\""
-    },
-    {
-      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/AppBar\/ButtonView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 297,
-      "length": 2,
-      "value": "30"
-    },
-    {
-      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/AppBar\/ButtonView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 423,
-      "length": 2,
-      "value": "20"
-    },
-    {
-      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/AppBar\/ButtonView.swift",
-      "kind": "StringLiteral",
-      "offset": 629,
-      "length": 30,
-      "value": "\"The close button was pressed\""
-    },
-    {
-      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/AppBar\/ButtonView.swift",
-      "kind": "StringLiteral",
-      "offset": 941,
-      "length": 7,
-      "value": "\"xmark\""
-    },
-    {
-      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/AppBar\/ButtonView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1149,
-      "length": 2,
-      "value": "30"
-    },
-    {
-      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/AppBar\/ButtonView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1249,
-      "length": 2,
-      "value": "40"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/BundleIdentifier.swift",
@@ -9095,7 +9472,7 @@
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/LandingView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1641,
+      "offset": 1638,
       "length": 4,
       "value": "true"
     },
@@ -9123,7 +9500,7 @@
     {
       "filePath": "@__swiftmacro_19IdVerification365id33_227425DC477034451717347B1B2ABCE0Ll7PreviewfMf0_.swift",
       "kind": "BooleanLiteral",
-      "offset": 596,
+      "offset": 593,
       "length": 4,
       "value": "true"
     },
@@ -9333,44 +9710,65 @@
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/TaskViews\/NFCView.swift",
       "kind": "StringLiteral",
-      "offset": 329,
+      "offset": 331,
       "length": 42,
       "value": "\"_365id_nfc_passport_tag_detected_details\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/TaskViews\/NFCView.swift",
       "kind": "StringLiteral",
-      "offset": 392,
+      "offset": 394,
       "length": 32,
       "value": "\"_365id_scanner_sdk.Localizable\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/TaskViews\/NFCView.swift",
       "kind": "StringLiteral",
-      "offset": 491,
+      "offset": 493,
       "length": 23,
       "value": "\"Read nfc instruction.\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/TaskViews\/NFCView.swift",
       "kind": "IntegerLiteral",
-      "offset": 989,
+      "offset": 845,
       "length": 2,
       "value": "25"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/TaskViews\/NFCView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1217,
+      "offset": 1073,
       "length": 2,
       "value": "25"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/TaskViews\/NFCView.swift",
       "kind": "FloatLiteral",
-      "offset": 1311,
+      "offset": 1168,
       "length": 3,
       "value": "1.0"
+    },
+    {
+      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/TaskViews\/NFCView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1357,
+      "length": 3,
+      "value": "3.0"
+    },
+    {
+      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/TaskViews\/NFCView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1361,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/TaskViews\/NFCView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1469,
+      "length": 3,
+      "value": "0.5"
     },
     {
       "filePath": "@__swiftmacro_19IdVerification365id33_90A9FFCFBF22B1089A197F06F5CF7027Ll7PreviewfMf0_.swift",
@@ -9384,7 +9782,7 @@
       "kind": "IntegerLiteral",
       "offset": 313,
       "length": 2,
-      "value": "55"
+      "value": "59"
     },
     {
       "filePath": "@__swiftmacro_19IdVerification365id33_90A9FFCFBF22B1089A197F06F5CF7027Ll7PreviewfMf0_.swift",
@@ -9403,21 +9801,21 @@
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/IdVerificationView.swift",
       "kind": "FloatLiteral",
-      "offset": 940,
+      "offset": 937,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/IdVerificationView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1512,
+      "offset": 1409,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/IdVerificationView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1639,
+      "offset": 1536,
       "length": 5,
       "value": "false"
     },
@@ -9760,7 +10158,7 @@
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/Grpc\/GRPCConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 334,
+      "offset": 313,
       "length": 4,
       "value": "5001"
     },
@@ -10068,63 +10466,70 @@
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/TransactionProgressIndicatorView.swift",
       "kind": "IntegerLiteral",
-      "offset": 934,
+      "offset": 627,
+      "length": 2,
+      "value": "70"
+    },
+    {
+      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/TransactionProgressIndicatorView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1206,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/TransactionProgressIndicatorView.swift",
       "kind": "StringLiteral",
-      "offset": 1015,
+      "offset": 1287,
       "length": 5,
       "value": "\"✓\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/TransactionProgressIndicatorView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1184,
+      "offset": 1559,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/TransactionProgressIndicatorView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1351,
+      "offset": 1745,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/TransactionProgressIndicatorView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1446,
+      "offset": 1891,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/TransactionProgressIndicatorView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1544,
+      "offset": 1989,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/TransactionProgressIndicatorView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1688,
+      "offset": 2162,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/TransactionProgressIndicatorView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2087,
+      "offset": 2674,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/TransactionProgressIndicatorView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2102,
+      "offset": 2689,
       "length": 1,
       "value": "4"
     },
@@ -10265,99 +10670,113 @@
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Extensions\/AnimationType.swift",
       "kind": "StringLiteral",
       "offset": 183,
-      "length": 13,
-      "value": "\"nfc_pending\""
+      "length": 24,
+      "value": "\"animation_passport_nfc\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Extensions\/AnimationType.swift",
       "kind": "StringLiteral",
-      "offset": 218,
-      "length": 12,
-      "value": "\"card_front\""
-    },
-    {
-      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Extensions\/AnimationType.swift",
-      "kind": "StringLiteral",
-      "offset": 251,
-      "length": 11,
-      "value": "\"card_back\""
+      "offset": 228,
+      "length": 33,
+      "value": "\"animation_drivers_license_front\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Extensions\/AnimationType.swift",
       "kind": "StringLiteral",
       "offset": 281,
-      "length": 17,
-      "value": "\"face_id_pending\""
+      "length": 32,
+      "value": "\"animation_drivers_license_back\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Extensions\/AnimationType.swift",
       "kind": "StringLiteral",
-      "offset": 318,
+      "offset": 332,
+      "length": 18,
+      "value": "\"animation_faceid\""
+    },
+    {
+      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Extensions\/AnimationType.swift",
+      "kind": "StringLiteral",
+      "offset": 370,
       "length": 15,
       "value": "\"noImageNeeded\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Extensions\/AnimationType.swift",
       "kind": "StringLiteral",
-      "offset": 359,
-      "length": 22,
-      "value": "\"passport_front_image\""
+      "offset": 401,
+      "length": 25,
+      "value": "\"animation_passport_open\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Extensions\/AnimationType.swift",
       "kind": "StringLiteral",
-      "offset": 405,
-      "length": 20,
-      "value": "\"passport_nfc_image\""
+      "offset": 450,
+      "length": 25,
+      "value": "\"animation_passport_nfc2\""
+    },
+    {
+      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Extensions\/AnimationType.swift",
+      "kind": "StringLiteral",
+      "offset": 496,
+      "length": 35,
+      "value": "\"animation_passport_driverslicense\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Extensions\/AnimationType.swift",
       "kind": "StringLiteral",
       "offset": 183,
-      "length": 13,
-      "value": "\"nfc_pending\""
+      "length": 24,
+      "value": "\"animation_passport_nfc\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Extensions\/AnimationType.swift",
       "kind": "StringLiteral",
-      "offset": 218,
-      "length": 12,
-      "value": "\"card_front\""
-    },
-    {
-      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Extensions\/AnimationType.swift",
-      "kind": "StringLiteral",
-      "offset": 251,
-      "length": 11,
-      "value": "\"card_back\""
+      "offset": 228,
+      "length": 33,
+      "value": "\"animation_drivers_license_front\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Extensions\/AnimationType.swift",
       "kind": "StringLiteral",
       "offset": 281,
-      "length": 17,
-      "value": "\"face_id_pending\""
+      "length": 32,
+      "value": "\"animation_drivers_license_back\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Extensions\/AnimationType.swift",
       "kind": "StringLiteral",
-      "offset": 318,
+      "offset": 332,
+      "length": 18,
+      "value": "\"animation_faceid\""
+    },
+    {
+      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Extensions\/AnimationType.swift",
+      "kind": "StringLiteral",
+      "offset": 370,
       "length": 15,
       "value": "\"noImageNeeded\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Extensions\/AnimationType.swift",
       "kind": "StringLiteral",
-      "offset": 359,
-      "length": 22,
-      "value": "\"passport_front_image\""
+      "offset": 401,
+      "length": 25,
+      "value": "\"animation_passport_open\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Extensions\/AnimationType.swift",
       "kind": "StringLiteral",
-      "offset": 405,
-      "length": 20,
-      "value": "\"passport_nfc_image\""
+      "offset": 450,
+      "length": 25,
+      "value": "\"animation_passport_nfc2\""
+    },
+    {
+      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Extensions\/AnimationType.swift",
+      "kind": "StringLiteral",
+      "offset": 496,
+      "length": 35,
+      "value": "\"animation_passport_driverslicense\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/NFC\/DataExtension.swift",
@@ -10404,56 +10823,56 @@
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/BottomOverlayView.swift",
       "kind": "IntegerLiteral",
-      "offset": 362,
+      "offset": 359,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/BottomOverlayView.swift",
       "kind": "FloatLiteral",
-      "offset": 478,
+      "offset": 464,
       "length": 4,
       "value": "20.0"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/BottomOverlayView.swift",
       "kind": "FloatLiteral",
-      "offset": 507,
+      "offset": 493,
       "length": 4,
       "value": "24.0"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/BottomOverlayView.swift",
       "kind": "FloatLiteral",
-      "offset": 795,
+      "offset": 781,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/BottomOverlayView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1297,
+      "offset": 1383,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/BottomOverlayView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1309,
+      "offset": 1395,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/BottomOverlayView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1321,
+      "offset": 1407,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/BottomOverlayView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1334,
+      "offset": 1420,
       "length": 2,
       "value": "24"
     },
@@ -10544,147 +10963,147 @@
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/InformationTextView.swift",
       "kind": "IntegerLiteral",
-      "offset": 276,
+      "offset": 267,
       "length": 2,
       "value": "18"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/InformationTextView.swift",
       "kind": "IntegerLiteral",
-      "offset": 750,
+      "offset": 737,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/InformationTextView.swift",
       "kind": "IntegerLiteral",
-      "offset": 762,
+      "offset": 749,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/InformationTextView.swift",
       "kind": "IntegerLiteral",
-      "offset": 773,
+      "offset": 760,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/InformationTextView.swift",
       "kind": "IntegerLiteral",
-      "offset": 786,
+      "offset": 773,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/InformationTextView.swift",
       "kind": "StringLiteral",
-      "offset": 1392,
+      "offset": 1383,
       "length": 28,
       "value": "\"_365id_frontside_id1_title\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/InformationTextView.swift",
       "kind": "StringLiteral",
-      "offset": 1518,
+      "offset": 1509,
       "length": 28,
       "value": "\"_365id_frontside_id3_title\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/InformationTextView.swift",
       "kind": "StringLiteral",
-      "offset": 1610,
+      "offset": 1601,
       "length": 33,
       "value": "\"_365id_frontside_document_title\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/InformationTextView.swift",
       "kind": "StringLiteral",
-      "offset": 1757,
+      "offset": 1748,
       "length": 27,
       "value": "\"_365id_backside_id1_title\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/InformationTextView.swift",
       "kind": "StringLiteral",
-      "offset": 1826,
+      "offset": 1817,
       "length": 32,
       "value": "\"_365id_backside_document_title\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/InformationTextView.swift",
       "kind": "StringLiteral",
-      "offset": 1919,
+      "offset": 1910,
       "length": 21,
       "value": "\"_365id_iProov_title\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/InformationTextView.swift",
       "kind": "StringLiteral",
-      "offset": 1998,
+      "offset": 1989,
       "length": 18,
       "value": "\"_365id_nfc_title\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/InformationTextView.swift",
       "kind": "StringLiteral",
-      "offset": 2072,
+      "offset": 2063,
       "length": 33,
       "value": "\"_365id_frontside_document_title\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/InformationTextView.swift",
       "kind": "StringLiteral",
-      "offset": 2367,
+      "offset": 2358,
       "length": 31,
       "value": "\"_365id_frontside_id3_subtitle\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/InformationTextView.swift",
       "kind": "StringLiteral",
-      "offset": 2496,
+      "offset": 2487,
       "length": 31,
       "value": "\"_365id_frontside_id1_subtitle\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/InformationTextView.swift",
       "kind": "StringLiteral",
-      "offset": 2591,
+      "offset": 2582,
       "length": 36,
       "value": "\"_365id_frontside_document_subtitle\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/InformationTextView.swift",
       "kind": "StringLiteral",
-      "offset": 2741,
+      "offset": 2732,
       "length": 30,
       "value": "\"_365id_backside_id1_subtitle\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/InformationTextView.swift",
       "kind": "StringLiteral",
-      "offset": 2813,
+      "offset": 2804,
       "length": 35,
       "value": "\"_365id_backside_document_subtitle\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/InformationTextView.swift",
       "kind": "StringLiteral",
-      "offset": 2909,
+      "offset": 2900,
       "length": 24,
       "value": "\"_365id_iProov_subtitle\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/InformationTextView.swift",
       "kind": "StringLiteral",
-      "offset": 2991,
+      "offset": 2982,
       "length": 21,
       "value": "\"_365id_nfc_subtitle\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/InformationTextView.swift",
       "kind": "StringLiteral",
-      "offset": 3068,
+      "offset": 3059,
       "length": 36,
       "value": "\"_365id_frontside_document_subtitle\""
     },
@@ -11440,665 +11859,700 @@
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 1800,
+      "offset": 1801,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "StringLiteral",
-      "offset": 2277,
+      "offset": 2094,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "StringLiteral",
-      "offset": 2371,
+      "offset": 2188,
       "length": 42,
       "value": "\"Host URL: \""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "StringLiteral",
-      "offset": 2412,
+      "offset": 2229,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "StringLiteral",
-      "offset": 2804,
+      "offset": 2621,
       "length": 38,
       "value": "\"Failed to create a channel: \""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "StringLiteral",
-      "offset": 2841,
+      "offset": 2658,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 3419,
+      "offset": 3236,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 3531,
+      "offset": 3348,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "StringLiteral",
-      "offset": 3629,
+      "offset": 3446,
       "length": 39,
       "value": "\"Unable to get the identifierForVendor\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "StringLiteral",
-      "offset": 3731,
+      "offset": 3548,
       "length": 37,
       "value": "\"Unable to get the vendor identifier\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "StringLiteral",
-      "offset": 3859,
+      "offset": 3676,
       "length": 12,
       "value": "\"LocationId\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "StringLiteral",
-      "offset": 3902,
+      "offset": 3719,
       "length": 41,
       "value": "\"Invalid device information [locationId]\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "StringLiteral",
-      "offset": 4006,
+      "offset": 3823,
       "length": 28,
       "value": "\"Invalid device information\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "StringLiteral",
-      "offset": 4091,
+      "offset": 3908,
       "length": 14,
       "value": "\"LocationName\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "StringLiteral",
-      "offset": 4136,
+      "offset": 3953,
       "length": 43,
       "value": "\"Invalid device information [locationName]\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "StringLiteral",
-      "offset": 4242,
+      "offset": 4059,
       "length": 28,
       "value": "\"Invalid device information\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "StringLiteral",
-      "offset": 4421,
+      "offset": 4238,
       "length": 18,
       "value": "\"CameraResolution\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "StringLiteral",
-      "offset": 4444,
+      "offset": 4261,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "StringLiteral",
-      "offset": 4532,
+      "offset": 4349,
       "length": 14,
       "value": "\"NFCAvailable\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "StringLiteral",
-      "offset": 4551,
+      "offset": 4368,
       "length": 6,
       "value": "\"true\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "StringLiteral",
-      "offset": 4600,
+      "offset": 4417,
       "length": 65,
       "value": "\"Error occured while requesting the device information: \""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "StringLiteral",
-      "offset": 4664,
+      "offset": 4481,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "StringLiteral",
-      "offset": 4787,
+      "offset": 4604,
       "length": 43,
       "value": "\"Unable to create a GRPC channel: \""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "StringLiteral",
-      "offset": 4829,
+      "offset": 4646,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "StringLiteral",
-      "offset": 4961,
+      "offset": 4778,
       "length": 17,
       "value": "\"Channel was nil\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 5308,
+      "offset": 5125,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "StringLiteral",
-      "offset": 5580,
+      "offset": 5397,
       "length": 15,
       "value": "\"Token was nil\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "StringLiteral",
-      "offset": 6399,
+      "offset": 6216,
       "length": 52,
       "value": "\"The session token recieved from the server was nil\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 6472,
+      "offset": 6289,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "StringLiteral",
-      "offset": 6538,
+      "offset": 6355,
       "length": 54,
       "value": "\"The session token received from the server was empty\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 6613,
+      "offset": 6430,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 6645,
+      "offset": 6462,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 7081,
+      "offset": 6898,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "StringLiteral",
-      "offset": 7181,
+      "offset": 6998,
       "length": 17,
       "value": "\"Channel was nil\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "StringLiteral",
-      "offset": 7450,
+      "offset": 7267,
       "length": 15,
       "value": "\"Token was nil\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "StringLiteral",
-      "offset": 7583,
+      "offset": 7400,
       "length": 53,
       "value": "\"------------Requesting next task-------------------\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "StringLiteral",
-      "offset": 7656,
+      "offset": 7473,
       "length": 45,
       "value": "\"Headers: \""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "StringLiteral",
-      "offset": 7700,
+      "offset": 7517,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "StringLiteral",
-      "offset": 7721,
+      "offset": 7538,
       "length": 25,
       "value": "\"State: \""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "StringLiteral",
-      "offset": 7745,
+      "offset": 7562,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 8479,
+      "offset": 8543,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "StringLiteral",
-      "offset": 8714,
+      "offset": 8617,
       "length": 35,
       "value": "\"CommunicationManager was cleared.\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "StringLiteral",
-      "offset": 9101,
+      "offset": 9004,
       "length": 30,
       "value": "\"Unable to read the bundle id\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "StringLiteral",
-      "offset": 9189,
+      "offset": 9092,
       "length": 28,
       "value": "\"Can not read the bundle id\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "StringLiteral",
-      "offset": 9247,
+      "offset": 9150,
       "length": 79,
       "value": "\"Bundle Id Version $(MARKETING_VERSION) : \""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "StringLiteral",
-      "offset": 9325,
+      "offset": 9228,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 9634,
+      "offset": 9537,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "StringLiteral",
-      "offset": 9732,
+      "offset": 9635,
       "length": 5,
       "value": "\"N\/A\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "StringLiteral",
-      "offset": 10044,
+      "offset": 9947,
       "length": 7,
       "value": "\"365id\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "StringLiteral",
-      "offset": 10188,
+      "offset": 10091,
       "length": 5,
       "value": "\"iOS\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 11688,
+      "offset": 11591,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "StringLiteral",
-      "offset": 11788,
+      "offset": 11691,
       "length": 17,
       "value": "\"Channel was nil\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "StringLiteral",
-      "offset": 11895,
+      "offset": 11798,
       "length": 15,
       "value": "\"Token was nil\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 13195,
+      "offset": 13098,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "StringLiteral",
-      "offset": 13294,
+      "offset": 13197,
       "length": 17,
       "value": "\"Channel was nil\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "StringLiteral",
-      "offset": 13401,
+      "offset": 13304,
       "length": 15,
       "value": "\"Token was nil\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 15118,
+      "offset": 15021,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "StringLiteral",
-      "offset": 15217,
+      "offset": 15120,
       "length": 17,
       "value": "\"Channel was nil\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "StringLiteral",
-      "offset": 15324,
+      "offset": 15227,
       "length": 15,
       "value": "\"Token was nil\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 17070,
+      "offset": 16973,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "StringLiteral",
-      "offset": 17169,
+      "offset": 17072,
       "length": 17,
       "value": "\"Channel was nil\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "StringLiteral",
-      "offset": 17276,
+      "offset": 17179,
       "length": 15,
       "value": "\"Token was nil\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "StringLiteral",
-      "offset": 17473,
+      "offset": 17376,
       "length": 28,
       "value": "\"The transaction id was nil\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "StringLiteral",
-      "offset": 17561,
+      "offset": 17464,
       "length": 29,
       "value": "\"The transaction id was nil.\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 18940,
+      "offset": 18843,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "StringLiteral",
-      "offset": 19137,
+      "offset": 19040,
       "length": 17,
       "value": "\"Channel was nil\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "StringLiteral",
-      "offset": 19244,
+      "offset": 19147,
       "length": 15,
       "value": "\"Token was nil\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "StringLiteral",
-      "offset": 19441,
+      "offset": 19344,
       "length": 28,
       "value": "\"The transaction id was nil\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "StringLiteral",
-      "offset": 19529,
+      "offset": 19432,
       "length": 29,
       "value": "\"The transaction id was nil.\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 20180,
+      "offset": 20083,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "StringLiteral",
-      "offset": 20984,
+      "offset": 20887,
       "length": 13,
       "value": "\"GrpcRequest\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 21377,
+      "offset": 21319,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 21415,
+      "offset": 21357,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
+      "kind": "StringLiteral",
+      "offset": 21482,
+      "length": 59,
+      "value": "\"Channel is unavailable, recreating GRPC channel: \""
+    },
+    {
+      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
+      "kind": "StringLiteral",
+      "offset": 21540,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
+      "kind": "StringLiteral",
+      "offset": 21709,
+      "length": 43,
+      "value": "\"Unable to recreate GRPC channel: \""
+    },
+    {
+      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
+      "kind": "StringLiteral",
+      "offset": 21751,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 21789,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 21485,
+      "offset": 21943,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 21526,
+      "offset": 21984,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "StringLiteral",
-      "offset": 21625,
+      "offset": 22083,
       "length": 51,
       "value": "\"Response from server [\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "StringLiteral",
-      "offset": 21663,
+      "offset": 22121,
       "length": 1,
       "value": "\"]: \""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "StringLiteral",
-      "offset": 21675,
+      "offset": 22133,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 21849,
+      "offset": 22307,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "StringLiteral",
-      "offset": 22032,
+      "offset": 22490,
       "length": 190,
       "value": "\"Error occured while requesting \""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "StringLiteral",
-      "offset": 22102,
+      "offset": 22560,
       "length": 7,
       "value": "\"\nrequest: \""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "StringLiteral",
-      "offset": 22140,
+      "offset": 22598,
       "length": 1,
       "value": "\",\nstatusCode: \""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "StringLiteral",
-      "offset": 22198,
+      "offset": 22656,
       "length": 4697,
       "value": "\"\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 22342,
+      "offset": 22800,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 24233,
+      "offset": 24691,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 24264,
+      "offset": 24722,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 24552,
+      "offset": 25010,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "StringLiteral",
-      "offset": 24797,
+      "offset": 25255,
       "length": 80,
       "value": "\"Error: [\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "StringLiteral",
-      "offset": 24814,
+      "offset": 25272,
       "length": 1,
       "value": "\"] retrying call: [\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "StringLiteral",
-      "offset": 24847,
+      "offset": 25305,
       "length": 1,
       "value": "\"] retries left: [\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "StringLiteral",
-      "offset": 24874,
+      "offset": 25332,
       "length": 1,
       "value": "\"] \""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 25044,
+      "offset": 25502,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 25129,
+      "offset": 25587,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 25194,
+      "offset": 25652,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 25494,
+      "offset": 25952,
       "length": 1,
       "value": "1"
     },
@@ -12164,34 +12618,6 @@
       "offset": 1826,
       "length": 23,
       "value": "\"Unknown Authorization\""
-    },
-    {
-      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/AppBar\/BackgroundView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 450,
-      "length": 3,
-      "value": "100"
-    },
-    {
-      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/AppBar\/BackgroundView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 536,
-      "length": 1,
-      "value": "5"
-    },
-    {
-      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/AppBar\/BackgroundView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 542,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/AppBar\/BackgroundView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 548,
-      "length": 1,
-      "value": "0"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/Error\/IdVerificationError.swift",
@@ -12336,44 +12762,86 @@
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/InformationView.swift",
       "kind": "FloatLiteral",
-      "offset": 1726,
+      "offset": 1755,
       "length": 3,
       "value": "3.0"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/InformationView.swift",
       "kind": "FloatLiteral",
-      "offset": 1730,
+      "offset": 1759,
       "length": 3,
       "value": "2.0"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/InformationView.swift",
       "kind": "FloatLiteral",
-      "offset": 2275,
+      "offset": 2304,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/InformationView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2427,
+      "offset": 2384,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/InformationView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2524,
+      "offset": 2490,
       "length": 1,
-      "value": "3"
+      "value": "2"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/InformationView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2545,
+      "offset": 2523,
       "length": 1,
-      "value": "0"
+      "value": "1"
+    },
+    {
+      "filePath": "@__swiftmacro_19IdVerification365id33_AD10F62F154F097C53EC62241E42F553Ll7PreviewfMf0_.swift",
+      "kind": "StringLiteral",
+      "offset": 250,
+      "length": 43,
+      "value": "\"IdVerification365id\/InformationView.swift\""
+    },
+    {
+      "filePath": "@__swiftmacro_19IdVerification365id33_AD10F62F154F097C53EC62241E42F553Ll7PreviewfMf0_.swift",
+      "kind": "IntegerLiteral",
+      "offset": 321,
+      "length": 2,
+      "value": "67"
+    },
+    {
+      "filePath": "@__swiftmacro_19IdVerification365id33_AD10F62F154F097C53EC62241E42F553Ll7PreviewfMf0_.swift",
+      "kind": "IntegerLiteral",
+      "offset": 353,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "@__swiftmacro_19IdVerification365id33_AD10F62F154F097C53EC62241E42F553Ll7PreviewfMf0_.swift",
+      "kind": "BooleanLiteral",
+      "offset": 537,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "@__swiftmacro_19IdVerification365id33_AD10F62F154F097C53EC62241E42F553Ll7PreviewfMf0_.swift",
+      "kind": "IntegerLiteral",
+      "offset": 667,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "@__swiftmacro_19IdVerification365id33_AD10F62F154F097C53EC62241E42F553Ll7PreviewfMf0_.swift",
+      "kind": "IntegerLiteral",
+      "offset": 708,
+      "length": 1,
+      "value": "1"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/MicroBlink\/MicroBlinkOverlayView.swift",
@@ -12413,63 +12881,63 @@
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/MicroBlink\/MicroBlinkOverlayView.swift",
       "kind": "FloatLiteral",
-      "offset": 2149,
+      "offset": 2116,
       "length": 4,
       "value": "1.15"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/MicroBlink\/MicroBlinkOverlayView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2244,
+      "offset": 2211,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/MicroBlink\/MicroBlinkOverlayView.swift",
       "kind": "StringLiteral",
-      "offset": 3023,
+      "offset": 2990,
       "length": 29,
       "value": "\"You are holding it wrong...\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/MicroBlink\/MicroBlinkOverlayView.swift",
       "kind": "StringLiteral",
-      "offset": 3106,
+      "offset": 3073,
       "length": 7,
       "value": "\"Graph\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/MicroBlink\/MicroBlinkOverlayView.swift",
       "kind": "StringLiteral",
-      "offset": 3128,
+      "offset": 3095,
       "length": 22,
       "value": "\"chevron.right.circle\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/MicroBlink\/MicroBlinkOverlayView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3315,
+      "offset": 3282,
       "length": 2,
       "value": "90"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/MicroBlink\/MicroBlinkOverlayView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3320,
+      "offset": 3287,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/MicroBlink\/MicroBlinkOverlayView.swift",
       "kind": "FloatLiteral",
-      "offset": 3384,
+      "offset": 3351,
       "length": 3,
       "value": "1.5"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/MicroBlink\/MicroBlinkOverlayView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3390,
+      "offset": 3357,
       "length": 1,
       "value": "1"
     },
@@ -13183,7 +13651,7 @@
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/TaskViews\/TaskViews.swift",
       "kind": "FloatLiteral",
-      "offset": 1863,
+      "offset": 1704,
       "length": 3,
       "value": "0.5"
     },
@@ -13253,119 +13721,119 @@
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IProov\/IProovManager.swift",
       "kind": "FloatLiteral",
-      "offset": 1062,
-      "length": 3,
-      "value": "0.0"
+      "offset": 1055,
+      "length": 4,
+      "value": "0.65"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IProov\/IProovManager.swift",
       "kind": "StringLiteral",
-      "offset": 1778,
+      "offset": 1740,
       "length": 30,
       "value": "\"com.365id.sdk.idverification\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IProov\/IProovManager.swift",
       "kind": "StringLiteral",
-      "offset": 1841,
+      "offset": 1803,
       "length": 32,
       "value": "\"_365id_scanner_sdk.Localizable\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IProov\/IProovManager.swift",
       "kind": "StringLiteral",
-      "offset": 2064,
+      "offset": 2026,
       "length": 33,
       "value": "\"wss:\/\/eu.rp.secure.iproov.me\/ws\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IProov\/IProovManager.swift",
       "kind": "StringLiteral",
-      "offset": 2497,
+      "offset": 2459,
       "length": 12,
       "value": "\"connecting\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IProov\/IProovManager.swift",
       "kind": "StringLiteral",
-      "offset": 2614,
+      "offset": 2576,
       "length": 11,
       "value": "\"connected\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IProov\/IProovManager.swift",
       "kind": "StringLiteral",
-      "offset": 2753,
+      "offset": 2715,
       "length": 48,
       "value": "\"processing: \""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IProov\/IProovManager.swift",
       "kind": "StringLiteral",
-      "offset": 2776,
+      "offset": 2738,
       "length": 1,
       "value": "\" (Progress: \""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IProov\/IProovManager.swift",
       "kind": "StringLiteral",
-      "offset": 2799,
+      "offset": 2761,
       "length": 1,
       "value": "\")\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IProov\/IProovManager.swift",
       "kind": "StringLiteral",
-      "offset": 2904,
+      "offset": 2866,
       "length": 9,
       "value": "\"success\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IProov\/IProovManager.swift",
       "kind": "StringLiteral",
-      "offset": 3025,
+      "offset": 2987,
       "length": 48,
       "value": "\"IProov failure: \""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IProov\/IProovManager.swift",
       "kind": "StringLiteral",
-      "offset": 3072,
+      "offset": 3034,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IProov\/IProovManager.swift",
       "kind": "StringLiteral",
-      "offset": 3189,
+      "offset": 3151,
       "length": 48,
       "value": "\"User cancelled the iProov process: \""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IProov\/IProovManager.swift",
       "kind": "StringLiteral",
-      "offset": 3236,
+      "offset": 3198,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IProov\/IProovManager.swift",
       "kind": "StringLiteral",
-      "offset": 3348,
+      "offset": 3310,
       "length": 45,
       "value": "\"IProov error: \""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IProov\/IProovManager.swift",
       "kind": "StringLiteral",
-      "offset": 3392,
+      "offset": 3354,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IProov\/IProovManager.swift",
       "kind": "StringLiteral",
-      "offset": 3626,
+      "offset": 3588,
       "length": 28,
       "value": "\"IProovManager was cleared.\""
     },
@@ -13659,35 +14127,35 @@
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/TaskViews\/WaitView.swift",
       "kind": "FloatLiteral",
-      "offset": 199,
+      "offset": 207,
       "length": 4,
       "value": "20.0"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/TaskViews\/WaitView.swift",
       "kind": "FloatLiteral",
-      "offset": 228,
+      "offset": 236,
       "length": 4,
       "value": "24.0"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/TaskViews\/WaitView.swift",
       "kind": "FloatLiteral",
-      "offset": 475,
+      "offset": 511,
       "length": 3,
       "value": "3.0"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/TaskViews\/WaitView.swift",
       "kind": "FloatLiteral",
-      "offset": 479,
+      "offset": 515,
       "length": 3,
       "value": "2.0"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/TaskViews\/WaitView.swift",
       "kind": "FloatLiteral",
-      "offset": 836,
+      "offset": 872,
       "length": 3,
       "value": "0.5"
     },
@@ -14665,27 +15133,6 @@
       "value": "\" != \""
     },
     {
-      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/AppBar\/AppBarLogoView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 342,
-      "length": 2,
-      "value": "25"
-    },
-    {
-      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/AppBar\/AppBarLogoView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 584,
-      "length": 2,
-      "value": "50"
-    },
-    {
-      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/AppBar\/AppBarLogoView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 657,
-      "length": 3,
-      "value": "100"
-    },
-    {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/Theme\/DefaultAnimationView.swift",
       "kind": "StringLiteral",
       "offset": 219,
@@ -14848,85 +15295,85 @@
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/MicroBlink\/ReticleOverlayView.swift",
-      "kind": "FloatLiteral",
-      "offset": 213,
-      "length": 4,
-      "value": "0.65"
-    },
-    {
-      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/MicroBlink\/ReticleOverlayView.swift",
       "kind": "IntegerLiteral",
-      "offset": 272,
+      "offset": 258,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/MicroBlink\/ReticleOverlayView.swift",
       "kind": "IntegerLiteral",
-      "offset": 294,
+      "offset": 280,
       "length": 2,
       "value": "25"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/MicroBlink\/ReticleOverlayView.swift",
       "kind": "IntegerLiteral",
-      "offset": 563,
+      "offset": 549,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/MicroBlink\/ReticleOverlayView.swift",
       "kind": "IntegerLiteral",
-      "offset": 690,
+      "offset": 676,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/MicroBlink\/ReticleOverlayView.swift",
+      "kind": "FloatLiteral",
+      "offset": 991,
+      "length": 4,
+      "value": "0.65"
+    },
+    {
+      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/MicroBlink\/ReticleOverlayView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1580,
+      "offset": 1601,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/MicroBlink\/ReticleOverlayView.swift",
       "kind": "FloatLiteral",
-      "offset": 1616,
+      "offset": 1637,
       "length": 4,
       "value": "0.65"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/MicroBlink\/ReticleOverlayView.swift",
       "kind": "FloatLiteral",
-      "offset": 1710,
+      "offset": 1731,
       "length": 5,
       "value": "125.0"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/MicroBlink\/ReticleOverlayView.swift",
       "kind": "FloatLiteral",
-      "offset": 1716,
+      "offset": 1737,
       "length": 4,
       "value": "88.0"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/MicroBlink\/ReticleOverlayView.swift",
       "kind": "FloatLiteral",
-      "offset": 1774,
+      "offset": 1795,
       "length": 4,
       "value": "0.65"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/MicroBlink\/ReticleOverlayView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1827,
+      "offset": 1848,
       "length": 3,
       "value": "400"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/MicroBlink\/ReticleOverlayView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1840,
+      "offset": 1861,
       "length": 3,
       "value": "800"
     },
@@ -14942,7 +15389,7 @@
       "kind": "IntegerLiteral",
       "offset": 324,
       "length": 2,
-      "value": "52"
+      "value": "53"
     },
     {
       "filePath": "@__swiftmacro_19IdVerification365id33_3AEF0357274F34BF330D73E22FEC0A40Ll7PreviewfMf0_.swift",
@@ -28422,98 +28869,147 @@
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1223,
+      "offset": 1263,
+      "length": 32,
+      "value": "\"animation_drivers_license_back\""
+    },
+    {
+      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1464,
+      "length": 33,
+      "value": "\"animation_drivers_license_front\""
+    },
+    {
+      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1638,
+      "length": 18,
+      "value": "\"animation_faceid\""
+    },
+    {
+      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1830,
+      "length": 35,
+      "value": "\"animation_passport_driverslicense\""
+    },
+    {
+      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2017,
+      "length": 24,
+      "value": "\"animation_passport_nfc\""
+    },
+    {
+      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2195,
+      "length": 25,
+      "value": "\"animation_passport_nfc2\""
+    },
+    {
+      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2374,
+      "length": 25,
+      "value": "\"animation_passport_open\""
+    },
+    {
+      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2526,
       "length": 11,
       "value": "\"card_back\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1363,
+      "offset": 2666,
       "length": 12,
       "value": "\"card_front\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1507,
+      "offset": 2810,
       "length": 13,
       "value": "\"circleCheck\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1648,
+      "offset": 2951,
       "length": 11,
       "value": "\"circleOne\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1791,
+      "offset": 3094,
       "length": 13,
       "value": "\"circleThree\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1932,
+      "offset": 3235,
       "length": 11,
       "value": "\"circleTwo\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 2076,
+      "offset": 3379,
       "length": 14,
       "value": "\"close_button\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 2228,
+      "offset": 3531,
       "length": 17,
       "value": "\"face_id_pending\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 2363,
+      "offset": 3666,
       "length": 6,
       "value": "\"line\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 2527,
+      "offset": 3830,
       "length": 28,
       "value": "\"logo_192px_no_catch_phrase\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 2686,
+      "offset": 3989,
       "length": 13,
       "value": "\"nfc_pending\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 2842,
+      "offset": 4145,
       "length": 22,
       "value": "\"passport_front_image\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3003,
+      "offset": 4306,
       "length": 20,
       "value": "\"passport_nfc_image\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3183,
+      "offset": 4486,
       "length": 27,
       "value": "\"viewfinderId3ReticuleThin\""
     }

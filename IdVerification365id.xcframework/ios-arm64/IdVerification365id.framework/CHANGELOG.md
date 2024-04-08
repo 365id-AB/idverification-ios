@@ -4,6 +4,28 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [2.2.24-beta] - 2024-04-08
+
+### Changed
+
+- Swapped TLS backend from NIOSSL to Network Framework.
+
+### Fixed
+
+- Added functionality to automatically recreate the network channel if/when it unexpectedly closes.
+
+## [2.2.23-beta] - 2024-04-02
+
+### Changed
+
+- The theme colors have been reworked.
+
+## [2.2.22-beta] - 2024-03-27
+
+### Updated
+
+- Images and texts have been updated in this release.
+
 ## [2.2.21-beta] - 2024-03-22
 
 ### Fixed

@@ -451,50 +451,49 @@ SWIFT_CLASS("_TtC19IdVerification365id25IdVerificationSkipModules")
 @end
 
 @class UIColor;
-@class UIImage;
 enum PoweredByLogo : NSInteger;
 
 /// Used to define theming that can be applied to the 365id IdVerification SDK
 SWIFT_CLASS("_TtC19IdVerification365id19IdVerificationTheme")
 @interface IdVerificationTheme : NSObject
 /// Creates a instance for IdVerificationTheme the SDK
-/// \param surface App bar background color
+/// \param primary Used on the Scan button and the progress bat in the nfc view
 ///
-/// \param onSurface Animations and icons
+/// \param onPrimary The contrasting text color on the scan button
 ///
-/// \param surfaceVariant NFC and iProov background color
+/// \param primaryContainer Used in the background of the nfc progressbar
 ///
-/// \param background Body
+/// \param secondary Used on the future progress indicators
 ///
-/// \param primary The continue button color
+/// \param onSecondary The contrasting text on the future progress indicators
 ///
-/// \param onPrimary The scan button text color
+/// \param secondaryContainer Used on the cancel button
 ///
-/// \param primaryContainer Camera view recticle and iProov ovel stroke color
+/// \param onSecondaryContainer The contrasting text on the cancel button
 ///
-/// \param onPrimaryContainer Camera view recticle and iProov ovel stroke color when it completes
+/// \param tertiary Used on the current progress indicators
 ///
-/// \param secondary The cancel button color
+/// \param onTertiary The contrasting text on the current progress indicators
 ///
-/// \param secondaryContainer The cancel button text color
+/// \param tertiaryContainer Used on the completed progress indicators
 ///
-/// \param onSecondary Information heading text
+/// \param onTertiaryContainer The contrasting text on the completed progress indicators
 ///
-/// \param onSecondaryContainer Information sub text
+/// \param surface The background used in the app
 ///
-/// \param tertiary progress bar background color
+/// \param onSurface Color of primary text on the surface
 ///
-/// \param onTertiary progress bar color
+/// \param onSurfaceVariant Color of non primary text on the surface
 ///
-/// \param appBarLogo Header icon
+/// \param inverseSurface The overlay used in the camera views
+///
+/// \param inverseOnSurface Used for the frames in the camera views.
 ///
 /// \param poweredByLogo Types of “powered by Logo” to be shown at the bottom of the screen.
 ///
-/// \param showAppBar Boolean value deciding if the SDK should show the integrated AppBar
-///
 /// \param animations A Class containing swiftUI animation views that can be replaced in the SDK.
 ///
-- (nonnull instancetype)initWithSurface:(UIColor * _Nullable)surface onSurface:(UIColor * _Nullable)onSurface surfaceVariant:(UIColor * _Nullable)surfaceVariant background:(UIColor * _Nullable)background primary:(UIColor * _Nullable)primary onPrimary:(UIColor * _Nullable)onPrimary primaryContainer:(UIColor * _Nullable)primaryContainer onPrimaryContainer:(UIColor * _Nullable)onPrimaryContainer secondary:(UIColor * _Nullable)secondary onSecondary:(UIColor * _Nullable)onSecondary secondaryContainer:(UIColor * _Nullable)secondaryContainer onSecondaryContainer:(UIColor * _Nullable)onSecondaryContainer tertiary:(UIColor * _Nullable)tertiary onTertiary:(UIColor * _Nullable)onTertiary appBarLogo:(UIImage * _Nullable)appBarLogo poweredByLogo:(enum PoweredByLogo)poweredByLogo showAppBar:(BOOL)showAppBar animations:(Animations * _Nonnull)animations OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithPrimary:(UIColor * _Nullable)primary onPrimary:(UIColor * _Nullable)onPrimary primaryContainer:(UIColor * _Nullable)primaryContainer secondary:(UIColor * _Nullable)secondary onSecondary:(UIColor * _Nullable)onSecondary secondaryContainer:(UIColor * _Nullable)secondaryContainer onSecondaryContainer:(UIColor * _Nullable)onSecondaryContainer tertiary:(UIColor * _Nullable)tertiary onTertiary:(UIColor * _Nullable)onTertiary tertiaryContainer:(UIColor * _Nullable)tertiaryContainer onTertiaryContainer:(UIColor * _Nullable)onTertiaryContainer surface:(UIColor * _Nullable)surface onSurface:(UIColor * _Nullable)onSurface onSurfaceVariant:(UIColor * _Nullable)onSurfaceVariant inverseSurface:(UIColor * _Nullable)inverseSurface inverseOnSurface:(UIColor * _Nullable)inverseOnSurface poweredByLogo:(enum PoweredByLogo)poweredByLogo animations:(Animations * _Nonnull)animations OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
@@ -978,50 +977,49 @@ SWIFT_CLASS("_TtC19IdVerification365id25IdVerificationSkipModules")
 @end
 
 @class UIColor;
-@class UIImage;
 enum PoweredByLogo : NSInteger;
 
 /// Used to define theming that can be applied to the 365id IdVerification SDK
 SWIFT_CLASS("_TtC19IdVerification365id19IdVerificationTheme")
 @interface IdVerificationTheme : NSObject
 /// Creates a instance for IdVerificationTheme the SDK
-/// \param surface App bar background color
+/// \param primary Used on the Scan button and the progress bat in the nfc view
 ///
-/// \param onSurface Animations and icons
+/// \param onPrimary The contrasting text color on the scan button
 ///
-/// \param surfaceVariant NFC and iProov background color
+/// \param primaryContainer Used in the background of the nfc progressbar
 ///
-/// \param background Body
+/// \param secondary Used on the future progress indicators
 ///
-/// \param primary The continue button color
+/// \param onSecondary The contrasting text on the future progress indicators
 ///
-/// \param onPrimary The scan button text color
+/// \param secondaryContainer Used on the cancel button
 ///
-/// \param primaryContainer Camera view recticle and iProov ovel stroke color
+/// \param onSecondaryContainer The contrasting text on the cancel button
 ///
-/// \param onPrimaryContainer Camera view recticle and iProov ovel stroke color when it completes
+/// \param tertiary Used on the current progress indicators
 ///
-/// \param secondary The cancel button color
+/// \param onTertiary The contrasting text on the current progress indicators
 ///
-/// \param secondaryContainer The cancel button text color
+/// \param tertiaryContainer Used on the completed progress indicators
 ///
-/// \param onSecondary Information heading text
+/// \param onTertiaryContainer The contrasting text on the completed progress indicators
 ///
-/// \param onSecondaryContainer Information sub text
+/// \param surface The background used in the app
 ///
-/// \param tertiary progress bar background color
+/// \param onSurface Color of primary text on the surface
 ///
-/// \param onTertiary progress bar color
+/// \param onSurfaceVariant Color of non primary text on the surface
 ///
-/// \param appBarLogo Header icon
+/// \param inverseSurface The overlay used in the camera views
+///
+/// \param inverseOnSurface Used for the frames in the camera views.
 ///
 /// \param poweredByLogo Types of “powered by Logo” to be shown at the bottom of the screen.
 ///
-/// \param showAppBar Boolean value deciding if the SDK should show the integrated AppBar
-///
 /// \param animations A Class containing swiftUI animation views that can be replaced in the SDK.
 ///
-- (nonnull instancetype)initWithSurface:(UIColor * _Nullable)surface onSurface:(UIColor * _Nullable)onSurface surfaceVariant:(UIColor * _Nullable)surfaceVariant background:(UIColor * _Nullable)background primary:(UIColor * _Nullable)primary onPrimary:(UIColor * _Nullable)onPrimary primaryContainer:(UIColor * _Nullable)primaryContainer onPrimaryContainer:(UIColor * _Nullable)onPrimaryContainer secondary:(UIColor * _Nullable)secondary onSecondary:(UIColor * _Nullable)onSecondary secondaryContainer:(UIColor * _Nullable)secondaryContainer onSecondaryContainer:(UIColor * _Nullable)onSecondaryContainer tertiary:(UIColor * _Nullable)tertiary onTertiary:(UIColor * _Nullable)onTertiary appBarLogo:(UIImage * _Nullable)appBarLogo poweredByLogo:(enum PoweredByLogo)poweredByLogo showAppBar:(BOOL)showAppBar animations:(Animations * _Nonnull)animations OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithPrimary:(UIColor * _Nullable)primary onPrimary:(UIColor * _Nullable)onPrimary primaryContainer:(UIColor * _Nullable)primaryContainer secondary:(UIColor * _Nullable)secondary onSecondary:(UIColor * _Nullable)onSecondary secondaryContainer:(UIColor * _Nullable)secondaryContainer onSecondaryContainer:(UIColor * _Nullable)onSecondaryContainer tertiary:(UIColor * _Nullable)tertiary onTertiary:(UIColor * _Nullable)onTertiary tertiaryContainer:(UIColor * _Nullable)tertiaryContainer onTertiaryContainer:(UIColor * _Nullable)onTertiaryContainer surface:(UIColor * _Nullable)surface onSurface:(UIColor * _Nullable)onSurface onSurfaceVariant:(UIColor * _Nullable)onSurfaceVariant inverseSurface:(UIColor * _Nullable)inverseSurface inverseOnSurface:(UIColor * _Nullable)inverseOnSurface poweredByLogo:(enum PoweredByLogo)poweredByLogo animations:(Animations * _Nonnull)animations OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
