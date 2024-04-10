@@ -299,16 +299,50 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 #if defined(__OBJC__)
-/// Enumeration of different types of document.
-typedef SWIFT_ENUM(NSInteger, DocumentType, open) {
+/// Enumeration of different types of document size.
+typedef SWIFT_ENUM(NSInteger, DocumentSizeType, open) {
 /// The shape of the document is id1 (passport size).
-  DocumentTypeId1 = 0,
+  DocumentSizeTypeId1 = 0,
 /// The shape of the document is id3 (credit card size).
-  DocumentTypeId3 = 1,
+  DocumentSizeTypeId3 = 1,
 /// The default to use when any physical document is assumed to be scanned
-  DocumentTypeDocument = 2,
+  DocumentSizeTypeDocument = 2,
 };
 
+/// Enumeration of different types of document.
+typedef SWIFT_ENUM(NSInteger, DocumentType, open) {
+  DocumentTypePassport = 0,
+  DocumentTypeDiplomaticPassport = 1,
+  DocumentTypeEmergencyPassport = 2,
+  DocumentTypeServicePassport = 3,
+  DocumentTypeDrivingLicense = 4,
+  DocumentTypeAssociatedDrivingLicense = 5,
+  DocumentTypeProvisionalDrivingLicense = 6,
+  DocumentTypeTravelDocument = 7,
+  DocumentTypeTemporaryTravelDocument = 8,
+  DocumentTypeNationalId = 9,
+  DocumentTypePersonalId = 10,
+  DocumentTypeDiplomaticId = 11,
+  DocumentTypeMilitaryId = 12,
+  DocumentTypeOfficialId = 13,
+  DocumentTypeAssociatedId = 14,
+  DocumentTypeResidencePermit = 15,
+  DocumentTypeTemporaryResidencePermit = 16,
+  DocumentTypeAuthorisationDocument = 17,
+  DocumentTypeDigitalId = 18,
+  DocumentTypeUnknown = 19,
+};
+
+
+/// Enumeration of face match feedback.
+typedef SWIFT_ENUM(NSInteger, FaceMatchFeedback, open) {
+/// Facematch completed and the face matched.
+  FaceMatchFeedbackMatched = 0,
+/// Facematch complete, but the face did NOT match.
+  FaceMatchFeedbackNoMatch = 1,
+/// User aborted the face match.
+  FaceMatchFeedbackAborted = 2,
+};
 
 @class IdVerificationTheme;
 @class NSString;
@@ -333,7 +367,7 @@ SWIFT_CLASS("_TtC19IdVerification365id14IdVerification")
 ///
 /// \param skipModules Modules that can be skipped during the identification process.
 ///
-/// \param documentType The type of document the user is encouraged to scan, use <code>.document</code> if it is not needed.
+/// \param documentSizeType The type of document the user is encouraged to scan, use <code>.document</code> if it is not needed.
 ///
 /// \param delegate To register callbacks from IdVerification SDK that is informing about various events
 ///
@@ -341,7 +375,7 @@ SWIFT_CLASS("_TtC19IdVerification365id14IdVerification")
 /// returns:
 ///
 /// Returns true if the sdk is able to start properly
-+ (BOOL)startWithToken:(NSString * _Nonnull)token locationId:(NSInteger)locationId skipModules:(IdVerificationSkipModules * _Nonnull)skipModules documentType:(enum DocumentType)documentType delegate:(id <IdVerificationEventDelegate> _Nonnull)delegate SWIFT_WARN_UNUSED_RESULT;
++ (BOOL)startWithToken:(NSString * _Nonnull)token locationId:(NSInteger)locationId skipModules:(IdVerificationSkipModules * _Nonnull)skipModules documentSizeType:(enum DocumentSizeType)documentSizeType delegate:(id <IdVerificationEventDelegate> _Nonnull)delegate SWIFT_WARN_UNUSED_RESULT;
 /// Cleanup SDK
 /// note:
 /// This is called when the sdk is done and you are done using it.
@@ -392,6 +426,7 @@ SWIFT_CLASS("_TtC19IdVerification365id25IdVerificationErrorBundle")
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
+enum NfcFeedback : NSInteger;
 @class IdVerificationResult;
 
 /// IdVerification SDK event Delegate that is informing about various events
@@ -399,8 +434,54 @@ SWIFT_PROTOCOL("_TtP19IdVerification365id27IdVerificationEventDelegate_")
 @protocol IdVerificationEventDelegate
 /// Called when SDK has finished initializing and is ready to be displayed on the device.
 - (void)onStarted;
+/// Called when the transaction is created.
+/// <ul>
+///   <li>
+///     Parameters:
+///   </li>
+///   <li>
+///     transactionId: Transaction id.
+///   </li>
+/// </ul>
+- (void)onTransactionCreated:(NSString * _Nonnull)transactionId;
 /// Called when the user exits the SDK using the back button.
 - (void)onUserDismissed;
+/// Called when the document is identified or unidentified.
+/// <ul>
+///   <li>
+///     Parameters:
+///   </li>
+///   <li>
+///     documentType: Type of the document.
+///   </li>
+///   <li>
+///     countryCode: Identification code for an issuing countries. Format is ISO 3166-1 alpha-3
+///   </li>
+/// </ul>
+- (void)onDocumentFeedback:(enum DocumentType)documentType countryCode:(NSString * _Nonnull)countryCode;
+/// Called when the nfc process has completed.
+/// <ul>
+///   <li>
+///     Parameters:
+///   </li>
+///   <li>
+///     nfcFeedback: The idverification nfc process feedback.
+///   </li>
+///   <li>
+///     expiryDate: The expiry date of the document (YYYYMMDD).
+///   </li>
+/// </ul>
+- (void)onNfcFeedback:(enum NfcFeedback)nfcFeedback expiryDate:(NSString * _Nonnull)expiryDate;
+/// Called when the face match process has completed.
+/// <ul>
+///   <li>
+///     Parameters:
+///   </li>
+///   <li>
+///     facematchFeedback: The idverification face match process feedback.
+///   </li>
+/// </ul>
+- (void)onFaceMatchFeedback:(enum FaceMatchFeedback)facematchFeedback;
 /// Called when all remaining resources tied to the SDK instance has been cleaned up.
 - (void)onClosed;
 /// Called when there is an error with the sdk. A verification transaction can not be recovered after this call is
@@ -498,6 +579,16 @@ SWIFT_CLASS("_TtC19IdVerification365id19IdVerificationTheme")
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
+
+/// Enumeration of nfc feedback.
+typedef SWIFT_ENUM(NSInteger, NfcFeedback, open) {
+/// User skipped while reading the nfc chip.
+  NfcFeedbackAborted = 0,
+/// Reading the nfc chip was completed.
+  NfcFeedbackCompleted = 1,
+/// Reading the nfc chip failed.
+  NfcFeedbackFailed = 2,
+};
 
 /// Types of “powered by logo” to be shown at the bottom of the screen.
 typedef SWIFT_ENUM(NSInteger, PoweredByLogo, open) {

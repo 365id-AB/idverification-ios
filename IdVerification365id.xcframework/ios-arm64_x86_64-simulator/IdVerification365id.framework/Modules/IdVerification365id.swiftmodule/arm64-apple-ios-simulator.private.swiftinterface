@@ -13,6 +13,16 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+@objc public enum NfcFeedback : Swift.Int {
+  case aborted = 0
+  case completed = 1
+  case failed = 2
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
 
 
 
@@ -23,7 +33,7 @@ import _SwiftConcurrencyShims
   public func copyWith(primary: UIKit.UIColor? = nil, onPrimary: UIKit.UIColor? = nil, primaryContainer: UIKit.UIColor? = nil, secondary: UIKit.UIColor? = nil, onSecondary: UIKit.UIColor? = nil, secondaryContainer: UIKit.UIColor? = nil, onSecondaryContainer: UIKit.UIColor? = nil, tertiary: UIKit.UIColor? = nil, onTertiary: UIKit.UIColor? = nil, tertiaryContainer: UIKit.UIColor? = nil, onTertiaryContainer: UIKit.UIColor? = nil, surface: UIKit.UIColor? = nil, onSurface: UIKit.UIColor? = nil, onSurfaceVariant: UIKit.UIColor? = nil, inverseSurface: UIKit.UIColor? = nil, inverseOnSurface: UIKit.UIColor? = nil, poweredByLogo: IdVerification365id.PoweredByLogo? = nil, animations: IdVerification365id.IdVerification.Animations? = nil) -> IdVerification365id.IdVerificationTheme
   @objc deinit
 }
-@objc public enum DocumentType : Swift.Int {
+@objc public enum DocumentSizeType : Swift.Int {
   case id1 = 0
   case id3 = 1
   case document = 2
@@ -54,7 +64,7 @@ import _SwiftConcurrencyShims
     @objc deinit
   }
   @objc public static func setCustomTheme(_ idVerificationTheme: IdVerification365id.IdVerificationTheme)
-  @objc public static func start(token: Swift.String, locationId: Swift.Int = 0, skipModules: IdVerification365id.IdVerificationSkipModules = IdVerificationSkipModules([]), documentType: IdVerification365id.DocumentType = .document, delegate: any IdVerification365id.IdVerificationEventDelegate) -> Swift.Bool
+  @objc public static func start(token: Swift.String, locationId: Swift.Int = 0, skipModules: IdVerification365id.IdVerificationSkipModules = IdVerificationSkipModules([]), documentSizeType: IdVerification365id.DocumentSizeType = .document, delegate: any IdVerification365id.IdVerificationEventDelegate) -> Swift.Bool
   @objc public static func stop()
   @objc public static func createMainView() -> UIKit.UIViewController
   @objc override dynamic public init()
@@ -62,7 +72,11 @@ import _SwiftConcurrencyShims
 }
 @objc public protocol IdVerificationEventDelegate {
   @objc func onStarted()
+  @objc func onTransactionCreated(_ transactionId: Swift.String)
   @objc func onUserDismissed()
+  @objc func onDocumentFeedback(_ documentType: IdVerification365id.DocumentType, countryCode: Swift.String)
+  @objc func onNfcFeedback(_ nfcFeedback: IdVerification365id.NfcFeedback, expiryDate: Swift.String)
+  @objc func onFaceMatchFeedback(_ facematchFeedback: IdVerification365id.FaceMatchFeedback)
   @objc func onClosed()
   @objc func onError(_ error: IdVerification365id.IdVerificationErrorBundle)
   @objc func onCompleted(_ result: IdVerification365id.IdVerificationResult)
@@ -75,6 +89,43 @@ public struct IdVerificationView : SwiftUI.View {
     get
   }
   public typealias Body = @_opaqueReturnTypeOf("$s19IdVerification365id0A16VerificationViewV4bodyQrvp", 0) __
+}
+@objc public enum DocumentType : Swift.Int {
+  case passport = 0
+  case diplomaticPassport = 1
+  case emergencyPassport = 2
+  case servicePassport = 3
+  case drivingLicense = 4
+  case associatedDrivingLicense = 5
+  case provisionalDrivingLicense = 6
+  case travelDocument = 7
+  case temporaryTravelDocument = 8
+  case nationalId = 9
+  case personalId = 10
+  case diplomaticId = 11
+  case militaryId = 12
+  case officialId = 13
+  case associatedId = 14
+  case residencePermit = 15
+  case temporaryResidencePermit = 16
+  case authorisationDocument = 17
+  case digitalId = 18
+  case unknown = 19
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public enum FaceMatchFeedback : Swift.Int {
+  case matched = 0
+  case noMatch = 1
+  case aborted = 2
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
 }
 extension UIKit.UIView {
   @_Concurrency.MainActor(unsafe) public func asUIImage() -> UIKit.UIImage
@@ -143,9 +194,18 @@ extension SwiftUI.View {
   
 }
 
+extension IdVerification365id.NfcFeedback : Swift.Equatable {}
+extension IdVerification365id.NfcFeedback : Swift.Hashable {}
+extension IdVerification365id.NfcFeedback : Swift.RawRepresentable {}
+extension IdVerification365id.DocumentSizeType : Swift.Equatable {}
+extension IdVerification365id.DocumentSizeType : Swift.Hashable {}
+extension IdVerification365id.DocumentSizeType : Swift.RawRepresentable {}
 extension IdVerification365id.DocumentType : Swift.Equatable {}
 extension IdVerification365id.DocumentType : Swift.Hashable {}
 extension IdVerification365id.DocumentType : Swift.RawRepresentable {}
+extension IdVerification365id.FaceMatchFeedback : Swift.Equatable {}
+extension IdVerification365id.FaceMatchFeedback : Swift.Hashable {}
+extension IdVerification365id.FaceMatchFeedback : Swift.RawRepresentable {}
 extension IdVerification365id.IdVerificationError : Swift.Equatable {}
 extension IdVerification365id.IdVerificationError : Swift.Hashable {}
 extension IdVerification365id.IdVerificationError : Swift.RawRepresentable {}

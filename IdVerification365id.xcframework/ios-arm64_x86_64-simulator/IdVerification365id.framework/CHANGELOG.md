@@ -4,6 +4,18 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [2.2.26-beta] - 2024-04-09
+
+### Added
+
+- API Changes for early feedback.
+
+## [2.2.25-beta] - 2024-04-09
+
+### Changed
+
+- Changed the Start function argument "documentType" into "documentSizeType".
+
 ## [2.2.24-beta] - 2024-04-08
 
 ### Changed
