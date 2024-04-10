@@ -119,23 +119,23 @@
     Animations  *animations = [MyCustomAnimations createMyCustomAnimations];
 
     IdVerificationTheme *theme = [[IdVerificationTheme alloc]
-        initWithSurface:(UIColor.whiteColor)
-        onSurface:(UIColor.purpleColor)
-        surfaceVariant:(UIColor.purpleColor)
-        background:(UIColor.whiteColor)
-        primary:(UIColor.purpleColor)
-        onPrimary:(UIColor.whiteColor)
-        primaryContainer:(UIColor.whiteColor)
-        onPrimaryContainer:(UIColor.greenColor)
-        secondary:(UIColor.whiteColor)
-        onSecondary:(UIColor.purpleColor)
-        secondaryContainer:(UIColor.lightGrayColor)
-        onSecondaryContainer:(UIColor.darkGrayColor)
-        tertiary:(UIColor.blueColor)
-        onTertiary:(UIColor.lightGrayColor)
-        appBarLogo:(nil)
+        initWithPrimary:UIColor.purpleColor
+        onPrimary:UIColor.whiteColor
+        primaryContainer:UIColor.magentaColor
+        secondary:UIColor.grayColor
+        onSecondary:UIColor.darkGrayColor
+        secondaryContainer:UIColor.lightGrayColor
+        onSecondaryContainer:UIColor.darkGrayColor
+        tertiary:UIColor.purpleColor
+        onTertiary:UIColor.whiteColor
+        tertiaryContainer:UIColor.magentaColor
+        onTertiaryContainer:UIColor.whiteColor
+        surface:UIColor.whiteColor
+        onSurface:UIColor.blackColor
+        onSurfaceVariant:UIColor.darkGrayColor
+        inverseSurface:UIColor.blackColor
+        inverseOnSurface:UIColor.whiteColor
         poweredByLogo:(PoweredByLogoSTANDARD)
-        showAppBar:(NO)
         animations:(animations)
     ];
 

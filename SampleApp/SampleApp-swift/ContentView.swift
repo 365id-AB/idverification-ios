@@ -117,24 +117,26 @@ struct ContentView: View {
 
         IdVerification.setCustomTheme(
             IdVerificationTheme(
-                surface: .white,
-                onSurface: .purple,
-                surfaceVariant: .black,
-                background: .white,
-                primary: .purple,
-                onPrimary: .white,
-                primaryContainer: .gray,
-                onPrimaryContainer: .yellow,
-                secondary: .white,
-                onSecondary: .purple,
-                secondaryContainer: .lightGray,
-                onSecondaryContainer: .darkGray,
-                tertiary: .black,
-                onTertiary: .green,
-                appBarLogo: nil,
+                primary: UIColor.purple,
+                onPrimary: UIColor.white,
+                primaryContainer: UIColor.magenta,
+                secondary: UIColor.gray,
+                onSecondary: UIColor.darkGray,
+                secondaryContainer: UIColor.lightGray,
+                onSecondaryContainer: UIColor.darkGray,
+                tertiary: UIColor.purple,
+                onTertiary: UIColor.white,
+                tertiaryContainer: UIColor.magenta,
+                onTertiaryContainer: UIColor.white,
+                surface: UIColor.white,
+                onSurface: UIColor.black,
+                onSurfaceVariant: UIColor.darkGray,
+                inverseSurface: UIColor.black,
+                inverseOnSurface: UIColor.white,
                 poweredByLogo: .STANDARD,
-                showAppBar: false,
-                animations: customAnimationViews))
+                animations: customAnimationViews
+            )
+        )
     }
 }
 

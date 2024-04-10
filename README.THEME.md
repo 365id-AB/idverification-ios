@@ -1,52 +1,56 @@
 # Custom Theme
  
 You can use `IdVerification.setCustomTheme()` to apply a specific set of colors.  
-Most of the parameters of this function are optional (except `poweredByLogo` and `showAppBar`), so you can use only those that suits you. Below you see an example of how you can use this function:
+Most of the parameters of this function are optional (except `poweredByLogo`), so you can use only those that suits you. Below you see an example of how you can use this function:
 
 ```swift
 IdVerification.setCustomTheme(
    IdVerificationTheme(
-         surface: UIColor.white,
-         onSurface: UIColor.purple,
-         surfaceVariant: UIColor.black,
-         background: UIColor.white,
-         primary: UIColor.purple,
-         onPrimary: UIColor.white,
-         primaryContainer: UIColor.gray,
-         onPrimaryContainer: UIColor.yellow,
-         secondary: UIColor.white,
-         onSecondary: UIColor.purple,
-         secondaryContainer: UIColor.lightGray,
-         onSecondaryContainer: UIColor.darkGray,
-         tertiary: UIColor.black,
-         onTertiary: UIColor.green,
-         appBarLogo: nil,
-         poweredByLogo: .STANDARD,
-         showAppBar: false,
-         animations: IdVerification.Animations()))
+      primary: UIColor.purple,
+      onPrimary: UIColor.white,
+      primaryContainer: UIColor.lightPurple,
+      secondary: UIColor.gray,
+      onSecondary: UIColor.darkgray,
+      secondaryContainer: UIColor.lightGray,
+      onSecondaryContainer: UIColor.darkGray,
+      tertiary: UIColor.purple,
+      onTertiary: UIColor.white,
+      tertiaryContainer: UIColor.lightPurple,
+      onTertiaryContainer: UIColor.white,
+      surface: UIColor.white,
+      onSurface: UIColor.black,
+      onSurfaceVariant: UIColor.darkGray,
+      inverseSurface: UIColor.black,
+      inverseOnSurface: UIColor.white,
+
+      poweredByLogo: PoweredByLogo = .STANDARD,
+
+      animations: IdVerification.Animations()
+    )
+)
 ```
 
 Below you will find images showing which color variables are applied to certain elements in the SDK.
 
 ## Information View
 
-<img src="./images/info-view.png"  width="500" height="500">
+<img src="./images/information-view.png" height="500">
 
 ## Camera View
 
-<img src="./images/camera-view.png"  width="500" height="500">
+<img src="./images/cameraView.png" height="500">
 
 ## NFC View
 
-<img src="./images/nfc-view.png"  width="500" height="500">
+<img src="./images/ios-nfc-view.png" height="500">
 
 ## iProov View
 
-<img src="./images/iProov-view.png"  width="500" height="500">
+<img src="./images/facematch-view.png" height="500">
 
 ## Wait View
 
-<img src="./images/wait-view.png"  width="500" height="500">
+<img src="./images/wait-view.png" height="500">
 
 You can use `IdVerification.Animations()` to set custom animations for preparation, loading and instructions.
 ```swift
@@ -96,22 +100,26 @@ customAnimations.loadingNfc = Image("myCustomAnimation")
 
 IdVerification.setCustomTheme(
    IdVerificationTheme(
-         surface: UIColor.white,
-         onSurface: UIColor.purple,
-         surfaceVariant: UIColor.black,
-         background: UIColor.white,
-         primary: UIColor.purple,
-         onPrimary: UIColor.white,
-         primaryContainer: UIColor.gray,
-         onPrimaryContainer: UIColor.yellow,
-         secondary: UIColor.white,
-         onSecondary: UIColor.purple,
-         secondaryContainer: UIColor.lightGray,
-         onSecondaryContainer: UIColor.darkGray,
-         tertiary: UIColor.black,
-         onTertiary: UIColor.green,
-         appBarLogo: nil,
-         poweredByLogo: .STANDARD,
-         showAppBar: false,
-         animations: customAnimations))
+      primary: UIColor.purple,
+      onPrimary: UIColor.white,
+      primaryContainer: UIColor.lightPurple,
+      secondary: UIColor.gray,
+      onSecondary: UIColor.darkgray,
+      secondaryContainer: UIColor.lightGray,
+      onSecondaryContainer: UIColor.darkGray,
+      tertiary: UIColor.purple,
+      onTertiary: UIColor.white,
+      tertiaryContainer: UIColor.lightPurple,
+      onTertiaryContainer: UIColor.white,
+      surface: UIColor.white,
+      onSurface: UIColor.black,
+      onSurfaceVariant: UIColor.darkGray,
+      inverseSurface: UIColor.black,
+      inverseOnSurface: UIColor.white,
+
+      poweredByLogo: PoweredByLogo = .STANDARD,
+
+      animations: customAnimations
+    )
+)
 ```

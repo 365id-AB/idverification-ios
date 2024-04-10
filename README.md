@@ -323,7 +323,7 @@ Here is an example of how to select the document type:
 ```swift
 IdVerification.start(
    token: myToken,
-   documentType: DocumentType.document,
+   documentSizeType: DocumentSizeType.document,
    delegate: myDelegate
 )
 ```
