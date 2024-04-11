@@ -15,9 +15,30 @@ class SampleAppEventDelegate: IdVerificationEventDelegate, ObservableObject {
     }
     @Published var information: String = ""
 
+    /// Called when SDK has finished initializing and is ready to be displayed on the device.
     func onStarted() {
         self.information = "Started\n"
         self.showSDKView = true
+    }
+
+    /// Called when the transaction is created.
+    func onTransactionCreated(_ transactionId: String) {
+        self.information += "TransactionId\n\(transactionId)\n"
+    }
+
+    /// Called when the document identification process has completed.
+    func onDocumentFeedback(_ documentType: DocumentType, countryCode: String) {
+        self.information += "Document feedback\n\(documentType)\n\(countryCode)\n"
+    }
+
+    /// Called when the nfc process has completed.
+    func onNfcFeedback(_ feedback: NfcFeedback, expiryDate: String) {
+        self.information += "Nfc feedback\n\(feedback)\n\(expiryDate)\n"
+    }
+
+    /// Called when the face match process has completed.
+    func onFaceMatchFeedback(_ feedback: FaceMatchFeedback) {
+        self.information += "Face match feedback\n\(feedback)\n"
     }
 
     /// Called when the user exits the SDK using the back button in the 365id AppBar.
@@ -71,17 +92,17 @@ struct ContentView: View {
                             .frame(height: 80)
 
                         Button("Scan Generic Document") {
-                            getTokenAndStartSDK(documentType: .document)
+                            getTokenAndStartSDK(documentSizeType: .document)
                         }
                         Spacer()
                             .frame(height: 30)
                         Button("Scan Id-card / Driving License") {
-                            getTokenAndStartSDK(documentType: .id1)
+                            getTokenAndStartSDK(documentSizeType: .id1)
                         }
                         Spacer()
                             .frame(height: 30)
                         Button("Scan Passport") {
-                            getTokenAndStartSDK(documentType: .id3)
+                            getTokenAndStartSDK(documentSizeType: .id3)
                         }
                         Spacer()
                             .frame(height: 30)
@@ -96,9 +117,11 @@ struct ContentView: View {
     }
 
     /// Used to kickstart the SDK and register a callback that interacts with the user interface
-    private func getTokenAndStartSDK(documentType: DocumentType = .document) {
+    private func getTokenAndStartSDK(documentSizeType: DocumentSizeType = .document) {
         DeviceInformation.shared.getInfo { info in
-            if !IdVerification.start(token: info["Token"]!, documentType: documentType, delegate: eventDelegate) {
+            if !IdVerification.start(token: info["Token"]!,
+                                     documentSizeType: documentSizeType,
+                                     delegate: eventDelegate) {
                 print("Unable to start the SDK, was the token provided properly?")
             }
         }

@@ -312,13 +312,13 @@ The access token is valid for a certain amount of time, after that you will have
 When you in your app have acquired an access token, you are ready to call the `start(token: String, delegate: IdVerificationEventDelegate)`
 function. This function requires you to provide the access token and your own implementation of the `IdVerificationEventDelegate` protocol.
 
-#### Document type selection
+#### Document size type selection
 
-The `documentType`-parameter is an optional parameter to `start()` and with this you will be able to select the document type.
-Currently, iOS SDK supports three types of document that is id1, id3 and document.
+The `documentSizeType`-parameter is an optional parameter to `start()` and with this you will be able to select the document size.
+Currently, iOS SDK supports three types of document size that is id1, id3 and document.
 
-Selecting a document type does not force the user to only scan that kind of document but rather encourages the user to scan that type of document by adjusting animations and other UI elements to hint the user to scan that specific type of document.
-Here is an example of how to select the document type:
+Selecting a document size type does not force the user to only scan that kind of document but rather encourages the user to scan that type of document by adjusting animations and other UI elements to hint the user to scan that specific type of document.
+Here is an example of how to select the document size type:
 
 ```swift
 IdVerification.start(
@@ -362,6 +362,25 @@ private class MyEventDelegate: IdVerificationEventDelegate {
    func onStarted() {
       log("The SDK started successfully.")
       showSDKView()
+   }
+
+   func onTransactionCreated(_ transactionId: String) {
+      log("The SDK created the transaction.")
+   }
+
+   func onDocumentFeedback(_ documentType: DocumentType, countryCode: String)
+   {
+      log("The SDK completed the process of document identification.")
+   }
+
+   func onNfcFeedback(_ nfcFeedback: NfcFeedback, expiryDate: String)
+   {
+      log("The SDK completed the process of reading the nfc chip.")
+   }
+
+   func onFaceMatchFeedback(_ facematchFeedback: FaceMatchFeedback)
+   {
+      log("The SDK completed the process of face match.")
    }
 
    func onUserDismissed() {

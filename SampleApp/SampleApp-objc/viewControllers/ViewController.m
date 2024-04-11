@@ -142,13 +142,13 @@
      [IdVerification setCustomTheme:theme];
 }
 
--(void)_start:(DocumentType)documentType {
+-(void)_start:(DocumentSizeType)documentSizeType {
     [DeviceInformation getDeviceInfo:^(NSDictionary *deviceInfo) {
 
         // Skip no modules example
         IdVerificationSkipModules *skipNoModules = [[IdVerificationSkipModules alloc] init];
 
-        if([IdVerification startWithToken:deviceInfo[@"Token"] locationId:0 skipModules:skipNoModules documentType:documentType delegate:self]) {
+        if([IdVerification startWithToken:deviceInfo[@"Token"] locationId:0 skipModules:skipNoModules documentSizeType:documentSizeType delegate:self]) {
             // SDK was happy with the provided arguments.
         } else {
             // Unable to start the SDK. Most likely something was wrong with the token.
@@ -158,17 +158,17 @@
 
 -(void)clickscanGenericDocument:(id)sender
 {
-    [self _start:(DocumentTypeDocument)];
+    [self _start:(DocumentSizeTypeDocument)];
 }
 
 -(void)clickScanIdCard:(id)sender
 {
-    [self _start:(DocumentTypeId1)];
+    [self _start:(DocumentSizeTypeId1)];
 }
 
 -(void)clickScanPassport:(id)sender
 {
-    [self _start:(DocumentTypeId3)];
+    [self _start:(DocumentSizeTypeId3)];
 }
 
 - (void)onClosed {
@@ -199,6 +199,22 @@
     // Makes the Navigation View transition to the SDK view
     [self showSdkView:true];
     NSLog(@"EventDelegate - Started.");
+}
+
+- (void)onTransactionCreated:(NSString * _Nonnull)transactionId {
+    NSLog(@"EventDelegate - Transaction is created: %@.", transactionId);
+}
+
+- (void)onDocumentFeedback:(enum DocumentType)documentType countryCode:(NSString * _Nonnull)countryCode {
+    NSLog(@"EventDelegate - The document identification process has completed.");
+}
+
+- (void)onNfcFeedback:(enum NfcFeedback)nfcFeedback expiryDate:(NSString * _Nonnull)expiryDate {
+    NSLog(@"EventDelegate - The nfc process has completed..");
+}
+
+- (void)onFaceMatchFeedback:(enum FaceMatchFeedback)facematchFeedback {
+    NSLog(@"EventDelegate - The face match process has completed..");
 }
 
 - (void)onUserDismissed {

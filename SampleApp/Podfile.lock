@@ -1,5 +1,5 @@
 PODS:
-  - IdVerification365id (2.2.24):
+  - IdVerification365id (2.2.26):
     - iProov (= 11.0.3)
     - MBCaptureCore (= 1.2.1)
   - iProov (11.0.3)
@@ -18,7 +18,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  IdVerification365id: 2d127157d31bd39dd30819e108062fe2f724243c
+  IdVerification365id: d3b68b8bb4977d1978cbb7e6f671dcd6dc2a63ab
   iProov: c596936165f56fab2e08d76e9dc94b86db2f4e8f
   MBCaptureCore: 295ec3f321719199af44e06ee28507ed9eaa666f
 
