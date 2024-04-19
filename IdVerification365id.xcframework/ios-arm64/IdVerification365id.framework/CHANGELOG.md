@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [2.3.1] - 2024-04-15
+
+### Added
+
+- Enabled early feedback event calls to the eventdelegate.
+
 ## [2.2.26-beta] - 2024-04-09
 
 ### Added
