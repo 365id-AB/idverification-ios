@@ -11633,36 +11633,29 @@
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/TaskViews\/NFCView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1073,
-      "length": 2,
-      "value": "25"
-    },
-    {
-      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/TaskViews\/NFCView.swift",
       "kind": "FloatLiteral",
-      "offset": 1168,
+      "offset": 1125,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/TaskViews\/NFCView.swift",
       "kind": "FloatLiteral",
-      "offset": 1357,
+      "offset": 1314,
       "length": 3,
       "value": "3.0"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/TaskViews\/NFCView.swift",
       "kind": "FloatLiteral",
-      "offset": 1361,
+      "offset": 1318,
       "length": 3,
       "value": "2.0"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/TaskViews\/NFCView.swift",
       "kind": "FloatLiteral",
-      "offset": 1469,
+      "offset": 1426,
       "length": 3,
       "value": "0.5"
     },
@@ -11678,7 +11671,7 @@
       "kind": "IntegerLiteral",
       "offset": 313,
       "length": 2,
-      "value": "59"
+      "value": "58"
     },
     {
       "filePath": "@__swiftmacro_19IdVerification365id33_90A9FFCFBF22B1089A197F06F5CF7027Ll7PreviewfMf0_.swift",
@@ -12459,211 +12452,204 @@
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Models\/TransactionModel.swift",
-      "kind": "StringLiteral",
-      "offset": 3463,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Models\/TransactionModel.swift",
-      "kind": "StringLiteral",
-      "offset": 3538,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Models\/TransactionModel.swift",
-      "kind": "StringLiteral",
-      "offset": 3862,
-      "length": 60,
-      "value": "\"Received a status of iProov: \""
-    },
-    {
-      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Models\/TransactionModel.swift",
-      "kind": "StringLiteral",
-      "offset": 3921,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Models\/TransactionModel.swift",
-      "kind": "StringLiteral",
-      "offset": 3988,
-      "length": 75,
-      "value": "\"Ignoring new task in 'iProovStatusPublisher', cause SDK has been cleared.\""
-    },
-    {
-      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Models\/TransactionModel.swift",
-      "kind": "StringLiteral",
-      "offset": 4330,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Models\/TransactionModel.swift",
-      "kind": "StringLiteral",
-      "offset": 4409,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Models\/TransactionModel.swift",
-      "kind": "StringLiteral",
-      "offset": 5076,
-      "length": 13,
-      "value": "\"TaskHandler\""
-    },
-    {
-      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Models\/TransactionModel.swift",
-      "kind": "StringLiteral",
-      "offset": 5102,
-      "length": 21,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Models\/TransactionModel.swift",
-      "kind": "StringLiteral",
-      "offset": 5122,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Models\/TransactionModel.swift",
-      "kind": "StringLiteral",
-      "offset": 5154,
-      "length": 27,
-      "value": "\"task: \""
-    },
-    {
-      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Models\/TransactionModel.swift",
-      "kind": "StringLiteral",
-      "offset": 5180,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Models\/TransactionModel.swift",
-      "kind": "StringLiteral",
-      "offset": 5201,
-      "length": 38,
-      "value": "\"userMessage: \""
-    },
-    {
-      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Models\/TransactionModel.swift",
-      "kind": "StringLiteral",
-      "offset": 5238,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Models\/TransactionModel.swift",
-      "kind": "StringLiteral",
-      "offset": 5259,
-      "length": 35,
-      "value": "\"payload: \""
-    },
-    {
-      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Models\/TransactionModel.swift",
-      "kind": "StringLiteral",
-      "offset": 5293,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Models\/TransactionModel.swift",
-      "kind": "StringLiteral",
-      "offset": 5314,
-      "length": 49,
-      "value": "\"taskCountEstimate: \""
-    },
-    {
-      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Models\/TransactionModel.swift",
-      "kind": "StringLiteral",
-      "offset": 5362,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Models\/TransactionModel.swift",
-      "kind": "StringLiteral",
-      "offset": 5383,
-      "length": 47,
-      "value": "\"taskCountCurrent: \""
-    },
-    {
-      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Models\/TransactionModel.swift",
-      "kind": "StringLiteral",
-      "offset": 5429,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Models\/TransactionModel.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5623,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Models\/TransactionModel.swift",
       "kind": "FloatLiteral",
-      "offset": 6143,
+      "offset": 3386,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Models\/TransactionModel.swift",
       "kind": "StringLiteral",
-      "offset": 6603,
-      "length": 72,
-      "value": "\"Received unknown response from 365id cloud services. Please try again.\""
+      "offset": 3792,
+      "length": 60,
+      "value": "\"Received a status of iProov: \""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Models\/TransactionModel.swift",
       "kind": "StringLiteral",
-      "offset": 6717,
-      "length": 25,
-      "value": "\"This should not happen!\""
-    },
-    {
-      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Models\/TransactionModel.swift",
-      "kind": "StringLiteral",
-      "offset": 6869,
-      "length": 53,
-      "value": "\"Received unknown response from 365id cloud services\""
-    },
-    {
-      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Models\/TransactionModel.swift",
-      "kind": "StringLiteral",
-      "offset": 7755,
-      "length": 40,
-      "value": "\"Unable to decode the payload: \""
-    },
-    {
-      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Models\/TransactionModel.swift",
-      "kind": "StringLiteral",
-      "offset": 7794,
+      "offset": 3851,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Models\/TransactionModel.swift",
       "kind": "StringLiteral",
-      "offset": 7889,
+      "offset": 3918,
+      "length": 75,
+      "value": "\"Ignoring new task in 'iProovStatusPublisher', cause SDK has been cleared.\""
+    },
+    {
+      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Models\/TransactionModel.swift",
+      "kind": "StringLiteral",
+      "offset": 4260,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Models\/TransactionModel.swift",
+      "kind": "StringLiteral",
+      "offset": 4339,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Models\/TransactionModel.swift",
+      "kind": "StringLiteral",
+      "offset": 5006,
+      "length": 13,
+      "value": "\"TaskHandler\""
+    },
+    {
+      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Models\/TransactionModel.swift",
+      "kind": "StringLiteral",
+      "offset": 5032,
+      "length": 21,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Models\/TransactionModel.swift",
+      "kind": "StringLiteral",
+      "offset": 5052,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Models\/TransactionModel.swift",
+      "kind": "StringLiteral",
+      "offset": 5084,
+      "length": 27,
+      "value": "\"task: \""
+    },
+    {
+      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Models\/TransactionModel.swift",
+      "kind": "StringLiteral",
+      "offset": 5110,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Models\/TransactionModel.swift",
+      "kind": "StringLiteral",
+      "offset": 5131,
+      "length": 38,
+      "value": "\"userMessage: \""
+    },
+    {
+      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Models\/TransactionModel.swift",
+      "kind": "StringLiteral",
+      "offset": 5168,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Models\/TransactionModel.swift",
+      "kind": "StringLiteral",
+      "offset": 5189,
+      "length": 35,
+      "value": "\"payload: \""
+    },
+    {
+      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Models\/TransactionModel.swift",
+      "kind": "StringLiteral",
+      "offset": 5223,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Models\/TransactionModel.swift",
+      "kind": "StringLiteral",
+      "offset": 5244,
+      "length": 49,
+      "value": "\"taskCountEstimate: \""
+    },
+    {
+      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Models\/TransactionModel.swift",
+      "kind": "StringLiteral",
+      "offset": 5292,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Models\/TransactionModel.swift",
+      "kind": "StringLiteral",
+      "offset": 5313,
+      "length": 47,
+      "value": "\"taskCountCurrent: \""
+    },
+    {
+      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Models\/TransactionModel.swift",
+      "kind": "StringLiteral",
+      "offset": 5359,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Models\/TransactionModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 8272,
+      "offset": 5553,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Models\/TransactionModel.swift",
+      "kind": "FloatLiteral",
+      "offset": 6073,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Models\/TransactionModel.swift",
+      "kind": "StringLiteral",
+      "offset": 6533,
+      "length": 72,
+      "value": "\"Received unknown response from 365id cloud services. Please try again.\""
+    },
+    {
+      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Models\/TransactionModel.swift",
+      "kind": "StringLiteral",
+      "offset": 6647,
+      "length": 25,
+      "value": "\"This should not happen!\""
+    },
+    {
+      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Models\/TransactionModel.swift",
+      "kind": "StringLiteral",
+      "offset": 6799,
+      "length": 53,
+      "value": "\"Received unknown response from 365id cloud services\""
+    },
+    {
+      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Models\/TransactionModel.swift",
+      "kind": "StringLiteral",
+      "offset": 7685,
+      "length": 40,
+      "value": "\"Unable to decode the payload: \""
+    },
+    {
+      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Models\/TransactionModel.swift",
+      "kind": "StringLiteral",
+      "offset": 7724,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Models\/TransactionModel.swift",
+      "kind": "StringLiteral",
+      "offset": 7819,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Models\/TransactionModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8202,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Models\/TransactionModel.swift",
       "kind": "StringLiteral",
-      "offset": 8389,
+      "offset": 8319,
       "length": 32,
       "value": "\"Started the activate function.\""
     },
@@ -16975,21 +16961,35 @@
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/NFC\/NfcManager.swift",
       "kind": "StringLiteral",
-      "offset": 9114,
+      "offset": 9242,
       "length": 34,
       "value": "\"Nfc process is cancelled by user\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/NFC\/NfcManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 9194,
+      "offset": 9322,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/NFC\/NfcManager.swift",
+      "kind": "StringLiteral",
+      "offset": 9451,
+      "length": 51,
+      "value": "\"Unhandled readerSession error \""
+    },
+    {
+      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/NFC\/NfcManager.swift",
+      "kind": "StringLiteral",
+      "offset": 9501,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/NFC\/NfcManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 9330,
+      "offset": 9548,
       "length": 4,
       "value": "true"
     },
@@ -17276,98 +17276,98 @@
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/NFC\/NfcProcessor.swift",
       "kind": "Array",
-      "offset": 5528,
+      "offset": 5538,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/NFC\/NfcProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 5731,
+      "offset": 5751,
       "length": 44,
       "value": "\"There is no apdu command available to send\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/NFC\/NfcProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 5931,
+      "offset": 5961,
       "length": 35,
       "value": "\"Unable to create and APDU command\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/NFC\/NfcProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 6163,
+      "offset": 6203,
       "length": 62,
       "value": "\"NFC Processor was cleared, probably back button was pressed.\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/NFC\/NfcProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 6336,
+      "offset": 6376,
       "length": 78,
       "value": "\"Error ocuured while sending the nfc command - \""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/NFC\/NfcProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 6412,
+      "offset": 6452,
       "length": 1,
       "value": "\")\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/NFC\/NfcProcessor.swift",
       "kind": "BooleanLiteral",
-      "offset": 6454,
+      "offset": 6494,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/NFC\/NfcProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 6603,
+      "offset": 6701,
       "length": 22,
       "value": "\"Received a nil value\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/NFC\/NfcProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 6878,
+      "offset": 6986,
       "length": 51,
       "value": "\"Received NFC data: \""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/NFC\/NfcProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 6928,
+      "offset": 7036,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/NFC\/NfcProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 7169,
+      "offset": 7315,
       "length": 12,
       "value": "\"0x%02X%02X\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/NFC\/NfcProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 7266,
+      "offset": 7412,
       "length": 12,
       "value": "\"0x%02X%02X\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/NFC\/NfcProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 7405,
+      "offset": 7551,
       "length": 20,
       "value": "\"SW is mismatched: \""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/NFC\/NfcProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 7450,
+      "offset": 7596,
       "length": 6,
       "value": "\" != \""
     },
