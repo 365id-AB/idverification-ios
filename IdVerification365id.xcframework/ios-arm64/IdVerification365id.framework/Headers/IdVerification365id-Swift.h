@@ -307,6 +307,8 @@ typedef SWIFT_ENUM(NSInteger, DocumentSizeType, open) {
   DocumentSizeTypeId3 = 1,
 /// The default to use when any physical document is assumed to be scanned
   DocumentSizeTypeDocument = 2,
+/// This is used to only capture an image of the document, no verification will be performed
+  DocumentSizeTypeOdd = 3,
 };
 
 /// Enumeration of different types of document.

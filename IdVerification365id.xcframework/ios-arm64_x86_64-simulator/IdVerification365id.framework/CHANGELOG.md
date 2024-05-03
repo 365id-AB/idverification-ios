@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [2.4.1] - 2024-04-25
+
+### Added
+
+- Added the document size "odd".
+- Added a support for odd sized document capture.
+
 ## [2.3.2] - 2024-04-22
 
 ### Fixed

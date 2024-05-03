@@ -28,15 +28,18 @@ import _SwiftConcurrencyShims
 
 
 
+
 @objc public class IdVerificationTheme : ObjectiveC.NSObject {
   @objc public init(primary: UIKit.UIColor? = nil, onPrimary: UIKit.UIColor? = nil, primaryContainer: UIKit.UIColor? = nil, secondary: UIKit.UIColor? = nil, onSecondary: UIKit.UIColor? = nil, secondaryContainer: UIKit.UIColor? = nil, onSecondaryContainer: UIKit.UIColor? = nil, tertiary: UIKit.UIColor? = nil, onTertiary: UIKit.UIColor? = nil, tertiaryContainer: UIKit.UIColor? = nil, onTertiaryContainer: UIKit.UIColor? = nil, surface: UIKit.UIColor? = nil, onSurface: UIKit.UIColor? = nil, onSurfaceVariant: UIKit.UIColor? = nil, inverseSurface: UIKit.UIColor? = nil, inverseOnSurface: UIKit.UIColor? = nil, poweredByLogo: IdVerification365id.PoweredByLogo = .STANDARD, animations: IdVerification365id.IdVerification.Animations = IdVerification.Animations())
   public func copyWith(primary: UIKit.UIColor? = nil, onPrimary: UIKit.UIColor? = nil, primaryContainer: UIKit.UIColor? = nil, secondary: UIKit.UIColor? = nil, onSecondary: UIKit.UIColor? = nil, secondaryContainer: UIKit.UIColor? = nil, onSecondaryContainer: UIKit.UIColor? = nil, tertiary: UIKit.UIColor? = nil, onTertiary: UIKit.UIColor? = nil, tertiaryContainer: UIKit.UIColor? = nil, onTertiaryContainer: UIKit.UIColor? = nil, surface: UIKit.UIColor? = nil, onSurface: UIKit.UIColor? = nil, onSurfaceVariant: UIKit.UIColor? = nil, inverseSurface: UIKit.UIColor? = nil, inverseOnSurface: UIKit.UIColor? = nil, poweredByLogo: IdVerification365id.PoweredByLogo? = nil, animations: IdVerification365id.IdVerification.Animations? = nil) -> IdVerification365id.IdVerificationTheme
   @objc deinit
 }
+
 @objc public enum DocumentSizeType : Swift.Int {
   case id1 = 0
   case id3 = 1
   case document = 2
+  case odd = 3
   public init?(rawValue: Swift.Int)
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
@@ -83,6 +86,7 @@ import _SwiftConcurrencyShims
 }
 
 
+
 public struct IdVerificationView : SwiftUI.View {
   public init()
   @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
@@ -127,6 +131,8 @@ public struct IdVerificationView : SwiftUI.View {
     get
   }
 }
+
+
 extension UIKit.UIView {
   @_Concurrency.MainActor(unsafe) public func asUIImage() -> UIKit.UIImage
 }
@@ -150,11 +156,14 @@ extension UIKit.UIView {
   @objc deinit
 }
 
+
 @_hasMissingDesignatedInitializers @objc public class IdVerificationErrorBundle : ObjectiveC.NSObject {
   @objc final public let error: IdVerification365id.IdVerificationError
   @objc final public let message: Swift.String
   @objc deinit
 }
+
+
 @objc public enum IdVerificationSkipModule : Swift.Int {
   case nfc = 0
   case faceMatch = 1
