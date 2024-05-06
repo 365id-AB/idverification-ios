@@ -52,6 +52,14 @@ Below you will find images showing which color variables are applied to certain 
 
 <img src="./images/wait-view.png" height="500">
 
+## Odd page view
+
+<img src="./images/odd-page-view.png" height="500">
+
+## Odd page captured dcoument view
+
+<img src="./images/odd-page-captured-image-view.png" height="500">
+
 You can use `IdVerification.Animations()` to set custom animations for preparation, loading and instructions.
 ```swift
 IdVerification.Animations(
@@ -59,12 +67,14 @@ IdVerification.Animations(
       public var prepareId1Frontside: any View
       public var prepareId1Backside: any View 
       public var prepareDocument: any View
+      public var prepareOddSizedDocument: any View
       public var prepareNfc: any View
       public var prepareFaceMatch: any View 
 
       public var instructionId3: any View
       public var instructionId1Frontside: any View
       public var instructionId1Backside: any View
+      public var instructionOddSizedDocument: any View
       public var instructionDocument: any View
       public var instructionNfc: any View 
 

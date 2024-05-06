@@ -315,7 +315,7 @@ function. This function requires you to provide the access token and your own im
 #### Document size type selection
 
 The `documentSizeType`-parameter is an optional parameter to `start()` and with this you will be able to select the document size.
-Currently, iOS SDK supports three types of document size that is id1, id3 and document.
+Currently, iOS SDK supports four types of document size that is id1, id3, document and odd.
 
 Selecting a document size type does not force the user to only scan that kind of document but rather encourages the user to scan that type of document by adjusting animations and other UI elements to hint the user to scan that specific type of document.
 Here is an example of how to select the document size type:

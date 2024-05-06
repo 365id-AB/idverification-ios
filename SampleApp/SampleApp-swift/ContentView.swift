@@ -106,6 +106,11 @@ struct ContentView: View {
                         }
                         Spacer()
                             .frame(height: 30)
+                        Button("Scan Odd Document") {
+                            getTokenAndStartSDK(documentSizeType: .odd)
+                        }
+                        Spacer()
+                            .frame(height: 30)
                     }
                 }
                 Spacer()

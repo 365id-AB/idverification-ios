@@ -54,6 +54,16 @@
         }
       }
     },
+    "Scan Odd Document" : {
+      "localizations" : {
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skanna udda dokument"
+          }
+        }
+      }
+    },
     "Scan Passport" : {
       "localizations" : {
         "sv" : {

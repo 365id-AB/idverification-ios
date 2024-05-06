@@ -82,20 +82,31 @@
     scanPassport.translatesAutoresizingMaskIntoConstraints = false;
     [scanPassport addTarget:self action:@selector(clickScanPassport:) forControlEvents:UIControlEventTouchUpInside];
 
+    // Scan Odd sized document
+    UIButton *scanOddDocument = [[UIButton alloc] initWithFrame:CGRectZero];
+    scanOddDocument.backgroundColor = UIColor.blueColor;
+    [scanOddDocument setTitleColor:UIColor.whiteColor forState:UIControlStateNormal];
+    scanOddDocument.layer.cornerRadius = 10;
+    [scanOddDocument setTitle:@"Scan Odd Document" forState:UIControlStateNormal];
+    [safeAreaView addSubview:scanOddDocument];
+    scanOddDocument.translatesAutoresizingMaskIntoConstraints = false;
+    [scanOddDocument addTarget:self action:@selector(clickOddDocument:) forControlEvents:UIControlEventTouchUpInside];
+
     // Set views in safe area
     NSDictionary *viewsDictionary = @{@"infoLabel":infoLabel,
                                       @"setCustomThemeButton":setCustomThemeButton,
                                       @"scanGenericDocument":scanGenericDocument,
                                       @"scanIdCard":scanIdCard,
-                                      @"scanPassport":scanPassport};
+                                      @"scanPassport":scanPassport,
+                                      @"scanOddDocument":scanOddDocument};
 
     [safeAreaView addConstraints: [NSLayoutConstraint constraintsWithVisualFormat:@"H:|-20-[infoLabel]-20-|" options:0 metrics:nil views:viewsDictionary]];
-//    [safeAreaView addConstraints: [NSLayoutConstraint constraintsWithVisualFormat:@"H:|-20-[startSdkButton]-20-|" options:0 metrics:nil views:viewsDictionary]];
     [safeAreaView addConstraints: [NSLayoutConstraint constraintsWithVisualFormat:@"H:|-20-[setCustomThemeButton]-20-|" options:0 metrics:nil views:viewsDictionary]];
     [safeAreaView addConstraints: [NSLayoutConstraint constraintsWithVisualFormat:@"H:|-20-[scanGenericDocument]-20-|" options:0 metrics:nil views:viewsDictionary]];
     [safeAreaView addConstraints: [NSLayoutConstraint constraintsWithVisualFormat:@"H:|-20-[scanIdCard]-20-|" options:0 metrics:nil views:viewsDictionary]];
     [safeAreaView addConstraints: [NSLayoutConstraint constraintsWithVisualFormat:@"H:|-20-[scanPassport]-20-|" options:0 metrics:nil views:viewsDictionary]];
-    [safeAreaView addConstraints: [NSLayoutConstraint constraintsWithVisualFormat:@"V:|-20-[infoLabel]-60-[setCustomThemeButton]-60-[scanGenericDocument]-20-[scanIdCard]-20-[scanPassport]->=0-|" options:0 metrics:nil views:viewsDictionary]];
+    [safeAreaView addConstraints: [NSLayoutConstraint constraintsWithVisualFormat:@"H:|-20-[scanOddDocument]-20-|" options:0 metrics:nil views:viewsDictionary]];
+    [safeAreaView addConstraints: [NSLayoutConstraint constraintsWithVisualFormat:@"V:|-20-[infoLabel]-60-[setCustomThemeButton]-60-[scanGenericDocument]-20-[scanIdCard]-20-[scanPassport]-20-[scanOddDocument]->=0-|" options:0 metrics:nil views:viewsDictionary]];
 }
 
 -(void)showSdkView:(BOOL)value {
@@ -169,6 +180,11 @@
 -(void)clickScanPassport:(id)sender
 {
     [self _start:(DocumentSizeTypeId3)];
+}
+
+-(void)clickOddDocument:(id)sender
+{
+    [self _start:(DocumentSizeTypeOdd)];
 }
 
 - (void)onClosed {
