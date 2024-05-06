@@ -52,11 +52,13 @@ import _SwiftConcurrencyShims
     public var prepareId1Frontside: any SwiftUI.View
     public var prepareId1Backside: any SwiftUI.View
     public var prepareDocument: any SwiftUI.View
+    public var prepareOddSizedDocument: any SwiftUI.View
     public var prepareNfc: any SwiftUI.View
     public var prepareFaceMatch: any SwiftUI.View
     public var instructionId3: any SwiftUI.View
     public var instructionId1Frontside: any SwiftUI.View
     public var instructionId1Backside: any SwiftUI.View
+    public var instructionOddSizedDocument: any SwiftUI.View
     public var instructionDocument: any SwiftUI.View
     public var instructionNfc: any SwiftUI.View
     public var loadingImageCapture: any SwiftUI.View
