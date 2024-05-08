@@ -4,6 +4,15 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [2.4.3] - 2024-05-07
+
+### Updated
+
+- Changed the button text for odd page document view.
+- Shows spinner with cancel button while sending the image.
+- Removed the logo from landing view.
+- Improved the error handling while setting the microblink license key. 
+
 ## [2.4.2] - 2024-05-06
 
 ### Added

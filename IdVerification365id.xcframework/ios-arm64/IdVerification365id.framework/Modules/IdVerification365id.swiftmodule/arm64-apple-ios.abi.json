@@ -3705,6 +3705,13 @@
         "moduleName": "IdVerification365id"
       },
       {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "IdVerification365id"
+      },
+      {
         "kind": "TypeDecl",
         "name": "IdVerificationView",
         "printedName": "IdVerificationView",
@@ -9343,195 +9350,230 @@
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/MicroBlink\/MicroBlinkManager.swift",
       "kind": "BooleanLiteral",
       "offset": 934,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/MicroBlink\/MicroBlinkManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1046,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/MicroBlink\/MicroBlinkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 1782,
-      "length": 62,
-      "value": "\"LicenseError in MicroBlink: Could not find bundleIdentifier.\""
-    },
-    {
-      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/MicroBlink\/MicroBlinkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 2059,
-      "length": 65,
-      "value": "\"LicenseError in MicroBlink: Missing LicenseKey in token claims.\""
-    },
-    {
-      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/MicroBlink\/MicroBlinkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 2372,
-      "length": 45,
-      "value": "\"LicenseError in MicroBlink: \""
-    },
-    {
-      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/MicroBlink\/MicroBlinkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 2416,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/MicroBlink\/MicroBlinkManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2533,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/MicroBlink\/MicroBlinkManager.swift",
       "kind": "StringLiteral",
-      "offset": 2556,
+      "offset": 1053,
+      "length": 39,
+      "value": "\"Microblink - Already set licence key!\""
+    },
+    {
+      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/MicroBlink\/MicroBlinkManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1132,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/MicroBlink\/MicroBlinkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1429,
+      "length": 62,
+      "value": "\"LicenseError in MicroBlink: Could not find bundleIdentifier.\""
+    },
+    {
+      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/MicroBlink\/MicroBlinkManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1531,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/MicroBlink\/MicroBlinkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1686,
+      "length": 65,
+      "value": "\"LicenseError in MicroBlink: Missing LicenseKey in token claims.\""
+    },
+    {
+      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/MicroBlink\/MicroBlinkManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1791,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/MicroBlink\/MicroBlinkManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1987,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/MicroBlink\/MicroBlinkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2958,
+      "length": 45,
+      "value": "\"LicenseError in MicroBlink: \""
+    },
+    {
+      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/MicroBlink\/MicroBlinkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3002,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/MicroBlink\/MicroBlinkManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3054,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/MicroBlink\/MicroBlinkManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3174,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/MicroBlink\/MicroBlinkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3197,
       "length": 35,
       "value": "\"Microblink - Did set licence key!\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/MicroBlink\/MicroBlinkManager.swift",
       "kind": "StringLiteral",
-      "offset": 3175,
+      "offset": 3816,
       "length": 25,
       "value": "\"_365id_mbic_move_closer\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/MicroBlink\/MicroBlinkManager.swift",
       "kind": "StringLiteral",
-      "offset": 3302,
+      "offset": 3943,
       "length": 26,
       "value": "\"_365id_mbic_move_farther\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/MicroBlink\/MicroBlinkManager.swift",
       "kind": "StringLiteral",
-      "offset": 3435,
+      "offset": 4076,
       "length": 36,
       "value": "\"_365id_mbic_camera_angle_too_steep\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/MicroBlink\/MicroBlinkManager.swift",
       "kind": "StringLiteral",
-      "offset": 3586,
+      "offset": 4227,
       "length": 40,
       "value": "\"_365id_mbic_document_too_close_to_edge\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/MicroBlink\/MicroBlinkManager.swift",
       "kind": "StringLiteral",
-      "offset": 4000,
+      "offset": 4641,
       "length": 34,
       "value": "\"_365id_mbic_lightning_too_bright\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/MicroBlink\/MicroBlinkManager.swift",
       "kind": "StringLiteral",
-      "offset": 4129,
+      "offset": 4770,
       "length": 32,
       "value": "\"_365id_mbic_lightning_too_dark\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/MicroBlink\/MicroBlinkManager.swift",
       "kind": "StringLiteral",
-      "offset": 4465,
+      "offset": 5106,
       "length": 27,
       "value": "\"_365id_mbic_blur_detected\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/MicroBlink\/MicroBlinkManager.swift",
       "kind": "StringLiteral",
-      "offset": 4808,
+      "offset": 5449,
       "length": 28,
       "value": "\"_365id_mbic_glare_detected\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/MicroBlink\/MicroBlinkManager.swift",
       "kind": "StringLiteral",
-      "offset": 5156,
+      "offset": 5797,
       "length": 22,
       "value": "\"_365id_mbic_occluded\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/MicroBlink\/MicroBlinkManager.swift",
       "kind": "StringLiteral",
-      "offset": 5558,
+      "offset": 6199,
       "length": 45,
       "value": "\"Could not get firstCapture from MicroBlink.\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/MicroBlink\/MicroBlinkManager.swift",
       "kind": "StringLiteral",
-      "offset": 5833,
+      "offset": 6474,
       "length": 49,
       "value": "\"Could not get transformedImage from MicroBlink.\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/MicroBlink\/MicroBlinkManager.swift",
       "kind": "StringLiteral",
-      "offset": 6059,
+      "offset": 6700,
       "length": 46,
       "value": "\"Could not get capturedImage from MicroBlink.\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/MicroBlink\/MicroBlinkManager.swift",
       "kind": "StringLiteral",
-      "offset": 6655,
+      "offset": 7296,
       "length": 171,
       "value": "\"Could not resize transformedImage \""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/MicroBlink\/MicroBlinkManager.swift",
       "kind": "StringLiteral",
-      "offset": 6721,
+      "offset": 7362,
       "length": 4,
       "value": "\" from MicroBlink.\n(From: \""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/MicroBlink\/MicroBlinkManager.swift",
       "kind": "StringLiteral",
-      "offset": 6790,
+      "offset": 7431,
       "length": 1,
       "value": "\", To: \""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/MicroBlink\/MicroBlinkManager.swift",
       "kind": "StringLiteral",
-      "offset": 6809,
+      "offset": 7450,
       "length": 1,
       "value": "\")\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/MicroBlink\/MicroBlinkManager.swift",
       "kind": "StringLiteral",
-      "offset": 7078,
+      "offset": 7719,
       "length": 54,
       "value": "\"Failed to compress transformedImage from MicroBlink.\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/MicroBlink\/MicroBlinkManager.swift",
       "kind": "StringLiteral",
-      "offset": 7340,
+      "offset": 7981,
       "length": 51,
       "value": "\"Failed to compress capturedImage from MicroBlink.\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/MicroBlink\/MicroBlinkManager.swift",
       "kind": "StringLiteral",
-      "offset": 7486,
+      "offset": 8127,
       "length": 39,
       "value": "\"Microblink - Captured an valid image!\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/MicroBlink\/MicroBlinkManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 8319,
+      "offset": 8960,
       "length": 4,
       "value": "true"
     },
@@ -10056,49 +10098,42 @@
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/OddPageView\/OverlayView.swift",
       "kind": "IntegerLiteral",
-      "offset": 154,
+      "offset": 159,
       "length": 4,
       "value": "2500"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/OddPageView\/OverlayView.swift",
       "kind": "IntegerLiteral",
-      "offset": 168,
+      "offset": 173,
       "length": 4,
       "value": "1760"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/OddPageView\/OverlayView.swift",
       "kind": "FloatLiteral",
-      "offset": 406,
+      "offset": 411,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/OddPageView\/OverlayView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 504,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/OddPageView\/OverlayView.swift",
       "kind": "IntegerLiteral",
-      "offset": 649,
+      "offset": 467,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/OddPageView\/OverlayView.swift",
       "kind": "FloatLiteral",
-      "offset": 1121,
+      "offset": 939,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/OddPageView\/OverlayView.swift",
       "kind": "FloatLiteral",
-      "offset": 1508,
+      "offset": 1219,
       "length": 3,
       "value": "0.5"
     },
@@ -10114,7 +10149,7 @@
       "kind": "IntegerLiteral",
       "offset": 317,
       "length": 2,
-      "value": "49"
+      "value": "42"
     },
     {
       "filePath": "@__swiftmacro_19IdVerification365id33_C44671B3C765E2365385236FF9A4274CLl7PreviewfMf0_.swift",
@@ -10882,23 +10917,30 @@
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/TaskViews\/MicroBlinkView.swift",
       "kind": "BooleanLiteral",
-      "offset": 463,
+      "offset": 409,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/TaskViews\/MicroBlinkView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1340,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/TaskViews\/MicroBlinkView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1133,
+      "offset": 1390,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/TaskViews\/MicroBlinkView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1540,
-      "length": 4,
-      "value": "true"
+      "kind": "FloatLiteral",
+      "offset": 1626,
+      "length": 3,
+      "value": "1.0"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/OddPageCaptureDocument\/OddPageProcessor.swift",
@@ -10987,84 +11029,91 @@
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/OddPageCaptureDocument\/OddPageProcessor.swift",
       "kind": "BooleanLiteral",
-      "offset": 3341,
+      "offset": 3346,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/OddPageCaptureDocument\/OddPageProcessor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3401,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/OddPageCaptureDocument\/OddPageProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 3519,
+      "offset": 3579,
       "length": 42,
       "value": "\"Unable to find the captured camera frame\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/OddPageCaptureDocument\/OddPageProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 3782,
+      "offset": 3842,
       "length": 50,
       "value": "\"can not covert the captured frame into cv buffer\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/OddPageCaptureDocument\/OddPageProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 4106,
+      "offset": 4166,
       "length": 27,
       "value": "\"can not create an CGImage\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/OddPageCaptureDocument\/OddPageProcessor.swift",
       "kind": "FloatLiteral",
-      "offset": 4580,
+      "offset": 4640,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/OddPageCaptureDocument\/OddPageProcessor.swift",
       "kind": "FloatLiteral",
-      "offset": 4719,
+      "offset": 4779,
       "length": 3,
       "value": "0.8"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/OddPageCaptureDocument\/OddPageProcessor.swift",
       "kind": "FloatLiteral",
-      "offset": 5183,
+      "offset": 5243,
       "length": 3,
       "value": "2.0"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/OddPageCaptureDocument\/OddPageProcessor.swift",
       "kind": "FloatLiteral",
-      "offset": 5248,
+      "offset": 5308,
       "length": 3,
       "value": "2.0"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/OddPageCaptureDocument\/OddPageProcessor.swift",
       "kind": "FloatLiteral",
-      "offset": 5271,
+      "offset": 5331,
       "length": 4,
       "value": "1.42"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/OddPageCaptureDocument\/OddPageProcessor.swift",
       "kind": "FloatLiteral",
-      "offset": 5361,
+      "offset": 5421,
       "length": 4,
       "value": "1.42"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/OddPageCaptureDocument\/OddPageProcessor.swift",
       "kind": "BooleanLiteral",
-      "offset": 5463,
+      "offset": 5523,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/OddPageCaptureDocument\/OddPageProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 5561,
+      "offset": 5621,
       "length": 47,
       "value": "\"Odd size image capture processor was cleared.\""
     },
@@ -12043,36 +12092,50 @@
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/LandingView.swift",
+      "kind": "FloatLiteral",
+      "offset": 163,
+      "length": 4,
+      "value": "20.0"
+    },
+    {
+      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/LandingView.swift",
+      "kind": "FloatLiteral",
+      "offset": 192,
+      "length": 4,
+      "value": "24.0"
+    },
+    {
+      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/LandingView.swift",
       "kind": "BooleanLiteral",
-      "offset": 334,
+      "offset": 393,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/LandingView.swift",
       "kind": "BooleanLiteral",
-      "offset": 383,
+      "offset": 442,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/LandingView.swift",
       "kind": "BooleanLiteral",
-      "offset": 524,
+      "offset": 583,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/LandingView.swift",
       "kind": "FloatLiteral",
-      "offset": 1561,
+      "offset": 1682,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/LandingView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1693,
+      "offset": 1814,
       "length": 4,
       "value": "true"
     },
@@ -12088,7 +12151,7 @@
       "kind": "IntegerLiteral",
       "offset": 317,
       "length": 2,
-      "value": "55"
+      "value": "59"
     },
     {
       "filePath": "@__swiftmacro_19IdVerification365id33_227425DC477034451717347B1B2ABCE0Ll7PreviewfMf0_.swift",
@@ -12261,37 +12324,44 @@
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/OddPageView\/OddPageView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1588,
+      "offset": 1689,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/OddPageView\/OddPageView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1639,
+      "offset": 1740,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/OddPageView\/OddPageView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1796,
+      "offset": 1897,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/OddPageView\/OddPageView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2048,
+      "offset": 2149,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/OddPageView\/OddPageView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2146,
+      "offset": 2247,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/OddPageView\/OddPageView.swift",
+      "kind": "FloatLiteral",
+      "offset": 2554,
+      "length": 3,
+      "value": "0.5"
     },
     {
       "filePath": "@__swiftmacro_19IdVerification365id33_3DE3AC3A9168D86D47918BCAAF3A885ALl7PreviewfMf0_.swift",
@@ -12305,7 +12375,7 @@
       "kind": "IntegerLiteral",
       "offset": 317,
       "length": 2,
-      "value": "64"
+      "value": "71"
     },
     {
       "filePath": "@__swiftmacro_19IdVerification365id33_3DE3AC3A9168D86D47918BCAAF3A885ALl7PreviewfMf0_.swift",
@@ -12493,6 +12563,41 @@
       "filePath": "@__swiftmacro_19IdVerification365id33_90A9FFCFBF22B1089A197F06F5CF7027Ll7PreviewfMf0_.swift",
       "kind": "IntegerLiteral",
       "offset": 345,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/ImageCapturedView.swift",
+      "kind": "FloatLiteral",
+      "offset": 140,
+      "length": 4,
+      "value": "20.0"
+    },
+    {
+      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/ImageCapturedView.swift",
+      "kind": "FloatLiteral",
+      "offset": 169,
+      "length": 4,
+      "value": "24.0"
+    },
+    {
+      "filePath": "@__swiftmacro_19IdVerification365id33_DFA0BD90F00608650F539101E925483ELl7PreviewfMf0_.swift",
+      "kind": "StringLiteral",
+      "offset": 250,
+      "length": 45,
+      "value": "\"IdVerification365id\/ImageCapturedView.swift\""
+    },
+    {
+      "filePath": "@__swiftmacro_19IdVerification365id33_DFA0BD90F00608650F539101E925483ELl7PreviewfMf0_.swift",
+      "kind": "IntegerLiteral",
+      "offset": 323,
+      "length": 2,
+      "value": "27"
+    },
+    {
+      "filePath": "@__swiftmacro_19IdVerification365id33_DFA0BD90F00608650F539101E925483ELl7PreviewfMf0_.swift",
+      "kind": "IntegerLiteral",
+      "offset": 355,
       "length": 1,
       "value": "1"
     },
@@ -16027,77 +16132,84 @@
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/InformationView.swift",
       "kind": "StringLiteral",
-      "offset": 778,
+      "offset": 766,
+      "length": 24,
+      "value": "\"_365id_odd_button_text\""
+    },
+    {
+      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/InformationView.swift",
+      "kind": "StringLiteral",
+      "offset": 895,
       "length": 30,
       "value": "\"_365id_frontside_button_text\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/InformationView.swift",
       "kind": "StringLiteral",
-      "offset": 872,
+      "offset": 989,
       "length": 29,
       "value": "\"_365id_backside_button_text\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/InformationView.swift",
       "kind": "StringLiteral",
-      "offset": 962,
+      "offset": 1079,
       "length": 27,
       "value": "\"_365id_iProov_button_text\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/InformationView.swift",
       "kind": "StringLiteral",
-      "offset": 1047,
+      "offset": 1164,
       "length": 24,
       "value": "\"_365id_nfc_button_text\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/InformationView.swift",
       "kind": "StringLiteral",
-      "offset": 1127,
+      "offset": 1244,
       "length": 30,
       "value": "\"_365id_frontside_button_text\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/InformationView.swift",
       "kind": "FloatLiteral",
-      "offset": 1963,
+      "offset": 2080,
       "length": 3,
       "value": "3.0"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/InformationView.swift",
       "kind": "FloatLiteral",
-      "offset": 1967,
+      "offset": 2084,
       "length": 3,
       "value": "2.0"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/InformationView.swift",
       "kind": "FloatLiteral",
-      "offset": 2512,
+      "offset": 2629,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/InformationView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2592,
+      "offset": 2709,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/InformationView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2698,
+      "offset": 2815,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/InformationView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2731,
+      "offset": 2848,
       "length": 1,
       "value": "1"
     },
@@ -16113,7 +16225,7 @@
       "kind": "IntegerLiteral",
       "offset": 321,
       "length": 2,
-      "value": "74"
+      "value": "78"
     },
     {
       "filePath": "@__swiftmacro_19IdVerification365id33_AD10F62F154F097C53EC62241E42F553Ll7PreviewfMf0_.swift",
@@ -16174,70 +16286,70 @@
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/MicroBlink\/MicroBlinkOverlayView.swift",
       "kind": "FloatLiteral",
-      "offset": 2190,
+      "offset": 2026,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/MicroBlink\/MicroBlinkOverlayView.swift",
       "kind": "FloatLiteral",
-      "offset": 2389,
+      "offset": 2225,
       "length": 4,
       "value": "1.15"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/MicroBlink\/MicroBlinkOverlayView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2484,
+      "offset": 2320,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/MicroBlink\/MicroBlinkOverlayView.swift",
       "kind": "StringLiteral",
-      "offset": 3279,
+      "offset": 3115,
       "length": 29,
       "value": "\"You are holding it wrong...\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/MicroBlink\/MicroBlinkOverlayView.swift",
       "kind": "StringLiteral",
-      "offset": 3362,
+      "offset": 3198,
       "length": 7,
       "value": "\"Graph\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/MicroBlink\/MicroBlinkOverlayView.swift",
       "kind": "StringLiteral",
-      "offset": 3384,
+      "offset": 3220,
       "length": 22,
       "value": "\"chevron.right.circle\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/MicroBlink\/MicroBlinkOverlayView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3571,
+      "offset": 3407,
       "length": 2,
       "value": "90"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/MicroBlink\/MicroBlinkOverlayView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3576,
+      "offset": 3412,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/MicroBlink\/MicroBlinkOverlayView.swift",
       "kind": "FloatLiteral",
-      "offset": 3640,
+      "offset": 3476,
       "length": 3,
       "value": "1.5"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/MicroBlink\/MicroBlinkOverlayView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3646,
+      "offset": 3482,
       "length": 1,
       "value": "1"
     },
@@ -16559,35 +16671,28 @@
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/PreviewView\/DocumentPreview.swift",
       "kind": "BooleanLiteral",
-      "offset": 772,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/PreviewView\/DocumentPreview.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1221,
+      "offset": 573,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/PreviewView\/DocumentPreview.swift",
       "kind": "FloatLiteral",
-      "offset": 1617,
+      "offset": 1280,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/PreviewView\/DocumentPreview.swift",
       "kind": "IntegerLiteral",
-      "offset": 1949,
+      "offset": 1612,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/PreviewView\/DocumentPreview.swift",
       "kind": "IntegerLiteral",
-      "offset": 1998,
+      "offset": 1661,
       "length": 1,
       "value": "1"
     },
@@ -17462,35 +17567,35 @@
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/MicroBlink\/MicroBlinkProcessor.swift",
       "kind": "BooleanLiteral",
-      "offset": 4083,
+      "offset": 4108,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/MicroBlink\/MicroBlinkProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 4112,
+      "offset": 4137,
       "length": 40,
       "value": "\"The captured document is already sent.\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/MicroBlink\/MicroBlinkProcessor.swift",
       "kind": "BooleanLiteral",
-      "offset": 4210,
+      "offset": 4235,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/MicroBlink\/MicroBlinkProcessor.swift",
       "kind": "BooleanLiteral",
-      "offset": 4249,
+      "offset": 4274,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/MicroBlink\/MicroBlinkProcessor.swift",
       "kind": "FloatLiteral",
-      "offset": 4484,
+      "offset": 4509,
       "length": 3,
       "value": "1.0"
     },
