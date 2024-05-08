@@ -52,11 +52,11 @@ Below you will find images showing which color variables are applied to certain 
 
 <img src="./images/wait-view.png" height="500">
 
-## Odd page view
+## Odd sized camera view
 
 <img src="./images/odd-page-view.png" height="500">
 
-## Odd page captured dcoument view
+## Odd sized document captured view
 
 <img src="./images/odd-page-captured-image-view.png" height="500">
 

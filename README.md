@@ -119,7 +119,29 @@ flowchart LR
 
 #### Swift Package
 
-The 365id Id Verification SDK is distributed as a Swift Package. You can add it as you add any other swift package. Swift Package support was added in version 2.1.x.
+1. Select `File` → `Add Package Dependencies…` in the Xcode menu bar.
+
+2. Search for the IdVerification SDK package using the following URL:
+
+	```
+	https://github.com/365id-AB/idverification-ios
+	```
+
+3. Set the _Dependency Rule_ to be _Up to Next Major Version_ and input 2.x.y as the lower bound.
+
+4. Click _Add Package_ to add the Idverification SDK to your Xcode project and then click again to confirm.
+
+#### Installing via Package.swift
+
+If you prefer, you can add IdVerification365id via your Package.swift file as follows:
+
+```swift
+.package(
+	name: "IdVerification365id",
+	url: "https://github.com/365id-AB/idverification-ios",
+	.upToNextMajor(from: "2.x.y")
+),
+```
 
 #### Cocoapods
 
