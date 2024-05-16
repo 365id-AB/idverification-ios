@@ -63,30 +63,45 @@ Below you will find images showing which color variables are applied to certain 
 You can use `IdVerification.Animations()` to set custom animations for preparation, loading and instructions.
 ```swift
 IdVerification.Animations(
-      public var prepareId3: any View
-      public var prepareId1Frontside: any View
-      public var prepareId1Backside: any View 
-      public var prepareDocument: any View
-      public var prepareOddSizedDocument: any View
-      public var prepareNfc: any View
-      public var prepareFaceMatch: any View 
+      public var prepareId3: any SwiftUI.View
+      public var prepareId1Frontside: any SwiftUI.View
+      public var prepareId1Backside: any SwiftUI.View
+      public var prepareDocument: any SwiftUI.View
+      public var prepareOddSizedDocument: any SwiftUI.View
 
-      public var instructionId3: any View
-      public var instructionId1Frontside: any View
-      public var instructionId1Backside: any View
-      public var instructionOddSizedDocument: any View
-      public var instructionDocument: any View
-      public var instructionNfc: any View 
+      @available(*, deprecated)
+      public var prepareNfc: any SwiftUI.View
 
-      public var loadingImageCapture: any View
-      public var loadingNfc: any View
-      public var loadingFaceMatch: any View
-      public var loadingGeneric: any View
+      public var prepareId1Nfc: any SwiftUI.View
+      public var prepareId3Nfc: any SwiftUI.View
+      public var prepareDocumentNfc: any SwiftUI.View
+      public var prepareFaceMatch: any SwiftUI.View
+
+      public var instructionId3: any SwiftUI.View
+      public var instructionId1Frontside: any SwiftUI.View
+      public var instructionId1Backside: any SwiftUI.View
+      public var instructionOddSizedDocument: any SwiftUI.View
+      public var instructionDocument: any SwiftUI.View
+
+      @available(*, deprecated)
+      public var instructionNfc: any SwiftUI.View
+
+      public var instructionId1Nfc: any SwiftUI.View
+      public var instructionId3Nfc: any SwiftUI.View
+      public var instructionDocumentNfc: any SwiftUI.View
+
+      public var loadingImageCapture: any SwiftUI.View
+      public var loadingNfc: any SwiftUI.View
+      public var loadingFaceMatch: any SwiftUI.View
+      public var loadingGeneric: any SwiftUI.View
+   )
 ```
 
 - The prepare animations are shown before the step is to be performed.
 - The instruction animations are shown during the step.
 - The loading animations are shown after the step is performed.  
+- **prepareNfc** animation will override **prepareId1Nfc**, **prepareId3Nfc** and **prepareDocumentNfc**
+- **instructionNfc** animation will override **instructionId1Nfc**, **instructionId3Nfc** and **instructionDocumentNfc**
 
 <br/>
 
