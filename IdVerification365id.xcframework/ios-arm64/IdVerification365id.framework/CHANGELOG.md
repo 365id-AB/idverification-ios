@@ -4,6 +4,16 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [2.5.1] - 2024-05-13
+
+### Added
+
+- Added different types of animations for NFC.
+
+### Updated
+
+- Updated odd sized document animation.
+
 ## [2.4.3] - 2024-05-07
 
 ### Updated

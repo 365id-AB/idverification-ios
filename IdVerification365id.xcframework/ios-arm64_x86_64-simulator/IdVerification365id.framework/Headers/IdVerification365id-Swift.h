@@ -301,9 +301,9 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if defined(__OBJC__)
 /// Enumeration of different types of document size.
 typedef SWIFT_ENUM(NSInteger, DocumentSizeType, open) {
-/// The shape of the document is id1 (passport size).
+/// The shape of the document is id1 (credit card size) .
   DocumentSizeTypeId1 = 0,
-/// The shape of the document is id3 (credit card size).
+/// The shape of the document is id3 (passport size).
   DocumentSizeTypeId3 = 1,
 /// The default to use when any physical document is assumed to be scanned
   DocumentSizeTypeDocument = 2,
@@ -394,6 +394,68 @@ SWIFT_CLASS("_TtC19IdVerification365id14IdVerification")
 
 
 /// Used to customize all the animations in the Idverification SDK
+/// \param prepareId3 Shown when preparing to take photo of ID3-shaped documents
+///
+/// \param prepareId1Frontside Shown when preparing to take photo of frontside of ID1-shaped document
+///
+/// \param prepareId1Backside Shown when preparing to take photo of backside of ID1-shaped document
+///
+/// \param prepareDocument Shown when preparing to take photo without specifying the document shape
+///
+/// \param prepareOddSizedDocument Shown when preparing to take photo of odd sized document
+///
+/// \param prepareNfc Shown when preparing for the NFC step
+///
+/// \param prepareId1Nfc Shown when preparing for the NFC step of ID1-shaped document
+///
+/// \param prepareId3Nfc Shown when preparing for the NFC step of ID3-shaped document
+///
+/// \param prepareDocumentNfc Shown when preparing for the NFC step without specifying the document shape
+///
+/// \param prepareFaceMatch Shwon when prparing for the face matching step
+///
+/// \param instructionId3 Shown during the ‘take photo of ID3-shaped document’ step
+///
+/// \param instructionId1Frontside Shown during the ‘take photo of frontside of ID1-shaped document’ step
+///
+/// \param instructionId1Backside Shown during the ‘take photo of backside of ID1-shaped document’ step
+///
+/// \param instructionOddSizedDocument For the future use.
+///
+/// \param instructionDocument Shown during the ‘take photo of generic document’ step
+///
+/// \param instructionNfc Shown during the ‘NFC’ step
+///
+/// \param instructionId1Nfc Shown during the ‘NFC’ step of ID1-shaped document
+///
+/// \param instructionId3Nfc Shown during the ‘NFC’ step of ID3-shaped document
+///
+/// \param instructionDocumentNfc Shown during the ‘NFC’ step without specifying the document shape
+///
+/// \param loadingImageCapture Shown after taking photo of a document
+///
+/// \param loadingNfc Shown after completing the NFC step
+///
+/// \param loadingFaceMatch Shown after completing the face matching step
+///
+/// \param loadingGeneric Generic loading animation shown when 365id backend is busy processing a request
+///
+/// \param Note 
+/// <ul>
+///   <li>
+///     <em>prepareNfc</em> and <em>instructionNfc</em> are deprecated.
+///   </li>
+///   <li>
+///     <em>prepareNfc</em> animation will override <em>prepareId1Nfc</em>, <em>prepareId3Nfc</em> and <em>prepareDocumentNfc</em>
+///   </li>
+///   <li>
+///     <em>instructionNfc</em> animation will override <em>instructionId1Nfc</em>, <em>instructionId3Nfc</em> and <em>instructionDocumentNfc</em>
+///   </li>
+///   <li>
+///     <em>instructionOddSizedDocument</em> is reserved it for future purpose.
+///   </li>
+/// </ul>
+///
 SWIFT_CLASS("_TtCC19IdVerification365id14IdVerification10Animations")
 @interface Animations : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
@@ -920,9 +982,9 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if defined(__OBJC__)
 /// Enumeration of different types of document size.
 typedef SWIFT_ENUM(NSInteger, DocumentSizeType, open) {
-/// The shape of the document is id1 (passport size).
+/// The shape of the document is id1 (credit card size) .
   DocumentSizeTypeId1 = 0,
-/// The shape of the document is id3 (credit card size).
+/// The shape of the document is id3 (passport size).
   DocumentSizeTypeId3 = 1,
 /// The default to use when any physical document is assumed to be scanned
   DocumentSizeTypeDocument = 2,
@@ -1013,6 +1075,68 @@ SWIFT_CLASS("_TtC19IdVerification365id14IdVerification")
 
 
 /// Used to customize all the animations in the Idverification SDK
+/// \param prepareId3 Shown when preparing to take photo of ID3-shaped documents
+///
+/// \param prepareId1Frontside Shown when preparing to take photo of frontside of ID1-shaped document
+///
+/// \param prepareId1Backside Shown when preparing to take photo of backside of ID1-shaped document
+///
+/// \param prepareDocument Shown when preparing to take photo without specifying the document shape
+///
+/// \param prepareOddSizedDocument Shown when preparing to take photo of odd sized document
+///
+/// \param prepareNfc Shown when preparing for the NFC step
+///
+/// \param prepareId1Nfc Shown when preparing for the NFC step of ID1-shaped document
+///
+/// \param prepareId3Nfc Shown when preparing for the NFC step of ID3-shaped document
+///
+/// \param prepareDocumentNfc Shown when preparing for the NFC step without specifying the document shape
+///
+/// \param prepareFaceMatch Shwon when prparing for the face matching step
+///
+/// \param instructionId3 Shown during the ‘take photo of ID3-shaped document’ step
+///
+/// \param instructionId1Frontside Shown during the ‘take photo of frontside of ID1-shaped document’ step
+///
+/// \param instructionId1Backside Shown during the ‘take photo of backside of ID1-shaped document’ step
+///
+/// \param instructionOddSizedDocument For the future use.
+///
+/// \param instructionDocument Shown during the ‘take photo of generic document’ step
+///
+/// \param instructionNfc Shown during the ‘NFC’ step
+///
+/// \param instructionId1Nfc Shown during the ‘NFC’ step of ID1-shaped document
+///
+/// \param instructionId3Nfc Shown during the ‘NFC’ step of ID3-shaped document
+///
+/// \param instructionDocumentNfc Shown during the ‘NFC’ step without specifying the document shape
+///
+/// \param loadingImageCapture Shown after taking photo of a document
+///
+/// \param loadingNfc Shown after completing the NFC step
+///
+/// \param loadingFaceMatch Shown after completing the face matching step
+///
+/// \param loadingGeneric Generic loading animation shown when 365id backend is busy processing a request
+///
+/// \param Note 
+/// <ul>
+///   <li>
+///     <em>prepareNfc</em> and <em>instructionNfc</em> are deprecated.
+///   </li>
+///   <li>
+///     <em>prepareNfc</em> animation will override <em>prepareId1Nfc</em>, <em>prepareId3Nfc</em> and <em>prepareDocumentNfc</em>
+///   </li>
+///   <li>
+///     <em>instructionNfc</em> animation will override <em>instructionId1Nfc</em>, <em>instructionId3Nfc</em> and <em>instructionDocumentNfc</em>
+///   </li>
+///   <li>
+///     <em>instructionOddSizedDocument</em> is reserved it for future purpose.
+///   </li>
+/// </ul>
+///
 SWIFT_CLASS("_TtCC19IdVerification365id14IdVerification10Animations")
 @interface Animations : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;

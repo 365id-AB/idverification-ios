@@ -53,14 +53,22 @@ import _SwiftConcurrencyShims
     public var prepareId1Backside: any SwiftUI.View
     public var prepareDocument: any SwiftUI.View
     public var prepareOddSizedDocument: any SwiftUI.View
+    @available(*, deprecated)
     public var prepareNfc: any SwiftUI.View
+    public var prepareId1Nfc: any SwiftUI.View
+    public var prepareId3Nfc: any SwiftUI.View
+    public var prepareDocumentNfc: any SwiftUI.View
     public var prepareFaceMatch: any SwiftUI.View
     public var instructionId3: any SwiftUI.View
     public var instructionId1Frontside: any SwiftUI.View
     public var instructionId1Backside: any SwiftUI.View
     public var instructionOddSizedDocument: any SwiftUI.View
     public var instructionDocument: any SwiftUI.View
+    @available(*, deprecated)
     public var instructionNfc: any SwiftUI.View
+    public var instructionId1Nfc: any SwiftUI.View
+    public var instructionId3Nfc: any SwiftUI.View
+    public var instructionDocumentNfc: any SwiftUI.View
     public var loadingImageCapture: any SwiftUI.View
     public var loadingNfc: any SwiftUI.View
     public var loadingFaceMatch: any SwiftUI.View
@@ -134,6 +142,7 @@ public struct IdVerificationView : SwiftUI.View {
     get
   }
 }
+
 
 
 extension UIKit.UIView {
