@@ -17339,280 +17339,287 @@
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Utils\/SentryHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 212,
+      "offset": 204,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Utils\/SentryHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 268,
+      "offset": 260,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Utils\/SentryHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 342,
+      "offset": 334,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Utils\/SentryHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 443,
+      "offset": 435,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Utils\/SentryHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 466,
+      "offset": 458,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Utils\/SentryHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 626,
+      "offset": 618,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Utils\/SentryHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 709,
+      "offset": 701,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Utils\/SentryHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 788,
+      "offset": 780,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Utils\/SentryHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 844,
+      "offset": 836,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Utils\/SentryHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 867,
+      "offset": 859,
       "length": 4,
       "value": "true"
+    },
+    {
+      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Utils\/SentryHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1078,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Utils\/SentryHandler.swift",
       "kind": "StringLiteral",
-      "offset": 1014,
+      "offset": 1140,
       "length": 8,
       "value": "\"_trace\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Utils\/SentryHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 1038,
+      "offset": 1164,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Utils\/SentryHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 1100,
+      "offset": 1226,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Utils\/SentryHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 1160,
+      "offset": 1286,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Utils\/SentryHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 1253,
+      "offset": 1379,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Utils\/SentryHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 1327,
+      "offset": 1453,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Utils\/SentryHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 1350,
+      "offset": 1476,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Utils\/SentryHandler.swift",
       "kind": "StringLiteral",
-      "offset": 1632,
+      "offset": 1758,
       "length": 15,
       "value": "\"SENTRY_SENDER\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Utils\/SentryHandler.swift",
       "kind": "StringLiteral",
-      "offset": 1689,
+      "offset": 1815,
       "length": 21,
       "value": "\"IdVerification365id\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Utils\/SentryHandler.swift",
       "kind": "StringLiteral",
-      "offset": 1759,
+      "offset": 1885,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Utils\/SentryHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 2953,
+      "offset": 3080,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Utils\/SentryHandler.swift",
       "kind": "StringLiteral",
-      "offset": 3188,
+      "offset": 3315,
       "length": 12,
       "value": "\"production\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Utils\/SentryHandler.swift",
       "kind": "StringLiteral",
-      "offset": 3436,
+      "offset": 3563,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Utils\/SentryHandler.swift",
       "kind": "StringLiteral",
-      "offset": 3462,
+      "offset": 3589,
       "length": 26,
       "value": "\"365id-ios-sdk@\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Utils\/SentryHandler.swift",
       "kind": "StringLiteral",
-      "offset": 3487,
+      "offset": 3614,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Utils\/SentryHandler.swift",
       "kind": "FloatLiteral",
-      "offset": 3648,
+      "offset": 3775,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Utils\/SentryHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 3770,
+      "offset": 3897,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Utils\/SentryHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 3886,
+      "offset": 4013,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Utils\/SentryHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 4040,
+      "offset": 4167,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Utils\/SentryHandler.swift",
       "kind": "StringLiteral",
-      "offset": 5195,
+      "offset": 5322,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Utils\/SentryHandler.swift",
       "kind": "StringLiteral",
-      "offset": 5280,
+      "offset": 5407,
       "length": 28,
       "value": "\"level(in app): \""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Utils\/SentryHandler.swift",
       "kind": "StringLiteral",
-      "offset": 5307,
+      "offset": 5434,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Utils\/SentryHandler.swift",
       "kind": "StringLiteral",
-      "offset": 5322,
+      "offset": 5449,
       "length": 19,
       "value": "\"method: \""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Utils\/SentryHandler.swift",
       "kind": "StringLiteral",
-      "offset": 5340,
+      "offset": 5467,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Utils\/SentryHandler.swift",
       "kind": "StringLiteral",
-      "offset": 5355,
+      "offset": 5482,
       "length": 23,
       "value": "\"filename: \""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Utils\/SentryHandler.swift",
       "kind": "StringLiteral",
-      "offset": 5377,
+      "offset": 5504,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Utils\/SentryHandler.swift",
       "kind": "StringLiteral",
-      "offset": 5392,
+      "offset": 5519,
       "length": 15,
       "value": "\"line: \""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Utils\/SentryHandler.swift",
       "kind": "StringLiteral",
-      "offset": 5406,
+      "offset": 5533,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Utils\/SentryHandler.swift",
       "kind": "StringLiteral",
-      "offset": 5421,
+      "offset": 5548,
       "length": 33,
       "value": "\"transactionId: \""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Utils\/SentryHandler.swift",
       "kind": "StringLiteral",
-      "offset": 5453,
+      "offset": 5580,
       "length": 1,
       "value": "\"\""
     },

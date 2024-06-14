@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [2.5.3] - 2024-06-13
+
+### Fixed
+
+Fixed app crash while intializing the sentry.
+
 ## [2.5.1] - 2024-05-13
 
 ### Added
