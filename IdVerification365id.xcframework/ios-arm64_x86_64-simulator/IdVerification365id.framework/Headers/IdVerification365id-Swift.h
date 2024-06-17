@@ -520,6 +520,7 @@ SWIFT_PROTOCOL("_TtP19IdVerification365id27IdVerificationEventDelegate_")
 ///   </li>
 ///   <li>
 ///     countryCode: Identification code for an issuing countries. Format is ISO 3166-1 alpha-3
+///     The country code for generic passport is “365”.
 ///   </li>
 /// </ul>
 - (void)onDocumentFeedback:(enum DocumentType)documentType countryCode:(NSString * _Nonnull)countryCode;
@@ -1201,6 +1202,7 @@ SWIFT_PROTOCOL("_TtP19IdVerification365id27IdVerificationEventDelegate_")
 ///   </li>
 ///   <li>
 ///     countryCode: Identification code for an issuing countries. Format is ISO 3166-1 alpha-3
+///     The country code for generic passport is “365”.
 ///   </li>
 /// </ul>
 - (void)onDocumentFeedback:(enum DocumentType)documentType countryCode:(NSString * _Nonnull)countryCode;

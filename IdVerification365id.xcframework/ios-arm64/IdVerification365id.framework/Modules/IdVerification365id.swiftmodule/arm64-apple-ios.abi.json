@@ -13840,15 +13840,15 @@
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/Grpc\/GRPCConfig.swift",
       "kind": "StringLiteral",
       "offset": 146,
-      "length": 34,
-      "value": "\"frontend-device-ag.int.365id.com\""
+      "length": 39,
+      "value": "\"northeurope-device-frontend.365id.com\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/Grpc\/GRPCConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 313,
-      "length": 4,
-      "value": "5001"
+      "offset": 232,
+      "length": 3,
+      "value": "443"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Models\/TransactionModel.swift",
