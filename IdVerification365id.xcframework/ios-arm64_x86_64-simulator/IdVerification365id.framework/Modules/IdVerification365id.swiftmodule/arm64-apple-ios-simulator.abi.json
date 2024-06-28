@@ -12460,126 +12460,126 @@
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/IdVerification.swift",
       "kind": "IntegerLiteral",
-      "offset": 6636,
+      "offset": 6672,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/IdVerification.swift",
       "kind": "Array",
-      "offset": 6741,
+      "offset": 6777,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/IdVerification.swift",
       "kind": "StringLiteral",
-      "offset": 7051,
+      "offset": 7122,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/IdVerification.swift",
       "kind": "StringLiteral",
-      "offset": 7073,
+      "offset": 7144,
       "length": 25,
       "value": "\"Starting the ios SDK...\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/IdVerification.swift",
       "kind": "StringLiteral",
-      "offset": 7156,
+      "offset": 7227,
       "length": 47,
       "value": "\"SDK was not cleared, stopSDK() was not called\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/IdVerification.swift",
       "kind": "BooleanLiteral",
-      "offset": 7240,
+      "offset": 7295,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/IdVerification.swift",
       "kind": "StringLiteral",
-      "offset": 7315,
+      "offset": 7370,
       "length": 16,
       "value": "\"Token is empty\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/IdVerification.swift",
       "kind": "BooleanLiteral",
-      "offset": 7371,
+      "offset": 7426,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/IdVerification.swift",
       "kind": "BooleanLiteral",
-      "offset": 7410,
+      "offset": 7465,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/IdVerification.swift",
       "kind": "StringLiteral",
-      "offset": 7811,
+      "offset": 7866,
       "length": 12,
       "value": "\"LocationId\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/IdVerification.swift",
       "kind": "StringLiteral",
-      "offset": 7825,
+      "offset": 7880,
       "length": 15,
       "value": "\"\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/IdVerification.swift",
       "kind": "StringLiteral",
-      "offset": 7839,
+      "offset": 7894,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/IdVerification.swift",
       "kind": "StringLiteral",
-      "offset": 7898,
+      "offset": 7953,
       "length": 14,
       "value": "\"NFCAvailable\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/IdVerification.swift",
       "kind": "BooleanLiteral",
-      "offset": 8131,
+      "offset": 8186,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/IdVerification.swift",
       "kind": "StringLiteral",
-      "offset": 8327,
+      "offset": 8382,
       "length": 58,
       "value": "\"Ignoring stopping the ios SDK. (Already been stopped...)\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/IdVerification.swift",
       "kind": "StringLiteral",
-      "offset": 8435,
+      "offset": 8490,
       "length": 25,
       "value": "\"Stopping the ios SDK...\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/IdVerification.swift",
       "kind": "BooleanLiteral",
-      "offset": 8912,
+      "offset": 8967,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/IdVerification.swift",
       "kind": "StringLiteral",
-      "offset": 9057,
+      "offset": 9112,
       "length": 2,
       "value": "\"\""
     },
@@ -12880,42 +12880,42 @@
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/OddPageView\/OddPageView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1750,
+      "offset": 1749,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/OddPageView\/OddPageView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1801,
+      "offset": 1800,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/OddPageView\/OddPageView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1958,
+      "offset": 1957,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/OddPageView\/OddPageView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2210,
+      "offset": 2209,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/OddPageView\/OddPageView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2308,
+      "offset": 2307,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/OddPageView\/OddPageView.swift",
       "kind": "FloatLiteral",
-      "offset": 2615,
+      "offset": 2614,
       "length": 3,
       "value": "0.5"
     },
@@ -13846,7 +13846,7 @@
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/Grpc\/GRPCConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 232,
+      "offset": 333,
       "length": 3,
       "value": "443"
     },
@@ -14070,63 +14070,63 @@
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Models\/TransactionModel.swift",
       "kind": "FloatLiteral",
-      "offset": 6073,
+      "offset": 6294,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Models\/TransactionModel.swift",
       "kind": "StringLiteral",
-      "offset": 6533,
+      "offset": 6754,
       "length": 72,
       "value": "\"Received unknown response from 365id cloud services. Please try again.\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Models\/TransactionModel.swift",
       "kind": "StringLiteral",
-      "offset": 6647,
+      "offset": 6868,
       "length": 25,
       "value": "\"This should not happen!\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Models\/TransactionModel.swift",
       "kind": "StringLiteral",
-      "offset": 6799,
+      "offset": 7020,
       "length": 53,
       "value": "\"Received unknown response from 365id cloud services\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Models\/TransactionModel.swift",
       "kind": "StringLiteral",
-      "offset": 7685,
+      "offset": 8600,
       "length": 40,
       "value": "\"Unable to decode the payload: \""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Models\/TransactionModel.swift",
       "kind": "StringLiteral",
-      "offset": 7724,
+      "offset": 8639,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Models\/TransactionModel.swift",
       "kind": "StringLiteral",
-      "offset": 7819,
+      "offset": 8734,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Models\/TransactionModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 8202,
+      "offset": 9117,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Models\/TransactionModel.swift",
       "kind": "StringLiteral",
-      "offset": 8319,
+      "offset": 9234,
       "length": 32,
       "value": "\"Started the activate function.\""
     },

@@ -449,7 +449,8 @@ SWIFT_CLASS("_TtC19IdVerification365id14IdVerification")
 ///     <em>prepareNfc</em> animation will override <em>prepareId1Nfc</em>, <em>prepareId3Nfc</em> and <em>prepareDocumentNfc</em>
 ///   </li>
 ///   <li>
-///     <em>instructionNfc</em> animation will override <em>instructionId1Nfc</em>, <em>instructionId3Nfc</em> and <em>instructionDocumentNfc</em>
+///     <em>instructionNfc</em> animation will override
+///     <em>instructionId1Nfc</em>, <em>instructionId3Nfc</em> and <em>instructionDocumentNfc</em>
 ///   </li>
 ///   <li>
 ///     <em>instructionOddSizedDocument</em> is reserved it for future purpose.
