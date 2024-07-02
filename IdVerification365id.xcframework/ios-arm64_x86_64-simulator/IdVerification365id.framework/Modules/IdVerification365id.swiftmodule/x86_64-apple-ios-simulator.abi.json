@@ -11984,63 +11984,105 @@
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Camera\/CameraManager.swift",
       "kind": "StringLiteral",
-      "offset": 1861,
+      "offset": 2347,
+      "length": 36,
+      "value": "\"Could not create a camera session.\""
+    },
+    {
+      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Camera\/CameraManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2520,
+      "length": 28,
+      "value": "\"Could not find back camera\""
+    },
+    {
+      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Camera\/CameraManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2768,
       "length": 48,
       "value": "\"Could not create input device from back camera\""
-    },
-    {
-      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Camera\/CameraManager.swift",
-      "kind": "StringLiteral",
-      "offset": 2157,
-      "length": 48,
-      "value": "\"Could not create input device from back camera\""
-    },
-    {
-      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Camera\/CameraManager.swift",
-      "kind": "StringLiteral",
-      "offset": 2711,
-      "length": 9,
-      "value": "\"myQueue\""
-    },
-    {
-      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Camera\/CameraManager.swift",
-      "kind": "StringLiteral",
-      "offset": 3285,
-      "length": 27,
-      "value": "\"Camera is already running\""
-    },
-    {
-      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Camera\/CameraManager.swift",
-      "kind": "StringLiteral",
-      "offset": 3442,
-      "length": 47,
-      "value": "\"Failed to create a captured session: \""
-    },
-    {
-      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Camera\/CameraManager.swift",
-      "kind": "StringLiteral",
-      "offset": 3488,
-      "length": 2,
-      "value": "\"\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Camera\/CameraManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 3661,
+      "offset": 2925,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Camera\/CameraManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2955,
+      "length": 52,
+      "value": "\"Could not add back camera input to capture session\""
+    },
+    {
+      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Camera\/CameraManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3319,
+      "length": 12,
+      "value": "\"videoQueue\""
+    },
+    {
+      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Camera\/CameraManager.swift",
+      "kind": "Array",
+      "offset": 3408,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Camera\/CameraManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3577,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Camera\/CameraManager.swift",
       "kind": "StringLiteral",
-      "offset": 3769,
+      "offset": 3670,
+      "length": 48,
+      "value": "\"Could not add capture session for video output\""
+    },
+    {
+      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Camera\/CameraManager.swift",
+      "kind": "StringLiteral",
+      "offset": 4697,
+      "length": 27,
+      "value": "\"Camera is already running\""
+    },
+    {
+      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Camera\/CameraManager.swift",
+      "kind": "StringLiteral",
+      "offset": 4854,
+      "length": 47,
+      "value": "\"Failed to create a captured session: \""
+    },
+    {
+      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Camera\/CameraManager.swift",
+      "kind": "StringLiteral",
+      "offset": 4900,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Camera\/CameraManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5073,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Camera\/CameraManager.swift",
+      "kind": "StringLiteral",
+      "offset": 5181,
       "length": 23,
       "value": "\"Camera is not running\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Camera\/CameraManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 3995,
+      "offset": 5407,
       "length": 5,
       "value": "false"
     },
