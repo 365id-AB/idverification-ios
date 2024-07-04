@@ -3,7 +3,7 @@ import UIKit
 // MARK: - Handle Token requests
 public struct TokenHandler: Codable {
 
-    private static let baseUrl: String = "https://eu.customer.365id.com/api/v1/"
+    private static let baseUrl: String = "https://global-customer-frontend.365id.com/api/v1/"
 
     private let accessToken: String?
     private let expiresIn: Int?

@@ -9,7 +9,7 @@
 @synthesize clientSecret = _clientSecret;
 @synthesize clientId = _clientId;
 
-static NSString *baseUrl = @"https://eu.customer.365id.com/api/v1/";
+static NSString *baseUrl = @"https://global-customer-frontend.365id.com/api/v1/";
 const NSInteger minimumSecondsToUseToken = 25;
 static NSString *storedTokenDataKey = @"TokenData365ID";
 
