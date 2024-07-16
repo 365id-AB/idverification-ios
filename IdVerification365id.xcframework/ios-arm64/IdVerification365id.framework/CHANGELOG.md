@@ -4,11 +4,35 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [2.5.10] - 2024-07-16
+
+### Updated
+
+- Updated face match information view text.
+
+## [2.5.9] - 2024-07-15
+
+### Updated
+
+- Updated the microblink to version 1.3.1.
+
+## [2.5.8] - 2024-07-15
+
+### Added
+
+- Added retries for an IProov.
+
+## [2.5.7] - 2024-07-03
+
+### Updated
+
+- Updated the iProov SDK to version 11.1.1.
+
 ## [2.5.6] - 2024-07-01
 
 ### Fixed
 
-Fixed app crash while intializing the camera on iPad.
+- Fixed app crash while intializing the camera on iPad.
 
 ## [2.5.5] - 2024-06-25
 

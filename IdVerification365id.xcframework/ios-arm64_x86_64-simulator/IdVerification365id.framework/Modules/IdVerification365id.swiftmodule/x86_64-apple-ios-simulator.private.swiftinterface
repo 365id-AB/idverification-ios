@@ -145,6 +145,8 @@ public struct IdVerificationView : SwiftUI.View {
 
 
 
+
+
 extension UIKit.UIView {
   @_Concurrency.MainActor(unsafe) public func asUIImage() -> UIKit.UIImage
 }
