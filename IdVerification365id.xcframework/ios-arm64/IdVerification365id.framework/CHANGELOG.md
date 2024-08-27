@@ -4,6 +4,50 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [2.5.18] - 2024-08-27
+
+### Fixed
+
+- Increasing http git postbuffer size.
+
+## [2.5.17] - 2024-08-27
+
+### Fixed
+
+- Increasing git postbuffer size for pipeline.
+
+## [2.5.16] - 2024-08-19
+
+### Fixed
+
+- Increasing git buffer size for cocoapods.
+
+## [2.5.15] - 2024-08-19
+
+### Fixed
+
+- Updating the cocoapod-repository-url.
+
+## [2.5.14] - 2024-08-08
+
+### Update
+
+- Updating the cocoapod build pipeline to work with the new builder version
+
+## [2.5.13] - 2024-08-08
+
+### Update
+
+- Updated builder version 0.6
+- Updated Ruby version to 3.3.4
+
+## [2.5.12] - 2024-08-08
+
+### Fixed
+
+- Moved the reticle to its designed position.
+- Increased the cancel button margin in MBOverlayView.
+
 ## [2.5.10] - 2024-07-16
 
 ### Updated
