@@ -4,6 +4,18 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [2.5.20] - 2024-09-05
+
+### Updated
+
+- Updated Sentry and grpc-swift to the latest version.
+
+## [2.5.19] - 2024-08-27
+
+### Updated
+
+- Updated image capture library and facedetection library.
+
 ## [2.5.18] - 2024-08-27
 
 ### Fixed
