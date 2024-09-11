@@ -23,13 +23,13 @@ let package = Package(
         ),
         .binaryTarget(
             name: "iProov",
-            url: "https://github.com/iProov/ios/releases/download/11.1.1/iProov.xcframework.zip",
-            checksum: "6a4b85f2e10a6819d97fffaa0719702e9a885db3ef0e4ab75cfec7a05d854af4"
+            url: "https://github.com/iProov/ios/releases/download/12.0.0/iProov.xcframework.zip",
+            checksum: "f1eb0a3c585ea677401054943e34b15b16d21e45c1b1bdc8654dba438e02e612"
         ),
         .binaryTarget(
             name: "CaptureCore",
-            url: "https://github.com/BlinkID/capture-ios/releases/download/v1.3.1/CaptureCore.xcframework.zip",
-            checksum: "31a6ded66b16e3c3d7fb75584ed039626ae6d7762d9058f9fea375aa9c5569e2"
+            url: "https://github.com/BlinkID/capture-ios/releases/download/v1.4.1/CaptureCore.xcframework.zip",
+            checksum: "09defaa5ca73872e1cbf115782bf97a37c40ac775742e33ed88827487a31e6ac"
         )
     ]
 )
