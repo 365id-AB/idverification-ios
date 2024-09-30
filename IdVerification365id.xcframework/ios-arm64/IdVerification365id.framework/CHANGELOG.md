@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [2.5.22] - 2024-10-30
+
+### Fixed
+
+- Fixed NFC connection lost issue.
+
 ## [2.5.21] - 2024-10-11
 
 ### Updated
