@@ -20,89 +20,6 @@ Otherwise you can contact us at [info@365id.com](mailto:info@365id.com) for furt
 <br/>
 <br/>
 
-## Application SDK integration flow
-
-This is a basic representation of the flow in an App, integrating the 365id Id Verification SDK together with a Customer backend. Boxes with a dashed outline are configurable steps in the process.
-
-```mermaid
-flowchart LR
-
-   subgraph APP1[APP]
-
-      user[The user interaction comes<br> to a point where<br> identification is needed]
-      id_begin[The identification flow<br>begins in the App]
-      token[An access token<br> is requested from the<br> customer backend]
-
-      user --> id_begin
-      id_begin --> token
-
-   end
-
-   subgraph CUSTOMER_BACKEND1[CUSTOMER BACKEND]
-
-      request[The customer backend makes<br> a request for an access token]
-      backend_365[The customer backend retrieves<br> an access token from the<br> 365id backend]
-      response[The access token is<br> delivered back to the App]
-
-      request --> backend_365
-      backend_365 --> response
-
-   end
-
-   subgraph APP2[APP]
-
-      valid[The app receives the<br> access token]
-      startSDK[The app now starts the<br> SDK with the access token]
-
-      valid --> startSDK
-
-   end
-
-   subgraph SDK
-
-      front[The user is asked to take<br>a picture of the document]
-      back[The user is asked to take<br>a picture of the backside<br>of the document]
-      nfc[The user is asked to place<br>the phone on the document<br>for NFC check]
-      liveness[The user is asked to perform<br> a liveness check]
-      result[A result and a transaction id is<br> returned to the App via<br> a callback]
-
-      front --> back
-      back --> nfc
-      nfc --> liveness
-      liveness --> result
-      style nfc stroke-dasharray: 8 8
-      style liveness stroke-dasharray: 8 8
-   end
-
-   subgraph APP3[APP]
-
-      callback[The app handles the callback<br> and gets the simple result<br> and the transaction id]
-      contact[The app sends the transaction id<br> to the customer backend]
-
-      callback --> contact
-
-   end
-
-   subgraph CUSTOMER_BACKEND2[CUSTOMER BACKEND]
-      transaction_id[The customer backend gets the<br> transaction id]
-      backend[The customer backend talks<br> to the 365id service and gets all<br> details extracted during the<br> id verification process]
-      outcome[The customer backend takes<br> a decision based on the outcome<br> of the verification process]
-
-      transaction_id --> backend
-      backend --> outcome
-   end
-
-   APP1 --> CUSTOMER_BACKEND1
-   CUSTOMER_BACKEND1 --> APP2
-   APP2 --> SDK
-   SDK --> APP3
-   APP3 --> CUSTOMER_BACKEND2
-```
-
-<br/>
-<br/>
-<br/>
-
 ## Requirements
 
 - Xcode 15.0+
@@ -566,6 +483,133 @@ In writing, this can be described as such:
 - App requests an access token. This can be handled either by the app directly, or as recommended by the diagram, through your backend services. Requesting the first access token requires a client id and client secret, also known as customer external id and license key. Our recommendation is to store this in your backend, and use it when requesting an access token for the first time. Subsequent access tokens for a specific device can be requested using the existing access token and a refresh token.
 - App uses the received access token to start the SDK, beginning a transaction. The SDK will take over the app until all requested steps have been completed, after which it will return a summary of the transaction result, alongside a transaction ID.
 - The transaction ID is used to poll 365id services about the details of the transaction. The recommendation here is that your backend receives this ID from the App, then makes a decision based on the result received from the 365id Backend API.
+
+<br/>
+<br/>
+<br/>
+
+## Application SDK integration flow
+
+This is a basic representation of the flow in an App, integrating the 365id Id Verification SDK together with a Customer backend. Boxes with a dashed outline are configurable steps in the process.
+
+```mermaid
+flowchart LR
+
+   subgraph APP1[APP]
+
+      user[The user interaction comes<br> to a point where<br> identification is needed]
+      id_begin[The identification flow<br>begins in the App]
+      token[An access token<br> is requested from the<br> customer backend]
+
+      user --> id_begin
+      id_begin --> token
+
+   end
+
+   subgraph CUSTOMER_BACKEND1[CUSTOMER BACKEND]
+
+      request[The customer backend makes<br> a request for an access token]
+      backend_365[The customer backend retrieves<br> an access token from the<br> 365id backend]
+      response[The access token is<br> delivered back to the App]
+
+      request --> backend_365
+      backend_365 --> response
+
+   end
+
+   subgraph APP2[APP]
+
+      valid[The app receives the<br> access token]
+      startSDK[The app now starts the<br> SDK with the access token]
+
+      valid --> startSDK
+
+   end
+
+   subgraph SDK
+
+      front[The user is asked to take<br>a picture of the document]
+      back[The user is asked to take<br>a picture of the backside<br>of the document]
+      nfc[The user is asked to place<br>the phone on the document<br>for NFC check]
+      liveness[The user is asked to perform<br> a liveness check]
+      result[A result and a transaction id is<br> returned to the App via<br> a callback]
+
+      front --> back
+      back --> nfc
+      nfc --> liveness
+      liveness --> result
+      style nfc stroke-dasharray: 8 8
+      style liveness stroke-dasharray: 8 8
+   end
+
+   subgraph APP3[APP]
+
+      callback[The app handles the callback<br> and gets the simple result<br> and the transaction id]
+      contact[The app sends the transaction id<br> to the customer backend]
+
+      callback --> contact
+
+   end
+
+   subgraph CUSTOMER_BACKEND2[CUSTOMER BACKEND]
+      transaction_id[The customer backend gets the<br> transaction id]
+      backend[The customer backend talks<br> to the 365id service and gets all<br> details extracted during the<br> id verification process]
+      outcome[The customer backend takes<br> a decision based on the outcome<br> of the verification process]
+
+      transaction_id --> backend
+      backend --> outcome
+   end
+
+   APP1 --> CUSTOMER_BACKEND1
+   CUSTOMER_BACKEND1 --> APP2
+   APP2 --> SDK
+   SDK --> APP3
+   APP3 --> CUSTOMER_BACKEND2
+```
+
+## Retry attempts and how they impact the flow in the SDK
+
+If the identification process goes well the SDK will follow a "standard" flow, where the different steps will appear in the following order:
+
+### Document scan &rarr; NFC &rarr; Facematch
+
+However if one of the steps fails, we will deviate from the standard flow. For example ifwe are unable to unlock the NFC-chip, the user will be asked to perform another document scan in an attempt to extract the information needed to unlock the chip.
+
+### Early feedback and retries
+
+The early feedback will provide the integrator with an early indicator of the success or failure of a performed step in the SDK.
+The feedback is provided through callbacks, one for each step of the identification process.
+
+### Document feedback
+
+Callback received after the document identification process.
+This callback will provide information about the type of document that's been scanned and the country code of the issuing country.
+```swift
+   func onDocumentFeedback(_ documentType: DocumentType, countryCode: String) {}
+```
+If we are unable to identify the document, no feedback will be sent. Instead, a retry will be triggered where the user is asked to scan the document again.
+If the document is not identified after three attempts, feedback will be sent with `DocumentType` set to `Unknown`.
+
+### Nfc feedback
+
+Callback received after the nfc process.
+This callback will provide some information about the status of the nfc task, either `Completed`, `Failed` or `Aborted`.
+It will also return the expiry date of the document.
+```swift
+   func onNfcFeedback(_ nfcFeedback: NfcFeedback, expiryDate: String) {}
+```
+If we are unable to unlock the NFC-chip, no feedback will be sent. Instead, the user will be asked to scan the document again in an attempt to extract the information needed to unlock the chip.
+If the NFC-chip is not unlocked after three attempts, feedback will be sent with `NfcFeedback` set to `Failed`.
+
+### Facematch feedback
+
+Callback received after the facematch step.
+This callback will provide information about the status of the facematch, either `Matched`, `NoMatch` or `Aborted`.
+```swift
+   func onFaceMatchFeedback(_ facematchFeedback: FaceMatchFeedback) {}
+```
+If we are unable to match the face, no feedback will be sent. Instead, the user will be asked to perform a new facematch.
+If the facematch fails three times, feedback will be sent with `FacematchFeedback` set to `NoMatch`.
 
 <br/>
 <br/>
