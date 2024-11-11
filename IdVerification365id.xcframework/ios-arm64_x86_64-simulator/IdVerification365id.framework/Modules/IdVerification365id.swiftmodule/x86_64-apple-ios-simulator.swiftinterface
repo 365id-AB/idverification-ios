@@ -1,6 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
 // swift-module-flags: -target x86_64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name IdVerification365id
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import AVFoundation
 import Combine
 import CoreNFC
@@ -47,31 +48,31 @@ import _SwiftConcurrencyShims
 }
 @_inheritsConvenienceInitializers @objc public class IdVerification : ObjectiveC.NSObject {
   @_inheritsConvenienceInitializers @objc public class Animations : ObjectiveC.NSObject {
-    public var prepareId3: any SwiftUI.View
-    public var prepareId1Frontside: any SwiftUI.View
-    public var prepareId1Backside: any SwiftUI.View
-    public var prepareDocument: any SwiftUI.View
-    public var prepareOddSizedDocument: any SwiftUI.View
+    public var prepareId3: any SwiftUICore.View
+    public var prepareId1Frontside: any SwiftUICore.View
+    public var prepareId1Backside: any SwiftUICore.View
+    public var prepareDocument: any SwiftUICore.View
+    public var prepareOddSizedDocument: any SwiftUICore.View
     @available(*, deprecated)
-    public var prepareNfc: any SwiftUI.View
-    public var prepareId1Nfc: any SwiftUI.View
-    public var prepareId3Nfc: any SwiftUI.View
-    public var prepareDocumentNfc: any SwiftUI.View
-    public var prepareFaceMatch: any SwiftUI.View
-    public var instructionId3: any SwiftUI.View
-    public var instructionId1Frontside: any SwiftUI.View
-    public var instructionId1Backside: any SwiftUI.View
-    public var instructionOddSizedDocument: any SwiftUI.View
-    public var instructionDocument: any SwiftUI.View
+    public var prepareNfc: any SwiftUICore.View
+    public var prepareId1Nfc: any SwiftUICore.View
+    public var prepareId3Nfc: any SwiftUICore.View
+    public var prepareDocumentNfc: any SwiftUICore.View
+    public var prepareFaceMatch: any SwiftUICore.View
+    public var instructionId3: any SwiftUICore.View
+    public var instructionId1Frontside: any SwiftUICore.View
+    public var instructionId1Backside: any SwiftUICore.View
+    public var instructionOddSizedDocument: any SwiftUICore.View
+    public var instructionDocument: any SwiftUICore.View
     @available(*, deprecated)
-    public var instructionNfc: any SwiftUI.View
-    public var instructionId1Nfc: any SwiftUI.View
-    public var instructionId3Nfc: any SwiftUI.View
-    public var instructionDocumentNfc: any SwiftUI.View
-    public var loadingImageCapture: any SwiftUI.View
-    public var loadingNfc: any SwiftUI.View
-    public var loadingFaceMatch: any SwiftUI.View
-    public var loadingGeneric: any SwiftUI.View
+    public var instructionNfc: any SwiftUICore.View
+    public var instructionId1Nfc: any SwiftUICore.View
+    public var instructionId3Nfc: any SwiftUICore.View
+    public var instructionDocumentNfc: any SwiftUICore.View
+    public var loadingImageCapture: any SwiftUICore.View
+    public var loadingNfc: any SwiftUICore.View
+    public var loadingFaceMatch: any SwiftUICore.View
+    public var loadingGeneric: any SwiftUICore.View
     @objc override dynamic public init()
     @objc deinit
   }
@@ -97,11 +98,12 @@ import _SwiftConcurrencyShims
 
 
 
-public struct IdVerificationView : SwiftUI.View {
-  public init()
-  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+@_Concurrency.MainActor @preconcurrency public struct IdVerificationView : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public init()
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
+  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
   public typealias Body = @_opaqueReturnTypeOf("$s19IdVerification365id0A16VerificationViewV4bodyQrvp", 0) __
 }
 @objc public enum DocumentType : Swift.Int {
@@ -147,7 +149,7 @@ public struct IdVerificationView : SwiftUI.View {
 
 
 extension UIKit.UIView {
-  @_Concurrency.MainActor(unsafe) public func asUIImage() -> UIKit.UIImage
+  @_Concurrency.MainActor @preconcurrency public func asUIImage() -> UIKit.UIImage
 }
 
 @objc public enum IdVerificationError : Swift.Int {
@@ -203,8 +205,8 @@ extension UIKit.UIView {
     get
   }
 }
-extension SwiftUI.View {
-  @inlinable public func reverseMask<Mask>(alignment: SwiftUI.Alignment = .center, @SwiftUI.ViewBuilder _ mask: () -> Mask) -> some SwiftUI.View where Mask : SwiftUI.View {
+extension SwiftUICore.View {
+  @inlinable @_Concurrency.MainActor @preconcurrency public func reverseMask<Mask>(alignment: SwiftUICore.Alignment = .center, @SwiftUICore.ViewBuilder _ mask: () -> Mask) -> some SwiftUICore.View where Mask : SwiftUICore.View {
     self.mask {
       Rectangle()
         .overlay(alignment: alignment) {
@@ -222,6 +224,7 @@ extension IdVerification365id.NfcFeedback : Swift.RawRepresentable {}
 extension IdVerification365id.DocumentSizeType : Swift.Equatable {}
 extension IdVerification365id.DocumentSizeType : Swift.Hashable {}
 extension IdVerification365id.DocumentSizeType : Swift.RawRepresentable {}
+extension IdVerification365id.IdVerificationView : Swift.Sendable {}
 extension IdVerification365id.DocumentType : Swift.Equatable {}
 extension IdVerification365id.DocumentType : Swift.Hashable {}
 extension IdVerification365id.DocumentType : Swift.RawRepresentable {}

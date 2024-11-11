@@ -4,13 +4,26 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
-## [2.5.22] - 2024-10-30
+## [2.5.24] - 2024-10-22
+
+### Fixed
+
+- Image capture view showing copy of previously captured image.
+- Fixed inconsistent sources of locale is used in SDK.
+
+## [2.5.23] - 2024-10-01
+
+### Fixed
+
+- Updated infomation view to get the texts from 365id backend.
+
+## [2.5.22] - 2024-09-30
 
 ### Fixed
 
 - Fixed NFC connection lost issue.
 
-## [2.5.21] - 2024-10-11
+## [2.5.21] - 2024-09-11
 
 ### Updated
 
