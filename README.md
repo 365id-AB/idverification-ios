@@ -573,7 +573,8 @@ If the identification process goes well the SDK will follow a "standard" flow, w
 
 ### Document scan &rarr; NFC &rarr; Facematch
 
-However if one of the steps fails, we will deviate from the standard flow. For example ifwe are unable to unlock the NFC-chip, the user will be asked to perform another document scan in an attempt to extract the information needed to unlock the chip.
+However if one of the steps fails, we will deviate from the standard flow.  
+For example, If we are unable to unlock the NFC-chip, the user will be asked to perform another document scan in an attempt to extract the information needed to unlock the chip.
 
 ### Early feedback and retries
 
@@ -588,7 +589,7 @@ This callback will provide information about the type of document that's been sc
    func onDocumentFeedback(_ documentType: DocumentType, countryCode: String) {}
 ```
 If we are unable to identify the document, no feedback will be sent. Instead, a retry will be triggered where the user is asked to scan the document again.
-If the document is not identified after three attempts, feedback will be sent with `DocumentType` set to `Unknown`.
+If the document is not identified after three attempts, feedback will be sent with `DocumentType` set to `Unknown` and `CountryCode` set to `empty`.
 
 ### Nfc feedback
 
@@ -599,7 +600,7 @@ It will also return the expiry date of the document.
    func onNfcFeedback(_ nfcFeedback: NfcFeedback, expiryDate: String) {}
 ```
 If we are unable to unlock the NFC-chip, no feedback will be sent. Instead, the user will be asked to scan the document again in an attempt to extract the information needed to unlock the chip.
-If the NFC-chip is not unlocked after three attempts, feedback will be sent with `NfcFeedback` set to `Failed`.
+If the NFC-chip is not unlocked after three attempts, feedback will be sent with `NfcFeedback` set to `Failed` and `ExpiryDate` set to `empty`.
 
 ### Facematch feedback
 
