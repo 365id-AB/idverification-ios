@@ -10058,6 +10058,13 @@
       "value": "false"
     },
     {
+      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/sentry_dsn.swift",
+      "kind": "StringLiteral",
+      "offset": 100,
+      "length": 97,
+      "value": "\"https:\/\/96cee9eca77735c5381dbc372ae73749@o4504338386714624.ingest.us.sentry.io\/4508358504611840\""
+    },
+    {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Models\/TokenClaimsModel.swift",
       "kind": "IntegerLiteral",
       "offset": 198,
@@ -11267,13 +11274,6 @@
       "offset": 1815,
       "length": 21,
       "value": "\"IdVerification365id\""
-    },
-    {
-      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Utils\/SentryHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 1885,
-      "length": 2,
-      "value": "\"\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/OddPageView\/CloseButtonView.swift",
