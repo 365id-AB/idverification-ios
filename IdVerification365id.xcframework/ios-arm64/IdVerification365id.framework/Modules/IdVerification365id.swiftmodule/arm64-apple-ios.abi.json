@@ -9869,6 +9869,13 @@
       "value": "4"
     },
     {
+      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/NFCStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 239,
+      "length": 1,
+      "value": "5"
+    },
+    {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/AnimateTextSizeView.swift",
       "kind": "FloatLiteral",
       "offset": 130,
@@ -10333,21 +10340,28 @@
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/TaskViews\/NFCView.swift",
       "kind": "StringLiteral",
-      "offset": 331,
+      "offset": 323,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/TaskViews\/NFCView.swift",
+      "kind": "StringLiteral",
+      "offset": 381,
       "length": 42,
       "value": "\"_365id_nfc_passport_tag_detected_details\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/TaskViews\/NFCView.swift",
       "kind": "StringLiteral",
-      "offset": 394,
+      "offset": 444,
       "length": 32,
       "value": "\"_365id_scanner_sdk.Localizable\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/TaskViews\/NFCView.swift",
       "kind": "StringLiteral",
-      "offset": 493,
+      "offset": 543,
       "length": 23,
       "value": "\"Read nfc instruction.\""
     },
@@ -11522,31 +11536,17 @@
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/NFC\/NfcManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 644,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/NFC\/NfcManager.swift",
-      "kind": "StringLiteral",
-      "offset": 755,
-      "length": 20,
-      "value": "\"NFC tag reader tag\""
-    },
-    {
-      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/NFC\/NfcManager.swift",
-      "kind": "Array",
-      "offset": 829,
-      "length": 2,
-      "value": "[]"
+      "kind": "FloatLiteral",
+      "offset": 638,
+      "length": 3,
+      "value": "2.0"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/NFC\/NfcManager.swift",
       "kind": "FloatLiteral",
-      "offset": 862,
+      "offset": 686,
       "length": 3,
-      "value": "2.0"
+      "value": "5.0"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Camera\/CameraConstants.swift",
@@ -11642,7 +11642,7 @@
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/NFC\/NfcProcessor.swift",
       "kind": "Array",
-      "offset": 5573,
+      "offset": 6170,
       "length": 2,
       "value": "[]"
     },
@@ -18789,28 +18789,14 @@
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3201,
-      "length": 22,
-      "value": "\"passport_front_image\""
-    },
-    {
-      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 3362,
-      "length": 20,
-      "value": "\"passport_nfc_image\""
-    },
-    {
-      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 3500,
+      "offset": 3176,
       "length": 6,
       "value": "\"send\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3624,
+      "offset": 3300,
       "length": 6,
       "value": "\"tick\""
     }

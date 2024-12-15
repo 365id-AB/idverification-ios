@@ -4,6 +4,23 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [2.5.27] - 2024-12-15
+
+## Fixed
+
+- Optimized the rendering of the default animations, saving memory and avoiding potential crash.
+
+## [2.5.26] - 2024-12-13
+
+### Updated
+
+- Shows the wait view as soon as the nfc step is completed.
+
+### Added
+
+- Added time out for sending NFC apdu command to the document.
+- Added small text animation in a guidance text to get the attention of the user.
+
 ## [2.5.25] - 2024-11-25
 
 ### Fixed
