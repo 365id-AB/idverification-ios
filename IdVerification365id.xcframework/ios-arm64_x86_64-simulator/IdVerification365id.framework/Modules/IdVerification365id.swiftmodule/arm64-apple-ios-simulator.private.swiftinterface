@@ -30,7 +30,7 @@ import _SwiftConcurrencyShims
 
 
 @objc public class IdVerificationTheme : ObjectiveC.NSObject {
-  @objc public init(primary: UIKit.UIColor? = nil, onPrimary: UIKit.UIColor? = nil, primaryContainer: UIKit.UIColor? = nil, secondary: UIKit.UIColor? = nil, onSecondary: UIKit.UIColor? = nil, secondaryContainer: UIKit.UIColor? = nil, onSecondaryContainer: UIKit.UIColor? = nil, tertiary: UIKit.UIColor? = nil, onTertiary: UIKit.UIColor? = nil, tertiaryContainer: UIKit.UIColor? = nil, onTertiaryContainer: UIKit.UIColor? = nil, surface: UIKit.UIColor? = nil, onSurface: UIKit.UIColor? = nil, onSurfaceVariant: UIKit.UIColor? = nil, inverseSurface: UIKit.UIColor? = nil, inverseOnSurface: UIKit.UIColor? = nil, poweredByLogo: IdVerification365id.PoweredByLogo = .STANDARD, animations: IdVerification365id.IdVerification.Animations = IdVerification.Animations())
+  @objc public init(primary: UIKit.UIColor? = nil, onPrimary: UIKit.UIColor? = nil, primaryContainer: UIKit.UIColor? = nil, secondary: UIKit.UIColor? = nil, onSecondary: UIKit.UIColor? = nil, secondaryContainer: UIKit.UIColor? = nil, onSecondaryContainer: UIKit.UIColor? = nil, tertiary: UIKit.UIColor? = nil, onTertiary: UIKit.UIColor? = nil, tertiaryContainer: UIKit.UIColor? = nil, onTertiaryContainer: UIKit.UIColor? = nil, surface: UIKit.UIColor? = nil, onSurface: UIKit.UIColor? = nil, onSurfaceVariant: UIKit.UIColor? = nil, inverseSurface: UIKit.UIColor? = nil, inverseOnSurface: UIKit.UIColor? = nil, surfaceContainer: UIKit.UIColor? = nil, poweredByLogo: IdVerification365id.PoweredByLogo = .STANDARD, animations: IdVerification365id.IdVerification.Animations = IdVerification.Animations())
   public func copyWith(primary: UIKit.UIColor? = nil, onPrimary: UIKit.UIColor? = nil, primaryContainer: UIKit.UIColor? = nil, secondary: UIKit.UIColor? = nil, onSecondary: UIKit.UIColor? = nil, secondaryContainer: UIKit.UIColor? = nil, onSecondaryContainer: UIKit.UIColor? = nil, tertiary: UIKit.UIColor? = nil, onTertiary: UIKit.UIColor? = nil, tertiaryContainer: UIKit.UIColor? = nil, onTertiaryContainer: UIKit.UIColor? = nil, surface: UIKit.UIColor? = nil, onSurface: UIKit.UIColor? = nil, onSurfaceVariant: UIKit.UIColor? = nil, inverseSurface: UIKit.UIColor? = nil, inverseOnSurface: UIKit.UIColor? = nil, poweredByLogo: IdVerification365id.PoweredByLogo? = nil, animations: IdVerification365id.IdVerification.Animations? = nil) -> IdVerification365id.IdVerificationTheme
   @objc deinit
 }
@@ -165,6 +165,9 @@ extension UIKit.UIView {
     get
   }
 }
+
+
+
 
 @_hasMissingDesignatedInitializers @objc public class IdVerificationResult : ObjectiveC.NSObject {
   @objc final public let transactionId: Swift.String

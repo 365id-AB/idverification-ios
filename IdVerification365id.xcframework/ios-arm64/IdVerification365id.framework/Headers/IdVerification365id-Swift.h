@@ -639,11 +639,13 @@ SWIFT_CLASS("_TtC19IdVerification365id19IdVerificationTheme")
 ///
 /// \param inverseOnSurface Used for the frames in the camera views.
 ///
+/// \param surfaceContainer Used for retry information rectangle box.
+///
 /// \param poweredByLogo Types of “powered by Logo” to be shown at the bottom of the screen.
 ///
 /// \param animations A Class containing swiftUI animation views that can be replaced in the SDK.
 ///
-- (nonnull instancetype)initWithPrimary:(UIColor * _Nullable)primary onPrimary:(UIColor * _Nullable)onPrimary primaryContainer:(UIColor * _Nullable)primaryContainer secondary:(UIColor * _Nullable)secondary onSecondary:(UIColor * _Nullable)onSecondary secondaryContainer:(UIColor * _Nullable)secondaryContainer onSecondaryContainer:(UIColor * _Nullable)onSecondaryContainer tertiary:(UIColor * _Nullable)tertiary onTertiary:(UIColor * _Nullable)onTertiary tertiaryContainer:(UIColor * _Nullable)tertiaryContainer onTertiaryContainer:(UIColor * _Nullable)onTertiaryContainer surface:(UIColor * _Nullable)surface onSurface:(UIColor * _Nullable)onSurface onSurfaceVariant:(UIColor * _Nullable)onSurfaceVariant inverseSurface:(UIColor * _Nullable)inverseSurface inverseOnSurface:(UIColor * _Nullable)inverseOnSurface poweredByLogo:(enum PoweredByLogo)poweredByLogo animations:(Animations * _Nonnull)animations OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithPrimary:(UIColor * _Nullable)primary onPrimary:(UIColor * _Nullable)onPrimary primaryContainer:(UIColor * _Nullable)primaryContainer secondary:(UIColor * _Nullable)secondary onSecondary:(UIColor * _Nullable)onSecondary secondaryContainer:(UIColor * _Nullable)secondaryContainer onSecondaryContainer:(UIColor * _Nullable)onSecondaryContainer tertiary:(UIColor * _Nullable)tertiary onTertiary:(UIColor * _Nullable)onTertiary tertiaryContainer:(UIColor * _Nullable)tertiaryContainer onTertiaryContainer:(UIColor * _Nullable)onTertiaryContainer surface:(UIColor * _Nullable)surface onSurface:(UIColor * _Nullable)onSurface onSurfaceVariant:(UIColor * _Nullable)onSurfaceVariant inverseSurface:(UIColor * _Nullable)inverseSurface inverseOnSurface:(UIColor * _Nullable)inverseOnSurface surfaceContainer:(UIColor * _Nullable)surfaceContainer poweredByLogo:(enum PoweredByLogo)poweredByLogo animations:(Animations * _Nonnull)animations OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end

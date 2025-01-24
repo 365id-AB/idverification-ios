@@ -495,13 +495,28 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(primary:onPrimary:primaryContainer:secondary:onSecondary:secondaryContainer:onSecondaryContainer:tertiary:onTertiary:tertiaryContainer:onTertiaryContainer:surface:onSurface:onSurfaceVariant:inverseSurface:inverseOnSurface:poweredByLogo:animations:)",
+            "printedName": "init(primary:onPrimary:primaryContainer:secondary:onSecondary:secondaryContainer:onSecondaryContainer:tertiary:onTertiary:tertiaryContainer:onTertiaryContainer:surface:onSurface:onSurfaceVariant:inverseSurface:inverseOnSurface:surfaceContainer:poweredByLogo:animations:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "IdVerificationTheme",
                 "printedName": "IdVerification365id.IdVerificationTheme",
                 "usr": "c:@M@IdVerification365id@objc(cs)IdVerificationTheme"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
@@ -759,10 +774,10 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@IdVerification365id@objc(cs)IdVerificationTheme(im)initWithPrimary:onPrimary:primaryContainer:secondary:onSecondary:secondaryContainer:onSecondaryContainer:tertiary:onTertiary:tertiaryContainer:onTertiaryContainer:surface:onSurface:onSurfaceVariant:inverseSurface:inverseOnSurface:poweredByLogo:animations:",
-            "mangledName": "$s19IdVerification365id0A17VerificationThemeC7primary9onPrimary0E9Container9secondary0F9Secondary0iH00fjH08tertiary0F8Tertiary0kH00flH07surface0F7Surface0fN7Variant07inverseN00p2OnN013poweredByLogo10animationsACSo7UIColorCSg_A15xA07PoweredsT0OAA0aC0C10AnimationsCtcfc",
+            "usr": "c:@M@IdVerification365id@objc(cs)IdVerificationTheme(im)initWithPrimary:onPrimary:primaryContainer:secondary:onSecondary:secondaryContainer:onSecondaryContainer:tertiary:onTertiary:tertiaryContainer:onTertiaryContainer:surface:onSurface:onSurfaceVariant:inverseSurface:inverseOnSurface:surfaceContainer:poweredByLogo:animations:",
+            "mangledName": "$s19IdVerification365id0A17VerificationThemeC7primary9onPrimary0E9Container9secondary0F9Secondary0iH00fjH08tertiary0F8Tertiary0kH00flH07surface0F7Surface0fN7Variant07inverseN00p2OnN00mH013poweredByLogo10animationsACSo7UIColorCSg_A16yA07PoweredsT0OAA0aC0C10AnimationsCtcfc",
             "moduleName": "IdVerification365id",
-            "objc_name": "initWithPrimary:onPrimary:primaryContainer:secondary:onSecondary:secondaryContainer:onSecondaryContainer:tertiary:onTertiary:tertiaryContainer:onTertiaryContainer:surface:onSurface:onSurfaceVariant:inverseSurface:inverseOnSurface:poweredByLogo:animations:",
+            "objc_name": "initWithPrimary:onPrimary:primaryContainer:secondary:onSecondary:secondaryContainer:onSecondaryContainer:tertiary:onTertiary:tertiaryContainer:onTertiaryContainer:surface:onSurface:onSurfaceVariant:inverseSurface:inverseOnSurface:surfaceContainer:poweredByLogo:animations:",
             "declAttributes": [
               "AccessControl",
               "ObjC",
@@ -6498,6 +6513,13 @@
       },
       {
         "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "IdVerification365id"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -9736,6 +9758,13 @@
       "value": "0x707070"
     },
     {
+      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/Theme\/AppColors.swift",
+      "kind": "IntegerLiteral",
+      "offset": 630,
+      "length": 10,
+      "value": "0xffCFEFFF"
+    },
+    {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/MicroBlink\/MicroBlinkHandler.swift",
       "kind": "BooleanLiteral",
       "offset": 121,
@@ -10340,28 +10369,28 @@
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/TaskViews\/NFCView.swift",
       "kind": "StringLiteral",
-      "offset": 323,
+      "offset": 319,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/TaskViews\/NFCView.swift",
       "kind": "StringLiteral",
-      "offset": 381,
+      "offset": 368,
       "length": 42,
       "value": "\"_365id_nfc_passport_tag_detected_details\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/TaskViews\/NFCView.swift",
       "kind": "StringLiteral",
-      "offset": 444,
+      "offset": 431,
       "length": 32,
       "value": "\"_365id_scanner_sdk.Localizable\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/TaskViews\/NFCView.swift",
       "kind": "StringLiteral",
-      "offset": 543,
+      "offset": 530,
       "length": 23,
       "value": "\"Read nfc instruction.\""
     },
@@ -10641,21 +10670,21 @@
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Models\/TransactionModel.swift",
       "kind": "StringLiteral",
-      "offset": 519,
+      "offset": 496,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Models\/TransactionModel.swift",
       "kind": "StringLiteral",
-      "offset": 565,
+      "offset": 542,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Models\/TransactionModel.swift",
       "kind": "Array",
-      "offset": 845,
+      "offset": 822,
       "length": 2,
       "value": "[]"
     },
@@ -10837,51 +10866,51 @@
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/InformationTextView.swift",
       "kind": "IntegerLiteral",
-      "offset": 183,
+      "offset": 170,
       "length": 2,
       "value": "26"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/InformationTextView.swift",
       "kind": "IntegerLiteral",
-      "offset": 318,
+      "offset": 305,
       "length": 2,
       "value": "18"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/InformationTextView.swift",
       "kind": "IntegerLiteral",
-      "offset": 361,
+      "offset": 348,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/InformationTextView.swift",
       "kind": "StringLiteral",
-      "offset": 1335,
+      "offset": 1497,
       "length": 16,
       "value": "\"Scan Frontside\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/InformationTextView.swift",
       "kind": "StringLiteral",
-      "offset": 1363,
+      "offset": 1561,
       "length": 38,
       "value": "\"Fach match failed.\nPlease try again\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/InformationTextView.swift",
       "kind": "StringLiteral",
-      "offset": 1449,
-      "length": 15,
-      "value": "\"Scan Backside\""
+      "offset": 1778,
+      "length": 18,
+      "value": "\"Skanna framsidan\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/InformationTextView.swift",
       "kind": "StringLiteral",
-      "offset": 1500,
-      "length": 85,
-      "value": "\"Ditt dokument innehåller ett NFC-chip.\nFör telefonen över dokumentets ovansida.\""
+      "offset": 1844,
+      "length": 122,
+      "value": "\"Skanna din id-handling igen.\nVi kunde inte läsa in rätt information. Du behöver göra om detta och nästa steg igen.\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IProov\/IProovProcessor.swift",
@@ -11180,7 +11209,7 @@
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/InformationView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1862,
+      "offset": 2259,
       "length": 5,
       "value": "false"
     },
@@ -11218,6 +11247,48 @@
       "offset": 237,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/WarningTextView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 92,
+      "length": 2,
+      "value": "18"
+    },
+    {
+      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/WarningTextView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 227,
+      "length": 2,
+      "value": "18"
+    },
+    {
+      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/WarningTextView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 270,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/WarningTextView.swift",
+      "kind": "StringLiteral",
+      "offset": 2097,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/WarningTextView.swift",
+      "kind": "StringLiteral",
+      "offset": 2130,
+      "length": 123,
+      "value": "\"Skanna din id-handling igen\n. Vi kunde inte läsa in rätt information. Du behöver göra om detta och nästa steg igen.\""
+    },
+    {
+      "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/WarningTextView.swift",
+      "kind": "StringLiteral",
+      "offset": 2315,
+      "length": 32,
+      "value": "\"Skanna din id-handling igen\n.\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/MicroBlink\/ReticleView.swift",
@@ -11481,49 +11552,49 @@
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/NextTaskReply.swift",
       "kind": "StringLiteral",
-      "offset": 6273,
+      "offset": 6278,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/NextTaskReply.swift",
       "kind": "StringLiteral",
-      "offset": 6304,
+      "offset": 6309,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/NextTaskReply.swift",
       "kind": "StringLiteral",
-      "offset": 6341,
+      "offset": 6346,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/NextTaskReply.swift",
       "kind": "IntegerLiteral",
-      "offset": 6383,
+      "offset": 6388,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/NextTaskReply.swift",
       "kind": "IntegerLiteral",
-      "offset": 6423,
+      "offset": 6428,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/NextTaskReply.swift",
       "kind": "StringLiteral",
-      "offset": 7217,
+      "offset": 7203,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/NextTaskReply.swift",
       "kind": "StringLiteral",
-      "offset": 7236,
+      "offset": 7222,
       "length": 2,
       "value": "\"\""
     },

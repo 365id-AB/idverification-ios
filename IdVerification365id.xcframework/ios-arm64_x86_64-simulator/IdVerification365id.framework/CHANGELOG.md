@@ -4,6 +4,19 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [2.5.29] - 2025-01-21
+
+### Updated
+
+- Expanded the material design theme for retry rounded rectange.
+- Added warning text view in information view.
+
+## [2.5.28] - 2024-12-20
+
+## Updated
+
+- Exit the SDK with an error message when the task is finished but failed.
+
 ## [2.5.27] - 2024-12-15
 
 ## Fixed
