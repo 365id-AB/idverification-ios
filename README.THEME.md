@@ -22,6 +22,7 @@ IdVerification.setCustomTheme(
       onSurfaceVariant: UIColor.darkGray,
       inverseSurface: UIColor.black,
       inverseOnSurface: UIColor.white,
+      surfaceContainer: UIColor.lightBlue,
 
       poweredByLogo: PoweredByLogo = .STANDARD,
 
@@ -35,6 +36,10 @@ Below you will find images showing which color variables are applied to certain 
 ## Information View
 
 <img src="./images/information-view.png" height="500">
+
+## Information Warning Text View
+
+<img src="./images/warning-view.png" height="500">
 
 ## Camera View
 

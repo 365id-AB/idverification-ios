@@ -161,6 +161,7 @@ struct ContentView: View {
                 onSurfaceVariant: UIColor.darkGray,
                 inverseSurface: UIColor.black,
                 inverseOnSurface: UIColor.white,
+                surfaceContainer: UIColor.lightGray,
                 poweredByLogo: .STANDARD,
                 animations: customAnimationViews
             )

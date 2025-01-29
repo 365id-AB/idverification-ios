@@ -146,6 +146,7 @@
         onSurfaceVariant:UIColor.darkGrayColor
         inverseSurface:UIColor.blackColor
         inverseOnSurface:UIColor.whiteColor
+        surfaceContainer: UIColor.lightGrayColor
         poweredByLogo:(PoweredByLogoSTANDARD)
         animations:(animations)
     ];
@@ -192,7 +193,7 @@
 }
 
 - (void)onCompleted:(IdVerificationResult * _Nonnull)result {
-    NSLog(@"EventDelegate - Completed.");
+    NSLog(@"EventDelegate - Completed. Transaction id is %@.", result.transactionId);
 
     // Makes the Navigation View Transition back from the SDK view
     [self showSdkView:false];
