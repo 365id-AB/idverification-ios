@@ -4,6 +4,19 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [2.5.31] - 2025-01-29
+
+### Updated
+
+- Updated the theme documentation.
+- Reduced the animation image quality to a smaller size to decrease SDK memory usage, preventing crashes.
+
+## [2.5.30] - 2025-01-28
+
+### Updated
+
+- Updated iProov failure texts in the translation file.
+
 ## [2.5.29] - 2025-01-21
 
 ### Updated
