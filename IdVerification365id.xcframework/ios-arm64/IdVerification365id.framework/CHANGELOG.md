@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [2.5.32] - 2025-02-03
+
+### Updated
+
+- Updated MicroBlink and iProov libraries.
+
 ## [2.5.31] - 2025-01-29
 
 ### Updated
