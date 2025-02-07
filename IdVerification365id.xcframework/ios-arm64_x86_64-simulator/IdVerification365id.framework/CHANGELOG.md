@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [2.5.33] - 2025-02-07
+
+### Updated
+
+- Updated Swift Package Manager checksum for MicroBlink and iProov.
+
 ## [2.5.32] - 2025-02-03
 
 ### Updated
