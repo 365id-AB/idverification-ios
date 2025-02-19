@@ -22,7 +22,7 @@ Otherwise you can contact us at [info@365id.com](mailto:info@365id.com) for furt
 
 ## Requirements
 
-- Xcode 15.0+
+- Xcode 16.0+
 - iOS version 15.0 and above
 - The framework has been written with Swift 5.0 in mind, may work in earlier versions but there is no guarantee.
 
@@ -377,12 +377,13 @@ Before calling `Idverification.start()` you can customize the SDK colors, logo a
 You can replace the animations with your own custom animations or static images. 
 
 For more information on how to do this, check out the [custom theme documentation](README.THEME.md)
+
+> ⚠️ **Warning:** Using SVG images can increase the SDK size, potentially leading to crashes.
+
 <br/>
 <br/>
 
-## Log and Telemetry collection
-
-The 365id IdVerification SDK uses [Sentry](https://sentry.io/) for collecting logs and telemetry data.
+## Log
 
 ### What data are we collecting
 
@@ -394,21 +395,6 @@ For logging we are collecting the following data to help us find and fix problem
 
 - SDK version
 - Stacktraces
-
-#### Telemetry
-
-The telemetry data we collect to find bottlenecks and slow processes in our SDK is:
-
-- The time different requests are taking to execute.
-- The time a user spend on each view.
-
-### If your app uses Sentry
-
-Currently Sentry does not have support for running more than one instance at a time, or change the DSN during runtime, therefore, when the SDK starts it performs a check to see if an instance of Sentry is already running, and if that is the case it wont run Sentry.
-
-If your app have an instance of Sentry running, the logs will be sent to your Sentry project. If your app does not use Sentry this wont be an issue.
-
-To avoid getting our logs we suggest that your app exits Sentry just before calling `IdVerification.start()` and re-instantiate your Sentry right after the `OnClose` callback is triggered.
 
 <br/>
 <br/>
