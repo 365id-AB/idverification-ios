@@ -339,7 +339,6 @@ typedef SWIFT_ENUM(NSInteger, DocumentType, open) {
   DocumentTypeUnknown = 19,
 };
 
-
 /// Enumeration of face match feedback.
 typedef SWIFT_ENUM(NSInteger, FaceMatchFeedback, open) {
 /// Facematch completed and the face matched.

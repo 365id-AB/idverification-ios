@@ -4,6 +4,30 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [2.5.38] - 2025-02-18
+
+### Changed
+
+- Changed the SVG image into PNG images in the assets.
+
+## [2.5.36] - 2025-02-17
+
+### Fixed
+
+- Optimized memory usage.
+
+## [2.5.35] - 2025-02-12
+
+### Updated
+
+- Removed the Sentry libraries from SDK.
+
+## [2.5.34] - 2025-02-12
+
+### Updated
+
+- Updated the Sentry libraries to the latest version.
+
 ## [2.5.33] - 2025-02-07
 
 ### Updated

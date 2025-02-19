@@ -5812,16 +5812,6 @@
       },
       {
         "kind": "Import",
-        "name": "Sentry",
-        "printedName": "Sentry",
-        "declKind": "Import",
-        "moduleName": "IdVerification365id",
-        "declAttributes": [
-          "ImplementationOnly"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
         "declKind": "Import",
@@ -6971,16 +6961,6 @@
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
           }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Sentry",
-        "printedName": "Sentry",
-        "declKind": "Import",
-        "moduleName": "IdVerification365id",
-        "declAttributes": [
-          "ImplementationOnly"
         ]
       },
       {
@@ -10112,8 +10092,8 @@
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/sentry_dsn.swift",
       "kind": "StringLiteral",
       "offset": 100,
-      "length": 97,
-      "value": "\"https:\/\/96cee9eca77735c5381dbc372ae73749@o4504338386714624.ingest.us.sentry.io\/4508358504611840\""
+      "length": 2,
+      "value": "\"\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Models\/TokenClaimsModel.swift",
@@ -10216,14 +10196,7 @@
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/BundleIdentifier.swift",
       "kind": "StringLiteral",
-      "offset": 492,
-      "length": 16,
-      "value": "\"SENTRY_DNS_URL\""
-    },
-    {
-      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/BundleIdentifier.swift",
-      "kind": "StringLiteral",
-      "offset": 621,
+      "offset": 576,
       "length": 35,
       "value": "\"__365ID_FRONTEND_RELEASE_HOST_URL\""
     },
@@ -10685,21 +10658,21 @@
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Models\/TransactionModel.swift",
       "kind": "StringLiteral",
-      "offset": 492,
+      "offset": 457,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Models\/TransactionModel.swift",
       "kind": "StringLiteral",
-      "offset": 538,
+      "offset": 503,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Models\/TransactionModel.swift",
       "kind": "Array",
-      "offset": 818,
+      "offset": 783,
       "length": 2,
       "value": "[]"
     },
@@ -11140,14 +11113,14 @@
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 27036,
+      "offset": 26727,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 27067,
+      "offset": 26758,
       "length": 1,
       "value": "1"
     },
@@ -11374,20 +11347,6 @@
       "offset": 211,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Utils\/SentryHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 1758,
-      "length": 15,
-      "value": "\"SENTRY_SENDER\""
-    },
-    {
-      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Utils\/SentryHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 1815,
-      "length": 21,
-      "value": "\"IdVerification365id\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/OddPageView\/CloseButtonView.swift",
