@@ -148,9 +148,6 @@ import _SwiftConcurrencyShims
 
 
 
-extension UIKit.UIView {
-  @_Concurrency.MainActor @preconcurrency public func asUIImage() -> UIKit.UIImage
-}
 
 @objc public enum IdVerificationError : Swift.Int {
   case invalidTokenError = 0
