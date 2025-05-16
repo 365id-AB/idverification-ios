@@ -6,6 +6,13 @@
     "children": [
       {
         "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "IdVerification365id"
+      },
+      {
+        "kind": "Import",
         "name": "CaptureCore",
         "printedName": "CaptureCore",
         "declKind": "Import",
@@ -58,6 +65,13 @@
         "declAttributes": [
           "ImplementationOnly"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "IdVerification365id"
       },
       {
         "kind": "Import",
@@ -342,6 +356,13 @@
       },
       {
         "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "IdVerification365id"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -393,6 +414,63 @@
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IdVerification365id"
+      },
+      {
+        "kind": "Import",
+        "name": "OpenTelemetryApi",
+        "printedName": "OpenTelemetryApi",
+        "declKind": "Import",
+        "moduleName": "IdVerification365id",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "OpenTelemetrySdk",
+        "printedName": "OpenTelemetrySdk",
+        "declKind": "Import",
+        "moduleName": "IdVerification365id",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "OpenTelemetryProtocolExporterHttp",
+        "printedName": "OpenTelemetryProtocolExporterHttp",
+        "declKind": "Import",
+        "moduleName": "IdVerification365id",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "OTelSwiftLog",
+        "printedName": "OTelSwiftLog",
+        "declKind": "Import",
+        "moduleName": "IdVerification365id",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Logging",
+        "printedName": "Logging",
+        "declKind": "Import",
+        "moduleName": "IdVerification365id",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "IdVerification365id"
       },
@@ -1609,6 +1687,27 @@
         "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "IdVerification365id"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "IdVerification365id"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "IdVerification365id"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
         "declKind": "Import",
         "moduleName": "IdVerification365id"
       },
@@ -5509,13 +5608,6 @@
         "moduleName": "IdVerification365id"
       },
       {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "IdVerification365id"
-      },
-      {
         "kind": "TypeDecl",
         "name": "FaceMatchFeedback",
         "printedName": "FaceMatchFeedback",
@@ -5819,6 +5911,13 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IdVerification365id"
+      },
+      {
+        "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
         "declKind": "Import",
@@ -5882,13 +5981,6 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "IdVerification365id"
-      },
-      {
-        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -5912,6 +6004,13 @@
         "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "IdVerification365id"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "IdVerification365id"
       },
@@ -7006,6 +7105,13 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IdVerification365id"
+      },
+      {
+        "kind": "Import",
         "name": "Combine",
         "printedName": "Combine",
         "declKind": "Import",
@@ -7015,6 +7121,20 @@
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IdVerification365id"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "IdVerification365id"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "IdVerification365id"
       },
@@ -7926,6 +8046,23 @@
       },
       {
         "kind": "Import",
+        "name": "GRPC",
+        "printedName": "GRPC",
+        "declKind": "Import",
+        "moduleName": "IdVerification365id",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IdVerification365id"
+      },
+      {
+        "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
         "declKind": "Import",
@@ -7982,6 +8119,13 @@
       },
       {
         "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "IdVerification365id"
+      },
+      {
+        "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
         "declKind": "Import",
@@ -7989,8 +8133,8 @@
       },
       {
         "kind": "Import",
-        "name": "Combine",
-        "printedName": "Combine",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "IdVerification365id"
       },
@@ -9603,9 +9747,30 @@
       "value": "true"
     },
     {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/otel_config.swift",
+      "kind": "StringLiteral",
+      "offset": 126,
+      "length": 59,
+      "value": "\"https:\/\/northeurope-otel-collector.365id.com:4318\/v1\/logs\""
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/otel_config.swift",
+      "kind": "StringLiteral",
+      "offset": 205,
+      "length": 66,
+      "value": "\"YoBxP7y8dVPHAqJAO4rmQAnMpvQnVvedqo8hN8QjsHIRh6ZWHn2exgOaSM0ulOBl\""
+    },
+    {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/PreviewView\/IProovPreview.swift",
       "kind": "BooleanLiteral",
-      "offset": 174,
+      "offset": 184,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/PreviewView\/IProovPreview.swift",
+      "kind": "BooleanLiteral",
+      "offset": 244,
       "length": 5,
       "value": "false"
     },
@@ -9619,7 +9784,14 @@
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/PreviewView\/NFCPreview.swift",
       "kind": "BooleanLiteral",
-      "offset": 165,
+      "offset": 178,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/PreviewView\/NFCPreview.swift",
+      "kind": "BooleanLiteral",
+      "offset": 238,
       "length": 5,
       "value": "false"
     },
@@ -9708,6 +9880,27 @@
       "value": "false"
     },
     {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/AbortWaitView.swift",
+      "kind": "FloatLiteral",
+      "offset": 170,
+      "length": 4,
+      "value": "20.0"
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/AbortWaitView.swift",
+      "kind": "FloatLiteral",
+      "offset": 199,
+      "length": 4,
+      "value": "24.0"
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/AbortWaitView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 251,
+      "length": 4,
+      "value": "true"
+    },
+    {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/NfcFeedback.swift",
       "kind": "IntegerLiteral",
       "offset": 158,
@@ -9729,6 +9922,62 @@
       "value": "2"
     },
     {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/OddPageView\/OddPageCameraView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 326,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/OddPageView\/OddPageCameraView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 393,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/OddPageView\/OddPageCameraView.swift",
+      "kind": "FloatLiteral",
+      "offset": 472,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/OddPageView\/OddPageCameraView.swift",
+      "kind": "FloatLiteral",
+      "offset": 550,
+      "length": 4,
+      "value": "0.90"
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/OddPageView\/OddPageCameraView.swift",
+      "kind": "FloatLiteral",
+      "offset": 628,
+      "length": 3,
+      "value": "5.0"
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/OddPageView\/OddPageCameraView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 707,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/OddPageView\/OddPageCameraView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2433,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/OddPageView\/OddPageCameraView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2494,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/CancelButton.swift",
       "kind": "FloatLiteral",
       "offset": 83,
@@ -9745,16 +9994,9 @@
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/CancelButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 358,
+      "offset": 339,
       "length": 2,
       "value": "18"
-    },
-    {
-      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/CancelButton.swift",
-      "kind": "BooleanLiteral",
-      "offset": 393,
-      "length": 5,
-      "value": "false"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/TransactionResult\/TransactionResult+AssessmentType.swift",
@@ -9848,51 +10090,9 @@
       "value": "20.0"
     },
     {
-      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Log.swift",
-      "kind": "IntegerLiteral",
-      "offset": 75,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Log.swift",
-      "kind": "IntegerLiteral",
-      "offset": 98,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Log.swift",
-      "kind": "IntegerLiteral",
-      "offset": 123,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Log.swift",
-      "kind": "IntegerLiteral",
-      "offset": 145,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Log.swift",
-      "kind": "IntegerLiteral",
-      "offset": 168,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Log.swift",
-      "kind": "IntegerLiteral",
-      "offset": 191,
-      "length": 1,
-      "value": "5"
-    },
-    {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 457,
+      "offset": 299,
       "length": 2,
       "value": "\"\""
     },
@@ -9920,21 +10120,21 @@
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/OddPageCaptureDocument\/OddPageProcessor.swift",
       "kind": "BooleanLiteral",
-      "offset": 638,
+      "offset": 630,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/OddPageCaptureDocument\/OddPageProcessor.swift",
       "kind": "Array",
-      "offset": 849,
+      "offset": 1025,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/OddPageCaptureDocument\/OddPageProcessor.swift",
       "kind": "BooleanLiteral",
-      "offset": 889,
+      "offset": 1065,
       "length": 5,
       "value": "false"
     },
@@ -9944,6 +10144,20 @@
       "offset": 112,
       "length": 1,
       "value": "1"
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Extensions\/ViewExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1614,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Extensions\/ViewExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2161,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/IdentifyRequest.swift",
@@ -10004,49 +10218,63 @@
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/OddPageView\/CapturedDocumentBottomBarView.swift",
       "kind": "FloatLiteral",
-      "offset": 190,
+      "offset": 234,
       "length": 4,
       "value": "50.0"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/OddPageView\/CapturedDocumentBottomBarView.swift",
       "kind": "FloatLiteral",
-      "offset": 224,
+      "offset": 268,
       "length": 4,
       "value": "80.0"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/OddPageView\/CapturedDocumentBottomBarView.swift",
       "kind": "BooleanLiteral",
-      "offset": 875,
+      "offset": 959,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/OddPageView\/CapturedDocumentBottomBarView.swift",
       "kind": "BooleanLiteral",
-      "offset": 948,
+      "offset": 1032,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/sentry_dsn.swift",
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/OddPageView\/CapturedDocumentBottomBarView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1106,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Models\/TokenModel.swift",
       "kind": "StringLiteral",
-      "offset": 100,
+      "offset": 179,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Models\/TokenClaimsModel.swift",
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Models\/TokenModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 198,
+      "offset": 300,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/PreviewView\/OddPreview.swift",
       "kind": "BooleanLiteral",
-      "offset": 192,
+      "offset": 193,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/PreviewView\/OddPreview.swift",
+      "kind": "BooleanLiteral",
+      "offset": 253,
       "length": 5,
       "value": "false"
     },
@@ -10095,23 +10323,37 @@
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/ContinueButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 339,
+      "offset": 320,
       "length": 2,
       "value": "18"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/ContinueButton.swift",
       "kind": "FloatLiteral",
-      "offset": 375,
+      "offset": 356,
       "length": 4,
       "value": "24.0"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/ContinueButton.swift",
       "kind": "BooleanLiteral",
-      "offset": 464,
+      "offset": 445,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Models\/SdkModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 555,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Models\/SdkModel.swift",
+      "kind": "Array",
+      "offset": 674,
+      "length": 2,
+      "value": "[]"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/IdVerification.swift",
@@ -10128,18 +10370,67 @@
       "value": "[]"
     },
     {
-      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/BundleIdentifier.swift",
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Utils\/BundleIdentifier.swift",
       "kind": "StringLiteral",
       "offset": 435,
       "length": 28,
       "value": "\"CFBundleShortVersionString\""
     },
     {
-      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/BundleIdentifier.swift",
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Utils\/BundleIdentifier.swift",
       "kind": "StringLiteral",
       "offset": 576,
       "length": 35,
       "value": "\"__365ID_FRONTEND_RELEASE_HOST_URL\""
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/GrpcTimeout.swift",
+      "kind": "IntegerLiteral",
+      "offset": 172,
+      "length": 18,
+      "value": "1"
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/GrpcTimeout.swift",
+      "kind": "IntegerLiteral",
+      "offset": 200,
+      "length": 14,
+      "value": "2"
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/GrpcTimeout.swift",
+      "kind": "IntegerLiteral",
+      "offset": 224,
+      "length": 17,
+      "value": "3"
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/GrpcTimeout.swift",
+      "kind": "IntegerLiteral",
+      "offset": 251,
+      "length": 18,
+      "value": "4"
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/GrpcTimeout.swift",
+      "kind": "IntegerLiteral",
+      "offset": 279,
+      "length": 26,
+      "value": "5"
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/GrpcTimeout.swift",
+      "kind": "IntegerLiteral",
+      "offset": 315,
+      "length": 18,
+      "value": "6"
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/GrpcTimeout.swift",
+      "kind": "IntegerLiteral",
+      "offset": 343,
+      "length": 23,
+      "value": "7"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/LandingView.swift",
@@ -10186,7 +10477,14 @@
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/LandingView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1814,
+      "offset": 494,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/LandingView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1954,
       "length": 4,
       "value": "true"
     },
@@ -10214,56 +10512,14 @@
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/OddPageView\/OddPageView.swift",
       "kind": "BooleanLiteral",
-      "offset": 159,
+      "offset": 158,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/OddPageView\/OddPageView.swift",
       "kind": "BooleanLiteral",
-      "offset": 226,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/OddPageView\/OddPageView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 283,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/OddPageView\/OddPageView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 340,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/OddPageView\/OddPageView.swift",
-      "kind": "FloatLiteral",
-      "offset": 419,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/OddPageView\/OddPageView.swift",
-      "kind": "FloatLiteral",
-      "offset": 497,
-      "length": 4,
-      "value": "0.90"
-    },
-    {
-      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/OddPageView\/OddPageView.swift",
-      "kind": "FloatLiteral",
-      "offset": 575,
-      "length": 3,
-      "value": "5.0"
-    },
-    {
-      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/OddPageView\/OddPageView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 654,
+      "offset": 205,
       "length": 5,
       "value": "false"
     },
@@ -10324,18 +10580,25 @@
       "value": "\"Read nfc instruction.\""
     },
     {
-      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/ImageCapturedView.swift",
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/SendingCapturedImageView.swift",
       "kind": "FloatLiteral",
-      "offset": 140,
+      "offset": 146,
       "length": 4,
       "value": "20.0"
     },
     {
-      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/ImageCapturedView.swift",
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/SendingCapturedImageView.swift",
       "kind": "FloatLiteral",
-      "offset": 169,
+      "offset": 175,
       "length": 4,
       "value": "24.0"
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/SendingCapturedImageView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 227,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/IdVerificationView.swift",
@@ -10548,20 +10811,6 @@
       "value": "\"#B3B3B3\""
     },
     {
-      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Utils\/SdkStatus.swift",
-      "kind": "BooleanLiteral",
-      "offset": 63,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Utils\/SdkStatus.swift",
-      "kind": "StringLiteral",
-      "offset": 107,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/FaceMatchFeedback.swift",
       "kind": "IntegerLiteral",
       "offset": 172,
@@ -10612,8 +10861,29 @@
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Models\/TransactionModel.swift",
+      "kind": "StringLiteral",
+      "offset": 607,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Models\/TransactionModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 657,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Models\/TransactionModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 697,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Models\/TransactionModel.swift",
       "kind": "Array",
-      "offset": 783,
+      "offset": 1176,
       "length": 2,
       "value": "[]"
     },
@@ -10753,30 +11023,37 @@
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/BottomOverlayView.swift",
       "kind": "IntegerLiteral",
-      "offset": 232,
+      "offset": 217,
       "length": 2,
       "value": "40"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/BottomOverlayView.swift",
       "kind": "IntegerLiteral",
-      "offset": 367,
+      "offset": 352,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/BottomOverlayView.swift",
       "kind": "FloatLiteral",
-      "offset": 472,
+      "offset": 457,
       "length": 4,
       "value": "40.0"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/BottomOverlayView.swift",
       "kind": "FloatLiteral",
-      "offset": 501,
+      "offset": 486,
       "length": 4,
       "value": "24.0"
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/BottomOverlayView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 538,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Models\/NfcModel.swift",
@@ -10809,42 +11086,49 @@
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/InformationTextView.swift",
       "kind": "IntegerLiteral",
-      "offset": 301,
+      "offset": 217,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/InformationTextView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 351,
       "length": 2,
       "value": "18"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/InformationTextView.swift",
       "kind": "IntegerLiteral",
-      "offset": 344,
+      "offset": 405,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/InformationTextView.swift",
       "kind": "StringLiteral",
-      "offset": 1481,
+      "offset": 1545,
       "length": 16,
       "value": "\"Scan Frontside\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/InformationTextView.swift",
       "kind": "StringLiteral",
-      "offset": 1545,
+      "offset": 1609,
       "length": 38,
       "value": "\"Fach match failed.\nPlease try again\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/InformationTextView.swift",
       "kind": "StringLiteral",
-      "offset": 1739,
+      "offset": 1803,
       "length": 130,
       "value": "\"Skanna din id-handling igen.\n\nVi kunde inte läsa in rätt information.  Du behöver göra om detta och nästa steg igen.\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/InformationTextView.swift",
       "kind": "StringLiteral",
-      "offset": 1925,
+      "offset": 1989,
       "length": 18,
       "value": "\"Skanna framsidan\""
     },
@@ -10893,16 +11177,23 @@
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/OddPageView\/OddPageBottomBarView.swift",
       "kind": "FloatLiteral",
-      "offset": 124,
+      "offset": 175,
       "length": 4,
       "value": "50.0"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/OddPageView\/OddPageBottomBarView.swift",
       "kind": "BooleanLiteral",
-      "offset": 643,
+      "offset": 748,
       "length": 4,
       "value": "true"
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/OddPageView\/OddPageBottomBarView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 816,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/Grpc\/NfcProcessResponse.swift",
@@ -11019,7 +11310,14 @@
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/TaskViews\/IProovView.swift",
       "kind": "BooleanLiteral",
-      "offset": 202,
+      "offset": 210,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/TaskViews\/IProovView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 267,
       "length": 5,
       "value": "false"
     },
@@ -11040,28 +11338,28 @@
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 761,
+      "offset": 385,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 13663,
+      "offset": 14624,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 29704,
+      "offset": 30857,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 29735,
+      "offset": 30888,
       "length": 1,
       "value": "1"
     },
@@ -11145,7 +11443,14 @@
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/InformationView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2074,
+      "offset": 2193,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/InformationView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2255,
       "length": 5,
       "value": "false"
     },
@@ -11215,21 +11520,21 @@
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/WarningTextView.swift",
       "kind": "StringLiteral",
-      "offset": 1889,
+      "offset": 1854,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/WarningTextView.swift",
       "kind": "StringLiteral",
-      "offset": 1922,
+      "offset": 1887,
       "length": 129,
       "value": "\"Skanna din id-handling igen\n.\nVi kunde inte läsa in rätt information. Du behöver göra om detta och nästa steg igen.\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/InformationView\/WarningTextView.swift",
       "kind": "StringLiteral",
-      "offset": 2113,
+      "offset": 2078,
       "length": 32,
       "value": "\"Skanna din id-handling igen\n.\""
     },
@@ -11285,28 +11590,42 @@
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/PreviewView\/DocumentPreview.swift",
       "kind": "BooleanLiteral",
-      "offset": 211,
+      "offset": 212,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/PreviewView\/DocumentPreview.swift",
+      "kind": "BooleanLiteral",
+      "offset": 272,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/OddPageView\/CloseButtonView.swift",
       "kind": "FloatLiteral",
-      "offset": 89,
+      "offset": 133,
       "length": 4,
       "value": "50.0"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/OddPageView\/CloseButtonView.swift",
       "kind": "FloatLiteral",
-      "offset": 103,
+      "offset": 147,
       "length": 4,
       "value": "50.0"
     },
     {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/OddPageView\/CloseButtonView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 933,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/CameraViews\/CameraPermissionAlertView.swift",
       "kind": "BooleanLiteral",
-      "offset": 3291,
+      "offset": 2097,
       "length": 4,
       "value": "true"
     },
@@ -11479,51 +11798,51 @@
       "value": "24.0"
     },
     {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/TaskViews\/WaitView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 288,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/NextTaskReply.swift",
       "kind": "StringLiteral",
-      "offset": 6278,
+      "offset": 6220,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/NextTaskReply.swift",
       "kind": "StringLiteral",
-      "offset": 6309,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/NextTaskReply.swift",
-      "kind": "StringLiteral",
-      "offset": 6346,
+      "offset": 6257,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/NextTaskReply.swift",
       "kind": "IntegerLiteral",
-      "offset": 6388,
+      "offset": 6299,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/NextTaskReply.swift",
       "kind": "IntegerLiteral",
-      "offset": 6428,
+      "offset": 6339,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/NextTaskReply.swift",
       "kind": "StringLiteral",
-      "offset": 7203,
+      "offset": 7087,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/NextTaskReply.swift",
       "kind": "StringLiteral",
-      "offset": 7222,
+      "offset": 7106,
       "length": 2,
       "value": "\"\""
     },
@@ -11547,6 +11866,27 @@
       "offset": 686,
       "length": 3,
       "value": "5.0"
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/AbortTransaction.swift",
+      "kind": "IntegerLiteral",
+      "offset": 189,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/AbortTransaction.swift",
+      "kind": "IntegerLiteral",
+      "offset": 267,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/AbortTransaction.swift",
+      "kind": "IntegerLiteral",
+      "offset": 394,
+      "length": 1,
+      "value": "2"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Camera\/CameraConstants.swift",
@@ -11642,7 +11982,7 @@
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/NFC\/NfcProcessor.swift",
       "kind": "Array",
-      "offset": 6171,
+      "offset": 6140,
       "length": 2,
       "value": "[]"
     },
@@ -11729,6 +12069,62 @@
       "offset": 1978,
       "length": 3,
       "value": "800"
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/MicroBlink\/AlertTextView.swift",
+      "kind": "FloatLiteral",
+      "offset": 282,
+      "length": 4,
+      "value": "0.01"
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/MicroBlink\/AlertTextView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 328,
+      "length": 2,
+      "value": "18"
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/MicroBlink\/AlertTextView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 366,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/MicroBlink\/AlertTextView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 409,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/MicroBlink\/AlertTextView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 461,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/MicroBlink\/AlertTextView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 473,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/MicroBlink\/AlertTextView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 484,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/MicroBlink\/AlertTextView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 497,
+      "length": 1,
+      "value": "8"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/FrontBackSideTaskPayload.swift",
@@ -14743,366 +15139,380 @@
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/LicenseInfo.pb.swift",
       "kind": "StringLiteral",
-      "offset": 4573,
+      "offset": 4610,
       "length": 43,
       "value": "\"_365id.Glootie.Contracts.gRPC.LicenseInfo\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/LicenseInfo.pb.swift",
       "kind": "StringLiteral",
-      "offset": 4851,
+      "offset": 4888,
       "length": 21,
       "value": "\".LicenseInfoRequest\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/LicenseInfo.pb.swift",
       "kind": "StringLiteral",
-      "offset": 5716,
+      "offset": 5753,
       "length": 22,
       "value": "\".LicenseInfoResponse\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/LicenseInfo.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 5802,
+      "offset": 5839,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/LicenseInfo.pb.swift",
       "kind": "StringLiteral",
-      "offset": 5818,
+      "offset": 5855,
       "length": 6,
       "value": "\"User\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/LicenseInfo.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 5831,
+      "offset": 5868,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/LicenseInfo.pb.swift",
       "kind": "StringLiteral",
-      "offset": 5847,
+      "offset": 5884,
       "length": 9,
       "value": "\"Company\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/LicenseInfo.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 5863,
+      "offset": 5900,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/LicenseInfo.pb.swift",
       "kind": "StringLiteral",
-      "offset": 5879,
+      "offset": 5916,
       "length": 10,
       "value": "\"Location\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/LicenseInfo.pb.swift",
       "kind": "StringLiteral",
-      "offset": 7976,
+      "offset": 8013,
       "length": 7,
       "value": "\".User\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/LicenseInfo.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 8047,
+      "offset": 8084,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/LicenseInfo.pb.swift",
       "kind": "StringLiteral",
-      "offset": 8063,
+      "offset": 8100,
       "length": 11,
       "value": "\"FirstName\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/LicenseInfo.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 8081,
+      "offset": 8118,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/LicenseInfo.pb.swift",
       "kind": "StringLiteral",
-      "offset": 8097,
+      "offset": 8134,
       "length": 10,
       "value": "\"LastName\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/LicenseInfo.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 8114,
+      "offset": 8151,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/LicenseInfo.pb.swift",
       "kind": "StringLiteral",
-      "offset": 8130,
+      "offset": 8167,
       "length": 12,
       "value": "\"MiddleName\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/LicenseInfo.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 8149,
+      "offset": 8186,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/LicenseInfo.pb.swift",
       "kind": "StringLiteral",
-      "offset": 8165,
+      "offset": 8202,
       "length": 7,
       "value": "\"Email\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/LicenseInfo.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 8179,
+      "offset": 8216,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/LicenseInfo.pb.swift",
       "kind": "StringLiteral",
-      "offset": 8195,
+      "offset": 8232,
       "length": 7,
       "value": "\"Phone\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/LicenseInfo.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 8209,
+      "offset": 8246,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/LicenseInfo.pb.swift",
       "kind": "StringLiteral",
-      "offset": 8225,
+      "offset": 8262,
       "length": 8,
       "value": "\"Mobile\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/LicenseInfo.pb.swift",
       "kind": "StringLiteral",
-      "offset": 10749,
+      "offset": 10786,
       "length": 10,
       "value": "\".Company\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/LicenseInfo.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 10823,
+      "offset": 10860,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/LicenseInfo.pb.swift",
       "kind": "StringLiteral",
-      "offset": 10839,
+      "offset": 10876,
       "length": 6,
       "value": "\"Name\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/LicenseInfo.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 10852,
+      "offset": 10889,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/LicenseInfo.pb.swift",
       "kind": "StringLiteral",
-      "offset": 10868,
+      "offset": 10905,
       "length": 9,
       "value": "\"Address\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/LicenseInfo.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 10884,
+      "offset": 10921,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/LicenseInfo.pb.swift",
       "kind": "StringLiteral",
-      "offset": 10900,
+      "offset": 10937,
       "length": 10,
       "value": "\"Address2\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/LicenseInfo.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 10917,
+      "offset": 10954,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/LicenseInfo.pb.swift",
       "kind": "StringLiteral",
-      "offset": 10933,
+      "offset": 10970,
       "length": 5,
       "value": "\"Zip\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/LicenseInfo.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 10945,
+      "offset": 10982,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/LicenseInfo.pb.swift",
       "kind": "StringLiteral",
-      "offset": 10961,
+      "offset": 10998,
       "length": 6,
       "value": "\"City\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/LicenseInfo.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 10974,
+      "offset": 11011,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/LicenseInfo.pb.swift",
       "kind": "StringLiteral",
-      "offset": 10990,
+      "offset": 11027,
       "length": 9,
       "value": "\"Country\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/LicenseInfo.pb.swift",
       "kind": "StringLiteral",
-      "offset": 13472,
+      "offset": 13509,
       "length": 11,
       "value": "\".Location\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/LicenseInfo.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 13547,
+      "offset": 13584,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/LicenseInfo.pb.swift",
       "kind": "StringLiteral",
-      "offset": 13563,
+      "offset": 13600,
       "length": 4,
       "value": "\"Id\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/LicenseInfo.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 13574,
+      "offset": 13611,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/LicenseInfo.pb.swift",
       "kind": "StringLiteral",
-      "offset": 13590,
+      "offset": 13627,
       "length": 6,
       "value": "\"Name\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/LicenseInfo.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 13603,
+      "offset": 13640,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/LicenseInfo.pb.swift",
       "kind": "StringLiteral",
-      "offset": 13619,
+      "offset": 13656,
       "length": 9,
       "value": "\"Address\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/LicenseInfo.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 13635,
+      "offset": 13672,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/LicenseInfo.pb.swift",
       "kind": "StringLiteral",
-      "offset": 13651,
+      "offset": 13688,
       "length": 10,
       "value": "\"Address2\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/LicenseInfo.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 13668,
+      "offset": 13705,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/LicenseInfo.pb.swift",
       "kind": "StringLiteral",
-      "offset": 13684,
+      "offset": 13721,
       "length": 5,
       "value": "\"Zip\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/LicenseInfo.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 13696,
+      "offset": 13733,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/LicenseInfo.pb.swift",
       "kind": "StringLiteral",
-      "offset": 13712,
+      "offset": 13749,
       "length": 6,
       "value": "\"City\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/LicenseInfo.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 13725,
+      "offset": 13762,
       "length": 1,
       "value": "7"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/LicenseInfo.pb.swift",
       "kind": "StringLiteral",
-      "offset": 13741,
+      "offset": 13778,
       "length": 9,
       "value": "\"Country\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/LicenseInfo.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 13757,
+      "offset": 13794,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/LicenseInfo.pb.swift",
       "kind": "StringLiteral",
-      "offset": 13773,
+      "offset": 13810,
       "length": 10,
       "value": "\"DeviceId\""
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/LicenseInfo.pb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13827,
+      "length": 1,
+      "value": "9"
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/LicenseInfo.pb.swift",
+      "kind": "StringLiteral",
+      "offset": 13843,
+      "length": 12,
+      "value": "\"ExternalId\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Identification.grpc.swift",
@@ -15821,415 +16231,779 @@
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 7685,
+      "offset": 10270,
       "length": 5,
       "value": "\"Nfc\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 7706,
+      "offset": 10291,
       "length": 39,
       "value": "\"_365id.Glootie.Contracts.gRPC.Nfc.Nfc\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 7942,
+      "offset": 10603,
       "length": 9,
       "value": "\"Process\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 7965,
+      "offset": 10626,
       "length": 48,
       "value": "\"\/_365id.Glootie.Contracts.gRPC.Nfc.Nfc\/Process\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 11912,
+      "offset": 10783,
+      "length": 10,
+      "value": "\"Register\""
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.grpc.swift",
+      "kind": "StringLiteral",
+      "offset": 10807,
+      "length": 49,
+      "value": "\"\/_365id.Glootie.Contracts.gRPC.Nfc.Nfc\/Register\""
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.grpc.swift",
+      "kind": "StringLiteral",
+      "offset": 16307,
       "length": 5,
       "value": "\"Nfc\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 11933,
+      "offset": 16328,
       "length": 39,
       "value": "\"_365id.Glootie.Contracts.gRPC.Nfc.Nfc\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 12169,
+      "offset": 16640,
       "length": 9,
       "value": "\"Process\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 12192,
+      "offset": 16663,
       "length": 48,
       "value": "\"\/_365id.Glootie.Contracts.gRPC.Nfc.Nfc\/Process\""
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.grpc.swift",
+      "kind": "StringLiteral",
+      "offset": 16820,
+      "length": 10,
+      "value": "\"Register\""
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.grpc.swift",
+      "kind": "StringLiteral",
+      "offset": 16844,
+      "length": 49,
+      "value": "\"\/_365id.Glootie.Contracts.gRPC.Nfc.Nfc\/Register\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.pb.swift",
       "kind": "Array",
-      "offset": 3235,
+      "offset": 5500,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 3402,
+      "offset": 5667,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.pb.swift",
       "kind": "Array",
-      "offset": 4281,
+      "offset": 6546,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.pb.swift",
       "kind": "BooleanLiteral",
-      "offset": 4387,
+      "offset": 6652,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 4614,
+      "offset": 6879,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 5096,
+      "offset": 7361,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 5158,
+      "offset": 7423,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.pb.swift",
       "kind": "StringLiteral",
-      "offset": 5336,
+      "offset": 11036,
       "length": 35,
       "value": "\"_365id.Glootie.Contracts.gRPC.Nfc\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 5529,
+      "offset": 11229,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.pb.swift",
       "kind": "StringLiteral",
-      "offset": 5545,
+      "offset": 11245,
       "length": 9,
       "value": "\"UNKNOWN\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 5561,
+      "offset": 11261,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.pb.swift",
       "kind": "StringLiteral",
-      "offset": 5577,
+      "offset": 11277,
       "length": 11,
       "value": "\"AVAILABLE\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 5595,
+      "offset": 11295,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.pb.swift",
       "kind": "StringLiteral",
-      "offset": 5611,
+      "offset": 11311,
       "length": 13,
       "value": "\"UNAVAILABLE\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 5792,
+      "offset": 11492,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.pb.swift",
       "kind": "StringLiteral",
-      "offset": 5808,
+      "offset": 11508,
       "length": 11,
       "value": "\"Undefined\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 5826,
+      "offset": 11526,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.pb.swift",
       "kind": "StringLiteral",
-      "offset": 5842,
+      "offset": 11542,
       "length": 13,
       "value": "\"UserSkipped\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 5862,
+      "offset": 11562,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.pb.swift",
       "kind": "StringLiteral",
-      "offset": 5878,
+      "offset": 11578,
       "length": 17,
       "value": "\"NfcNotSupported\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.pb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11760,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.pb.swift",
       "kind": "StringLiteral",
-      "offset": 6126,
-      "length": 17,
-      "value": "\".ProcessRequest\""
+      "offset": 11776,
+      "length": 11,
+      "value": "\"Uninvoked\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 6207,
+      "offset": 11794,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.pb.swift",
       "kind": "StringLiteral",
-      "offset": 6223,
-      "length": 7,
-      "value": "\"State\""
+      "offset": 11810,
+      "length": 10,
+      "value": "\"Verified\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 6237,
+      "offset": 11827,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.pb.swift",
       "kind": "StringLiteral",
-      "offset": 6253,
-      "length": 14,
-      "value": "\"ChipStandard\""
+      "offset": 11843,
+      "length": 9,
+      "value": "\"Invalid\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 6274,
+      "offset": 12022,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.pb.swift",
+      "kind": "StringLiteral",
+      "offset": 12038,
+      "length": 22,
+      "value": "\"UndefinedImageFormat\""
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.pb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12067,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.pb.swift",
+      "kind": "StringLiteral",
+      "offset": 12083,
+      "length": 6,
+      "value": "\"Jpeg\""
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.pb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12096,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.pb.swift",
+      "kind": "StringLiteral",
+      "offset": 12112,
+      "length": 10,
+      "value": "\"Jpeg2000\""
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.pb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12129,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.pb.swift",
       "kind": "StringLiteral",
-      "offset": 6290,
-      "length": 11,
-      "value": "\"Responses\""
+      "offset": 12145,
+      "length": 5,
+      "value": "\"Bmp\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 6308,
+      "offset": 12157,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.pb.swift",
       "kind": "StringLiteral",
-      "offset": 6324,
-      "length": 20,
-      "value": "\"MaxTransceiveLenth\""
+      "offset": 12173,
+      "length": 5,
+      "value": "\"Png\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 6351,
+      "offset": 12185,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.pb.swift",
       "kind": "StringLiteral",
-      "offset": 6367,
-      "length": 27,
-      "value": "\"ExtendedLengthApduSupport\""
+      "offset": 12201,
+      "length": 5,
+      "value": "\"Wsq\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 6401,
+      "offset": 12213,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.pb.swift",
       "kind": "StringLiteral",
-      "offset": 6417,
-      "length": 6,
-      "value": "\"Skip\""
-    },
-    {
-      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.pb.swift",
-      "kind": "StringLiteral",
-      "offset": 9085,
-      "length": 18,
-      "value": "\".ProcessResponse\""
+      "offset": 12229,
+      "length": 14,
+      "value": "\"LosslessJpeg\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 9167,
+      "offset": 12250,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.pb.swift",
+      "kind": "StringLiteral",
+      "offset": 12266,
+      "length": 5,
+      "value": "\"Wlt\""
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.pb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12278,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.pb.swift",
+      "kind": "StringLiteral",
+      "offset": 12294,
+      "length": 5,
+      "value": "\"Raw\""
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.pb.swift",
+      "kind": "StringLiteral",
+      "offset": 12530,
+      "length": 17,
+      "value": "\".ProcessRequest\""
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.pb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12611,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.pb.swift",
       "kind": "StringLiteral",
-      "offset": 9183,
+      "offset": 12627,
       "length": 7,
       "value": "\"State\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 9197,
+      "offset": 12641,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.pb.swift",
       "kind": "StringLiteral",
-      "offset": 9213,
-      "length": 10,
-      "value": "\"Requests\""
+      "offset": 12657,
+      "length": 14,
+      "value": "\"ChipStandard\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 9230,
+      "offset": 12678,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.pb.swift",
       "kind": "StringLiteral",
-      "offset": 9246,
-      "length": 13,
-      "value": "\"IsCompleted\""
+      "offset": 12694,
+      "length": 11,
+      "value": "\"Responses\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 9266,
+      "offset": 12712,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.pb.swift",
       "kind": "StringLiteral",
-      "offset": 9282,
-      "length": 8,
-      "value": "\"Status\""
+      "offset": 12728,
+      "length": 20,
+      "value": "\"MaxTransceiveLenth\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 9297,
+      "offset": 12755,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.pb.swift",
       "kind": "StringLiteral",
-      "offset": 9313,
-      "length": 17,
-      "value": "\"ProgressPercent\""
-    },
-    {
-      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.pb.swift",
-      "kind": "StringLiteral",
-      "offset": 11648,
-      "length": 14,
-      "value": "\".ChipRequest\""
+      "offset": 12771,
+      "length": 27,
+      "value": "\"ExtendedLengthApduSupport\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 11726,
+      "offset": 12805,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.pb.swift",
+      "kind": "StringLiteral",
+      "offset": 12821,
+      "length": 6,
+      "value": "\"Skip\""
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.pb.swift",
+      "kind": "StringLiteral",
+      "offset": 15489,
+      "length": 18,
+      "value": "\".ProcessResponse\""
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.pb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15571,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.pb.swift",
       "kind": "StringLiteral",
-      "offset": 11742,
-      "length": 6,
-      "value": "\"Apdu\""
+      "offset": 15587,
+      "length": 7,
+      "value": "\"State\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 11755,
+      "offset": 15601,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.pb.swift",
       "kind": "StringLiteral",
-      "offset": 11771,
-      "length": 5,
-      "value": "\"Sw1\""
+      "offset": 15617,
+      "length": 10,
+      "value": "\"Requests\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 11783,
+      "offset": 15634,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.pb.swift",
       "kind": "StringLiteral",
-      "offset": 11799,
+      "offset": 15650,
+      "length": 13,
+      "value": "\"IsCompleted\""
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.pb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15670,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.pb.swift",
+      "kind": "StringLiteral",
+      "offset": 15686,
+      "length": 8,
+      "value": "\"Status\""
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.pb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15701,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.pb.swift",
+      "kind": "StringLiteral",
+      "offset": 15717,
+      "length": 17,
+      "value": "\"ProgressPercent\""
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.pb.swift",
+      "kind": "StringLiteral",
+      "offset": 18052,
+      "length": 14,
+      "value": "\".ChipRequest\""
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.pb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 18130,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.pb.swift",
+      "kind": "StringLiteral",
+      "offset": 18146,
+      "length": 6,
+      "value": "\"Apdu\""
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.pb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 18159,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.pb.swift",
+      "kind": "StringLiteral",
+      "offset": 18175,
+      "length": 5,
+      "value": "\"Sw1\""
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.pb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 18187,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.pb.swift",
+      "kind": "StringLiteral",
+      "offset": 18203,
       "length": 5,
       "value": "\"Sw2\""
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.pb.swift",
+      "kind": "StringLiteral",
+      "offset": 19899,
+      "length": 19,
+      "value": "\".RegisterResponse\""
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.pb.swift",
+      "kind": "StringLiteral",
+      "offset": 20736,
+      "length": 24,
+      "value": "\".RegisterResultRequest\""
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.pb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 20824,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.pb.swift",
+      "kind": "StringLiteral",
+      "offset": 20840,
+      "length": 12,
+      "value": "\"Assessment\""
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.pb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 20859,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.pb.swift",
+      "kind": "StringLiteral",
+      "offset": 20875,
+      "length": 5,
+      "value": "\"Mrz\""
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.pb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 20887,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.pb.swift",
+      "kind": "StringLiteral",
+      "offset": 20903,
+      "length": 9,
+      "value": "\"Profile\""
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.pb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 20919,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.pb.swift",
+      "kind": "StringLiteral",
+      "offset": 20935,
+      "length": 11,
+      "value": "\"Signature\""
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.pb.swift",
+      "kind": "StringLiteral",
+      "offset": 23278,
+      "length": 13,
+      "value": "\".Assessment\""
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.pb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 23355,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.pb.swift",
+      "kind": "StringLiteral",
+      "offset": 23371,
+      "length": 21,
+      "value": "\"BasicAuthentication\""
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.pb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 23399,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.pb.swift",
+      "kind": "StringLiteral",
+      "offset": 23415,
+      "length": 20,
+      "value": "\"ChipAuthentication\""
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.pb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 23442,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.pb.swift",
+      "kind": "StringLiteral",
+      "offset": 23458,
+      "length": 24,
+      "value": "\"TerminalAuthentication\""
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.pb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 23489,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.pb.swift",
+      "kind": "StringLiteral",
+      "offset": 23505,
+      "length": 27,
+      "value": "\"CertificateAuthentication\""
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.pb.swift",
+      "kind": "StringLiteral",
+      "offset": 25817,
+      "length": 12,
+      "value": "\".ImageData\""
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.pb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 25893,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.pb.swift",
+      "kind": "StringLiteral",
+      "offset": 25909,
+      "length": 11,
+      "value": "\"ImageData\""
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.pb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 25927,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Nfc.pb.swift",
+      "kind": "StringLiteral",
+      "offset": 25943,
+      "length": 13,
+      "value": "\"ImageFormat\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/History.grpc.swift",
@@ -16373,451 +17147,213 @@
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/History.pb.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3846,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/History.pb.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3880,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/History.pb.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3956,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/History.pb.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3993,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/History.pb.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4033,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/History.pb.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4068,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/History.pb.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4105,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/History.pb.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4146,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/History.pb.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4191,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/History.pb.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4228,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/History.pb.swift",
       "kind": "StringLiteral",
-      "offset": 4410,
+      "offset": 3953,
       "length": 39,
       "value": "\"_365id.Glootie.Contracts.gRPC.History\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/History.pb.swift",
       "kind": "StringLiteral",
-      "offset": 4685,
+      "offset": 4228,
       "length": 26,
       "value": "\".TransactionCountRequest\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/History.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 4775,
+      "offset": 4318,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/History.pb.swift",
       "kind": "StringLiteral",
-      "offset": 4791,
+      "offset": 4334,
       "length": 20,
       "value": "\"DeviceSerialNumber\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/History.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 4818,
+      "offset": 4361,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/History.pb.swift",
       "kind": "StringLiteral",
-      "offset": 4834,
+      "offset": 4377,
       "length": 8,
       "value": "\"MaxAge\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/History.pb.swift",
       "kind": "StringLiteral",
-      "offset": 6440,
+      "offset": 5983,
       "length": 27,
       "value": "\".TransactionCountResponse\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/History.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 6531,
+      "offset": 6074,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/History.pb.swift",
       "kind": "StringLiteral",
-      "offset": 6547,
+      "offset": 6090,
       "length": 7,
       "value": "\"Count\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/History.pb.swift",
       "kind": "StringLiteral",
-      "offset": 7845,
+      "offset": 7388,
       "length": 28,
       "value": "\".TransactionHistoryRequest\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/History.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 7937,
+      "offset": 7480,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/History.pb.swift",
       "kind": "StringLiteral",
-      "offset": 7953,
+      "offset": 7496,
       "length": 20,
       "value": "\"DeviceSerialNumber\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/History.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 7980,
+      "offset": 7523,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/History.pb.swift",
       "kind": "StringLiteral",
-      "offset": 7996,
+      "offset": 7539,
       "length": 15,
       "value": "\"ResultsOffset\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/History.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 8018,
+      "offset": 7561,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/History.pb.swift",
       "kind": "StringLiteral",
-      "offset": 8034,
+      "offset": 7577,
       "length": 12,
       "value": "\"MaxResults\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/History.pb.swift",
       "kind": "StringLiteral",
-      "offset": 9944,
+      "offset": 9487,
       "length": 29,
       "value": "\".TransactionHistoryResponse\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/History.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 10037,
+      "offset": 9580,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/History.pb.swift",
       "kind": "StringLiteral",
-      "offset": 10053,
+      "offset": 9596,
       "length": 14,
       "value": "\"Transactions\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/History.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 10074,
+      "offset": 9617,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/History.pb.swift",
       "kind": "StringLiteral",
-      "offset": 10090,
+      "offset": 9633,
       "length": 12,
       "value": "\"EndReached\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/History.pb.swift",
       "kind": "StringLiteral",
-      "offset": 11698,
+      "offset": 11241,
       "length": 25,
       "value": "\".TransactionHistoryItem\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/History.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 11787,
+      "offset": 11330,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/History.pb.swift",
       "kind": "StringLiteral",
-      "offset": 11803,
+      "offset": 11346,
       "length": 15,
       "value": "\"TransactionId\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/History.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 11825,
+      "offset": 11368,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/History.pb.swift",
       "kind": "StringLiteral",
-      "offset": 11841,
+      "offset": 11384,
       "length": 9,
       "value": "\"Created\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/History.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 11857,
+      "offset": 11400,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/History.pb.swift",
       "kind": "StringLiteral",
-      "offset": 11873,
+      "offset": 11416,
       "length": 8,
       "value": "\"Result\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/History.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 11888,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/History.pb.swift",
-      "kind": "StringLiteral",
-      "offset": 11904,
-      "length": 15,
-      "value": "\"ResultSummary\""
-    },
-    {
-      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/History.pb.swift",
-      "kind": "IntegerLiteral",
-      "offset": 11926,
-      "length": 1,
-      "value": "5"
-    },
-    {
-      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/History.pb.swift",
-      "kind": "StringLiteral",
-      "offset": 11942,
-      "length": 19,
-      "value": "\"ResultDescription\""
-    },
-    {
-      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/History.pb.swift",
-      "kind": "IntegerLiteral",
-      "offset": 11968,
-      "length": 1,
-      "value": "6"
-    },
-    {
-      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/History.pb.swift",
-      "kind": "StringLiteral",
-      "offset": 11984,
-      "length": 13,
-      "value": "\"WasVerified\""
-    },
-    {
-      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/History.pb.swift",
-      "kind": "IntegerLiteral",
-      "offset": 12004,
-      "length": 1,
-      "value": "7"
-    },
-    {
-      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/History.pb.swift",
-      "kind": "StringLiteral",
-      "offset": 12020,
-      "length": 14,
-      "value": "\"WasValidated\""
-    },
-    {
-      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/History.pb.swift",
-      "kind": "IntegerLiteral",
-      "offset": 12041,
+      "offset": 11431,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/History.pb.swift",
       "kind": "StringLiteral",
-      "offset": 12057,
+      "offset": 11447,
       "length": 17,
       "value": "\"WasIdentifiedAs\""
-    },
-    {
-      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/History.pb.swift",
-      "kind": "IntegerLiteral",
-      "offset": 12081,
-      "length": 1,
-      "value": "9"
-    },
-    {
-      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/History.pb.swift",
-      "kind": "StringLiteral",
-      "offset": 12097,
-      "length": 14,
-      "value": "\"WasExtracted\""
-    },
-    {
-      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/History.pb.swift",
-      "kind": "IntegerLiteral",
-      "offset": 12118,
-      "length": 2,
-      "value": "10"
-    },
-    {
-      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/History.pb.swift",
-      "kind": "StringLiteral",
-      "offset": 12135,
-      "length": 17,
-      "value": "\"WasNfcSupported\""
-    },
-    {
-      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/History.pb.swift",
-      "kind": "IntegerLiteral",
-      "offset": 12159,
-      "length": 2,
-      "value": "11"
-    },
-    {
-      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/History.pb.swift",
-      "kind": "StringLiteral",
-      "offset": 12176,
-      "length": 20,
-      "value": "\"WasNfcChipDetected\""
-    },
-    {
-      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/History.pb.swift",
-      "kind": "IntegerLiteral",
-      "offset": 12203,
-      "length": 2,
-      "value": "12"
-    },
-    {
-      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/History.pb.swift",
-      "kind": "StringLiteral",
-      "offset": 12220,
-      "length": 15,
-      "value": "\"WasNfcEnabled\""
-    },
-    {
-      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/History.pb.swift",
-      "kind": "IntegerLiteral",
-      "offset": 12242,
-      "length": 2,
-      "value": "13"
-    },
-    {
-      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/History.pb.swift",
-      "kind": "StringLiteral",
-      "offset": 12259,
-      "length": 17,
-      "value": "\"WasNfcExtracted\""
-    },
-    {
-      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/History.pb.swift",
-      "kind": "IntegerLiteral",
-      "offset": 12283,
-      "length": 2,
-      "value": "14"
-    },
-    {
-      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/History.pb.swift",
-      "kind": "StringLiteral",
-      "offset": 12300,
-      "length": 21,
-      "value": "\"WasNfcAuthenticated\""
-    },
-    {
-      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/History.pb.swift",
-      "kind": "IntegerLiteral",
-      "offset": 12328,
-      "length": 2,
-      "value": "15"
-    },
-    {
-      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/History.pb.swift",
-      "kind": "StringLiteral",
-      "offset": 12345,
-      "length": 25,
-      "value": "\"WasFaceDetectionInvoked\""
-    },
-    {
-      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/History.pb.swift",
-      "kind": "IntegerLiteral",
-      "offset": 12377,
-      "length": 2,
-      "value": "16"
-    },
-    {
-      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/History.pb.swift",
-      "kind": "StringLiteral",
-      "offset": 12394,
-      "length": 17,
-      "value": "\"WasFaceDetected\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/DigitalIdentification.grpc.swift",
@@ -16878,343 +17414,301 @@
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/DigitalIdentification.pb.swift",
       "kind": "Array",
-      "offset": 4889,
+      "offset": 4021,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/DigitalIdentification.pb.swift",
       "kind": "StringLiteral",
-      "offset": 6413,
+      "offset": 5545,
       "length": 53,
       "value": "\"_365id.Glootie.Contracts.gRPC.DigitalIdentification\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/DigitalIdentification.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 6637,
+      "offset": 5769,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/DigitalIdentification.pb.swift",
       "kind": "StringLiteral",
-      "offset": 6653,
+      "offset": 5785,
       "length": 14,
       "value": "\"Incompatible\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/DigitalIdentification.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 6674,
+      "offset": 5806,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/DigitalIdentification.pb.swift",
       "kind": "StringLiteral",
-      "offset": 6690,
+      "offset": 5822,
       "length": 20,
       "value": "\"MultipleCompatible\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/DigitalIdentification.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 6717,
+      "offset": 5849,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/DigitalIdentification.pb.swift",
       "kind": "StringLiteral",
-      "offset": 6733,
+      "offset": 5865,
       "length": 12,
       "value": "\"Processing\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/DigitalIdentification.pb.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6928,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/DigitalIdentification.pb.swift",
       "kind": "StringLiteral",
-      "offset": 6944,
-      "length": 11,
-      "value": "\"Undefined\""
-    },
-    {
-      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/DigitalIdentification.pb.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6962,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/DigitalIdentification.pb.swift",
-      "kind": "StringLiteral",
-      "offset": 6978,
-      "length": 9,
-      "value": "\"Scanner\""
-    },
-    {
-      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/DigitalIdentification.pb.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6994,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/DigitalIdentification.pb.swift",
-      "kind": "StringLiteral",
-      "offset": 7010,
-      "length": 12,
-      "value": "\"GlootieSdk\""
-    },
-    {
-      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/DigitalIdentification.pb.swift",
-      "kind": "StringLiteral",
-      "offset": 7268,
+      "offset": 6123,
       "length": 14,
       "value": "\".DidaRequest\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/DigitalIdentification.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 7346,
+      "offset": 6201,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/DigitalIdentification.pb.swift",
       "kind": "StringLiteral",
-      "offset": 7362,
+      "offset": 6217,
       "length": 9,
       "value": "\"Content\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/DigitalIdentification.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 7378,
+      "offset": 6233,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/DigitalIdentification.pb.swift",
       "kind": "StringLiteral",
-      "offset": 7394,
+      "offset": 6249,
       "length": 10,
       "value": "\"DeviceId\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/DigitalIdentification.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 7411,
+      "offset": 6266,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/DigitalIdentification.pb.swift",
       "kind": "StringLiteral",
-      "offset": 7427,
+      "offset": 6282,
       "length": 12,
       "value": "\"DeviceType\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/DigitalIdentification.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 7446,
+      "offset": 6301,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/DigitalIdentification.pb.swift",
       "kind": "StringLiteral",
-      "offset": 7462,
+      "offset": 6317,
       "length": 15,
       "value": "\"TransactionId\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/DigitalIdentification.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 7484,
+      "offset": 6339,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/DigitalIdentification.pb.swift",
       "kind": "StringLiteral",
-      "offset": 7500,
+      "offset": 6355,
       "length": 15,
       "value": "\"CorrelationId\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/DigitalIdentification.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 7522,
+      "offset": 6377,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/DigitalIdentification.pb.swift",
       "kind": "StringLiteral",
-      "offset": 7538,
+      "offset": 6393,
       "length": 9,
       "value": "\"TokenId\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/DigitalIdentification.pb.swift",
       "kind": "StringLiteral",
-      "offset": 10486,
+      "offset": 9341,
       "length": 15,
       "value": "\".DidaResponse\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/DigitalIdentification.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 10565,
+      "offset": 9420,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/DigitalIdentification.pb.swift",
       "kind": "StringLiteral",
-      "offset": 10581,
+      "offset": 9436,
       "length": 18,
       "value": "\"AssessmentStatus\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/DigitalIdentification.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 10606,
+      "offset": 9461,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/DigitalIdentification.pb.swift",
       "kind": "StringLiteral",
-      "offset": 10622,
+      "offset": 9477,
       "length": 21,
       "value": "\"CompatibleProviders\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/DigitalIdentification.pb.swift",
       "kind": "StringLiteral",
-      "offset": 12319,
+      "offset": 11174,
       "length": 18,
       "value": "\".DocumentContent\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/DigitalIdentification.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 12401,
+      "offset": 11256,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/DigitalIdentification.pb.swift",
       "kind": "StringLiteral",
-      "offset": 12417,
+      "offset": 11272,
       "length": 27,
       "value": "\"PreferedDigitalIdProvider\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/DigitalIdentification.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 12451,
+      "offset": 11306,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/DigitalIdentification.pb.swift",
       "kind": "StringLiteral",
-      "offset": 12467,
+      "offset": 11322,
       "length": 15,
       "value": "\"ContentSource\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/DigitalIdentification.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 12489,
+      "offset": 11344,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/DigitalIdentification.pb.swift",
       "kind": "StringLiteral",
-      "offset": 12505,
+      "offset": 11360,
       "length": 17,
       "value": "\"ContentStandard\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/DigitalIdentification.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 12529,
+      "offset": 11384,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/DigitalIdentification.pb.swift",
       "kind": "StringLiteral",
-      "offset": 12545,
+      "offset": 11400,
       "length": 6,
       "value": "\"Data\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/DigitalIdentification.pb.swift",
       "kind": "StringLiteral",
-      "offset": 14754,
+      "offset": 13609,
       "length": 7,
       "value": "\".Guid\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/DigitalIdentification.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 14825,
+      "offset": 13680,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/DigitalIdentification.pb.swift",
       "kind": "StringLiteral",
-      "offset": 14841,
+      "offset": 13696,
       "length": 7,
       "value": "\"value\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/DigitalIdentification.pb.swift",
       "kind": "StringLiteral",
-      "offset": 16148,
+      "offset": 15003,
       "length": 29,
       "value": "\".DigitalIdProviderSignature\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/DigitalIdentification.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 16241,
+      "offset": 15096,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/DigitalIdentification.pb.swift",
       "kind": "StringLiteral",
-      "offset": 16257,
+      "offset": 15112,
       "length": 14,
       "value": "\"ProviderName\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/DigitalIdentification.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 16278,
+      "offset": 15133,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/DigitalIdentification.pb.swift",
       "kind": "StringLiteral",
-      "offset": 16294,
+      "offset": 15149,
       "length": 12,
       "value": "\"ProviderId\""
     },
@@ -18558,247 +19052,317 @@
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Coordinator.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 8377,
+      "offset": 11303,
       "length": 13,
       "value": "\"Coordinator\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Coordinator.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 8406,
+      "offset": 11332,
       "length": 55,
       "value": "\"_365id.Glootie.Contracts.gRPC.Coordinator.Coordinator\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Coordinator.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 8676,
+      "offset": 11702,
       "length": 10,
       "value": "\"NextTask\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Coordinator.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 8700,
+      "offset": 11726,
       "length": 65,
       "value": "\"\/_365id.Glootie.Contracts.gRPC.Coordinator.Coordinator\/NextTask\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Coordinator.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 12957,
+      "offset": 11908,
+      "length": 18,
+      "value": "\"AbortTransaction\""
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Coordinator.grpc.swift",
+      "kind": "StringLiteral",
+      "offset": 11940,
+      "length": 73,
+      "value": "\"\/_365id.Glootie.Contracts.gRPC.Coordinator.Coordinator\/AbortTransaction\""
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Coordinator.grpc.swift",
+      "kind": "StringLiteral",
+      "offset": 18016,
       "length": 13,
       "value": "\"Coordinator\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Coordinator.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 12986,
+      "offset": 18045,
       "length": 55,
       "value": "\"_365id.Glootie.Contracts.gRPC.Coordinator.Coordinator\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Coordinator.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 13256,
+      "offset": 18415,
       "length": 10,
       "value": "\"NextTask\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Coordinator.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 13280,
+      "offset": 18439,
       "length": 65,
       "value": "\"\/_365id.Glootie.Contracts.gRPC.Coordinator.Coordinator\/NextTask\""
     },
     {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Coordinator.grpc.swift",
+      "kind": "StringLiteral",
+      "offset": 18621,
+      "length": 18,
+      "value": "\"AbortTransaction\""
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Coordinator.grpc.swift",
+      "kind": "StringLiteral",
+      "offset": 18653,
+      "length": 73,
+      "value": "\"\/_365id.Glootie.Contracts.gRPC.Coordinator.Coordinator\/AbortTransaction\""
+    },
+    {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Coordinator.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 2406,
+      "offset": 3445,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Coordinator.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 2441,
+      "offset": 3480,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Coordinator.pb.swift",
       "kind": "StringLiteral",
-      "offset": 3281,
+      "offset": 5180,
       "length": 43,
       "value": "\"_365id.Glootie.Contracts.gRPC.Coordinator\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Coordinator.pb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5384,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Coordinator.pb.swift",
       "kind": "StringLiteral",
-      "offset": 3556,
+      "offset": 5400,
+      "length": 11,
+      "value": "\"Undefined\""
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Coordinator.pb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5418,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Coordinator.pb.swift",
+      "kind": "StringLiteral",
+      "offset": 5434,
+      "length": 15,
+      "value": "\"UserCancelled\""
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Coordinator.pb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5456,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Coordinator.pb.swift",
+      "kind": "StringLiteral",
+      "offset": 5472,
+      "length": 15,
+      "value": "\"StopSDKCalled\""
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Coordinator.pb.swift",
+      "kind": "StringLiteral",
+      "offset": 5727,
       "length": 18,
       "value": "\".NextTaskRequest\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Coordinator.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 3638,
+      "offset": 5809,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Coordinator.pb.swift",
       "kind": "StringLiteral",
-      "offset": 3654,
+      "offset": 5825,
       "length": 7,
       "value": "\"State\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Coordinator.pb.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3668,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Coordinator.pb.swift",
       "kind": "StringLiteral",
-      "offset": 3684,
-      "length": 7,
-      "value": "\"Token\""
-    },
-    {
-      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Coordinator.pb.swift",
-      "kind": "StringLiteral",
-      "offset": 5210,
+      "offset": 7111,
       "length": 16,
       "value": "\".NextTaskReply\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Coordinator.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 5290,
+      "offset": 7191,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Coordinator.pb.swift",
       "kind": "StringLiteral",
-      "offset": 5306,
+      "offset": 7207,
       "length": 7,
       "value": "\"State\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Coordinator.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 5320,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Coordinator.pb.swift",
-      "kind": "StringLiteral",
-      "offset": 5336,
-      "length": 7,
-      "value": "\"Token\""
-    },
-    {
-      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Coordinator.pb.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5350,
+      "offset": 7221,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Coordinator.pb.swift",
       "kind": "StringLiteral",
-      "offset": 5366,
+      "offset": 7237,
       "length": 9,
       "value": "\"Message\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Coordinator.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 5382,
+      "offset": 7253,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Coordinator.pb.swift",
       "kind": "StringLiteral",
-      "offset": 5398,
+      "offset": 7269,
       "length": 10,
       "value": "\"NextTask\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Coordinator.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 5415,
+      "offset": 7286,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Coordinator.pb.swift",
       "kind": "StringLiteral",
-      "offset": 5431,
+      "offset": 7302,
       "length": 13,
       "value": "\"TaskPayload\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Coordinator.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 5451,
+      "offset": 7322,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Coordinator.pb.swift",
       "kind": "StringLiteral",
-      "offset": 5467,
+      "offset": 7338,
       "length": 15,
       "value": "\"ClientPayload\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Coordinator.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 5489,
+      "offset": 7360,
       "length": 1,
       "value": "7"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Coordinator.pb.swift",
       "kind": "StringLiteral",
-      "offset": 5505,
+      "offset": 7376,
       "length": 19,
       "value": "\"TaskCountEstimate\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Coordinator.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 5531,
+      "offset": 7402,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Coordinator.pb.swift",
       "kind": "StringLiteral",
-      "offset": 5547,
+      "offset": 7418,
       "length": 18,
       "value": "\"TaskCountCurrent\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Coordinator.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 5572,
+      "offset": 7443,
       "length": 1,
       "value": "9"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Coordinator.pb.swift",
       "kind": "StringLiteral",
-      "offset": 5588,
+      "offset": 7459,
       "length": 10,
       "value": "\"Feedback\""
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Coordinator.pb.swift",
+      "kind": "StringLiteral",
+      "offset": 10951,
+      "length": 26,
+      "value": "\".AbortTransactionRequest\""
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Coordinator.pb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11041,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Coordinator.pb.swift",
+      "kind": "StringLiteral",
+      "offset": 11057,
+      "length": 8,
+      "value": "\"Reason\""
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Coordinator.pb.swift",
+      "kind": "StringLiteral",
+      "offset": 12374,
+      "length": 24,
+      "value": "\".AbortTransactionReply\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/GeneratedAssetSymbols.swift",

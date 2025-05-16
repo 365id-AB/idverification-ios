@@ -4,6 +4,57 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [2.6.3] - 2025-05-15
+
+### Fixed
+
+- Document scanning is disabled as soon as the user presses the cancel button.
+
+### Updated
+
+- Set the abort transaction request timeout to 5 seconds.
+
+
+## [2.6.2] - 2025-05-13
+
+### Changed
+
+- Set the log level to info.
+
+## [2.6.1] - 2025-05-02
+
+### Updated
+
+- Merged all updates from 2.5.41 and 2.5.42 into 2.6.1
+
+## [2.6.0] - 2025-04-08
+
+### Added
+
+- Notify the backend when the user aborts the transaction.
+
+## [2.5.42] - 2025-04-25
+
+### Fixed
+
+- Uses the correct log endpoint.
+
+## [2.5.41] - 2025-04-24
+
+### Added
+
+- Logging using Opentelemetry.
+
+## [2.5.40] - 2025-02-25
+
+### Updated
+
+- Replaced the Roboto font family with the Helvetica font family.
+
+### fixed
+
+- Fixed the issue where the text on the warning view was incomplete.
+
 ## [2.5.39] - 2025-02-19
 
 ### Updated
