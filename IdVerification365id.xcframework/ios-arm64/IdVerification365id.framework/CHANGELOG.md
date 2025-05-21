@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [2.6.4] - 2025-05-20
+
+### Updated
+
+- Removed the retries for abort transaction.
+- Added a state to track the status of the SDK transaction.
+
 ## [2.6.3] - 2025-05-15
 
 ### Fixed

@@ -10868,22 +10868,8 @@
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Models\/TransactionModel.swift",
-      "kind": "BooleanLiteral",
-      "offset": 657,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Models\/TransactionModel.swift",
-      "kind": "BooleanLiteral",
-      "offset": 697,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Models\/TransactionModel.swift",
       "kind": "Array",
-      "offset": 1176,
+      "offset": 1149,
       "length": 2,
       "value": "[]"
     },
@@ -11345,21 +11331,28 @@
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 14624,
+      "offset": 14752,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 26604,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 30857,
+      "offset": 31016,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 30888,
+      "offset": 31047,
       "length": 1,
       "value": "1"
     },
