@@ -1,247 +1,204 @@
 #import "ViewController.h"
-#import "DeviceInformation.h"
-#import "IdVerification365id/IdVerification365id-Swift.h"
-#import "SampleApp_objc-Swift.h"
+#import "SampleAppEventDelegateHandler.h"
+#import "SetIdVerificationTheme.h"
 
-@interface ViewController () <IdVerificationEventDelegate>
+typedef NS_ENUM(NSInteger, ButtonActionType) {
+    ButtonActionSetCustomTheme = 1,
+    ButtonActionSetDefaultTheme,
+    ButtonActionScanGenericDocument,
+    ButtonActionScanIDCard,
+    ButtonActionScanPassport,
+    ButtonActionScanOddDocument
+};
 
+@interface ViewController ()
+@property (strong, nonatomic) IdVerificationHandler *verificationHandler;
+@property (nonatomic, strong) UILabel *statusLabel;
+@property (nonatomic, strong) UIActivityIndicatorView *spinner;
 @end
 
 @implementation ViewController
 
-- (void)viewWillAppear:(BOOL)animated {
-    // Make sure to stop the SDK when it is dismissed
-    [super viewWillAppear:animated];
-    [IdVerification stop];
-    self.view.backgroundColor = UIColor.blueColor;
-}
-
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = UIColor.blueColor;
-
-    self.overrideUserInterfaceStyle = UIUserInterfaceStyleLight;
-
-    // Safe area View
-    UIView *safeAreaView = [[UIView alloc] initWithFrame:CGRectZero];
-    safeAreaView.backgroundColor = UIColor.whiteColor;
-    [self.view addSubview:safeAreaView];
-    safeAreaView.translatesAutoresizingMaskIntoConstraints = false;
-    UILayoutGuide *safeGuide = self.view.safeAreaLayoutGuide;
-    [safeAreaView.topAnchor constraintEqualToAnchor:safeGuide.topAnchor].active = true;
-    [safeAreaView.leadingAnchor constraintEqualToAnchor:safeGuide.leadingAnchor].active = true;
-    [safeAreaView.trailingAnchor constraintEqualToAnchor:safeGuide.trailingAnchor].active = true;
-    [safeAreaView.bottomAnchor constraintEqualToAnchor:safeGuide.bottomAnchor].active = true;
-
-    // Info label
-    UILabel *infoLabel = [[UILabel alloc] initWithFrame:CGRectZero];
-    infoLabel.textColor = UIColor.blackColor;
-    infoLabel.numberOfLines = 0;
-    infoLabel.text = @"Sample Application\n\n365id Id Verification SDK";
-    infoLabel.textAlignment = NSTextAlignmentCenter;
-    [safeAreaView addSubview:infoLabel];
-    infoLabel.translatesAutoresizingMaskIntoConstraints = false;
-
-    // Set Custom theme button
-    UIButton *setCustomThemeButton = [[UIButton alloc] initWithFrame:CGRectZero];
-    setCustomThemeButton.backgroundColor = UIColor.blueColor;
-    [setCustomThemeButton setTitleColor:UIColor.whiteColor forState:UIControlStateNormal];
-    setCustomThemeButton.layer.cornerRadius = 10;
-    [setCustomThemeButton setTitle:@"Set Custom Theme" forState:UIControlStateNormal];
-    [safeAreaView addSubview:setCustomThemeButton];
-    setCustomThemeButton.translatesAutoresizingMaskIntoConstraints = false;
-    [setCustomThemeButton addTarget:self action:@selector(clickSetCustomThemeButton:) forControlEvents:UIControlEventTouchUpInside];
-
-    // Scan Generic Document
-    UIButton *scanGenericDocument = [[UIButton alloc] initWithFrame:CGRectZero];
-    scanGenericDocument.backgroundColor = UIColor.blueColor;
-    [scanGenericDocument setTitleColor:UIColor.whiteColor forState:UIControlStateNormal];
-    scanGenericDocument.layer.cornerRadius = 10;
-    [scanGenericDocument setTitle:@"Scan Generic Document" forState:UIControlStateNormal];
-    [safeAreaView addSubview:scanGenericDocument];
-    scanGenericDocument.translatesAutoresizingMaskIntoConstraints = false;
-    [scanGenericDocument addTarget:self action:@selector(clickscanGenericDocument:) forControlEvents:UIControlEventTouchUpInside];
-
-    // Scan Id-card / Driving License
-    UIButton *scanIdCard = [[UIButton alloc] initWithFrame:CGRectZero];
-    scanIdCard.backgroundColor = UIColor.blueColor;
-    [scanIdCard setTitleColor:UIColor.whiteColor forState:UIControlStateNormal];
-    scanIdCard.layer.cornerRadius = 10;
-    [scanIdCard setTitle:@"Scan Id-card / Driving License" forState:UIControlStateNormal];
-    [safeAreaView addSubview:scanIdCard];
-    scanIdCard.translatesAutoresizingMaskIntoConstraints = false;
-    [scanIdCard addTarget:self action:@selector(clickScanIdCard:) forControlEvents:UIControlEventTouchUpInside];
-
-    // Scan Passport
-    UIButton *scanPassport = [[UIButton alloc] initWithFrame:CGRectZero];
-    scanPassport.backgroundColor = UIColor.blueColor;
-    [scanPassport setTitleColor:UIColor.whiteColor forState:UIControlStateNormal];
-    scanPassport.layer.cornerRadius = 10;
-    [scanPassport setTitle:@"Scan Passport" forState:UIControlStateNormal];
-    [safeAreaView addSubview:scanPassport];
-    scanPassport.translatesAutoresizingMaskIntoConstraints = false;
-    [scanPassport addTarget:self action:@selector(clickScanPassport:) forControlEvents:UIControlEventTouchUpInside];
-
-    // Scan Odd sized document
-    UIButton *scanOddDocument = [[UIButton alloc] initWithFrame:CGRectZero];
-    scanOddDocument.backgroundColor = UIColor.blueColor;
-    [scanOddDocument setTitleColor:UIColor.whiteColor forState:UIControlStateNormal];
-    scanOddDocument.layer.cornerRadius = 10;
-    [scanOddDocument setTitle:@"Scan Odd Document" forState:UIControlStateNormal];
-    [safeAreaView addSubview:scanOddDocument];
-    scanOddDocument.translatesAutoresizingMaskIntoConstraints = false;
-    [scanOddDocument addTarget:self action:@selector(clickOddDocument:) forControlEvents:UIControlEventTouchUpInside];
-
-    // Set views in safe area
-    NSDictionary *viewsDictionary = @{@"infoLabel":infoLabel,
-                                      @"setCustomThemeButton":setCustomThemeButton,
-                                      @"scanGenericDocument":scanGenericDocument,
-                                      @"scanIdCard":scanIdCard,
-                                      @"scanPassport":scanPassport,
-                                      @"scanOddDocument":scanOddDocument};
-
-    [safeAreaView addConstraints: [NSLayoutConstraint constraintsWithVisualFormat:@"H:|-20-[infoLabel]-20-|" options:0 metrics:nil views:viewsDictionary]];
-    [safeAreaView addConstraints: [NSLayoutConstraint constraintsWithVisualFormat:@"H:|-20-[setCustomThemeButton]-20-|" options:0 metrics:nil views:viewsDictionary]];
-    [safeAreaView addConstraints: [NSLayoutConstraint constraintsWithVisualFormat:@"H:|-20-[scanGenericDocument]-20-|" options:0 metrics:nil views:viewsDictionary]];
-    [safeAreaView addConstraints: [NSLayoutConstraint constraintsWithVisualFormat:@"H:|-20-[scanIdCard]-20-|" options:0 metrics:nil views:viewsDictionary]];
-    [safeAreaView addConstraints: [NSLayoutConstraint constraintsWithVisualFormat:@"H:|-20-[scanPassport]-20-|" options:0 metrics:nil views:viewsDictionary]];
-    [safeAreaView addConstraints: [NSLayoutConstraint constraintsWithVisualFormat:@"H:|-20-[scanOddDocument]-20-|" options:0 metrics:nil views:viewsDictionary]];
-    [safeAreaView addConstraints: [NSLayoutConstraint constraintsWithVisualFormat:@"V:|-20-[infoLabel]-60-[setCustomThemeButton]-60-[scanGenericDocument]-20-[scanIdCard]-20-[scanPassport]-20-[scanOddDocument]->=0-|" options:0 metrics:nil views:viewsDictionary]];
-}
-
--(void)showSdkView:(BOOL)value {
-
-    if (value) {
-        UIViewController *vc = [IdVerification createMainView];
-        vc.navigationController.navigationBarHidden = true;
-        vc.modalPresentationStyle = UIModalPresentationFullScreen;
-        [self presentViewController:vc animated:YES completion:nil];
+    
+    self.verificationHandler = [[IdVerificationHandler alloc] initWithPresenter:self];
+    
+    // Calculate safe area top inset
+    CGFloat topSafeArea = 0;
+    if (@available(iOS 11.0, *)) {
+      topSafeArea = self.view.safeAreaInsets.top + 20;
     }
-    else {
-        [self dismissViewControllerAnimated:true completion:nil];
-        // This call to stopSDK is made when the user press the back button in the
-        // Navigation view. This could leed to multiple calls to stopSDK, which is safe to do.
-        [IdVerification stop];
-    }
-}
 
--(void)clickSetCustomThemeButton:(id)sender
-{
-    Animations  *animations = [MyCustomAnimations createMyCustomAnimations];
-
-    IdVerificationTheme *theme = [[IdVerificationTheme alloc]
-        initWithPrimary:UIColor.purpleColor
-        onPrimary:UIColor.whiteColor
-        primaryContainer:UIColor.magentaColor
-        secondary:UIColor.grayColor
-        onSecondary:UIColor.darkGrayColor
-        secondaryContainer:UIColor.lightGrayColor
-        onSecondaryContainer:UIColor.darkGrayColor
-        tertiary:UIColor.purpleColor
-        onTertiary:UIColor.whiteColor
-        tertiaryContainer:UIColor.magentaColor
-        onTertiaryContainer:UIColor.whiteColor
-        surface:UIColor.whiteColor
-        onSurface:UIColor.blackColor
-        onSurfaceVariant:UIColor.darkGrayColor
-        inverseSurface:UIColor.blackColor
-        inverseOnSurface:UIColor.whiteColor
-        surfaceContainer: UIColor.lightGrayColor
-        poweredByLogo:(PoweredByLogoSTANDARD)
-        animations:(animations)
+    NSArray *buttonTitles = @[
+        @"Set Custom Theme",
+        @"Set Default Theme",
+        @"Scan Generic Document",
+        @"Scan Id-card / Driving License",
+        @"Scan Passport",
+        @"Scan Odd Document"
     ];
+    CGFloat buttonSpacing = 50;
 
-     [IdVerification setCustomTheme:theme];
+    // Create title label
+    UILabel *titleLabel = [self createTitleLabel:topSafeArea + 10];
+    [self.view addSubview:titleLabel];
+
+    CGFloat initialY = CGRectGetMaxY(titleLabel.frame) + 10;
+
+    // Create scan button's
+    for (int i = 0; i < buttonTitles.count; i++) {
+        CGFloat buttonY = initialY + (i * buttonSpacing);
+        UIButton *button = [self createButtonWithTitle:buttonTitles[i] tag:(i + 1) yPosition:buttonY];
+        [self.view addSubview:button];
+    }
+
+    // Create result label
+    CGFloat lastButtonY = initialY + (buttonTitles.count * buttonSpacing);
+    self.statusLabel = [self createResultLabel:lastButtonY];
+    [self.view addSubview:self.statusLabel];
+
+     // Create and setup spinner
+     [self createSpinner];
 }
 
--(void)_start:(DocumentSizeType)documentSizeType {
-    [DeviceInformation getDeviceInfo:^(NSDictionary *deviceInfo) {
+#pragma mark - UI Component Helpers
 
-        // Skip no modules example
-        IdVerificationSkipModules *skipNoModules = [[IdVerificationSkipModules alloc] init];
+- (UILabel *)createTitleLabel:(CGFloat)topInset {
+    UILabel *titleLabel = [[UILabel alloc] initWithFrame:CGRectMake(10, topInset + 10, self.view.frame.size.width - 20, 80)];
+    titleLabel.text = @"Sample Application\n\n365id Id Verification SDK";
+    titleLabel.textAlignment = NSTextAlignmentCenter;
+    titleLabel.font = [UIFont boldSystemFontOfSize:18];
+    titleLabel.textColor = [UIColor blackColor];
+    titleLabel.numberOfLines = 0;
+    titleLabel.lineBreakMode = NSLineBreakByWordWrapping;
+    return titleLabel;
+}
 
-        if([IdVerification startWithToken:deviceInfo[@"Token"] locationId:0 skipModules:skipNoModules documentSizeType:documentSizeType delegate:self]) {
-            // SDK was happy with the provided arguments.
+- (void)createSpinner {
+    self.spinner = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleLarge];
+    self.spinner.center = self.view.center;
+    self.spinner.hidesWhenStopped = YES;
+    [self.view addSubview:self.spinner];
+}
+
+- (UIButton *)createButtonWithTitle:(NSString *)title tag:(NSInteger)tag yPosition:(CGFloat)y {
+    CGFloat buttonWidth = [UIScreen mainScreen].bounds.size.width - 40;
+    UIButton *button = [UIButton buttonWithType:UIButtonTypeSystem];
+    button.frame = CGRectMake(20, y, buttonWidth, 40);
+    [button setTitle:title forState:UIControlStateNormal];
+    button.backgroundColor = UIColor.blueColor;
+    [button setTitleColor:UIColor.whiteColor forState:UIControlStateNormal];
+    button.layer.cornerRadius = 10;
+    button.tag = tag;
+    [button addTarget:self action:@selector(buttonTapped:) forControlEvents:UIControlEventTouchUpInside];
+    return button;
+}
+
+- (UILabel *)createResultLabel:(CGFloat)y {
+    CGFloat width = [UIScreen mainScreen].bounds.size.width - 40;
+    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(20, y, width, 300)];
+    label.textAlignment = NSTextAlignmentLeft;
+    label.textColor = [UIColor darkTextColor];
+    label.numberOfLines = 0;
+    label.lineBreakMode = NSLineBreakByWordWrapping;
+    label.font = [UIFont systemFontOfSize:16];
+    return label;
+}
+
+#pragma mark - Button Action
+
+// Action method for all buttons
+- (void)buttonTapped:(UIButton *)sender {
+    ButtonActionType actionType = sender.tag;
+
+    NSString *message = @"";
+    SetIdVerificationTheme *setTheme = [[SetIdVerificationTheme alloc] init];
+
+    switch (actionType) {
+      case ButtonActionSetCustomTheme:
+          message = @"Set Custom Theme";
+          [setTheme setCustomTheme];
+          break;
+    case ButtonActionSetDefaultTheme:
+        message = @"Set Custom Theme";
+        [setTheme setDefaultTheme];
+        break;
+      case ButtonActionScanGenericDocument:
+          message = @"Scan Generic Document";
+          [self.verificationHandler startVerificationWithDocumentSize:DocumentSizeTypeDocument];
+          break;
+      case ButtonActionScanIDCard:
+          message = @"Scan ID-card / Driving License";
+          [self.verificationHandler startVerificationWithDocumentSize:DocumentSizeTypeId1];
+          break;
+      case ButtonActionScanPassport:
+          message = @"Scan Passport";
+          [self.verificationHandler startVerificationWithDocumentSize:DocumentSizeTypeId3];
+          break;
+      case ButtonActionScanOddDocument:
+          message = @"Scan Odd Document";
+          [self.verificationHandler startVerificationWithDocumentSize:DocumentSizeTypeOdd];
+          break;
+      default:
+          message = @"Unknown Action";
+          break;
+    }
+
+    NSLog(@"User selected: %@.", message);
+}
+
+#pragma mark - Status Label Updates
+
+- (void)updateTransactionResult:(NSString *)result {
+    dispatch_async(dispatch_get_main_queue(), ^{
+        // self.statusLabel.text = result;
+        
+        NSString *existingText = self.statusLabel.text ?: @"";
+        NSString *updatedText = [NSString stringWithFormat:@"%@\n%@", existingText, result];
+        self.statusLabel.text = updatedText;
+        
+        // Calculate and update label height based on text content
+        CGSize maxSize = CGSizeMake(self.statusLabel.frame.size.width, CGFLOAT_MAX);
+        CGSize expectedSize = [self.statusLabel sizeThatFits:maxSize];
+
+        CGRect newFrame = self.statusLabel.frame;
+        newFrame.size.height = expectedSize.height;  // Adjust the height dynamically
+        self.statusLabel.frame = newFrame;
+    });
+}
+
+- (void)resetTransactionResult {
+    dispatch_async(dispatch_get_main_queue(), ^{
+        self.statusLabel.text = @"";
+    });
+}
+
+- (void)showSpinner:(BOOL)isLoading {
+    dispatch_async(dispatch_get_main_queue(), ^{
+        if (isLoading) {
+            [self.spinner startAnimating];
+            self.spinner.hidden = NO;
+            
+            // Hide all buttons
+            for (UIView *subview in self.view.subviews) {
+                if ([subview isKindOfClass:[UIButton class]]) {
+                    subview.hidden = YES;
+                }
+            }
         } else {
-            // Unable to start the SDK. Most likely something was wrong with the token.
+            [self.spinner stopAnimating];
+            self.spinner.hidden = YES;
+            
+            // Show all buttons
+            for (UIView *subview in self.view.subviews) {
+                if ([subview isKindOfClass:[UIButton class]]) {
+                    subview.hidden = NO;
+                }
+            }
         }
-    }];
+    });
 }
 
--(void)clickscanGenericDocument:(id)sender
-{
-    [self _start:(DocumentSizeTypeDocument)];
-}
-
--(void)clickScanIdCard:(id)sender
-{
-    [self _start:(DocumentSizeTypeId1)];
-}
-
--(void)clickScanPassport:(id)sender
-{
-    [self _start:(DocumentSizeTypeId3)];
-}
-
--(void)clickOddDocument:(id)sender
-{
-    [self _start:(DocumentSizeTypeOdd)];
-}
-
-- (void)onClosed {
-    NSLog(@"EventDelegate - The SDK was closed and its resources have been released.");
-}
-
-- (void)onCompleted:(IdVerificationResult * _Nonnull)result {
-    NSLog(@"EventDelegate - Completed. Transaction id is %@.", result.transactionId);
-
-    // Makes the Navigation View Transition back from the SDK view
-    [self showSdkView:false];
-
-    // Stops the SDK and releases the resources.
-    [IdVerification stop];
-}
-
-- (void)onError:(IdVerificationErrorBundle * _Nonnull)error {
-    NSLog(@"EventDelegate - Error.");
-
-    // Makes the Navigation View Transition back from the SDK view
-    [self showSdkView:false];
-
-    // Stops the SDK and releases the resources.
-    [IdVerification stop];
-}
-
-- (void)onStarted {
-    // Makes the Navigation View transition to the SDK view
-    [self showSdkView:true];
-    NSLog(@"EventDelegate - Started.");
-}
-
-- (void)onTransactionCreated:(NSString * _Nonnull)transactionId {
-    NSLog(@"EventDelegate - Transaction is created: %@.", transactionId);
-}
-
-- (void)onDocumentFeedback:(enum DocumentType)documentType countryCode:(NSString * _Nonnull)countryCode {
-    NSLog(@"EventDelegate - The document identification process has completed.");
-}
-
-- (void)onNfcFeedback:(enum NfcFeedback)nfcFeedback expiryDate:(NSString * _Nonnull)expiryDate {
-    NSLog(@"EventDelegate - The nfc process has completed..");
-}
-
-- (void)onFaceMatchFeedback:(enum FaceMatchFeedback)facematchFeedback {
-    NSLog(@"EventDelegate - The face match process has completed..");
-}
-
-- (void)onUserDismissed {
-    // Stops the SDK and releases the resources.
-    NSLog(@"EventDelegate - User Dismissed.");
-
-    // Makes the Navigation View Transition back from the SDK view
-    [self showSdkView:false];
-
-    [IdVerification stop];
-}
 
 @end

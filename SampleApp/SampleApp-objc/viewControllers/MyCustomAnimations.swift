@@ -1,10 +1,9 @@
 import SwiftUI
 import IdVerification365id
 
-
 @objc public class MyCustomAnimations: NSObject {
 
-    @objc public static func createMyCustomAnimations()  -> IdVerification.Animations {
+    @objc public static func createMyCustomAnimations() -> IdVerification.Animations {
 
         let animations = IdVerification.Animations()
 

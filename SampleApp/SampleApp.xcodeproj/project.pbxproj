@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		11C72CCEAD94C269EC55D2E3 /* Pods_SampleApp_swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC7C8D437D4CF0B369122683 /* Pods_SampleApp_swift.framework */; };
+		933635BE2DDDC0F600691820 /* SpinnerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933635BD2DDDC0F000691820 /* SpinnerView.swift */; };
+		933635C02DDDC18900691820 /* SampleAppEventDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933635BF2DDDC18800691820 /* SampleAppEventDelegate.swift */; };
+		933635C62DDDC64000691820 /* ScanButtonStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933635C52DDDC64000691820 /* ScanButtonStackView.swift */; };
+		933635C92DDDE98A00691820 /* SampleAppEventDelegateHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 933635C82DDDE98600691820 /* SampleAppEventDelegateHandler.m */; };
+		933635CC2DDDFB3400691820 /* SetIdVerificationTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 933635CB2DDDFB2F00691820 /* SetIdVerificationTheme.m */; };
 		A1B301F828ABCD3C008863E9 /* SampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B301F728ABCD3C008863E9 /* SampleApp.swift */; };
 		A1B301FA28ABCD3C008863E9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B301F928ABCD3C008863E9 /* ContentView.swift */; };
 		A1B301FC28ABCD3D008863E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1B301FB28ABCD3D008863E9 /* Assets.xcassets */; };
@@ -53,6 +58,13 @@
 		0053137DDB7B484761522946 /* Pods-SampleApp-swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleApp-swift.debug.xcconfig"; path = "Target Support Files/Pods-SampleApp-swift/Pods-SampleApp-swift.debug.xcconfig"; sourceTree = "<group>"; };
 		2C294D1A8A3B305CD08511B8 /* Pods_SampleApp_objc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SampleApp_objc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		67A1063E733E7A21D8715AE7 /* Pods-SampleApp-objc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleApp-objc.debug.xcconfig"; path = "Target Support Files/Pods-SampleApp-objc/Pods-SampleApp-objc.debug.xcconfig"; sourceTree = "<group>"; };
+		933635BD2DDDC0F000691820 /* SpinnerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinnerView.swift; sourceTree = "<group>"; };
+		933635BF2DDDC18800691820 /* SampleAppEventDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleAppEventDelegate.swift; sourceTree = "<group>"; };
+		933635C52DDDC64000691820 /* ScanButtonStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanButtonStackView.swift; sourceTree = "<group>"; };
+		933635C72DDDE95300691820 /* SampleAppEventDelegateHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SampleAppEventDelegateHandler.h; sourceTree = "<group>"; };
+		933635C82DDDE98600691820 /* SampleAppEventDelegateHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleAppEventDelegateHandler.m; sourceTree = "<group>"; };
+		933635CA2DDDFA2D00691820 /* SetIdVerificationTheme.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SetIdVerificationTheme.h; sourceTree = "<group>"; };
+		933635CB2DDDFB2F00691820 /* SetIdVerificationTheme.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SetIdVerificationTheme.m; sourceTree = "<group>"; };
 		A1B301F428ABCD3C008863E9 /* SampleApp-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SampleApp-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1B301F728ABCD3C008863E9 /* SampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleApp.swift; sourceTree = "<group>"; };
 		A1B301F928ABCD3C008863E9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -155,14 +167,17 @@
 		A1B301F628ABCD3C008863E9 /* SampleApp-swift */ = {
 			isa = PBXGroup;
 			children = (
+				933635BF2DDDC18800691820 /* SampleAppEventDelegate.swift */,
 				A1B3022E28ACE67B008863E9 /* BackendCommunication */,
 				A1B3022428ABD35F008863E9 /* Info.plist */,
 				A1B3022328ABCFB9008863E9 /* SampleApp.entitlements */,
+				933635BD2DDDC0F000691820 /* SpinnerView.swift */,
 				A1B301F728ABCD3C008863E9 /* SampleApp.swift */,
 				A1B301F928ABCD3C008863E9 /* ContentView.swift */,
 				B7FFB1362A1E5FD7003033C2 /* IdVerificationContainerView.swift */,
 				A1B301FB28ABCD3D008863E9 /* Assets.xcassets */,
 				A1B301FD28ABCD3D008863E9 /* Preview Content */,
+				933635C52DDDC64000691820 /* ScanButtonStackView.swift */,
 			);
 			path = "SampleApp-swift";
 			sourceTree = "<group>";
@@ -204,6 +219,10 @@
 		B7AA3A512B8CBD40002255DE /* viewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				933635CB2DDDFB2F00691820 /* SetIdVerificationTheme.m */,
+				933635CA2DDDFA2D00691820 /* SetIdVerificationTheme.h */,
+				933635C82DDDE98600691820 /* SampleAppEventDelegateHandler.m */,
+				933635C72DDDE95300691820 /* SampleAppEventDelegateHandler.h */,
 				B7AA3A3B2B8CBCA4002255DE /* ViewController.m */,
 				B7AA3A3A2B8CBCA4002255DE /* ViewController.h */,
 				B793E7F42B90DDAB001FA525 /* MyCustomAnimations.swift */,
@@ -429,10 +448,13 @@
 			files = (
 				FB23963A2937912000118820 /* TokenHandler.swift in Sources */,
 				B7FFB1372A1E5FD7003033C2 /* IdVerificationContainerView.swift in Sources */,
+				933635C02DDDC18900691820 /* SampleAppEventDelegate.swift in Sources */,
 				A1B301FA28ABCD3C008863E9 /* ContentView.swift in Sources */,
 				A1B3023B28AD03E8008863E9 /* DeviceInformation.swift in Sources */,
 				A1B301F828ABCD3C008863E9 /* SampleApp.swift in Sources */,
+				933635C62DDDC64000691820 /* ScanButtonStackView.swift in Sources */,
 				A1B3022D28ACDB4C008863E9 /* Credentials.swift in Sources */,
+				933635BE2DDDC0F600691820 /* SpinnerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,6 +466,8 @@
 				B7AA3A4F2B8CBD25002255DE /* DeviceInformation.m in Sources */,
 				B793E7F52B90DDAB001FA525 /* MyCustomAnimations.swift in Sources */,
 				B7AA3A502B8CBD25002255DE /* TokenHandler.m in Sources */,
+				933635CC2DDDFB3400691820 /* SetIdVerificationTheme.m in Sources */,
+				933635C92DDDE98A00691820 /* SampleAppEventDelegateHandler.m in Sources */,
 				B7AA3A4A2B8CBCA5002255DE /* main.m in Sources */,
 				B7AA3A3C2B8CBCA4002255DE /* ViewController.m in Sources */,
 				B7AA3A362B8CBCA4002255DE /* AppDelegate.m in Sources */,
