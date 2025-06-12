@@ -10379,7 +10379,21 @@
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Utils\/BundleIdentifier.swift",
       "kind": "StringLiteral",
-      "offset": 576,
+      "offset": 493,
+      "length": 17,
+      "value": "\"CFBundleVersion\""
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Utils\/BundleIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 539,
+      "length": 12,
+      "value": "\"CFLangCode\""
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Utils\/BundleIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 673,
       "length": 35,
       "value": "\"__365ID_FRONTEND_RELEASE_HOST_URL\""
     },
@@ -11331,28 +11345,28 @@
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 14752,
+      "offset": 14771,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 26604,
+      "offset": 26623,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 31016,
+      "offset": 31035,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 31047,
+      "offset": 31066,
       "length": 1,
       "value": "1"
     },

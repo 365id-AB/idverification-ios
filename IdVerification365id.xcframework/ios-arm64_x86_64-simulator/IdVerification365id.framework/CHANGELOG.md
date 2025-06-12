@@ -4,6 +4,18 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [2.6.6] - 2025-06-12
+
+### Fixed
+
+- Fixed an issue were the SDK got stuck on the wait view.
+
+## [2.6.5] - 2025-05-23
+
+### Updated
+
+- Logging of sdk version, corrected
+
 ## [2.6.4] - 2025-05-20
 
 ### Updated
