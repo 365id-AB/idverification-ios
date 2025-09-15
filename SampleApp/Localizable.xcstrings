@@ -83,6 +83,9 @@
           }
         }
       }
+    },
+    "The SDK is closing—releasing resources, please wait..." : {
+
     }
   },
   "version" : "1.0"

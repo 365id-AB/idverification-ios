@@ -45,6 +45,37 @@ class SampleAppEventDelegate: IdVerificationEventDelegate, ObservableObject {
         }
     }
 
+    func onNfcFeedbackWithDataTypes(_ nfcFeedback: NfcFeedback, expiryDate: String, dataTypes: Int) {
+        DispatchQueue.main.async {
+            self.information += "Nfc feedback\n\(nfcFeedback)\n\(expiryDate)\n\(dataTypes)\n"
+
+            if (dataTypes & NfcDataTypesFlags.signature) != 0 {
+                self.information += "Signature data read from NFC chip.\n"
+            }
+
+            if (dataTypes & NfcDataTypesFlags.portrait) != 0 {
+                self.information += "Portrait data read from NFC chip.\n"
+            }
+
+            if (dataTypes & NfcDataTypesFlags.mrz) != 0 {
+                self.information += "MRZ data read from NFC chip.\n"
+            }
+        }
+    }
+
+    func onFaceMatchFeedbackWithSource(_ facematchFeedback: FaceMatchFeedback, faceMatchSource: FaceMatchSource) {
+        DispatchQueue.main.async {
+            switch faceMatchSource {
+            case .document:
+                self.information += "Face matched against document portrait.\n"
+            case .nfc:
+                self.information += "Face matched against NFC portrait.\n"
+            default:
+                self.information += "No face match was performed.\n"
+            }
+        }
+    }
+
     /// Called when the face match process has completed.
     func onFaceMatchFeedback(_ feedback: FaceMatchFeedback) {
         DispatchQueue.main.async {

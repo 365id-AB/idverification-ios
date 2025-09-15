@@ -26,7 +26,11 @@ struct ContentView: View {
                 Spacer()
 
                 if !eventDelegate.showSpinner {
-                    Text("Event Log:\n\(eventDelegate.information)")
+                    ScrollView {
+                        Text("Event Log:\n\(eventDelegate.information)")
+                            .frame(maxWidth: .infinity, alignment: .leading) // keeps left alignment
+                            .padding()
+                    }
                 }
 
                 Spacer()

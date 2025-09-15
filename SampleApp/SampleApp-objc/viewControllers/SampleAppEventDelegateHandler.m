@@ -81,11 +81,48 @@
     [self sendStatusToViewController:message];
 }
 
+- (void)onNfcFeedbackWithDataTypes:(enum NfcFeedback)nfcFeedback expiryDate:(NSString *)expiryDate dataTypes:(NSInteger)dataTypes {
+    NSLog(@"EventDelegate - NFC DataTypes");
+
+    NSString *message = [NSString stringWithFormat:@"Nfc feedback: %ld %@ %ld", (long)nfcFeedback, expiryDate, (long)dataTypes];
+    [self sendStatusToViewController:message];
+
+    if (dataTypes & NfcDataTypesFlags.portrait) {
+        [self sendStatusToViewController:@"Portrait read during nfc"];
+    }
+
+    if (dataTypes & NfcDataTypesFlags.signature) {
+        [self sendStatusToViewController:@"Signature read during nfc"];
+    }
+
+    if (dataTypes & NfcDataTypesFlags.mrz) {
+        [self sendStatusToViewController:@"MRZ read during nfc"];
+    }
+}
+
 - (void)onFaceMatchFeedback:(enum FaceMatchFeedback)facematchFeedback {
     NSLog(@"EventDelegate - The face match process has completed..");
 
     NSString *message = [NSString stringWithFormat:@"Face match feedback: %ld", (long)facematchFeedback];
     [self sendStatusToViewController:message];
+}
+
+- (void)onFaceMatchFeedbackWithSource:(enum FaceMatchFeedback)facematchFeedback faceMatchSource:(enum FaceMatchSource)faceMatchSource {
+    NSLog(@"EventDelegate - Face match source image");
+
+    NSString *message = [NSString stringWithFormat:@"Face match feedback: %ld %ld", (long)facematchFeedback, (long)faceMatchSource];
+    [self sendStatusToViewController:message];
+
+    switch (faceMatchSource) {
+        case FaceMatchSourceNfc:
+            [self sendStatusToViewController:@"Face matched with NFC portrait"];
+            break;
+        case FaceMatchSourceDocument:
+            [self sendStatusToViewController:@"Face matched with document portrait"];
+        default:
+            [self sendStatusToViewController:@"No face match was performed"];
+            break;
+    }
 }
 
 - (void)onUserDismissed {
