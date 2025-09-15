@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [2.7.0] - 2025-07-29
+
+### Added
+
+- Added an event containing information about what source image was used for the face matching.
+- Added an event containing information about what data was extracted from the NFC chip.
+
 ## [2.6.6] - 2025-06-12
 
 ### Fixed

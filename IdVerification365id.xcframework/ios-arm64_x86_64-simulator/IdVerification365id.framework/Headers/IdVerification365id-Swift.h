@@ -349,6 +349,16 @@ typedef SWIFT_ENUM(NSInteger, FaceMatchFeedback, open) {
   FaceMatchFeedbackAborted = 2,
 };
 
+/// Enumeration of the source used for face matching
+typedef SWIFT_ENUM(NSInteger, FaceMatchSource, open) {
+/// No match was performed
+  FaceMatchSourceNone = 0,
+/// The image from the document was used
+  FaceMatchSourceDocument = 1,
+/// The image form the nfc chip was used
+  FaceMatchSourceNfc = 2,
+};
+
 @class IdVerificationTheme;
 @class NSString;
 @class IdVerificationSkipModules;
@@ -356,7 +366,7 @@ typedef SWIFT_ENUM(NSInteger, FaceMatchFeedback, open) {
 @class UIViewController;
 
 /// This is the class used when you need to access the SDK from Objective-C or you need to wrap the sdk in order to
-/// include it in a multi platform solution like Xamarin
+/// include it in a multi platform solution like MAUI
 SWIFT_CLASS("_TtC19IdVerification365id14IdVerification")
 @interface IdVerification : NSObject
 /// Set custom theme to the SDK
@@ -514,6 +524,7 @@ SWIFT_PROTOCOL("_TtP19IdVerification365id27IdVerificationEventDelegate_")
 - (void)onTransactionCreated:(NSString * _Nonnull)transactionId;
 /// Called when the user exits the SDK using the back button.
 - (void)onUserDismissed;
+@optional
 /// Called when the document is identified or unidentified.
 /// <ul>
 ///   <li>
@@ -540,6 +551,15 @@ SWIFT_PROTOCOL("_TtP19IdVerification365id27IdVerificationEventDelegate_")
 ///   </li>
 /// </ul>
 - (void)onNfcFeedback:(enum NfcFeedback)nfcFeedback expiryDate:(NSString * _Nonnull)expiryDate;
+/// Called when the nfc process has completed.
+/// This is an extended variant of the OnNfcFeedback with more detailed information.
+/// \param nfcFeedback The idverification nfc process result feedback.
+///
+/// \param expiryDate The expiry date from the the document (YYYYMMDD)
+///
+/// \param dataTypes The type of data read from the  nfc chip in the form of a bitmask <code>Int</code> use <code>NfcDataTypesFlags</code> to check for specific dataTypes in the bitmask.
+///
+- (void)onNfcFeedbackWithDataTypes:(enum NfcFeedback)nfcFeedback expiryDate:(NSString * _Nonnull)expiryDate dataTypes:(NSInteger)dataTypes;
 /// Called when the face match process has completed.
 /// <ul>
 ///   <li>
@@ -550,6 +570,21 @@ SWIFT_PROTOCOL("_TtP19IdVerification365id27IdVerificationEventDelegate_")
 ///   </li>
 /// </ul>
 - (void)onFaceMatchFeedback:(enum FaceMatchFeedback)facematchFeedback;
+/// Called when the face match process has completed.
+/// This is an extended variant of the OnFaceMatchFeedback with more detailed information.
+/// <ul>
+///   <li>
+///     Parameters:
+///   </li>
+///   <li>
+///     facematchFeedback: The idverification face match process feedback.
+///   </li>
+///   <li>
+///     faceMatchSource: The source of the face used in the comparison.
+///   </li>
+/// </ul>
+- (void)onFaceMatchFeedbackWithSource:(enum FaceMatchFeedback)facematchFeedback faceMatchSource:(enum FaceMatchSource)faceMatchSource;
+@required
 /// Called when all remaining resources tied to the SDK instance has been cleaned up.
 - (void)onClosed;
 /// Called when there is an error with the sdk. A verification transaction can not be recovered after this call is
@@ -649,6 +684,21 @@ SWIFT_CLASS("_TtC19IdVerification365id19IdVerificationTheme")
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
+
+
+/// Represents the different data types that can be read from a NFC chip enabled document.
+SWIFT_CLASS("_TtC19IdVerification365id17NfcDataTypesFlags")
+@interface NfcDataTypesFlags : NSObject
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) NSInteger none;)
++ (NSInteger)none SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) NSInteger mrz;)
++ (NSInteger)mrz SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) NSInteger portrait;)
++ (NSInteger)portrait SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) NSInteger signature;)
++ (NSInteger)signature SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
 
 /// Enumeration of nfc feedback.
 typedef SWIFT_ENUM(NSInteger, NfcFeedback, open) {
@@ -1034,6 +1084,16 @@ typedef SWIFT_ENUM(NSInteger, FaceMatchFeedback, open) {
   FaceMatchFeedbackAborted = 2,
 };
 
+/// Enumeration of the source used for face matching
+typedef SWIFT_ENUM(NSInteger, FaceMatchSource, open) {
+/// No match was performed
+  FaceMatchSourceNone = 0,
+/// The image from the document was used
+  FaceMatchSourceDocument = 1,
+/// The image form the nfc chip was used
+  FaceMatchSourceNfc = 2,
+};
+
 @class IdVerificationTheme;
 @class NSString;
 @class IdVerificationSkipModules;
@@ -1041,7 +1101,7 @@ typedef SWIFT_ENUM(NSInteger, FaceMatchFeedback, open) {
 @class UIViewController;
 
 /// This is the class used when you need to access the SDK from Objective-C or you need to wrap the sdk in order to
-/// include it in a multi platform solution like Xamarin
+/// include it in a multi platform solution like MAUI
 SWIFT_CLASS("_TtC19IdVerification365id14IdVerification")
 @interface IdVerification : NSObject
 /// Set custom theme to the SDK
@@ -1199,6 +1259,7 @@ SWIFT_PROTOCOL("_TtP19IdVerification365id27IdVerificationEventDelegate_")
 - (void)onTransactionCreated:(NSString * _Nonnull)transactionId;
 /// Called when the user exits the SDK using the back button.
 - (void)onUserDismissed;
+@optional
 /// Called when the document is identified or unidentified.
 /// <ul>
 ///   <li>
@@ -1225,6 +1286,15 @@ SWIFT_PROTOCOL("_TtP19IdVerification365id27IdVerificationEventDelegate_")
 ///   </li>
 /// </ul>
 - (void)onNfcFeedback:(enum NfcFeedback)nfcFeedback expiryDate:(NSString * _Nonnull)expiryDate;
+/// Called when the nfc process has completed.
+/// This is an extended variant of the OnNfcFeedback with more detailed information.
+/// \param nfcFeedback The idverification nfc process result feedback.
+///
+/// \param expiryDate The expiry date from the the document (YYYYMMDD)
+///
+/// \param dataTypes The type of data read from the  nfc chip in the form of a bitmask <code>Int</code> use <code>NfcDataTypesFlags</code> to check for specific dataTypes in the bitmask.
+///
+- (void)onNfcFeedbackWithDataTypes:(enum NfcFeedback)nfcFeedback expiryDate:(NSString * _Nonnull)expiryDate dataTypes:(NSInteger)dataTypes;
 /// Called when the face match process has completed.
 /// <ul>
 ///   <li>
@@ -1235,6 +1305,21 @@ SWIFT_PROTOCOL("_TtP19IdVerification365id27IdVerificationEventDelegate_")
 ///   </li>
 /// </ul>
 - (void)onFaceMatchFeedback:(enum FaceMatchFeedback)facematchFeedback;
+/// Called when the face match process has completed.
+/// This is an extended variant of the OnFaceMatchFeedback with more detailed information.
+/// <ul>
+///   <li>
+///     Parameters:
+///   </li>
+///   <li>
+///     facematchFeedback: The idverification face match process feedback.
+///   </li>
+///   <li>
+///     faceMatchSource: The source of the face used in the comparison.
+///   </li>
+/// </ul>
+- (void)onFaceMatchFeedbackWithSource:(enum FaceMatchFeedback)facematchFeedback faceMatchSource:(enum FaceMatchSource)faceMatchSource;
+@required
 /// Called when all remaining resources tied to the SDK instance has been cleaned up.
 - (void)onClosed;
 /// Called when there is an error with the sdk. A verification transaction can not be recovered after this call is
@@ -1334,6 +1419,21 @@ SWIFT_CLASS("_TtC19IdVerification365id19IdVerificationTheme")
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
+
+
+/// Represents the different data types that can be read from a NFC chip enabled document.
+SWIFT_CLASS("_TtC19IdVerification365id17NfcDataTypesFlags")
+@interface NfcDataTypesFlags : NSObject
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) NSInteger none;)
++ (NSInteger)none SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) NSInteger mrz;)
++ (NSInteger)mrz SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) NSInteger portrait;)
++ (NSInteger)portrait SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) NSInteger signature;)
++ (NSInteger)signature SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
 
 /// Enumeration of nfc feedback.
 typedef SWIFT_ENUM(NSInteger, NfcFeedback, open) {

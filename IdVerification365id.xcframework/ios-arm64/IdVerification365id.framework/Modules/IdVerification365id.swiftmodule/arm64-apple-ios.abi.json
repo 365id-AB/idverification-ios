@@ -348,6 +348,331 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "NfcDataTypesFlags",
+        "printedName": "NfcDataTypesFlags",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "none",
+            "printedName": "none",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@IdVerification365id@objc(cs)NfcDataTypesFlags(cpy)none",
+            "mangledName": "$s19IdVerification365id17NfcDataTypesFlagsC4noneSivpZ",
+            "moduleName": "IdVerification365id",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IdVerification365id@objc(cs)NfcDataTypesFlags(cm)none",
+                "mangledName": "$s19IdVerification365id17NfcDataTypesFlagsC4noneSivgZ",
+                "moduleName": "IdVerification365id",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "mrz",
+            "printedName": "mrz",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@IdVerification365id@objc(cs)NfcDataTypesFlags(cpy)mrz",
+            "mangledName": "$s19IdVerification365id17NfcDataTypesFlagsC3mrzSivpZ",
+            "moduleName": "IdVerification365id",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IdVerification365id@objc(cs)NfcDataTypesFlags(cm)mrz",
+                "mangledName": "$s19IdVerification365id17NfcDataTypesFlagsC3mrzSivgZ",
+                "moduleName": "IdVerification365id",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "portrait",
+            "printedName": "portrait",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@IdVerification365id@objc(cs)NfcDataTypesFlags(cpy)portrait",
+            "mangledName": "$s19IdVerification365id17NfcDataTypesFlagsC8portraitSivpZ",
+            "moduleName": "IdVerification365id",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IdVerification365id@objc(cs)NfcDataTypesFlags(cm)portrait",
+                "mangledName": "$s19IdVerification365id17NfcDataTypesFlagsC8portraitSivgZ",
+                "moduleName": "IdVerification365id",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "signature",
+            "printedName": "signature",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@IdVerification365id@objc(cs)NfcDataTypesFlags(cpy)signature",
+            "mangledName": "$s19IdVerification365id17NfcDataTypesFlagsC9signatureSivpZ",
+            "moduleName": "IdVerification365id",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IdVerification365id@objc(cs)NfcDataTypesFlags(cm)signature",
+                "mangledName": "$s19IdVerification365id17NfcDataTypesFlagsC9signatureSivgZ",
+                "moduleName": "IdVerification365id",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NfcDataTypesFlags",
+                "printedName": "IdVerification365id.NfcDataTypesFlags",
+                "usr": "c:@M@IdVerification365id@objc(cs)NfcDataTypesFlags"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@IdVerification365id@objc(cs)NfcDataTypesFlags(im)init",
+            "mangledName": "$s19IdVerification365id17NfcDataTypesFlagsCACycfc",
+            "moduleName": "IdVerification365id",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@IdVerification365id@objc(cs)NfcDataTypesFlags",
+        "mangledName": "$s19IdVerification365id17NfcDataTypesFlagsC",
+        "moduleName": "IdVerification365id",
+        "declAttributes": [
+          "AccessControl",
+          "ObjCMembers",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
@@ -4208,6 +4533,7 @@
             "sugared_genericSig": "<Self where Self : IdVerification365id.IdVerificationEventDelegate>",
             "protocolReq": true,
             "declAttributes": [
+              "Optional",
               "ObjC",
               "RawDocComment"
             ],
@@ -4245,6 +4571,51 @@
             "sugared_genericSig": "<Self where Self : IdVerification365id.IdVerificationEventDelegate>",
             "protocolReq": true,
             "declAttributes": [
+              "Optional",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onNfcFeedbackWithDataTypes",
+            "printedName": "onNfcFeedbackWithDataTypes(_:expiryDate:dataTypes:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NfcFeedback",
+                "printedName": "IdVerification365id.NfcFeedback",
+                "usr": "c:@M@IdVerification365id@E@NfcFeedback"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@IdVerification365id@objc(pl)IdVerificationEventDelegate(im)onNfcFeedbackWithDataTypes:expiryDate:dataTypes:",
+            "mangledName": "$s19IdVerification365id0A25VerificationEventDelegateP26onNfcFeedbackWithDataTypes_10expiryDate04dataK0yAA0gH0O_SSSitF",
+            "moduleName": "IdVerification365id",
+            "genericSig": "<τ_0_0 where τ_0_0 : IdVerification365id.IdVerificationEventDelegate>",
+            "sugared_genericSig": "<Self where Self : IdVerification365id.IdVerificationEventDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
               "ObjC",
               "RawDocComment"
             ],
@@ -4276,6 +4647,45 @@
             "sugared_genericSig": "<Self where Self : IdVerification365id.IdVerificationEventDelegate>",
             "protocolReq": true,
             "declAttributes": [
+              "Optional",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onFaceMatchFeedbackWithSource",
+            "printedName": "onFaceMatchFeedbackWithSource(_:faceMatchSource:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FaceMatchFeedback",
+                "printedName": "IdVerification365id.FaceMatchFeedback",
+                "usr": "c:@M@IdVerification365id@E@FaceMatchFeedback"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FaceMatchSource",
+                "printedName": "IdVerification365id.FaceMatchSource",
+                "usr": "c:@M@IdVerification365id@E@FaceMatchSource"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@IdVerification365id@objc(pl)IdVerificationEventDelegate(im)onFaceMatchFeedbackWithSource:faceMatchSource:",
+            "mangledName": "$s19IdVerification365id0A25VerificationEventDelegateP29onFaceMatchFeedbackWithSource_04facehK0yAA0ghI0O_AA0ghK0OtF",
+            "moduleName": "IdVerification365id",
+            "genericSig": "<τ_0_0 where τ_0_0 : IdVerification365id.IdVerificationEventDelegate>",
+            "sugared_genericSig": "<Self where Self : IdVerification365id.IdVerificationEventDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
               "ObjC",
               "RawDocComment"
             ],
@@ -5814,6 +6224,273 @@
         "declKind": "Enum",
         "usr": "c:@M@IdVerification365id@E@FaceMatchFeedback",
         "mangledName": "$s19IdVerification365id17FaceMatchFeedbackO",
+        "moduleName": "IdVerification365id",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FaceMatchSource",
+        "printedName": "FaceMatchSource",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "none",
+            "printedName": "none",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IdVerification365id.FaceMatchSource.Type) -> IdVerification365id.FaceMatchSource",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FaceMatchSource",
+                    "printedName": "IdVerification365id.FaceMatchSource",
+                    "usr": "c:@M@IdVerification365id@E@FaceMatchSource"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IdVerification365id.FaceMatchSource.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FaceMatchSource",
+                        "printedName": "IdVerification365id.FaceMatchSource",
+                        "usr": "c:@M@IdVerification365id@E@FaceMatchSource"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@IdVerification365id@E@FaceMatchSource@FaceMatchSourceNone",
+            "mangledName": "$s19IdVerification365id15FaceMatchSourceO4noneyA2CmF",
+            "moduleName": "IdVerification365id",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "document",
+            "printedName": "document",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IdVerification365id.FaceMatchSource.Type) -> IdVerification365id.FaceMatchSource",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FaceMatchSource",
+                    "printedName": "IdVerification365id.FaceMatchSource",
+                    "usr": "c:@M@IdVerification365id@E@FaceMatchSource"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IdVerification365id.FaceMatchSource.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FaceMatchSource",
+                        "printedName": "IdVerification365id.FaceMatchSource",
+                        "usr": "c:@M@IdVerification365id@E@FaceMatchSource"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@IdVerification365id@E@FaceMatchSource@FaceMatchSourceDocument",
+            "mangledName": "$s19IdVerification365id15FaceMatchSourceO8documentyA2CmF",
+            "moduleName": "IdVerification365id",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Var",
+            "name": "nfc",
+            "printedName": "nfc",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IdVerification365id.FaceMatchSource.Type) -> IdVerification365id.FaceMatchSource",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FaceMatchSource",
+                    "printedName": "IdVerification365id.FaceMatchSource",
+                    "usr": "c:@M@IdVerification365id@E@FaceMatchSource"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IdVerification365id.FaceMatchSource.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FaceMatchSource",
+                        "printedName": "IdVerification365id.FaceMatchSource",
+                        "usr": "c:@M@IdVerification365id@E@FaceMatchSource"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@IdVerification365id@E@FaceMatchSource@FaceMatchSourceNfc",
+            "mangledName": "$s19IdVerification365id15FaceMatchSourceO3nfcyA2CmF",
+            "moduleName": "IdVerification365id",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 2
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "IdVerification365id.FaceMatchSource?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FaceMatchSource",
+                    "printedName": "IdVerification365id.FaceMatchSource",
+                    "usr": "c:@M@IdVerification365id@E@FaceMatchSource"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:19IdVerification365id15FaceMatchSourceO8rawValueACSgSi_tcfc",
+            "mangledName": "$s19IdVerification365id15FaceMatchSourceO8rawValueACSgSi_tcfc",
+            "moduleName": "IdVerification365id",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19IdVerification365id15FaceMatchSourceO8rawValueSivp",
+            "mangledName": "$s19IdVerification365id15FaceMatchSourceO8rawValueSivp",
+            "moduleName": "IdVerification365id",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19IdVerification365id15FaceMatchSourceO8rawValueSivg",
+                "mangledName": "$s19IdVerification365id15FaceMatchSourceO8rawValueSivg",
+                "moduleName": "IdVerification365id",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@M@IdVerification365id@E@FaceMatchSource",
+        "mangledName": "$s19IdVerification365id15FaceMatchSourceO",
         "moduleName": "IdVerification365id",
         "declAttributes": [
           "AccessControl",
@@ -9922,6 +10599,55 @@
       "value": "2"
     },
     {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/NfcFeedback.swift",
+      "kind": "IntegerLiteral",
+      "offset": 470,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/NfcFeedback.swift",
+      "kind": "IntegerLiteral",
+      "offset": 505,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/NfcFeedback.swift",
+      "kind": "IntegerLiteral",
+      "offset": 510,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/NfcFeedback.swift",
+      "kind": "IntegerLiteral",
+      "offset": 550,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/NfcFeedback.swift",
+      "kind": "IntegerLiteral",
+      "offset": 555,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/NfcFeedback.swift",
+      "kind": "IntegerLiteral",
+      "offset": 596,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/NfcFeedback.swift",
+      "kind": "IntegerLiteral",
+      "offset": 601,
+      "length": 1,
+      "value": "2"
+    },
+    {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Views\/OddPageView\/OddPageCameraView.swift",
       "kind": "BooleanLiteral",
       "offset": 326,
@@ -10358,14 +11084,14 @@
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/IdVerification.swift",
       "kind": "IntegerLiteral",
-      "offset": 6672,
+      "offset": 6669,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/IdVerification.swift",
       "kind": "Array",
-      "offset": 6777,
+      "offset": 6774,
       "length": 2,
       "value": "[]"
     },
@@ -10842,6 +11568,27 @@
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/FaceMatchFeedback.swift",
       "kind": "IntegerLiteral",
       "offset": 309,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/FaceMatchFeedback.swift",
+      "kind": "IntegerLiteral",
+      "offset": 456,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/FaceMatchFeedback.swift",
+      "kind": "IntegerLiteral",
+      "offset": 524,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/IdVerification\/FaceMatchFeedback.swift",
+      "kind": "IntegerLiteral",
+      "offset": 587,
       "length": 1,
       "value": "2"
     },
@@ -11345,28 +12092,28 @@
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 14771,
+      "offset": 14815,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 26623,
+      "offset": 26667,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 31035,
+      "offset": 31079,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/CommunicationManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 31066,
+      "offset": 31110,
       "length": 1,
       "value": "1"
     },
@@ -11814,42 +12561,42 @@
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/NextTaskReply.swift",
       "kind": "StringLiteral",
-      "offset": 6220,
+      "offset": 7454,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/NextTaskReply.swift",
       "kind": "StringLiteral",
-      "offset": 6257,
+      "offset": 7491,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/NextTaskReply.swift",
       "kind": "IntegerLiteral",
-      "offset": 6299,
+      "offset": 7533,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/NextTaskReply.swift",
       "kind": "IntegerLiteral",
-      "offset": 6339,
+      "offset": 7573,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/NextTaskReply.swift",
       "kind": "StringLiteral",
-      "offset": 7087,
+      "offset": 8321,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/IdVerification365id\/Communication\/NextTaskReply.swift",
       "kind": "StringLiteral",
-      "offset": 7106,
+      "offset": 8340,
       "length": 2,
       "value": "\"\""
     },
@@ -13276,150 +14023,185 @@
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Feedback.pb.swift",
+      "kind": "Array",
+      "offset": 4168,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Feedback.pb.swift",
       "kind": "StringLiteral",
-      "offset": 4724,
+      "offset": 4934,
       "length": 52,
       "value": "\"_365id.Glootie.Contracts.gRPC.Coordinator.Feedback\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Feedback.pb.swift",
       "kind": "StringLiteral",
-      "offset": 5010,
+      "offset": 5220,
       "length": 11,
       "value": "\".Feedback\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Feedback.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 5085,
+      "offset": 5295,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Feedback.pb.swift",
       "kind": "StringLiteral",
-      "offset": 5101,
+      "offset": 5311,
       "length": 18,
       "value": "\"DocumentFeedBack\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Feedback.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 5126,
+      "offset": 5336,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Feedback.pb.swift",
       "kind": "StringLiteral",
-      "offset": 5142,
+      "offset": 5352,
       "length": 13,
       "value": "\"NfcFeedBack\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Feedback.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 5162,
+      "offset": 5372,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Feedback.pb.swift",
       "kind": "StringLiteral",
-      "offset": 5178,
+      "offset": 5388,
       "length": 19,
       "value": "\"FaceMatchFeedback\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Feedback.pb.swift",
       "kind": "StringLiteral",
-      "offset": 7402,
+      "offset": 7612,
       "length": 19,
       "value": "\".DocumentFeedback\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Feedback.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 7485,
+      "offset": 7695,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Feedback.pb.swift",
       "kind": "StringLiteral",
-      "offset": 7501,
+      "offset": 7711,
       "length": 14,
       "value": "\"DocumentType\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Feedback.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 7522,
+      "offset": 7732,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Feedback.pb.swift",
       "kind": "StringLiteral",
-      "offset": 7538,
+      "offset": 7748,
       "length": 9,
       "value": "\"Country\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Feedback.pb.swift",
       "kind": "StringLiteral",
-      "offset": 9139,
+      "offset": 9349,
       "length": 14,
       "value": "\".NfcFeedback\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Feedback.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 9217,
+      "offset": 9427,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Feedback.pb.swift",
       "kind": "StringLiteral",
-      "offset": 9233,
+      "offset": 9443,
       "length": 11,
       "value": "\"NfcStatus\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Feedback.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 9251,
+      "offset": 9461,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Feedback.pb.swift",
       "kind": "StringLiteral",
-      "offset": 9267,
+      "offset": 9477,
       "length": 12,
       "value": "\"ExpiryDate\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Feedback.pb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9496,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Feedback.pb.swift",
       "kind": "StringLiteral",
-      "offset": 10867,
+      "offset": 9512,
+      "length": 11,
+      "value": "\"DataTypes\""
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Feedback.pb.swift",
+      "kind": "StringLiteral",
+      "offset": 11365,
       "length": 20,
       "value": "\".FaceMatchFeedback\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Feedback.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 10951,
+      "offset": 11449,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Feedback.pb.swift",
       "kind": "StringLiteral",
-      "offset": 10967,
+      "offset": 11465,
       "length": 17,
       "value": "\"FaceMatchStatus\""
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Feedback.pb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11489,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/Feedback.pb.swift",
+      "kind": "StringLiteral",
+      "offset": 11505,
+      "length": 17,
+      "value": "\"FaceMatchSource\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/GuestPolicyAgreement.grpc.swift",
@@ -18205,58 +18987,100 @@
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/FeedbackFaceMatch.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 2148,
+      "offset": 3036,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/FeedbackFaceMatch.pb.swift",
       "kind": "StringLiteral",
-      "offset": 2164,
+      "offset": 3052,
       "length": 11,
       "value": "\"UNDEFINED\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/FeedbackFaceMatch.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 2182,
+      "offset": 3070,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/FeedbackFaceMatch.pb.swift",
       "kind": "StringLiteral",
-      "offset": 2198,
+      "offset": 3086,
       "length": 9,
       "value": "\"MATCHED\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/FeedbackFaceMatch.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 2214,
+      "offset": 3102,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/FeedbackFaceMatch.pb.swift",
       "kind": "StringLiteral",
-      "offset": 2230,
+      "offset": 3118,
       "length": 13,
       "value": "\"NOT_MATCHED\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/FeedbackFaceMatch.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 2250,
+      "offset": 3138,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/FeedbackFaceMatch.pb.swift",
       "kind": "StringLiteral",
-      "offset": 2266,
+      "offset": 3154,
       "length": 20,
       "value": "\"FACE_MATCH_ABORTED\""
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/FeedbackFaceMatch.pb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3375,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/FeedbackFaceMatch.pb.swift",
+      "kind": "StringLiteral",
+      "offset": 3391,
+      "length": 6,
+      "value": "\"NONE\""
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/FeedbackFaceMatch.pb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3404,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/FeedbackFaceMatch.pb.swift",
+      "kind": "StringLiteral",
+      "offset": 3420,
+      "length": 16,
+      "value": "\"DOCUMENT_IMAGE\""
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/FeedbackFaceMatch.pb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3443,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/FeedbackFaceMatch.pb.swift",
+      "kind": "StringLiteral",
+      "offset": 3459,
+      "length": 11,
+      "value": "\"NFC_IMAGE\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/CoordinatorTask.grpc.swift",
@@ -18833,102 +19657,144 @@
       "value": "\"UNKNOWN\""
     },
     {
-      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/FeedbackNFCStatus.grpc.swift",
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/FeedbackNFC.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 6428,
-      "length": 28,
-      "value": "\"NoServiceFeedbackNFCStatus\""
+      "offset": 6242,
+      "length": 22,
+      "value": "\"NoServiceFeedbackNFC\""
     },
     {
-      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/FeedbackNFCStatus.grpc.swift",
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/FeedbackNFC.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 6472,
-      "length": 83,
-      "value": "\"_365id.Glootie.Contracts.gRPC.Coordinator.Feedback.NFC.NoServiceFeedbackNFCStatus\""
+      "offset": 6280,
+      "length": 77,
+      "value": "\"_365id.Glootie.Contracts.gRPC.Coordinator.Feedback.NFC.NoServiceFeedbackNFC\""
     },
     {
-      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/FeedbackNFCStatus.grpc.swift",
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/FeedbackNFC.grpc.swift",
       "kind": "Array",
-      "offset": 6570,
+      "offset": 6372,
       "length": 7,
       "value": "[]"
     },
     {
-      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/FeedbackNFCStatus.grpc.swift",
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/FeedbackNFC.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 9307,
-      "length": 28,
-      "value": "\"NoServiceFeedbackNFCStatus\""
+      "offset": 9037,
+      "length": 22,
+      "value": "\"NoServiceFeedbackNFC\""
     },
     {
-      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/FeedbackNFCStatus.grpc.swift",
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/FeedbackNFC.grpc.swift",
       "kind": "StringLiteral",
-      "offset": 9351,
-      "length": 83,
-      "value": "\"_365id.Glootie.Contracts.gRPC.Coordinator.Feedback.NFC.NoServiceFeedbackNFCStatus\""
+      "offset": 9075,
+      "length": 77,
+      "value": "\"_365id.Glootie.Contracts.gRPC.Coordinator.Feedback.NFC.NoServiceFeedbackNFC\""
     },
     {
-      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/FeedbackNFCStatus.grpc.swift",
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/FeedbackNFC.grpc.swift",
       "kind": "Array",
-      "offset": 9449,
+      "offset": 9167,
       "length": 7,
       "value": "[]"
     },
     {
-      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/FeedbackNFCStatus.pb.swift",
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/FeedbackNFC.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 2080,
+      "offset": 2923,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/FeedbackNFCStatus.pb.swift",
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/FeedbackNFC.pb.swift",
       "kind": "StringLiteral",
-      "offset": 2096,
+      "offset": 2939,
       "length": 11,
       "value": "\"UNDEFINED\""
     },
     {
-      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/FeedbackNFCStatus.pb.swift",
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/FeedbackNFC.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 2114,
+      "offset": 2957,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/FeedbackNFCStatus.pb.swift",
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/FeedbackNFC.pb.swift",
       "kind": "StringLiteral",
-      "offset": 2130,
+      "offset": 2973,
       "length": 11,
       "value": "\"COMPLETED\""
     },
     {
-      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/FeedbackNFCStatus.pb.swift",
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/FeedbackNFC.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 2148,
+      "offset": 2991,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/FeedbackNFCStatus.pb.swift",
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/FeedbackNFC.pb.swift",
       "kind": "StringLiteral",
-      "offset": 2164,
+      "offset": 3007,
       "length": 8,
       "value": "\"FAILED\""
     },
     {
-      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/FeedbackNFCStatus.pb.swift",
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/FeedbackNFC.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 2179,
+      "offset": 3022,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/FeedbackNFCStatus.pb.swift",
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/FeedbackNFC.pb.swift",
       "kind": "StringLiteral",
-      "offset": 2195,
+      "offset": 3038,
       "length": 13,
       "value": "\"NFC_ABORTED\""
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/FeedbackNFC.pb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3243,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/FeedbackNFC.pb.swift",
+      "kind": "StringLiteral",
+      "offset": 3259,
+      "length": 5,
+      "value": "\"MRZ\""
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/FeedbackNFC.pb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3271,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/FeedbackNFC.pb.swift",
+      "kind": "StringLiteral",
+      "offset": 3287,
+      "length": 10,
+      "value": "\"PORTRAIT\""
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/FeedbackNFC.pb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3304,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/FeedbackNFC.pb.swift",
+      "kind": "StringLiteral",
+      "offset": 3320,
+      "length": 11,
+      "value": "\"SIGNATURE\""
     },
     {
       "filePath": "\/var\/tmp\/builds\/365id\/glootie\/business\/ios\/sdk\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/IdVerification365id\/IntermediateBuildFilesPath\/IdVerification365id.build\/Release-iphoneos\/IdVerification365id.build\/DerivedSources\/DocumentSizeType.grpc.swift",

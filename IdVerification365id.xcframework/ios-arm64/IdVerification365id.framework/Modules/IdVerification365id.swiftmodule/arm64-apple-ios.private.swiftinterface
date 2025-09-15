@@ -24,6 +24,14 @@ import _SwiftConcurrencyShims
     get
   }
 }
+@objc @_inheritsConvenienceInitializers @objcMembers public class NfcDataTypesFlags : ObjectiveC.NSObject {
+  @objc public static let none: Swift.Int
+  @objc public static let mrz: Swift.Int
+  @objc public static let portrait: Swift.Int
+  @objc public static let signature: Swift.Int
+  @objc override dynamic public init()
+  @objc deinit
+}
 
 
 
@@ -89,9 +97,11 @@ import _SwiftConcurrencyShims
   @objc func onStarted()
   @objc func onTransactionCreated(_ transactionId: Swift.String)
   @objc func onUserDismissed()
-  @objc func onDocumentFeedback(_ documentType: IdVerification365id.DocumentType, countryCode: Swift.String)
-  @objc func onNfcFeedback(_ nfcFeedback: IdVerification365id.NfcFeedback, expiryDate: Swift.String)
-  @objc func onFaceMatchFeedback(_ facematchFeedback: IdVerification365id.FaceMatchFeedback)
+  @objc optional func onDocumentFeedback(_ documentType: IdVerification365id.DocumentType, countryCode: Swift.String)
+  @objc optional func onNfcFeedback(_ nfcFeedback: IdVerification365id.NfcFeedback, expiryDate: Swift.String)
+  @objc optional func onNfcFeedbackWithDataTypes(_ nfcFeedback: IdVerification365id.NfcFeedback, expiryDate: Swift.String, dataTypes: Swift.Int)
+  @objc optional func onFaceMatchFeedback(_ facematchFeedback: IdVerification365id.FaceMatchFeedback)
+  @objc optional func onFaceMatchFeedbackWithSource(_ facematchFeedback: IdVerification365id.FaceMatchFeedback, faceMatchSource: IdVerification365id.FaceMatchSource)
   @objc func onClosed()
   @objc func onError(_ error: IdVerification365id.IdVerificationErrorBundle)
   @objc func onCompleted(_ result: IdVerification365id.IdVerificationResult)
@@ -139,6 +149,16 @@ import _SwiftConcurrencyShims
   case matched = 0
   case noMatch = 1
   case aborted = 2
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public enum FaceMatchSource : Swift.Int {
+  case none = 0
+  case document = 1
+  case nfc = 2
   public init?(rawValue: Swift.Int)
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
@@ -233,6 +253,9 @@ extension IdVerification365id.DocumentType : Swift.RawRepresentable {}
 extension IdVerification365id.FaceMatchFeedback : Swift.Equatable {}
 extension IdVerification365id.FaceMatchFeedback : Swift.Hashable {}
 extension IdVerification365id.FaceMatchFeedback : Swift.RawRepresentable {}
+extension IdVerification365id.FaceMatchSource : Swift.Equatable {}
+extension IdVerification365id.FaceMatchSource : Swift.Hashable {}
+extension IdVerification365id.FaceMatchSource : Swift.RawRepresentable {}
 extension IdVerification365id.IdVerificationError : Swift.Equatable {}
 extension IdVerification365id.IdVerificationError : Swift.Hashable {}
 extension IdVerification365id.IdVerificationError : Swift.RawRepresentable {}
