@@ -4,6 +4,18 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [2.7.2] - 2026-03-05
+
+### Updated
+
+- Updated the iProov SDK to version 13.1.0.
+
+## [2.7.1] - 2025-09-05
+
+### Updated
+
+- Updated the callback functions that inform the integrator about what was read from the NFC chip and which source images were used for face matching.
+
 ## [2.7.0] - 2025-07-29
 
 ### Added
@@ -319,7 +331,7 @@ Fixed app crash while intializing the sentry.
 - Changed the button text for odd page document view.
 - Shows spinner with cancel button while sending the image.
 - Removed the logo from landing view.
-- Improved the error handling while setting the microblink license key. 
+- Improved the error handling while setting the microblink license key.
 
 ## [2.4.2] - 2024-05-06
 
@@ -437,7 +449,7 @@ Fixed app crash while intializing the sentry.
 
 ### Added
 
-- Added cancel button in Waitview. 
+- Added cancel button in Waitview.
 
 ## [2.2.12-beta] - 2024-03-14
 

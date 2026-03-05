@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
-// swift-module-flags: -target arm64-apple-ios15.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name IdVerification365id
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+// swift-compiler-version: Apple Swift version 6.2.4 effective-5.10 (swiftlang-6.2.4.1.4 clang-1700.6.4.2)
+// swift-module-flags: -target arm64-apple-ios15.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name IdVerification365id
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.4
 import AVFoundation
 import Combine
 import CoreNFC
@@ -18,7 +18,9 @@ import _SwiftConcurrencyShims
   case aborted = 0
   case completed = 1
   case failed = 2
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
+  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -40,8 +42,12 @@ import _SwiftConcurrencyShims
 
 
 @objc public class IdVerificationTheme : ObjectiveC.NSObject {
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public init(primary: UIKit.UIColor? = nil, onPrimary: UIKit.UIColor? = nil, primaryContainer: UIKit.UIColor? = nil, secondary: UIKit.UIColor? = nil, onSecondary: UIKit.UIColor? = nil, secondaryContainer: UIKit.UIColor? = nil, onSecondaryContainer: UIKit.UIColor? = nil, tertiary: UIKit.UIColor? = nil, onTertiary: UIKit.UIColor? = nil, tertiaryContainer: UIKit.UIColor? = nil, onTertiaryContainer: UIKit.UIColor? = nil, surface: UIKit.UIColor? = nil, onSurface: UIKit.UIColor? = nil, onSurfaceVariant: UIKit.UIColor? = nil, inverseSurface: UIKit.UIColor? = nil, inverseOnSurface: UIKit.UIColor? = nil, surfaceContainer: UIKit.UIColor? = nil, poweredByLogo: IdVerification365id.PoweredByLogo = .STANDARD, animations: IdVerification365id.IdVerification.Animations = IdVerification.Animations())
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func copyWith(primary: UIKit.UIColor? = nil, onPrimary: UIKit.UIColor? = nil, primaryContainer: UIKit.UIColor? = nil, secondary: UIKit.UIColor? = nil, onSecondary: UIKit.UIColor? = nil, secondaryContainer: UIKit.UIColor? = nil, onSecondaryContainer: UIKit.UIColor? = nil, tertiary: UIKit.UIColor? = nil, onTertiary: UIKit.UIColor? = nil, tertiaryContainer: UIKit.UIColor? = nil, onTertiaryContainer: UIKit.UIColor? = nil, surface: UIKit.UIColor? = nil, onSurface: UIKit.UIColor? = nil, onSurfaceVariant: UIKit.UIColor? = nil, inverseSurface: UIKit.UIColor? = nil, inverseOnSurface: UIKit.UIColor? = nil, surfaceContainer: UIKit.UIColor? = nil, poweredByLogo: IdVerification365id.PoweredByLogo? = nil, animations: IdVerification365id.IdVerification.Animations? = nil) -> IdVerification365id.IdVerificationTheme
+  #endif
   @objc deinit
 }
 
@@ -50,7 +56,9 @@ import _SwiftConcurrencyShims
   case id3 = 1
   case document = 2
   case odd = 3
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
+  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -115,7 +123,6 @@ import _SwiftConcurrencyShims
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
-  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
   public typealias Body = @_opaqueReturnTypeOf("$s19IdVerification365id0A16VerificationViewV4bodyQrvp", 0) __
 }
 @objc public enum DocumentType : Swift.Int {
@@ -139,7 +146,9 @@ import _SwiftConcurrencyShims
   case authorisationDocument = 17
   case digitalId = 18
   case unknown = 19
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
+  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -149,7 +158,9 @@ import _SwiftConcurrencyShims
   case matched = 0
   case noMatch = 1
   case aborted = 2
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
+  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -159,7 +170,9 @@ import _SwiftConcurrencyShims
   case none = 0
   case document = 1
   case nfc = 2
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
+  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -178,7 +191,9 @@ import _SwiftConcurrencyShims
   case unsupportedSdkVersionError = 3
   case noActivePackageError = 4
   case sessionTimeout = 5
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
+  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -204,7 +219,9 @@ import _SwiftConcurrencyShims
 @objc public enum IdVerificationSkipModule : Swift.Int {
   case nfc = 0
   case faceMatch = 1
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
+  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -221,7 +238,9 @@ import _SwiftConcurrencyShims
   case WHITE
   case BLACK
   case NONE
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
+  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
