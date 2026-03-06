@@ -1,8 +1,8 @@
 PODS:
-  - IdVerification365id (2.7.1):
-    - iProov (= 12.2.2)
+  - IdVerification365id (2.7.2):
+    - iProov (= 13.1.0)
     - MBCaptureCore (= 1.4.3)
-  - iProov (12.2.2)
+  - iProov (13.1.0)
   - MBCaptureCore (1.4.3)
 
 DEPENDENCIES:
@@ -18,10 +18,10 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  IdVerification365id: 84747080383ace88b03f39c3c78403615522d2fa
-  iProov: c3827e43887cf73af0a6c5ec8f4bd170232cd717
+  IdVerification365id: c793f0b5c1d6b21f592474178a3a2672f6078b6f
+  iProov: 66e7b060aac7843c6961ea5d9295781963574462
   MBCaptureCore: d5360603c137b168b9541e2d3adefbf418c8d8db
 
-PODFILE CHECKSUM: 6f2d9ef7f3052a36288673175c2e7a6c40eed886
+PODFILE CHECKSUM: 35bf55c4fb8fce345a67352299fad97999f0ae17
 
 COCOAPODS: 1.16.2
