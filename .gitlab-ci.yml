@@ -1,0 +1,39 @@
+stages:
+  - build
+  - publish
+
+build_sample_app:
+  stage: build
+  image: registry.inveckling.se/tart/id-verification-sdk-builder:0.14.0
+  tags:
+    - tart
+  script:
+    - cd SampleApp
+    - xcodebuild -project SampleApp.xcodeproj -scheme SampleApp-swift -destination 'platform=iOS Simulator,name=iPhone 17' -configuration Release CODE_SIGNING_ALLOWED=NO SKIP_PACKAGE_DEPENDENCY_RESOLUTION=NO -derivedDataPath ./DerivedData
+    - cd ..
+
+publish_spm_framework:
+  stage: publish
+  image: node:lts-alpine
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "trigger"'
+  before_script:
+    # Add tools needed to add the SPM framework
+    - apk add --no-cache curl unzip rsync git
+    - git config user.email "ios-development@365id.com"
+    - git config user.name "Continuous Integration"
+  script:
+    # Get the SPM framework artifacts from the triggering repository
+    - >
+      curl --fail --location
+      --header "PRIVATE-TOKEN: ${IOS_SDK_TOKEN}"
+      --output artifacts.zip
+      "${CI_API_V4_URL}/projects/${SRC_PROJECT_ID}/jobs/${SRC_JOB_ID}/artifacts"
+    - unzip -o artifacts.zip -d .
+
+    # Add, Commit and push a new commit with the changes in the API documentation.
+    - git add IdVerification365id.xcframework.zip
+    - git add Package.swift
+    - git status
+    - git commit -m "Adding IdVerification SDK version ${TAG_VERSION}" || echo "No changes to commit"
+    - git push origin HEAD:main

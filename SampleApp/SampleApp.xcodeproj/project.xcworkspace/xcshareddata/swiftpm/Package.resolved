@@ -6,8 +6,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/365id-AB/idverification-ios",
       "state" : {
-        "revision" : "d4cbebe96eea6f2c02b79b7830a875b82da3aea0",
-        "version" : "2.7.1"
+        "branch" : "main",
+        "revision" : "d4cbebe96eea6f2c02b79b7830a875b82da3aea0"
       }
     }
   ],
