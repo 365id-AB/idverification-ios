@@ -19,12 +19,12 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "IdVerification365id",
-            path: "IdVerification365id.xcframework"
+            path: "IdVerification365id.xcframework.zip"
         ),
         .binaryTarget(
             name: "iProov",
-            url: "https://github.com/iProov/ios/releases/download/12.2.2/iProov.xcframework.zip",
-            checksum: "8592a75818be86975f66bdc2a27759ccfb6a8740be1cbff20468626d306229ae"
+            url: "https://github.com/iProov/ios/releases/download/13.1.1/iProov.xcframework.zip",
+            checksum: "42d0049ff3e4f9844aff1c7235c1f5955023cd8e6016c8a44e46fef4c9a5a73a"
         ),
         .binaryTarget(
             name: "CaptureCore",
