@@ -22,7 +22,7 @@ Otherwise you can contact us at [info@365id.com](mailto:info@365id.com) for furt
 
 ## Requirements
 
-- Xcode 16.0+
+- Xcode 26.0+
 - iOS version 15.0 and above
 - The framework has been written with Swift 5.0 in mind, may work in earlier versions but there is no guarantee.
 
@@ -59,20 +59,6 @@ If you prefer, you can add IdVerification365id via your Package.swift file as fo
 	.upToNextMajor(from: "2.x.y")
 ),
 ```
-
-#### Cocoapods
-
-The 365id Id Verification SDK is distributed as a Cocoapod, therefore **you are required to use Cocoapods 1.15.2 or newer** This could change depending on demand for other packaging systems.
-
-1. If you are not yet using Cocoapods in your project, first run `gem install cocoapods` followed by `pod init`. (For further information on installing Cocoapods, [click here](https://guides.cocoapods.org/using/getting-started.html#installation).)
-
-2. A helpful example of a [Podfile](SampleApp/Podfile) can be found in the SampleApp folder. Copy the complete file or choose sections as needed.
-
-3. Run `pod update`.
-
-<br/>
-<br/>
-<br/>
 
 ### Add the NFC capability
 
@@ -372,9 +358,9 @@ Documentation for that integration is not covered in this README, it is only del
 
 ## Custom Theme
 
-Before calling `Idverification.start()` you can customize the SDK colors, logo and animations by using the function `IdVerification.setCustomTheme()`. 
+Before calling `Idverification.start()` you can customize the SDK colors, logo and animations by using the function `IdVerification.setCustomTheme()`.
 
-You can replace the animations with your own custom animations or static images. 
+You can replace the animations with your own custom animations or static images.
 
 For more information on how to do this, check out the [custom theme documentation](README.THEME.md)
 
@@ -409,7 +395,7 @@ For logging we are collecting the following data to help us find and fix problem
 
 ## Run the SampleApp project
 
-1. Ensure that you have [Cocoapods installed](https://guides.cocoapods.org/using/getting-started.html#installation) and then run `pod install` from the SampleApp directory to install the required dependencies.
+1. Run `swift package update` from the SampleApp directory to install the required dependencies.
 
 1. Open `SampleApp.xcworkspace`.
 
@@ -566,7 +552,7 @@ If the identification process goes well the SDK will follow a "standard" flow, w
 
 ### Document scan &rarr; NFC &rarr; Facematch
 
-However if one of the steps fails, we will deviate from the standard flow.  
+However if one of the steps fails, we will deviate from the standard flow.
 For example, If we are unable to unlock the NFC-chip, the user will be asked to perform another document scan in an attempt to extract the information needed to unlock the chip.
 
 ### Early feedback and retries

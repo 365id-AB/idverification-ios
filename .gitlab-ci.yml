@@ -35,5 +35,5 @@ publish_spm_framework:
     - git add IdVerification365id.xcframework.zip
     - git add Package.swift
     - git status
-    - git commit -m "Adding IdVerification SDK version ${TAG_VERSION}" || echo "No changes to commit"
+    - git commit -m "Release sdk version ${TAG_VERSION}" || echo "No changes to commit"
     - git push origin HEAD:main
