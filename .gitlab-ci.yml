@@ -32,7 +32,6 @@ publish_spm_framework:
     - unzip -o artifacts.zip -d .
 
     # Add, Commit and push a new commit with the changes in the API documentation.
-    - git add IdVerification365id.xcframework.zip
     - git add Package.swift
     - git status
     - git commit -m "Release sdk version ${TAG_VERSION}" || echo "No changes to commit"

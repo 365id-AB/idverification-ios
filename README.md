@@ -59,6 +59,18 @@ If you prefer, you can add IdVerification365id via your Package.swift file as fo
 	.upToNextMajor(from: "2.x.y")
 ),
 ```
+#### ⚠️ CocoaPods Support Deprecation Notice
+
+**CocoaPods support ended on March 10, 2026.**
+
+The SDK is now distributed exclusively via **Swift Package Manager (SPM)**. Please migrate your projects to SPM to receive future updates.
+
+**Migration steps:**
+1. Remove `pod 'IdVerification365id'` from your Podfile
+2. Run this if this is your only dependency that is using cocoapods. `pod deintegrate`
+3. Add the SDK via SPM: `https://github.com/365id-AB/idverification-ios`
+
+Contact support@365id.com for assistance
 
 ### Add the NFC capability
 

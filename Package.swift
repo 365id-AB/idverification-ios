@@ -19,7 +19,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "IdVerification365id",
-            path: "IdVerification365id.xcframework.zip"
+            url:  "https://github.com/365id-AB/idverification-ios/releases/download/2.7.3/IdVerification365id.xcframework.zip",
+            checksum: "6d53da4a1e688e2fedddca741a2b8f033866787bb9ac40a454f0ad779ee609c3"
         ),
         .binaryTarget(
             name: "iProov",
